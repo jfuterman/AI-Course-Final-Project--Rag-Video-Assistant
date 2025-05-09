@@ -70,8 +70,6 @@ rag_video_assistant/
 ├── 01_data_collection.ipynb        # Subtitle + frame extraction
 ├── 02_chunking.ipynb               # Chunk generation logic
 ├── 03_featurization.ipynb          # Embedding + Qdrant upload
-├── 04_retrival.ipynb               # Retrieval logic testing
-├── 05_gradio_ollama_app.ipynb      # App UI logic
 ├── 06_demonstration.ipynb          # Final sample run-through
 
 ├── data/
