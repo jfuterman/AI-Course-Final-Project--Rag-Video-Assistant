@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+__pycache__/
+
+# Data
+*.mp4
+*.dylib
+*.log
+.env
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
