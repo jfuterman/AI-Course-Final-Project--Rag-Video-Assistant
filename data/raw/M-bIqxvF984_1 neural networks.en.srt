@@ -1,0 +1,5065 @@
+1
+00:00:00,080 --> 00:00:01,830
+
+ear video we have seen statistical
+
+2
+00:00:01,830 --> 00:00:01,840
+ear video we have seen statistical
+ 
+
+3
+00:00:01,840 --> 00:00:04,390
+ear video we have seen statistical
+learning at least in the supervised
+
+4
+00:00:04,390 --> 00:00:04,400
+learning at least in the supervised
+ 
+
+5
+00:00:04,400 --> 00:00:09,030
+learning at least in the supervised
+learning uh approach and we have seen uh
+
+6
+00:00:09,030 --> 00:00:09,040
+learning uh approach and we have seen uh
+ 
+
+7
+00:00:09,040 --> 00:00:11,350
+learning uh approach and we have seen uh
+linear models for aggression and
+
+8
+00:00:11,350 --> 00:00:11,360
+linear models for aggression and
+ 
+
+9
+00:00:11,360 --> 00:00:13,270
+linear models for aggression and
+generalized linear models for
+
+10
+00:00:13,270 --> 00:00:13,280
+generalized linear models for
+ 
+
+11
+00:00:13,280 --> 00:00:15,749
+generalized linear models for
+classification in this video we are
+
+12
+00:00:15,749 --> 00:00:15,759
+classification in this video we are
+ 
+
+13
+00:00:15,759 --> 00:00:18,269
+classification in this video we are
+going to expand now to a a type of
+
+14
+00:00:18,269 --> 00:00:18,279
+going to expand now to a a type of
+ 
+
+15
+00:00:18,279 --> 00:00:20,990
+going to expand now to a a type of
+predictors which are differentiable end
+
+16
+00:00:20,990 --> 00:00:21,000
+predictors which are differentiable end
+ 
+
+17
+00:00:21,000 --> 00:00:23,109
+predictors which are differentiable end
+to end so we are not going to be
+
+18
+00:00:23,109 --> 00:00:23,119
+to end so we are not going to be
+ 
+
+19
+00:00:23,119 --> 00:00:25,070
+to end so we are not going to be
+requiring just the loss function to be
+
+20
+00:00:25,070 --> 00:00:25,080
+requiring just the loss function to be
+ 
+
+21
+00:00:25,080 --> 00:00:26,589
+requiring just the loss function to be
+differentiable with respect to the
+
+22
+00:00:26,589 --> 00:00:26,599
+differentiable with respect to the
+ 
+
+23
+00:00:26,599 --> 00:00:28,950
+differentiable with respect to the
+parameters but we also going to be
+
+24
+00:00:28,950 --> 00:00:28,960
+parameters but we also going to be
+ 
+
+25
+00:00:28,960 --> 00:00:31,470
+parameters but we also going to be
+requiring all of the components of this
+
+26
+00:00:31,470 --> 00:00:31,480
+requiring all of the components of this
+ 
+
+27
+00:00:31,480 --> 00:00:32,830
+requiring all of the components of this
+prediction architecture to be
+
+28
+00:00:32,830 --> 00:00:32,840
+prediction architecture to be
+ 
+
+29
+00:00:32,840 --> 00:00:34,270
+prediction architecture to be
+differentiable with respect to
+
+30
+00:00:34,270 --> 00:00:34,280
+differentiable with respect to
+ 
+
+31
+00:00:34,280 --> 00:00:38,229
+differentiable with respect to
+parameters these predictors are part of
+
+32
+00:00:38,229 --> 00:00:38,239
+parameters these predictors are part of
+ 
+
+33
+00:00:38,239 --> 00:00:40,510
+parameters these predictors are part of
+what we call the connectionism
+
+34
+00:00:40,510 --> 00:00:40,520
+what we call the connectionism
+ 
+
+35
+00:00:40,520 --> 00:00:42,549
+what we call the connectionism
+philosophy uh where we are actually
+
+36
+00:00:42,549 --> 00:00:42,559
+philosophy uh where we are actually
+ 
+
+37
+00:00:42,559 --> 00:00:44,590
+philosophy uh where we are actually
+putting together individual units that
+
+38
+00:00:44,590 --> 00:00:44,600
+putting together individual units that
+ 
+
+39
+00:00:44,600 --> 00:00:47,990
+putting together individual units that
+we'll call sigmoidal neurons that when
+
+40
+00:00:47,990 --> 00:00:48,000
+we'll call sigmoidal neurons that when
+ 
+
+41
+00:00:48,000 --> 00:00:49,950
+we'll call sigmoidal neurons that when
+they are connected together in a proper
+
+42
+00:00:49,950 --> 00:00:49,960
+they are connected together in a proper
+ 
+
+43
+00:00:49,960 --> 00:00:51,630
+they are connected together in a proper
+way that we see exactly what proper
+
+44
+00:00:51,630 --> 00:00:51,640
+way that we see exactly what proper
+ 
+
+45
+00:00:51,640 --> 00:00:54,750
+way that we see exactly what proper
+means they are exhibiting some I will
+
+46
+00:00:54,750 --> 00:00:54,760
+means they are exhibiting some I will
+ 
+
+47
+00:00:54,760 --> 00:00:57,110
+means they are exhibiting some I will
+call it Universal approximation uh
+
+48
+00:00:57,110 --> 00:00:57,120
+call it Universal approximation uh
+ 
+
+49
+00:00:57,120 --> 00:00:59,990
+call it Universal approximation uh
+properties so let's get started with
+
+50
+00:00:59,990 --> 00:01:00,000
+properties so let's get started with
+ 
+
+51
+00:01:00,000 --> 00:01:02,709
+properties so let's get started with
+producing just a single Sig sigmoidal
+
+52
+00:01:02,709 --> 00:01:02,719
+producing just a single Sig sigmoidal
+ 
+
+53
+00:01:02,719 --> 00:01:06,070
+producing just a single Sig sigmoidal
+kind of neuron and uh let's for that
+
+54
+00:01:06,070 --> 00:01:06,080
+kind of neuron and uh let's for that
+ 
+
+55
+00:01:06,080 --> 00:01:08,630
+kind of neuron and uh let's for that
+let's go to the
+
+56
+00:01:08,630 --> 00:01:08,640
+let's go to the
+ 
+
+57
+00:01:08,640 --> 00:01:11,109
+let's go to the
+site so the actual neuron that we see
+
+58
+00:01:11,109 --> 00:01:11,119
+site so the actual neuron that we see
+ 
+
+59
+00:01:11,119 --> 00:01:12,950
+site so the actual neuron that we see
+here on the side on the top figure over
+
+60
+00:01:12,950 --> 00:01:12,960
+here on the side on the top figure over
+ 
+
+61
+00:01:12,960 --> 00:01:15,190
+here on the side on the top figure over
+here is a fairly complicated kind of
+
+62
+00:01:15,190 --> 00:01:15,200
+here is a fairly complicated kind of
+ 
+
+63
+00:01:15,200 --> 00:01:17,630
+here is a fairly complicated kind of
+organism it has inputs that we call Dent
+
+64
+00:01:17,630 --> 00:01:17,640
+organism it has inputs that we call Dent
+ 
+
+65
+00:01:17,640 --> 00:01:20,990
+organism it has inputs that we call Dent
+rites and outputs and in between inputs
+
+66
+00:01:20,990 --> 00:01:21,000
+rites and outputs and in between inputs
+ 
+
+67
+00:01:21,000 --> 00:01:23,149
+rites and outputs and in between inputs
+and output is actually this compressive
+
+68
+00:01:23,149 --> 00:01:23,159
+and output is actually this compressive
+ 
+
+69
+00:01:23,159 --> 00:01:26,510
+and output is actually this compressive
+stage that is called myelinated action
+
+70
+00:01:26,510 --> 00:01:26,520
+stage that is called myelinated action
+ 
+
+71
+00:01:26,520 --> 00:01:28,230
+stage that is called myelinated action
+and signals are actually going from
+
+72
+00:01:28,230 --> 00:01:28,240
+and signals are actually going from
+ 
+
+73
+00:01:28,240 --> 00:01:31,710
+and signals are actually going from
+those dentes through this action uh into
+
+74
+00:01:31,710 --> 00:01:31,720
+those dentes through this action uh into
+ 
+
+75
+00:01:31,720 --> 00:01:36,109
+those dentes through this action uh into
+outputs and this neuron this unit is uh
+
+76
+00:01:36,109 --> 00:01:36,119
+outputs and this neuron this unit is uh
+ 
+
+77
+00:01:36,119 --> 00:01:38,109
+outputs and this neuron this unit is uh
+going to be connected to other units
+
+78
+00:01:38,109 --> 00:01:38,119
+going to be connected to other units
+ 
+
+79
+00:01:38,119 --> 00:01:41,270
+going to be connected to other units
+that we'll see in a moment now rosenblat
+
+80
+00:01:41,270 --> 00:01:41,280
+that we'll see in a moment now rosenblat
+ 
+
+81
+00:01:41,280 --> 00:01:42,910
+that we'll see in a moment now rosenblat
+working in a government sponsor
+
+82
+00:01:42,910 --> 00:01:42,920
+working in a government sponsor
+ 
+
+83
+00:01:42,920 --> 00:01:46,109
+working in a government sponsor
+laboratory 60 years ago uh he actually
+
+84
+00:01:46,109 --> 00:01:46,119
+laboratory 60 years ago uh he actually
+ 
+
+85
+00:01:46,119 --> 00:01:49,429
+laboratory 60 years ago uh he actually
+came up with an uh architecture that
+
+86
+00:01:49,429 --> 00:01:49,439
+came up with an uh architecture that
+ 
+
+87
+00:01:49,439 --> 00:01:52,510
+came up with an uh architecture that
+kind of resembles uh this uh organism
+
+88
+00:01:52,510 --> 00:01:52,520
+kind of resembles uh this uh organism
+ 
+
+89
+00:01:52,520 --> 00:01:54,109
+kind of resembles uh this uh organism
+and we actually we have seen this type
+
+90
+00:01:54,109 --> 00:01:54,119
+and we actually we have seen this type
+ 
+
+91
+00:01:54,119 --> 00:01:57,270
+and we actually we have seen this type
+of architecture uh before uh so let me
+
+92
+00:01:57,270 --> 00:01:57,280
+of architecture uh before uh so let me
+ 
+
+93
+00:01:57,280 --> 00:02:00,990
+of architecture uh before uh so let me
+just uh write the kind of a d diagram on
+
+94
+00:02:00,990 --> 00:02:01,000
+just uh write the kind of a d diagram on
+ 
+
+95
+00:02:01,000 --> 00:02:06,510
+just uh write the kind of a d diagram on
+on our sort of board right
+
+96
+00:02:06,510 --> 00:02:06,520
+
+ 
+
+97
+00:02:06,520 --> 00:02:09,430
+
+now this first kind of stage of this
+
+98
+00:02:09,430 --> 00:02:09,440
+now this first kind of stage of this
+ 
+
+99
+00:02:09,440 --> 00:02:10,910
+now this first kind of stage of this
+neuron
+
+100
+00:02:10,910 --> 00:02:10,920
+neuron
+ 
+
+101
+00:02:10,920 --> 00:02:14,110
+neuron
+is a DOT product is sigmoidal Neuron
+
+102
+00:02:14,110 --> 00:02:14,120
+is a DOT product is sigmoidal Neuron
+ 
+
+103
+00:02:14,120 --> 00:02:16,070
+is a DOT product is sigmoidal Neuron
+that is there are various kind of
+
+104
+00:02:16,070 --> 00:02:16,080
+that is there are various kind of
+ 
+
+105
+00:02:16,080 --> 00:02:18,430
+that is there are various kind of
+neurons uh but here we're just reading
+
+106
+00:02:18,430 --> 00:02:18,440
+neurons uh but here we're just reading
+ 
+
+107
+00:02:18,440 --> 00:02:22,270
+neurons uh but here we're just reading
+the sigmoidal version so we have the dot
+
+108
+00:02:22,270 --> 00:02:22,280
+the sigmoidal version so we have the dot
+ 
+
+109
+00:02:22,280 --> 00:02:26,070
+the sigmoidal version so we have the dot
+product of w transpose X these are both
+
+110
+00:02:26,070 --> 00:02:26,080
+product of w transpose X these are both
+ 
+
+111
+00:02:26,080 --> 00:02:26,949
+product of w transpose X these are both
+uh
+
+112
+00:02:26,949 --> 00:02:26,959
+uh
+ 
+
+113
+00:02:26,959 --> 00:02:32,270
+uh
+vectors uh and explicitly we are sort of
+
+114
+00:02:32,270 --> 00:02:32,280
+vectors uh and explicitly we are sort of
+ 
+
+115
+00:02:32,280 --> 00:02:35,110
+vectors uh and explicitly we are sort of
+denoting here this kind of a bias term
+
+116
+00:02:35,110 --> 00:02:35,120
+denoting here this kind of a bias term
+ 
+
+117
+00:02:35,120 --> 00:02:38,710
+denoting here this kind of a bias term
+uh that uh is kind of explicitly shown
+
+118
+00:02:38,710 --> 00:02:38,720
+uh that uh is kind of explicitly shown
+ 
+
+119
+00:02:38,720 --> 00:02:45,350
+uh that uh is kind of explicitly shown
+as B and uh the uh last stage is a
+
+120
+00:02:45,350 --> 00:02:45,360
+as B and uh the uh last stage is a
+ 
+
+121
+00:02:45,360 --> 00:02:47,589
+as B and uh the uh last stage is a
+nonlinearity which is the sigmoidal
+
+122
+00:02:47,589 --> 00:02:47,599
+nonlinearity which is the sigmoidal
+ 
+
+123
+00:02:47,599 --> 00:02:50,149
+nonlinearity which is the sigmoidal
+nonlinearity we have also seen in the
+
+124
+00:02:50,149 --> 00:02:50,159
+nonlinearity we have also seen in the
+ 
+
+125
+00:02:50,159 --> 00:02:52,270
+nonlinearity we have also seen in the
+treatment of logistic
+
+126
+00:02:52,270 --> 00:02:52,280
+treatment of logistic
+ 
+
+127
+00:02:52,280 --> 00:02:55,430
+treatment of logistic
+regression uh so typically this signal
+
+128
+00:02:55,430 --> 00:02:55,440
+regression uh so typically this signal
+ 
+
+129
+00:02:55,440 --> 00:03:04,309
+regression uh so typically this signal
+over here is uh it's called activation
+
+130
+00:03:04,309 --> 00:03:04,319
+
+ 
+
+131
+00:03:04,319 --> 00:03:13,309
+
+and this is also known as activation
+
+132
+00:03:13,309 --> 00:03:13,319
+
+ 
+
+133
+00:03:13,319 --> 00:03:15,270
+
+function and
+
+134
+00:03:15,270 --> 00:03:15,280
+function and
+ 
+
+135
+00:03:15,280 --> 00:03:17,430
+function and
+evidently just like in other we have
+
+136
+00:03:17,430 --> 00:03:17,440
+evidently just like in other we have
+ 
+
+137
+00:03:17,440 --> 00:03:19,270
+evidently just like in other we have
+done up to now we have a y hat at the
+
+138
+00:03:19,270 --> 00:03:19,280
+done up to now we have a y hat at the
+ 
+
+139
+00:03:19,280 --> 00:03:21,550
+done up to now we have a y hat at the
+output that is the predicted Target
+
+140
+00:03:21,550 --> 00:03:21,560
+output that is the predicted Target
+ 
+
+141
+00:03:21,560 --> 00:03:23,869
+output that is the predicted Target
+variable and
+
+142
+00:03:23,869 --> 00:03:23,879
+variable and
+ 
+
+143
+00:03:23,879 --> 00:03:27,509
+variable and
+also we know now that corresponds to the
+
+144
+00:03:27,509 --> 00:03:27,519
+also we know now that corresponds to the
+ 
+
+145
+00:03:27,519 --> 00:03:31,110
+also we know now that corresponds to the
+probability of Y is equal to 1 given
+
+146
+00:03:31,110 --> 00:03:31,120
+probability of Y is equal to 1 given
+ 
+
+147
+00:03:31,120 --> 00:03:34,070
+probability of Y is equal to 1 given
+X so that is uh basically the block
+
+148
+00:03:34,070 --> 00:03:34,080
+X so that is uh basically the block
+ 
+
+149
+00:03:34,080 --> 00:03:37,309
+X so that is uh basically the block
+diagram of the sigmoidal kind of neuron
+
+150
+00:03:37,309 --> 00:03:37,319
+diagram of the sigmoidal kind of neuron
+ 
+
+151
+00:03:37,319 --> 00:03:39,070
+diagram of the sigmoidal kind of neuron
+and I hope it's everyone is kind of
+
+152
+00:03:39,070 --> 00:03:39,080
+and I hope it's everyone is kind of
+ 
+
+153
+00:03:39,080 --> 00:03:40,789
+and I hope it's everyone is kind of
+familiar with the dot products and all
+
+154
+00:03:40,789 --> 00:03:40,799
+familiar with the dot products and all
+ 
+
+155
+00:03:40,799 --> 00:03:43,670
+familiar with the dot products and all
+these kind of uh discussion we had even
+
+156
+00:03:43,670 --> 00:03:43,680
+these kind of uh discussion we had even
+ 
+
+157
+00:03:43,680 --> 00:03:45,309
+these kind of uh discussion we had even
+from kind of earlier kind of treatment
+
+158
+00:03:45,309 --> 00:03:45,319
+from kind of earlier kind of treatment
+ 
+
+159
+00:03:45,319 --> 00:03:47,830
+from kind of earlier kind of treatment
+so I'm not going to expand here uh what
+
+160
+00:03:47,830 --> 00:03:47,840
+so I'm not going to expand here uh what
+ 
+
+161
+00:03:47,840 --> 00:03:50,550
+so I'm not going to expand here uh what
+I think we is worthwhile actually doing
+
+162
+00:03:50,550 --> 00:03:50,560
+I think we is worthwhile actually doing
+ 
+
+163
+00:03:50,560 --> 00:03:54,350
+I think we is worthwhile actually doing
+however is to try to understand how
+
+164
+00:03:54,350 --> 00:03:54,360
+however is to try to understand how
+ 
+
+165
+00:03:54,360 --> 00:03:56,670
+however is to try to understand how
+potentially a neuron uh with everything
+
+166
+00:03:56,670 --> 00:03:56,680
+potentially a neuron uh with everything
+ 
+
+167
+00:03:56,680 --> 00:03:59,550
+potentially a neuron uh with everything
+we have seen uh can be trained and for
+
+168
+00:03:59,550 --> 00:03:59,560
+we have seen uh can be trained and for
+ 
+
+169
+00:03:59,560 --> 00:04:03,110
+we have seen uh can be trained and for
+that I'm going to go into web page
+
+170
+00:04:03,110 --> 00:04:03,120
+that I'm going to go into web page
+ 
+
+171
+00:04:03,120 --> 00:04:05,670
+that I'm going to go into web page
+actually called tensorflow playground
+
+172
+00:04:05,670 --> 00:04:05,680
+actually called tensorflow playground
+ 
+
+173
+00:04:05,680 --> 00:04:07,509
+actually called tensorflow playground
+and in that tensorflow playground I'm
+
+174
+00:04:07,509 --> 00:04:07,519
+and in that tensorflow playground I'm
+ 
+
+175
+00:04:07,519 --> 00:04:09,869
+and in that tensorflow playground I'm
+going to we're going to see now how we
+
+176
+00:04:09,869 --> 00:04:09,879
+going to we're going to see now how we
+ 
+
+177
+00:04:09,879 --> 00:04:13,190
+going to we're going to see now how we
+can actually um take this kind of neuron
+
+178
+00:04:13,190 --> 00:04:13,200
+can actually um take this kind of neuron
+ 
+
+179
+00:04:13,200 --> 00:04:15,149
+can actually um take this kind of neuron
+this block diagram and hit it with some
+
+180
+00:04:15,149 --> 00:04:15,159
+this block diagram and hit it with some
+ 
+
+181
+00:04:15,159 --> 00:04:16,870
+this block diagram and hit it with some
+kind of a data set and see what it is
+
+182
+00:04:16,870 --> 00:04:16,880
+kind of a data set and see what it is
+ 
+
+183
+00:04:16,880 --> 00:04:20,509
+kind of a data set and see what it is
+able to do and how it will uh probably
+
+184
+00:04:20,509 --> 00:04:20,519
+able to do and how it will uh probably
+ 
+
+185
+00:04:20,519 --> 00:04:23,189
+able to do and how it will uh probably
+not able to do certain things for us and
+
+186
+00:04:23,189 --> 00:04:23,199
+not able to do certain things for us and
+ 
+
+187
+00:04:23,199 --> 00:04:24,950
+not able to do certain things for us and
+have some discussion about how we can
+
+188
+00:04:24,950 --> 00:04:24,960
+have some discussion about how we can
+ 
+
+189
+00:04:24,960 --> 00:04:27,150
+have some discussion about how we can
+actually create a network of these
+
+190
+00:04:27,150 --> 00:04:27,160
+actually create a network of these
+ 
+
+191
+00:04:27,160 --> 00:04:29,350
+actually create a network of these
+neurons so when we actually go to the
+
+192
+00:04:29,350 --> 00:04:29,360
+neurons so when we actually go to the
+ 
+
+193
+00:04:29,360 --> 00:04:31,270
+neurons so when we actually go to the
+site tensor flow play ground site will
+
+194
+00:04:31,270 --> 00:04:31,280
+site tensor flow play ground site will
+ 
+
+195
+00:04:31,280 --> 00:04:32,590
+site tensor flow play ground site will
+actually the first time you go into
+
+196
+00:04:32,590 --> 00:04:32,600
+actually the first time you go into
+ 
+
+197
+00:04:32,600 --> 00:04:34,790
+actually the first time you go into
+there you'll actually see a picture such
+
+198
+00:04:34,790 --> 00:04:34,800
+there you'll actually see a picture such
+ 
+
+199
+00:04:34,800 --> 00:04:37,350
+there you'll actually see a picture such
+as this and we would like to modify this
+
+200
+00:04:37,350 --> 00:04:37,360
+as this and we would like to modify this
+ 
+
+201
+00:04:37,360 --> 00:04:39,510
+as this and we would like to modify this
+picture to just basically bring a single
+
+202
+00:04:39,510 --> 00:04:39,520
+picture to just basically bring a single
+ 
+
+203
+00:04:39,520 --> 00:04:43,029
+picture to just basically bring a single
+neuron into that so we will have here
+
+204
+00:04:43,029 --> 00:04:43,039
+neuron into that so we will have here
+ 
+
+205
+00:04:43,039 --> 00:04:45,350
+neuron into that so we will have here
+just uh press the minus button to
+
+206
+00:04:45,350 --> 00:04:45,360
+just uh press the minus button to
+ 
+
+207
+00:04:45,360 --> 00:04:47,670
+just uh press the minus button to
+eliminate uh the uh what is called a
+
+208
+00:04:47,670 --> 00:04:47,680
+eliminate uh the uh what is called a
+ 
+
+209
+00:04:47,680 --> 00:04:50,629
+eliminate uh the uh what is called a
+layer which terat we'll see shortly and
+
+210
+00:04:50,629 --> 00:04:50,639
+layer which terat we'll see shortly and
+ 
+
+211
+00:04:50,639 --> 00:04:53,310
+layer which terat we'll see shortly and
+just leave a single neuron uh on that uh
+
+212
+00:04:53,310 --> 00:04:53,320
+just leave a single neuron uh on that uh
+ 
+
+213
+00:04:53,320 --> 00:04:55,110
+just leave a single neuron uh on that uh
+sort of architecture have a single
+
+214
+00:04:55,110 --> 00:04:55,120
+sort of architecture have a single
+ 
+
+215
+00:04:55,120 --> 00:04:57,510
+sort of architecture have a single
+neural architecture uh we are going to
+
+216
+00:04:57,510 --> 00:04:57,520
+neural architecture uh we are going to
+ 
+
+217
+00:04:57,520 --> 00:05:00,909
+neural architecture uh we are going to
+have a sigmoidal activation
+
+218
+00:05:00,909 --> 00:05:00,919
+have a sigmoidal activation
+ 
+
+219
+00:05:00,919 --> 00:05:04,550
+have a sigmoidal activation
+function and uh we are going to be
+
+220
+00:05:04,550 --> 00:05:04,560
+function and uh we are going to be
+ 
+
+221
+00:05:04,560 --> 00:05:06,830
+function and uh we are going to be
+discussing uh the operation of this kind
+
+222
+00:05:06,830 --> 00:05:06,840
+discussing uh the operation of this kind
+ 
+
+223
+00:05:06,840 --> 00:05:09,590
+discussing uh the operation of this kind
+of neuron in this uh small data set that
+
+224
+00:05:09,590 --> 00:05:09,600
+of neuron in this uh small data set that
+ 
+
+225
+00:05:09,600 --> 00:05:11,990
+of neuron in this uh small data set that
+we see here it's a classification data
+
+226
+00:05:11,990 --> 00:05:12,000
+we see here it's a classification data
+ 
+
+227
+00:05:12,000 --> 00:05:15,830
+we see here it's a classification data
+set with just two classes and uh just
+
+228
+00:05:15,830 --> 00:05:15,840
+set with just two classes and uh just
+ 
+
+229
+00:05:15,840 --> 00:05:17,790
+set with just two classes and uh just
+because we would like to make things a
+
+230
+00:05:17,790 --> 00:05:17,800
+because we would like to make things a
+ 
+
+231
+00:05:17,800 --> 00:05:21,070
+because we would like to make things a
+bit more challenging if you can increase
+
+232
+00:05:21,070 --> 00:05:21,080
+bit more challenging if you can increase
+ 
+
+233
+00:05:21,080 --> 00:05:23,150
+bit more challenging if you can increase
+the noise to something like 25 you
+
+234
+00:05:23,150 --> 00:05:23,160
+the noise to something like 25 you
+ 
+
+235
+00:05:23,160 --> 00:05:26,070
+the noise to something like 25 you
+actually get a nonlinear non linear
+
+236
+00:05:26,070 --> 00:05:26,080
+actually get a nonlinear non linear
+ 
+
+237
+00:05:26,080 --> 00:05:29,469
+actually get a nonlinear non linear
+separated data data set and uh that is
+
+238
+00:05:29,469 --> 00:05:29,479
+separated data data set and uh that is
+ 
+
+239
+00:05:29,479 --> 00:05:30,230
+separated data data set and uh that is
+uh
+
+240
+00:05:30,230 --> 00:05:30,240
+uh
+ 
+
+241
+00:05:30,240 --> 00:05:34,110
+uh
+basically it uh we're going to have a
+
+242
+00:05:34,110 --> 00:05:34,120
+basically it uh we're going to have a
+ 
+
+243
+00:05:34,120 --> 00:05:37,390
+basically it uh we're going to have a
+potentially a bat size of
+
+244
+00:05:37,390 --> 00:05:37,400
+potentially a bat size of
+ 
+
+245
+00:05:37,400 --> 00:05:40,350
+potentially a bat size of
+10 okay let's leave it 10 or even we can
+
+246
+00:05:40,350 --> 00:05:40,360
+10 okay let's leave it 10 or even we can
+ 
+
+247
+00:05:40,360 --> 00:05:43,029
+10 okay let's leave it 10 or even we can
+make it one and we are going
+
+248
+00:05:43,029 --> 00:05:43,039
+make it one and we are going
+ 
+
+249
+00:05:43,039 --> 00:05:46,150
+make it one and we are going
+to avoid um introducing complication of
+
+250
+00:05:46,150 --> 00:05:46,160
+to avoid um introducing complication of
+ 
+
+251
+00:05:46,160 --> 00:05:48,830
+to avoid um introducing complication of
+regularization here learning rate as we
+
+252
+00:05:48,830 --> 00:05:48,840
+regularization here learning rate as we
+ 
+
+253
+00:05:48,840 --> 00:05:50,909
+regularization here learning rate as we
+have seen earlier should be some small
+
+254
+00:05:50,909 --> 00:05:50,919
+have seen earlier should be some small
+ 
+
+255
+00:05:50,919 --> 00:05:52,350
+have seen earlier should be some small
+number let's say
+
+256
+00:05:52,350 --> 00:05:52,360
+number let's say
+ 
+
+257
+00:05:52,360 --> 00:05:56,070
+number let's say
+0.01 and we just by pressing the play
+
+258
+00:05:56,070 --> 00:05:56,080
+0.01 and we just by pressing the play
+ 
+
+259
+00:05:56,080 --> 00:05:59,070
+0.01 and we just by pressing the play
+button what you actually see you'll
+
+260
+00:05:59,070 --> 00:05:59,080
+button what you actually see you'll
+ 
+
+261
+00:05:59,080 --> 00:06:02,189
+button what you actually see you'll
+actually see see uh the output over here
+
+262
+00:06:02,189 --> 00:06:02,199
+actually see see uh the output over here
+ 
+
+263
+00:06:02,199 --> 00:06:05,070
+actually see see uh the output over here
+uh this is the loss function the two two
+
+264
+00:06:05,070 --> 00:06:05,080
+uh this is the loss function the two two
+ 
+
+265
+00:06:05,080 --> 00:06:06,990
+uh this is the loss function the two two
+loss functions uh the training loss and
+
+266
+00:06:06,990 --> 00:06:07,000
+loss functions uh the training loss and
+ 
+
+267
+00:06:07,000 --> 00:06:09,550
+loss functions uh the training loss and
+the test loss uh that are very very
+
+268
+00:06:09,550 --> 00:06:09,560
+the test loss uh that are very very
+ 
+
+269
+00:06:09,560 --> 00:06:12,550
+the test loss uh that are very very
+quickly uh converging and this is U the
+
+270
+00:06:12,550 --> 00:06:12,560
+quickly uh converging and this is U the
+ 
+
+271
+00:06:12,560 --> 00:06:15,710
+quickly uh converging and this is U the
+decision boundary that uh the single
+
+272
+00:06:15,710 --> 00:06:15,720
+decision boundary that uh the single
+ 
+
+273
+00:06:15,720 --> 00:06:17,909
+decision boundary that uh the single
+neuron kind of produced uh very
+
+274
+00:06:17,909 --> 00:06:17,919
+neuron kind of produced uh very
+ 
+
+275
+00:06:17,919 --> 00:06:21,070
+neuron kind of produced uh very
+straightforward uh very easy to come up
+
+276
+00:06:21,070 --> 00:06:21,080
+straightforward uh very easy to come up
+ 
+
+277
+00:06:21,080 --> 00:06:23,309
+straightforward uh very easy to come up
+with u if you like that decision
+
+278
+00:06:23,309 --> 00:06:23,319
+with u if you like that decision
+ 
+
+279
+00:06:23,319 --> 00:06:25,550
+with u if you like that decision
+boundary as you can see and of course
+
+280
+00:06:25,550 --> 00:06:25,560
+boundary as you can see and of course
+ 
+
+281
+00:06:25,560 --> 00:06:28,510
+boundary as you can see and of course
+everything that we have discussed before
+
+282
+00:06:28,510 --> 00:06:28,520
+everything that we have discussed before
+ 
+
+283
+00:06:28,520 --> 00:06:31,309
+everything that we have discussed before
+the stochastic grade descent is in
+
+284
+00:06:31,309 --> 00:06:31,319
+the stochastic grade descent is in
+ 
+
+285
+00:06:31,319 --> 00:06:34,189
+the stochastic grade descent is in
+operation here uh so if we go back to
+
+286
+00:06:34,189 --> 00:06:34,199
+operation here uh so if we go back to
+ 
+
+287
+00:06:34,199 --> 00:06:37,909
+operation here uh so if we go back to
+that um drawing board you will uh
+
+288
+00:06:37,909 --> 00:06:37,919
+that um drawing board you will uh
+ 
+
+289
+00:06:37,919 --> 00:06:40,670
+that um drawing board you will uh
+definitely expect to see here a loss
+
+290
+00:06:40,670 --> 00:06:40,680
+definitely expect to see here a loss
+ 
+
+291
+00:06:40,680 --> 00:06:42,710
+definitely expect to see here a loss
+function which is nothing else as the
+
+292
+00:06:42,710 --> 00:06:42,720
+function which is nothing else as the
+ 
+
+293
+00:06:42,720 --> 00:06:46,070
+function which is nothing else as the
+binary cross entropy and uh that Banner
+
+294
+00:06:46,070 --> 00:06:46,080
+binary cross entropy and uh that Banner
+ 
+
+295
+00:06:46,080 --> 00:06:48,350
+binary cross entropy and uh that Banner
+crossentropy being
+
+296
+00:06:48,350 --> 00:06:48,360
+crossentropy being
+ 
+
+297
+00:06:48,360 --> 00:06:52,150
+crossentropy being
+fed uh into the stochastic grated
+
+298
+00:06:52,150 --> 00:06:52,160
+fed uh into the stochastic grated
+ 
+
+299
+00:06:52,160 --> 00:06:56,150
+fed uh into the stochastic grated
+descent that it will uh adjust the
+
+300
+00:06:56,150 --> 00:06:56,160
+descent that it will uh adjust the
+ 
+
+301
+00:06:56,160 --> 00:07:00,589
+descent that it will uh adjust the
+weights W from one iteration to the next
+
+302
+00:07:00,589 --> 00:07:00,599
+weights W from one iteration to the next
+ 
+
+303
+00:07:00,599 --> 00:07:02,469
+weights W from one iteration to the next
+and uh that is all straightforward we
+
+304
+00:07:02,469 --> 00:07:02,479
+and uh that is all straightforward we
+ 
+
+305
+00:07:02,479 --> 00:07:06,309
+and uh that is all straightforward we
+have done that uh before as well and uh
+
+306
+00:07:06,309 --> 00:07:06,319
+have done that uh before as well and uh
+ 
+
+307
+00:07:06,319 --> 00:07:08,790
+have done that uh before as well and uh
+now let's go back to that uh
+
+308
+00:07:08,790 --> 00:07:08,800
+now let's go back to that uh
+ 
+
+309
+00:07:08,800 --> 00:07:11,869
+now let's go back to that uh
+site and let's see what is uh going to
+
+310
+00:07:11,869 --> 00:07:11,879
+site and let's see what is uh going to
+ 
+
+311
+00:07:11,879 --> 00:07:15,309
+site and let's see what is uh going to
+happen if we uh change a little bit the
+
+312
+00:07:15,309 --> 00:07:15,319
+happen if we uh change a little bit the
+ 
+
+313
+00:07:15,319 --> 00:07:19,670
+happen if we uh change a little bit the
+data set we are facing and uh we have um
+
+314
+00:07:19,670 --> 00:07:19,680
+data set we are facing and uh we have um
+ 
+
+315
+00:07:19,680 --> 00:07:21,909
+data set we are facing and uh we have um
+another two dimensional data set I
+
+316
+00:07:21,909 --> 00:07:21,919
+another two dimensional data set I
+ 
+
+317
+00:07:21,919 --> 00:07:23,589
+another two dimensional data set I
+forgot earlier to mention that here we
+
+318
+00:07:23,589 --> 00:07:23,599
+forgot earlier to mention that here we
+ 
+
+319
+00:07:23,599 --> 00:07:26,070
+forgot earlier to mention that here we
+have effectively two features two
+
+320
+00:07:26,070 --> 00:07:26,080
+have effectively two features two
+ 
+
+321
+00:07:26,080 --> 00:07:30,189
+have effectively two features two
+dimensions in my X we have X1 and X2 uh
+
+322
+00:07:30,189 --> 00:07:30,199
+dimensions in my X we have X1 and X2 uh
+ 
+
+323
+00:07:30,199 --> 00:07:32,589
+dimensions in my X we have X1 and X2 uh
+again in this new data set we have which
+
+324
+00:07:32,589 --> 00:07:32,599
+again in this new data set we have which
+ 
+
+325
+00:07:32,599 --> 00:07:34,390
+again in this new data set we have which
+is uh slightly more
+
+326
+00:07:34,390 --> 00:07:34,400
+is uh slightly more
+ 
+
+327
+00:07:34,400 --> 00:07:36,550
+is uh slightly more
+complicated uh let's first of all remove
+
+328
+00:07:36,550 --> 00:07:36,560
+complicated uh let's first of all remove
+ 
+
+329
+00:07:36,560 --> 00:07:39,950
+complicated uh let's first of all remove
+the noise just to see you know uh the
+
+330
+00:07:39,950 --> 00:07:39,960
+the noise just to see you know uh the
+ 
+
+331
+00:07:39,960 --> 00:07:42,430
+the noise just to see you know uh the
+data set a bit more clearly so we have
+
+332
+00:07:42,430 --> 00:07:42,440
+data set a bit more clearly so we have
+ 
+
+333
+00:07:42,440 --> 00:07:44,189
+data set a bit more clearly so we have
+the blue class kind of centered in the
+
+334
+00:07:44,189 --> 00:07:44,199
+the blue class kind of centered in the
+ 
+
+335
+00:07:44,199 --> 00:07:46,110
+the blue class kind of centered in the
+middle and it is surrounded by the
+
+336
+00:07:46,110 --> 00:07:46,120
+middle and it is surrounded by the
+ 
+
+337
+00:07:46,120 --> 00:07:47,790
+middle and it is surrounded by the
+orange
+
+338
+00:07:47,790 --> 00:07:47,800
+orange
+ 
+
+339
+00:07:47,800 --> 00:07:51,390
+orange
+glass uh and as we expect to see the um
+
+340
+00:07:51,390 --> 00:07:51,400
+glass uh and as we expect to see the um
+ 
+
+341
+00:07:51,400 --> 00:07:53,149
+glass uh and as we expect to see the um
+you know the decision boundary is
+
+342
+00:07:53,149 --> 00:07:53,159
+you know the decision boundary is
+ 
+
+343
+00:07:53,159 --> 00:07:55,309
+you know the decision boundary is
+definitely heavily nonlinear it's
+
+344
+00:07:55,309 --> 00:07:55,319
+definitely heavily nonlinear it's
+ 
+
+345
+00:07:55,319 --> 00:07:58,350
+definitely heavily nonlinear it's
+actually in fact circular and let's try
+
+346
+00:07:58,350 --> 00:07:58,360
+actually in fact circular and let's try
+ 
+
+347
+00:07:58,360 --> 00:08:01,149
+actually in fact circular and let's try
+to um do exactly the same thing um press
+
+348
+00:08:01,149 --> 00:08:01,159
+to um do exactly the same thing um press
+ 
+
+349
+00:08:01,159 --> 00:08:03,710
+to um do exactly the same thing um press
+the play button and see exactly what is
+
+350
+00:08:03,710 --> 00:08:03,720
+the play button and see exactly what is
+ 
+
+351
+00:08:03,720 --> 00:08:07,749
+the play button and see exactly what is
+happening um so we observe now a kind of
+
+352
+00:08:07,749 --> 00:08:07,759
+happening um so we observe now a kind of
+ 
+
+353
+00:08:07,759 --> 00:08:11,270
+happening um so we observe now a kind of
+different Behavior we are going to start
+
+354
+00:08:11,270 --> 00:08:11,280
+different Behavior we are going to start
+ 
+
+355
+00:08:11,280 --> 00:08:14,189
+different Behavior we are going to start
+seeing some form of loss reduction so
+
+356
+00:08:14,189 --> 00:08:14,199
+seeing some form of loss reduction so
+ 
+
+357
+00:08:14,199 --> 00:08:18,070
+seeing some form of loss reduction so
+the neuron is actually trying its best
+
+358
+00:08:18,070 --> 00:08:18,080
+the neuron is actually trying its best
+ 
+
+359
+00:08:18,080 --> 00:08:22,309
+the neuron is actually trying its best
+to uh minimize uh training and test
+
+360
+00:08:22,309 --> 00:08:22,319
+to uh minimize uh training and test
+ 
+
+361
+00:08:22,319 --> 00:08:25,830
+to uh minimize uh training and test
+losses and uh here we kind of see some
+
+362
+00:08:25,830 --> 00:08:25,840
+losses and uh here we kind of see some
+ 
+
+363
+00:08:25,840 --> 00:08:27,230
+losses and uh here we kind of see some
+kind of a decision
+
+364
+00:08:27,230 --> 00:08:27,240
+kind of a decision
+ 
+
+365
+00:08:27,240 --> 00:08:30,430
+kind of a decision
+boundary uh but uh I I hope we all
+
+366
+00:08:30,430 --> 00:08:30,440
+boundary uh but uh I I hope we all
+ 
+
+367
+00:08:30,440 --> 00:08:32,190
+boundary uh but uh I I hope we all
+recognize that that's not really the one
+
+368
+00:08:32,190 --> 00:08:32,200
+recognize that that's not really the one
+ 
+
+369
+00:08:32,200 --> 00:08:34,790
+recognize that that's not really the one
+that we are uh probably going to uh
+
+370
+00:08:34,790 --> 00:08:34,800
+that we are uh probably going to uh
+ 
+
+371
+00:08:34,800 --> 00:08:36,949
+that we are uh probably going to uh
+result into a very good prediction
+
+372
+00:08:36,949 --> 00:08:36,959
+result into a very good prediction
+ 
+
+373
+00:08:36,959 --> 00:08:39,350
+result into a very good prediction
+performance and uh very good
+
+374
+00:08:39,350 --> 00:08:39,360
+performance and uh very good
+ 
+
+375
+00:08:39,360 --> 00:08:42,709
+performance and uh very good
+generalization so um what is to blame
+
+376
+00:08:42,709 --> 00:08:42,719
+generalization so um what is to blame
+ 
+
+377
+00:08:42,719 --> 00:08:45,110
+generalization so um what is to blame
+here uh and we have seen this kind of
+
+378
+00:08:45,110 --> 00:08:45,120
+here uh and we have seen this kind of
+ 
+
+379
+00:08:45,120 --> 00:08:48,470
+here uh and we have seen this kind of
+behavior before even in the linear uh
+
+380
+00:08:48,470 --> 00:08:48,480
+behavior before even in the linear uh
+ 
+
+381
+00:08:48,480 --> 00:08:51,710
+behavior before even in the linear uh
+models we have studied and uh this is uh
+
+382
+00:08:51,710 --> 00:08:51,720
+models we have studied and uh this is uh
+ 
+
+383
+00:08:51,720 --> 00:08:53,550
+models we have studied and uh this is uh
+effectively what we see here is some
+
+384
+00:08:53,550 --> 00:08:53,560
+effectively what we see here is some
+ 
+
+385
+00:08:53,560 --> 00:08:56,430
+effectively what we see here is some
+form of an underfeeding effect in other
+
+386
+00:08:56,430 --> 00:08:56,440
+form of an underfeeding effect in other
+ 
+
+387
+00:08:56,440 --> 00:08:59,230
+form of an underfeeding effect in other
+words uh the single neuron in terms of
+
+388
+00:08:59,230 --> 00:08:59,240
+words uh the single neuron in terms of
+ 
+
+389
+00:08:59,240 --> 00:09:01,190
+words uh the single neuron in terms of
+the number of parameters we have just
+
+390
+00:09:01,190 --> 00:09:01,200
+the number of parameters we have just
+ 
+
+391
+00:09:01,200 --> 00:09:04,750
+the number of parameters we have just
+have U uh uh three parameters here two
+
+392
+00:09:04,750 --> 00:09:04,760
+have U uh uh three parameters here two
+ 
+
+393
+00:09:04,760 --> 00:09:07,670
+have U uh uh three parameters here two
+associated with the number of dimensions
+
+394
+00:09:07,670 --> 00:09:07,680
+associated with the number of dimensions
+ 
+
+395
+00:09:07,680 --> 00:09:11,350
+associated with the number of dimensions
+of X plus the bias term uh is really not
+
+396
+00:09:11,350 --> 00:09:11,360
+of X plus the bias term uh is really not
+ 
+
+397
+00:09:11,360 --> 00:09:14,069
+of X plus the bias term uh is really not
+able to capture the complexity which is
+
+398
+00:09:14,069 --> 00:09:14,079
+able to capture the complexity which is
+ 
+
+399
+00:09:14,079 --> 00:09:16,750
+able to capture the complexity which is
+required by the Target function and that
+
+400
+00:09:16,750 --> 00:09:16,760
+required by the Target function and that
+ 
+
+401
+00:09:16,760 --> 00:09:18,949
+required by the Target function and that
+underlying Target function that governs
+
+402
+00:09:18,949 --> 00:09:18,959
+underlying Target function that governs
+ 
+
+403
+00:09:18,959 --> 00:09:20,990
+underlying Target function that governs
+this kind of classification problem
+
+404
+00:09:20,990 --> 00:09:21,000
+this kind of classification problem
+ 
+
+405
+00:09:21,000 --> 00:09:23,069
+this kind of classification problem
+requires probably a larger number of
+
+406
+00:09:23,069 --> 00:09:23,079
+requires probably a larger number of
+ 
+
+407
+00:09:23,079 --> 00:09:25,190
+requires probably a larger number of
+parameters so that's a kind of a good
+
+408
+00:09:25,190 --> 00:09:25,200
+parameters so that's a kind of a good
+ 
+
+409
+00:09:25,200 --> 00:09:27,990
+parameters so that's a kind of a good
+pretext to start introducing neural
+
+410
+00:09:27,990 --> 00:09:28,000
+pretext to start introducing neural
+ 
+
+411
+00:09:28,000 --> 00:09:29,710
+pretext to start introducing neural
+networks now we are going to start
+
+412
+00:09:29,710 --> 00:09:29,720
+networks now we are going to start
+ 
+
+413
+00:09:29,720 --> 00:09:32,069
+networks now we are going to start
+interconnecting many neurons together in
+
+414
+00:09:32,069 --> 00:09:32,079
+interconnecting many neurons together in
+ 
+
+415
+00:09:32,079 --> 00:09:34,470
+interconnecting many neurons together in
+some architecture it will make uh sense
+
+416
+00:09:34,470 --> 00:09:34,480
+some architecture it will make uh sense
+ 
+
+417
+00:09:34,480 --> 00:09:35,670
+some architecture it will make uh sense
+to all of
+
+418
+00:09:35,670 --> 00:09:35,680
+to all of
+ 
+
+419
+00:09:35,680 --> 00:09:40,790
+to all of
+us all right so let's see we will now uh
+
+420
+00:09:40,790 --> 00:09:40,800
+us all right so let's see we will now uh
+ 
+
+421
+00:09:40,800 --> 00:09:43,990
+us all right so let's see we will now uh
+use the single neuron that we have
+
+422
+00:09:43,990 --> 00:09:44,000
+use the single neuron that we have
+ 
+
+423
+00:09:44,000 --> 00:09:48,710
+use the single neuron that we have
+seen as a unit so I'm drawing if you
+
+424
+00:09:48,710 --> 00:09:48,720
+seen as a unit so I'm drawing if you
+ 
+
+425
+00:09:48,720 --> 00:09:50,550
+seen as a unit so I'm drawing if you
+like a single box over here I'm putting
+
+426
+00:09:50,550 --> 00:09:50,560
+like a single box over here I'm putting
+ 
+
+427
+00:09:50,560 --> 00:09:53,350
+like a single box over here I'm putting
+the number one and inside that single
+
+428
+00:09:53,350 --> 00:09:53,360
+the number one and inside that single
+ 
+
+429
+00:09:53,360 --> 00:09:56,110
+the number one and inside that single
+boxes everything that you see here
+
+430
+00:09:56,110 --> 00:09:56,120
+boxes everything that you see here
+ 
+
+431
+00:09:56,120 --> 00:09:59,389
+boxes everything that you see here
+above all of this blocks are inside this
+
+432
+00:09:59,389 --> 00:09:59,399
+above all of this blocks are inside this
+ 
+
+433
+00:09:59,399 --> 00:10:02,470
+above all of this blocks are inside this
+kind of single block uh we are going to
+
+434
+00:10:02,470 --> 00:10:02,480
+kind of single block uh we are going to
+ 
+
+435
+00:10:02,480 --> 00:10:04,430
+kind of single block uh we are going to
+feed to
+
+436
+00:10:04,430 --> 00:10:04,440
+feed to
+ 
+
+437
+00:10:04,440 --> 00:10:08,630
+feed to
+it the x that we've seen in this tensor
+
+438
+00:10:08,630 --> 00:10:08,640
+it the x that we've seen in this tensor
+ 
+
+439
+00:10:08,640 --> 00:10:15,590
+it the x that we've seen in this tensor
+playround example and uh we are going
+
+440
+00:10:15,590 --> 00:10:15,600
+
+ 
+
+441
+00:10:15,600 --> 00:10:21,230
+
+to feed X also to get another
+
+442
+00:10:21,230 --> 00:10:21,240
+
+ 
+
+443
+00:10:21,240 --> 00:10:24,310
+
+neuron uh let me just draw it a a bit
+
+444
+00:10:24,310 --> 00:10:24,320
+neuron uh let me just draw it a a bit
+ 
+
+445
+00:10:24,320 --> 00:10:25,470
+neuron uh let me just draw it a a bit
+kind of
+
+446
+00:10:25,470 --> 00:10:25,480
+kind of
+ 
+
+447
+00:10:25,480 --> 00:10:36,430
+kind of
+differently to have a bit more space
+
+448
+00:10:36,430 --> 00:10:36,440
+
+ 
+
+449
+00:10:36,440 --> 00:10:39,629
+
+and this is the second neuron the first
+
+450
+00:10:39,629 --> 00:10:39,639
+and this is the second neuron the first
+ 
+
+451
+00:10:39,639 --> 00:10:41,350
+and this is the second neuron the first
+neuron
+
+452
+00:10:41,350 --> 00:10:41,360
+neuron
+ 
+
+453
+00:10:41,360 --> 00:10:47,670
+neuron
+is has parameters that are inside it are
+
+454
+00:10:47,670 --> 00:10:47,680
+is has parameters that are inside it are
+ 
+
+455
+00:10:47,680 --> 00:10:50,430
+is has parameters that are inside it are
+W1 and the associated kind of bias now
+
+456
+00:10:50,430 --> 00:10:50,440
+W1 and the associated kind of bias now
+ 
+
+457
+00:10:50,440 --> 00:10:52,829
+W1 and the associated kind of bias now
+to make the little bit the math a bit
+
+458
+00:10:52,829 --> 00:10:52,839
+to make the little bit the math a bit
+ 
+
+459
+00:10:52,839 --> 00:10:54,310
+to make the little bit the math a bit
+easier I'm not going to be dealing with
+
+460
+00:10:54,310 --> 00:10:54,320
+easier I'm not going to be dealing with
+ 
+
+461
+00:10:54,320 --> 00:10:56,629
+easier I'm not going to be dealing with
+a bias term explicitly at least in this
+
+462
+00:10:56,629 --> 00:10:56,639
+a bias term explicitly at least in this
+ 
+
+463
+00:10:56,639 --> 00:10:58,829
+a bias term explicitly at least in this
+discussion so I'm just going to show you
+
+464
+00:10:58,829 --> 00:10:58,839
+discussion so I'm just going to show you
+ 
+
+465
+00:10:58,839 --> 00:11:00,310
+discussion so I'm just going to show you
+only
+
+466
+00:11:00,310 --> 00:11:00,320
+only
+ 
+
+467
+00:11:00,320 --> 00:11:03,990
+only
+the weight w the parameter W
+
+468
+00:11:03,990 --> 00:11:04,000
+the weight w the parameter W
+ 
+
+469
+00:11:04,000 --> 00:11:07,430
+the weight w the parameter W
+Vector which is uh two the
+
+470
+00:11:07,430 --> 00:11:07,440
+Vector which is uh two the
+ 
+
+471
+00:11:07,440 --> 00:11:09,350
+Vector which is uh two the
+dimensionality of that is two just like
+
+472
+00:11:09,350 --> 00:11:09,360
+dimensionality of that is two just like
+ 
+
+473
+00:11:09,360 --> 00:11:11,750
+dimensionality of that is two just like
+the dimensionality of X is two so the
+
+474
+00:11:11,750 --> 00:11:11,760
+the dimensionality of X is two so the
+ 
+
+475
+00:11:11,760 --> 00:11:15,629
+the dimensionality of X is two so the
+first neuron will produce an output of I
+
+476
+00:11:15,629 --> 00:11:15,639
+first neuron will produce an output of I
+ 
+
+477
+00:11:15,639 --> 00:11:19,350
+first neuron will produce an output of I
+will call it
+
+478
+00:11:19,350 --> 00:11:19,360
+
+ 
+
+479
+00:11:19,360 --> 00:11:22,430
+
+y1 and uh the second neuron will produce
+
+480
+00:11:22,430 --> 00:11:22,440
+y1 and uh the second neuron will produce
+ 
+
+481
+00:11:22,440 --> 00:11:25,430
+y1 and uh the second neuron will produce
+an output which will call Y2 hat these
+
+482
+00:11:25,430 --> 00:11:25,440
+an output which will call Y2 hat these
+ 
+
+483
+00:11:25,440 --> 00:11:26,829
+an output which will call Y2 hat these
+are the two
+
+484
+00:11:26,829 --> 00:11:26,839
+are the two
+ 
+
+485
+00:11:26,839 --> 00:11:29,030
+are the two
+predictions however now these outputs
+
+486
+00:11:29,030 --> 00:11:29,040
+predictions however now these outputs
+ 
+
+487
+00:11:29,040 --> 00:11:30,949
+predictions however now these outputs
+will will be
+
+488
+00:11:30,949 --> 00:11:30,959
+will will be
+ 
+
+489
+00:11:30,959 --> 00:11:34,509
+will will be
+combined with the help of a third
+
+490
+00:11:34,509 --> 00:11:34,519
+combined with the help of a third
+ 
+
+491
+00:11:34,519 --> 00:11:37,509
+combined with the help of a third
+neuron neuron number
+
+492
+00:11:37,509 --> 00:11:37,519
+neuron neuron number
+ 
+
+493
+00:11:37,519 --> 00:11:40,389
+neuron neuron number
+three to produce the final output which
+
+494
+00:11:40,389 --> 00:11:40,399
+three to produce the final output which
+ 
+
+495
+00:11:40,399 --> 00:11:41,230
+three to produce the final output which
+we'll
+
+496
+00:11:41,230 --> 00:11:41,240
+we'll
+ 
+
+497
+00:11:41,240 --> 00:11:45,910
+we'll
+call Y3 hatut and this neuron has its
+
+498
+00:11:45,910 --> 00:11:45,920
+call Y3 hatut and this neuron has its
+ 
+
+499
+00:11:45,920 --> 00:11:47,629
+call Y3 hatut and this neuron has its
+own kind of
+
+500
+00:11:47,629 --> 00:11:47,639
+own kind of
+ 
+
+501
+00:11:47,639 --> 00:11:49,829
+own kind of
+parameters uh
+
+502
+00:11:49,829 --> 00:11:49,839
+parameters uh
+ 
+
+503
+00:11:49,839 --> 00:11:53,110
+parameters uh
+W3 okay so that's uh basically the
+
+504
+00:11:53,110 --> 00:11:53,120
+W3 okay so that's uh basically the
+ 
+
+505
+00:11:53,120 --> 00:11:55,470
+W3 okay so that's uh basically the
+architecture we are going to uh to to
+
+506
+00:11:55,470 --> 00:11:55,480
+architecture we are going to uh to to
+ 
+
+507
+00:11:55,480 --> 00:11:58,910
+architecture we are going to uh to to
+study a little bit and uh okay so that I
+
+508
+00:11:58,910 --> 00:11:58,920
+study a little bit and uh okay so that I
+ 
+
+509
+00:11:58,920 --> 00:12:00,629
+study a little bit and uh okay so that I
+think architecture this actually make
+
+510
+00:12:00,629 --> 00:12:00,639
+think architecture this actually make
+ 
+
+511
+00:12:00,639 --> 00:12:03,350
+think architecture this actually make
+sense we are going to definitely have a
+
+512
+00:12:03,350 --> 00:12:03,360
+sense we are going to definitely have a
+ 
+
+513
+00:12:03,360 --> 00:12:05,590
+sense we are going to definitely have a
+scalar at the end this is a scalar this
+
+514
+00:12:05,590 --> 00:12:05,600
+scalar at the end this is a scalar this
+ 
+
+515
+00:12:05,600 --> 00:12:08,389
+scalar at the end this is a scalar this
+is a scaler two scalers in the form of a
+
+516
+00:12:08,389 --> 00:12:08,399
+is a scaler two scalers in the form of a
+ 
+
+517
+00:12:08,399 --> 00:12:10,870
+is a scaler two scalers in the form of a
+vector so at the input over
+
+518
+00:12:10,870 --> 00:12:10,880
+vector so at the input over
+ 
+
+519
+00:12:10,880 --> 00:12:14,790
+vector so at the input over
+here we see a vector this Vector will
+
+520
+00:12:14,790 --> 00:12:14,800
+here we see a vector this Vector will
+ 
+
+521
+00:12:14,800 --> 00:12:20,150
+here we see a vector this Vector will
+call it let's say let's call this Vector
+
+522
+00:12:20,150 --> 00:12:20,160
+
+ 
+
+523
+00:12:20,160 --> 00:12:25,269
+
+H uh this Vector H is consist of y1
+
+524
+00:12:25,269 --> 00:12:25,279
+H uh this Vector H is consist of y1
+ 
+
+525
+00:12:25,279 --> 00:12:30,629
+H uh this Vector H is consist of y1
+hat and Y2 hat this vector will we dot
+
+526
+00:12:30,629 --> 00:12:30,639
+hat and Y2 hat this vector will we dot
+ 
+
+527
+00:12:30,639 --> 00:12:33,550
+hat and Y2 hat this vector will we dot
+product we form the dot product of H uh
+
+528
+00:12:33,550 --> 00:12:33,560
+product we form the dot product of H uh
+ 
+
+529
+00:12:33,560 --> 00:12:36,310
+product we form the dot product of H uh
+with the W3 over here and follow with
+
+530
+00:12:36,310 --> 00:12:36,320
+with the W3 over here and follow with
+ 
+
+531
+00:12:36,320 --> 00:12:38,509
+with the W3 over here and follow with
+the sigmoidal unit so the output of this
+
+532
+00:12:38,509 --> 00:12:38,519
+the sigmoidal unit so the output of this
+ 
+
+533
+00:12:38,519 --> 00:12:41,069
+the sigmoidal unit so the output of this
+uh architecture is going to be this
+
+534
+00:12:41,069 --> 00:12:41,079
+uh architecture is going to be this
+ 
+
+535
+00:12:41,079 --> 00:12:42,710
+uh architecture is going to be this
+three neural architecture is going to be
+
+536
+00:12:42,710 --> 00:12:42,720
+three neural architecture is going to be
+ 
+
+537
+00:12:42,720 --> 00:12:45,189
+three neural architecture is going to be
+a scalar which of course is exactly what
+
+538
+00:12:45,189 --> 00:12:45,199
+a scalar which of course is exactly what
+ 
+
+539
+00:12:45,199 --> 00:12:48,389
+a scalar which of course is exactly what
+we need uh for binary classification and
+
+540
+00:12:48,389 --> 00:12:48,399
+we need uh for binary classification and
+ 
+
+541
+00:12:48,399 --> 00:12:51,829
+we need uh for binary classification and
+scalar between 0 and one all right so uh
+
+542
+00:12:51,829 --> 00:12:51,839
+scalar between 0 and one all right so uh
+ 
+
+543
+00:12:51,839 --> 00:12:54,389
+scalar between 0 and one all right so uh
+in terms of uh terminology will be
+
+544
+00:12:54,389 --> 00:12:54,399
+in terms of uh terminology will be
+ 
+
+545
+00:12:54,399 --> 00:12:59,430
+in terms of uh terminology will be
+calling this stacking of neurons
+
+546
+00:12:59,430 --> 00:12:59,440
+calling this stacking of neurons
+ 
+
+547
+00:12:59,440 --> 00:13:03,230
+calling this stacking of neurons
+let me draw it like this we'll be
+
+548
+00:13:03,230 --> 00:13:03,240
+let me draw it like this we'll be
+ 
+
+549
+00:13:03,240 --> 00:13:08,310
+let me draw it like this we'll be
+calling this a
+
+550
+00:13:08,310 --> 00:13:08,320
+
+ 
+
+551
+00:13:08,320 --> 00:13:12,269
+
+layer so we effectively here we have two
+
+552
+00:13:12,269 --> 00:13:12,279
+layer so we effectively here we have two
+ 
+
+553
+00:13:12,279 --> 00:13:16,350
+layer so we effectively here we have two
+layers and uh more specifically this
+
+554
+00:13:16,350 --> 00:13:16,360
+layers and uh more specifically this
+ 
+
+555
+00:13:16,360 --> 00:13:20,470
+layers and uh more specifically this
+layer um which is uh just before the
+
+556
+00:13:20,470 --> 00:13:20,480
+layer um which is uh just before the
+ 
+
+557
+00:13:20,480 --> 00:13:23,629
+layer um which is uh just before the
+final stage uh we are going to also be
+
+558
+00:13:23,629 --> 00:13:23,639
+final stage uh we are going to also be
+ 
+
+559
+00:13:23,639 --> 00:13:26,470
+final stage uh we are going to also be
+calling it body sometimes because it
+
+560
+00:13:26,470 --> 00:13:26,480
+calling it body sometimes because it
+ 
+
+561
+00:13:26,480 --> 00:13:30,430
+calling it body sometimes because it
+this body will consist of more than than
+
+562
+00:13:30,430 --> 00:13:30,440
+this body will consist of more than than
+ 
+
+563
+00:13:30,440 --> 00:13:32,430
+this body will consist of more than than
+uh one layers typically here we just
+
+564
+00:13:32,430 --> 00:13:32,440
+uh one layers typically here we just
+ 
+
+565
+00:13:32,440 --> 00:13:35,230
+uh one layers typically here we just
+have only one and this part over here
+
+566
+00:13:35,230 --> 00:13:35,240
+have only one and this part over here
+ 
+
+567
+00:13:35,240 --> 00:13:37,910
+have only one and this part over here
+will be calling it a
+
+568
+00:13:37,910 --> 00:13:37,920
+will be calling it a
+ 
+
+569
+00:13:37,920 --> 00:13:41,590
+will be calling it a
+head and more specifically this head is
+
+570
+00:13:41,590 --> 00:13:41,600
+head and more specifically this head is
+ 
+
+571
+00:13:41,600 --> 00:13:43,710
+head and more specifically this head is
+a sigmoidal neuron which is doing
+
+572
+00:13:43,710 --> 00:13:43,720
+a sigmoidal neuron which is doing
+ 
+
+573
+00:13:43,720 --> 00:13:45,069
+a sigmoidal neuron which is doing
+classification or we call it
+
+574
+00:13:45,069 --> 00:13:45,079
+classification or we call it
+ 
+
+575
+00:13:45,079 --> 00:13:48,230
+classification or we call it
+classification here uh at this moment
+
+576
+00:13:48,230 --> 00:13:48,240
+classification here uh at this moment
+ 
+
+577
+00:13:48,240 --> 00:13:50,430
+classification here uh at this moment
+okay so if we are to write down the
+
+578
+00:13:50,430 --> 00:13:50,440
+okay so if we are to write down the
+ 
+
+579
+00:13:50,440 --> 00:13:53,710
+okay so if we are to write down the
+equation the equation of the
+
+580
+00:13:53,710 --> 00:13:53,720
+equation the equation of the
+ 
+
+581
+00:13:53,720 --> 00:13:56,629
+equation the equation of the
+Y3 this is
+
+582
+00:13:56,629 --> 00:13:56,639
+Y3 this is
+ 
+
+583
+00:13:56,639 --> 00:13:59,829
+Y3 this is
+Sigma of
+
+584
+00:13:59,829 --> 00:13:59,839
+Sigma of
+ 
+
+585
+00:13:59,839 --> 00:14:02,189
+Sigma of
+W3
+
+586
+00:14:02,189 --> 00:14:02,199
+W3
+ 
+
+587
+00:14:02,199 --> 00:14:03,829
+W3
+transpose
+
+588
+00:14:03,829 --> 00:14:03,839
+transpose
+ 
+
+589
+00:14:03,839 --> 00:14:08,790
+transpose
+H that's the equation of uh the uh
+
+590
+00:14:08,790 --> 00:14:08,800
+H that's the equation of uh the uh
+ 
+
+591
+00:14:08,800 --> 00:14:11,870
+H that's the equation of uh the uh
+neuron number three uh that is exactly
+
+592
+00:14:11,870 --> 00:14:11,880
+neuron number three uh that is exactly
+ 
+
+593
+00:14:11,880 --> 00:14:14,230
+neuron number three uh that is exactly
+the functional form of what the neuron 3
+
+594
+00:14:14,230 --> 00:14:14,240
+the functional form of what the neuron 3
+ 
+
+595
+00:14:14,240 --> 00:14:17,629
+the functional form of what the neuron 3
+is actually doing so here we have Sigma
+
+596
+00:14:17,629 --> 00:14:17,639
+is actually doing so here we have Sigma
+ 
+
+597
+00:14:17,639 --> 00:14:19,749
+is actually doing so here we have Sigma
+and open parenthesis we
+
+598
+00:14:19,749 --> 00:14:19,759
+and open parenthesis we
+ 
+
+599
+00:14:19,759 --> 00:14:22,870
+and open parenthesis we
+have
+
+600
+00:14:22,870 --> 00:14:22,880
+
+ 
+
+601
+00:14:22,880 --> 00:14:24,389
+
+W13
+
+602
+00:14:24,389 --> 00:14:24,399
+W13
+ 
+
+603
+00:14:24,399 --> 00:14:31,590
+W13
+w23 the second component of W3 transpose
+
+604
+00:14:31,590 --> 00:14:31,600
+
+ 
+
+605
+00:14:31,600 --> 00:14:36,509
+
+transpose uh times the H1 and H2 the two
+
+606
+00:14:36,509 --> 00:14:36,519
+transpose uh times the H1 and H2 the two
+ 
+
+607
+00:14:36,519 --> 00:14:39,670
+transpose uh times the H1 and H2 the two
+components of the H Vector which is
+
+608
+00:14:39,670 --> 00:14:39,680
+components of the H Vector which is
+ 
+
+609
+00:14:39,680 --> 00:14:42,870
+components of the H Vector which is
+nothing else and then let me write it
+
+610
+00:14:42,870 --> 00:14:42,880
+nothing else and then let me write it
+ 
+
+611
+00:14:42,880 --> 00:14:48,110
+nothing else and then let me write it
+the way I wrote it over here y1 hat and
+
+612
+00:14:48,110 --> 00:14:48,120
+the way I wrote it over here y1 hat and
+ 
+
+613
+00:14:48,120 --> 00:14:51,189
+the way I wrote it over here y1 hat and
+Y2 and this is
+
+614
+00:14:51,189 --> 00:14:51,199
+Y2 and this is
+ 
+
+615
+00:14:51,199 --> 00:14:52,710
+Y2 and this is
+now
+
+616
+00:14:52,710 --> 00:14:52,720
+now
+ 
+
+617
+00:14:52,720 --> 00:14:55,670
+now
+Sigma of
+
+618
+00:14:55,670 --> 00:14:55,680
+Sigma of
+ 
+
+619
+00:14:55,680 --> 00:15:00,150
+Sigma of
+W13 y1 hat Plus
+
+620
+00:15:00,150 --> 00:15:00,160
+W13 y1 hat Plus
+ 
+
+621
+00:15:00,160 --> 00:15:03,110
+W13 y1 hat Plus
+w23
+
+622
+00:15:03,110 --> 00:15:03,120
+w23
+ 
+
+623
+00:15:03,120 --> 00:15:07,110
+w23
+Y2 and this is nothing else now as
+
+624
+00:15:07,110 --> 00:15:07,120
+Y2 and this is nothing else now as
+ 
+
+625
+00:15:07,120 --> 00:15:08,629
+Y2 and this is nothing else now as
+Sigma
+
+626
+00:15:08,629 --> 00:15:08,639
+Sigma
+ 
+
+627
+00:15:08,639 --> 00:15:14,110
+Sigma
+W13 Well the y1 hat itself is another
+
+628
+00:15:14,110 --> 00:15:14,120
+W13 Well the y1 hat itself is another
+ 
+
+629
+00:15:14,120 --> 00:15:17,230
+W13 Well the y1 hat itself is another
+sigmoid function acting on the dot
+
+630
+00:15:17,230 --> 00:15:17,240
+sigmoid function acting on the dot
+ 
+
+631
+00:15:17,240 --> 00:15:21,550
+sigmoid function acting on the dot
+product of the first
+
+632
+00:15:21,550 --> 00:15:21,560
+
+ 
+
+633
+00:15:21,560 --> 00:15:27,629
+
+neuron okay that's basically my
+
+634
+00:15:27,629 --> 00:15:27,639
+
+ 
+
+635
+00:15:27,639 --> 00:15:34,949
+
+X and
+
+636
+00:15:34,949 --> 00:15:34,959
+
+ 
+
+637
+00:15:34,959 --> 00:15:38,870
+
+this parenthesis should not be there
+
+638
+00:15:38,870 --> 00:15:38,880
+this parenthesis should not be there
+ 
+
+639
+00:15:38,880 --> 00:15:40,990
+this parenthesis should not be there
+plus
+
+640
+00:15:40,990 --> 00:15:41,000
+plus
+ 
+
+641
+00:15:41,000 --> 00:15:44,470
+plus
+w23 sigmoid of
+
+642
+00:15:44,470 --> 00:15:44,480
+w23 sigmoid of
+ 
+
+643
+00:15:44,480 --> 00:15:48,990
+w23 sigmoid of
+W2 transpose
+
+644
+00:15:48,990 --> 00:15:49,000
+
+ 
+
+645
+00:15:49,000 --> 00:15:53,069
+
+X that is actually uh the expression of
+
+646
+00:15:53,069 --> 00:15:53,079
+X that is actually uh the expression of
+ 
+
+647
+00:15:53,079 --> 00:15:55,030
+X that is actually uh the expression of
+of the output of this kind of network of
+
+648
+00:15:55,030 --> 00:15:55,040
+of the output of this kind of network of
+ 
+
+649
+00:15:55,040 --> 00:15:57,550
+of the output of this kind of network of
+this three neuron Network and there are
+
+650
+00:15:57,550 --> 00:15:57,560
+this three neuron Network and there are
+ 
+
+651
+00:15:57,560 --> 00:15:59,509
+this three neuron Network and there are
+some kind of interesting observ ation
+
+652
+00:15:59,509 --> 00:15:59,519
+some kind of interesting observ ation
+ 
+
+653
+00:15:59,519 --> 00:16:01,069
+some kind of interesting observ ation
+just from this kind of simple
+
+654
+00:16:01,069 --> 00:16:01,079
+just from this kind of simple
+ 
+
+655
+00:16:01,079 --> 00:16:03,710
+just from this kind of simple
+architecture that I would like to point
+
+656
+00:16:03,710 --> 00:16:03,720
+architecture that I would like to point
+ 
+
+657
+00:16:03,720 --> 00:16:07,509
+architecture that I would like to point
+out the first uh is that we definitely
+
+658
+00:16:07,509 --> 00:16:07,519
+out the first uh is that we definitely
+ 
+
+659
+00:16:07,519 --> 00:16:11,870
+out the first uh is that we definitely
+see some form of nesting uh going on so
+
+660
+00:16:11,870 --> 00:16:11,880
+see some form of nesting uh going on so
+ 
+
+661
+00:16:11,880 --> 00:16:13,990
+see some form of nesting uh going on so
+we have some kind of a nested function
+
+662
+00:16:13,990 --> 00:16:14,000
+we have some kind of a nested function
+ 
+
+663
+00:16:14,000 --> 00:16:15,990
+we have some kind of a nested function
+we have sigmoid of
+
+664
+00:16:15,990 --> 00:16:16,000
+we have sigmoid of
+ 
+
+665
+00:16:16,000 --> 00:16:18,749
+we have sigmoid of
+sigmoids have sigmoids of some linear
+
+666
+00:16:18,749 --> 00:16:18,759
+sigmoids have sigmoids of some linear
+ 
+
+667
+00:16:18,759 --> 00:16:20,910
+sigmoids have sigmoids of some linear
+combination of other
+
+668
+00:16:20,910 --> 00:16:20,920
+combination of other
+ 
+
+669
+00:16:20,920 --> 00:16:23,030
+combination of other
+sigmoids uh which are evidently
+
+670
+00:16:23,030 --> 00:16:23,040
+sigmoids uh which are evidently
+ 
+
+671
+00:16:23,040 --> 00:16:27,430
+sigmoids uh which are evidently
+nonlinear functions and uh if you recall
+
+672
+00:16:27,430 --> 00:16:27,440
+nonlinear functions and uh if you recall
+ 
+
+673
+00:16:27,440 --> 00:16:30,389
+nonlinear functions and uh if you recall
+from all our uh earlier kind of work on
+
+674
+00:16:30,389 --> 00:16:30,399
+from all our uh earlier kind of work on
+ 
+
+675
+00:16:30,399 --> 00:16:33,350
+from all our uh earlier kind of work on
+generalized linear models we always had
+
+676
+00:16:33,350 --> 00:16:33,360
+generalized linear models we always had
+ 
+
+677
+00:16:33,360 --> 00:16:37,710
+generalized linear models we always had
+this kind of form of w transpose f of x
+
+678
+00:16:37,710 --> 00:16:37,720
+this kind of form of w transpose f of x
+ 
+
+679
+00:16:37,720 --> 00:16:40,430
+this kind of form of w transpose f of x
+now these five of x's at that time came
+
+680
+00:16:40,430 --> 00:16:40,440
+now these five of x's at that time came
+ 
+
+681
+00:16:40,440 --> 00:16:43,629
+now these five of x's at that time came
+from the sort of wellestablished basis
+
+682
+00:16:43,629 --> 00:16:43,639
+from the sort of wellestablished basis
+ 
+
+683
+00:16:43,639 --> 00:16:46,269
+from the sort of wellestablished basis
+function such as polinomial and so on
+
+684
+00:16:46,269 --> 00:16:46,279
+function such as polinomial and so on
+ 
+
+685
+00:16:46,279 --> 00:16:49,710
+function such as polinomial and so on
+over here what we see is that these
+
+686
+00:16:49,710 --> 00:16:49,720
+over here what we see is that these
+ 
+
+687
+00:16:49,720 --> 00:16:56,710
+over here what we see is that these
+effectively are the
+
+688
+00:16:56,710 --> 00:16:56,720
+
+ 
+
+689
+00:16:56,720 --> 00:17:00,110
+
+features taking the place of these five
+
+690
+00:17:00,110 --> 00:17:00,120
+features taking the place of these five
+ 
+
+691
+00:17:00,120 --> 00:17:02,069
+features taking the place of these five
+functions we have seen earlier so we
+
+692
+00:17:02,069 --> 00:17:02,079
+functions we have seen earlier so we
+ 
+
+693
+00:17:02,079 --> 00:17:07,429
+functions we have seen earlier so we
+have two features over here combined
+
+694
+00:17:07,429 --> 00:17:07,439
+
+ 
+
+695
+00:17:07,439 --> 00:17:11,230
+
+linearly so feature U one and feature
+
+696
+00:17:11,230 --> 00:17:11,240
+linearly so feature U one and feature
+ 
+
+697
+00:17:11,240 --> 00:17:13,630
+linearly so feature U one and feature
+two and perhaps more
+
+698
+00:17:13,630 --> 00:17:13,640
+two and perhaps more
+ 
+
+699
+00:17:13,640 --> 00:17:16,029
+two and perhaps more
+importantly this
+
+700
+00:17:16,029 --> 00:17:16,039
+importantly this
+ 
+
+701
+00:17:16,039 --> 00:17:20,309
+importantly this
+um uh head this is
+
+702
+00:17:20,309 --> 00:17:20,319
+um uh head this is
+ 
+
+703
+00:17:20,319 --> 00:17:23,909
+um uh head this is
+accepting uh and combining features and
+
+704
+00:17:23,909 --> 00:17:23,919
+accepting uh and combining features and
+ 
+
+705
+00:17:23,919 --> 00:17:26,470
+accepting uh and combining features and
+these features have been generated from
+
+706
+00:17:26,470 --> 00:17:26,480
+these features have been generated from
+ 
+
+707
+00:17:26,480 --> 00:17:29,350
+these features have been generated from
+within the network itself
+
+708
+00:17:29,350 --> 00:17:29,360
+within the network itself
+ 
+
+709
+00:17:29,360 --> 00:17:31,950
+within the network itself
+so uh the network is effectively
+
+710
+00:17:31,950 --> 00:17:31,960
+so uh the network is effectively
+ 
+
+711
+00:17:31,960 --> 00:17:34,549
+so uh the network is effectively
+constructing the right features such
+
+712
+00:17:34,549 --> 00:17:34,559
+constructing the right features such
+ 
+
+713
+00:17:34,559 --> 00:17:37,630
+constructing the right features such
+that the classification head at the very
+
+714
+00:17:37,630 --> 00:17:37,640
+that the classification head at the very
+ 
+
+715
+00:17:37,640 --> 00:17:40,590
+that the classification head at the very
+end uh is able to actually do this job
+
+716
+00:17:40,590 --> 00:17:40,600
+end uh is able to actually do this job
+ 
+
+717
+00:17:40,600 --> 00:17:42,789
+end uh is able to actually do this job
+properly so that's actually a kind of a
+
+718
+00:17:42,789 --> 00:17:42,799
+properly so that's actually a kind of a
+ 
+
+719
+00:17:42,799 --> 00:17:45,590
+properly so that's actually a kind of a
+fairly important observation of of uh
+
+720
+00:17:45,590 --> 00:17:45,600
+fairly important observation of of uh
+ 
+
+721
+00:17:45,600 --> 00:17:48,190
+fairly important observation of of uh
+what we SE seen earlier and comparison
+
+722
+00:17:48,190 --> 00:17:48,200
+what we SE seen earlier and comparison
+ 
+
+723
+00:17:48,200 --> 00:17:49,430
+what we SE seen earlier and comparison
+what we have seen earlier and what we
+
+724
+00:17:49,430 --> 00:17:49,440
+what we have seen earlier and what we
+ 
+
+725
+00:17:49,440 --> 00:17:52,510
+what we have seen earlier and what we
+actually have right now uh the second
+
+726
+00:17:52,510 --> 00:17:52,520
+actually have right now uh the second
+ 
+
+727
+00:17:52,520 --> 00:17:59,350
+actually have right now uh the second
+point so the the first one is uh nesting
+
+728
+00:17:59,350 --> 00:17:59,360
+
+ 
+
+729
+00:17:59,360 --> 00:18:01,470
+
+the second one
+
+730
+00:18:01,470 --> 00:18:01,480
+the second one
+ 
+
+731
+00:18:01,480 --> 00:18:07,190
+the second one
+is uh sort of uh I will call it
+
+732
+00:18:07,190 --> 00:18:07,200
+is uh sort of uh I will call it
+ 
+
+733
+00:18:07,200 --> 00:18:11,110
+is uh sort of uh I will call it
+automatic
+
+734
+00:18:11,110 --> 00:18:11,120
+
+ 
+
+735
+00:18:11,120 --> 00:18:15,230
+
+feature
+
+736
+00:18:15,230 --> 00:18:15,240
+
+ 
+
+737
+00:18:15,240 --> 00:18:18,070
+
+generation and the third one which I
+
+738
+00:18:18,070 --> 00:18:18,080
+generation and the third one which I
+ 
+
+739
+00:18:18,080 --> 00:18:21,350
+generation and the third one which I
+wanted to mention is that now we
+
+740
+00:18:21,350 --> 00:18:21,360
+wanted to mention is that now we
+ 
+
+741
+00:18:21,360 --> 00:18:24,909
+wanted to mention is that now we
+have uh going to have the exactly the
+
+742
+00:18:24,909 --> 00:18:24,919
+have uh going to have the exactly the
+ 
+
+743
+00:18:24,919 --> 00:18:26,669
+have uh going to have the exactly the
+same environment which we have seen
+
+744
+00:18:26,669 --> 00:18:26,679
+same environment which we have seen
+ 
+
+745
+00:18:26,679 --> 00:18:30,549
+same environment which we have seen
+earlier in uh our where
+
+746
+00:18:30,549 --> 00:18:30,559
+earlier in uh our where
+ 
+
+747
+00:18:30,559 --> 00:18:33,470
+earlier in uh our where
+parameters um parameter optimization so
+
+748
+00:18:33,470 --> 00:18:33,480
+parameters um parameter optimization so
+ 
+
+749
+00:18:33,480 --> 00:18:36,630
+parameters um parameter optimization so
+we have evidently a binary cross entropy
+
+750
+00:18:36,630 --> 00:18:36,640
+we have evidently a binary cross entropy
+ 
+
+751
+00:18:36,640 --> 00:18:39,710
+we have evidently a binary cross entropy
+uh and a stochastic grad descent but now
+
+752
+00:18:39,710 --> 00:18:39,720
+uh and a stochastic grad descent but now
+ 
+
+753
+00:18:39,720 --> 00:18:42,070
+uh and a stochastic grad descent but now
+everything is jointly optimized so I am
+
+754
+00:18:42,070 --> 00:18:42,080
+everything is jointly optimized so I am
+ 
+
+755
+00:18:42,080 --> 00:18:44,510
+everything is jointly optimized so I am
+going to be writing here the Theta
+
+756
+00:18:44,510 --> 00:18:44,520
+going to be writing here the Theta
+ 
+
+757
+00:18:44,520 --> 00:18:47,750
+going to be writing here the Theta
+Vector which is consist of three other
+
+758
+00:18:47,750 --> 00:18:47,760
+Vector which is consist of three other
+ 
+
+759
+00:18:47,760 --> 00:18:52,870
+Vector which is consist of three other
+vectors W1 W2 and
+
+760
+00:18:52,870 --> 00:18:52,880
+vectors W1 W2 and
+ 
+
+761
+00:18:52,880 --> 00:18:56,310
+vectors W1 W2 and
+W3 of these three neurons and the
+
+762
+00:18:56,310 --> 00:18:56,320
+W3 of these three neurons and the
+ 
+
+763
+00:18:56,320 --> 00:18:57,870
+W3 of these three neurons and the
+optimizer is going to be jointly
+
+764
+00:18:57,870 --> 00:18:57,880
+optimizer is going to be jointly
+ 
+
+765
+00:18:57,880 --> 00:19:01,390
+optimizer is going to be jointly
+optimizing the parameters just like we
+
+766
+00:19:01,390 --> 00:19:01,400
+optimizing the parameters just like we
+ 
+
+767
+00:19:01,400 --> 00:19:03,070
+optimizing the parameters just like we
+have seen earlier from just a single
+
+768
+00:19:03,070 --> 00:19:03,080
+have seen earlier from just a single
+ 
+
+769
+00:19:03,080 --> 00:19:06,350
+have seen earlier from just a single
+neuron and uh therefore it will be
+
+770
+00:19:06,350 --> 00:19:06,360
+neuron and uh therefore it will be
+ 
+
+771
+00:19:06,360 --> 00:19:09,870
+neuron and uh therefore it will be
+implementing uh the well known to us
+
+772
+00:19:09,870 --> 00:19:09,880
+implementing uh the well known to us
+ 
+
+773
+00:19:09,880 --> 00:19:13,190
+implementing uh the well known to us
+equation uh of stochastic radi that we
+
+774
+00:19:13,190 --> 00:19:13,200
+equation uh of stochastic radi that we
+ 
+
+775
+00:19:13,200 --> 00:19:14,230
+equation uh of stochastic radi that we
+have seen
+
+776
+00:19:14,230 --> 00:19:14,240
+have seen
+ 
+
+777
+00:19:14,240 --> 00:19:18,070
+have seen
+earlier so I'm mentioning that because
+
+778
+00:19:18,070 --> 00:19:18,080
+earlier so I'm mentioning that because
+ 
+
+779
+00:19:18,080 --> 00:19:21,190
+earlier so I'm mentioning that because
+very quickly uh the number of parameters
+
+780
+00:19:21,190 --> 00:19:21,200
+very quickly uh the number of parameters
+ 
+
+781
+00:19:21,200 --> 00:19:22,950
+very quickly uh the number of parameters
+that we have here will
+
+782
+00:19:22,950 --> 00:19:22,960
+that we have here will
+ 
+
+783
+00:19:22,960 --> 00:19:25,909
+that we have here will
+explode so here we have uh how many we
+
+784
+00:19:25,909 --> 00:19:25,919
+explode so here we have uh how many we
+ 
+
+785
+00:19:25,919 --> 00:19:28,230
+explode so here we have uh how many we
+have just basically six parameters here
+
+786
+00:19:28,230 --> 00:19:28,240
+have just basically six parameters here
+ 
+
+787
+00:19:28,240 --> 00:19:29,990
+have just basically six parameters here
+plus the three bias terms which I didn't
+
+788
+00:19:29,990 --> 00:19:30,000
+plus the three bias terms which I didn't
+ 
+
+789
+00:19:30,000 --> 00:19:32,870
+plus the three bias terms which I didn't
+write explicitly let's say nine so this
+
+790
+00:19:32,870 --> 00:19:32,880
+write explicitly let's say nine so this
+ 
+
+791
+00:19:32,880 --> 00:19:34,750
+write explicitly let's say nine so this
+stochastic radius n will actually be
+
+792
+00:19:34,750 --> 00:19:34,760
+stochastic radius n will actually be
+ 
+
+793
+00:19:34,760 --> 00:19:37,110
+stochastic radius n will actually be
+searching in this nine dimensional kind
+
+794
+00:19:37,110 --> 00:19:37,120
+searching in this nine dimensional kind
+ 
+
+795
+00:19:37,120 --> 00:19:41,350
+searching in this nine dimensional kind
+of space to find this optimal uh Theta
+
+796
+00:19:41,350 --> 00:19:41,360
+of space to find this optimal uh Theta
+ 
+
+797
+00:19:41,360 --> 00:19:43,710
+of space to find this optimal uh Theta
+star gradually as we have discussed
+
+798
+00:19:43,710 --> 00:19:43,720
+star gradually as we have discussed
+ 
+
+799
+00:19:43,720 --> 00:19:47,110
+star gradually as we have discussed
+before so the uh important
+
+800
+00:19:47,110 --> 00:19:47,120
+before so the uh important
+ 
+
+801
+00:19:47,120 --> 00:19:51,909
+before so the uh important
+thing is the uh I think number two uh
+
+802
+00:19:51,909 --> 00:19:51,919
+thing is the uh I think number two uh
+ 
+
+803
+00:19:51,919 --> 00:19:54,590
+thing is the uh I think number two uh
+the automatic feature generation or the
+
+804
+00:19:54,590 --> 00:19:54,600
+the automatic feature generation or the
+ 
+
+805
+00:19:54,600 --> 00:20:05,470
+the automatic feature generation or the
+fact that the network the network itself
+
+806
+00:20:05,470 --> 00:20:05,480
+
+ 
+
+807
+00:20:05,480 --> 00:20:15,350
+
+builds the right
+
+808
+00:20:15,350 --> 00:20:15,360
+
+ 
+
+809
+00:20:15,360 --> 00:20:19,630
+
+representations uh
+
+810
+00:20:19,630 --> 00:20:19,640
+
+ 
+
+811
+00:20:19,640 --> 00:20:23,110
+
+for for the head or whatever the head is
+
+812
+00:20:23,110 --> 00:20:23,120
+for for the head or whatever the head is
+ 
+
+813
+00:20:23,120 --> 00:20:24,710
+for for the head or whatever the head is
+doing the head in this case is doing
+
+814
+00:20:24,710 --> 00:20:24,720
+doing the head in this case is doing
+ 
+
+815
+00:20:24,720 --> 00:20:26,549
+doing the head in this case is doing
+classification but we'll see other
+
+816
+00:20:26,549 --> 00:20:26,559
+classification but we'll see other
+ 
+
+817
+00:20:26,559 --> 00:20:27,830
+classification but we'll see other
+examples where the head is actually
+
+818
+00:20:27,830 --> 00:20:27,840
+examples where the head is actually
+ 
+
+819
+00:20:27,840 --> 00:20:30,950
+examples where the head is actually
+doing regression
+
+820
+00:20:30,950 --> 00:20:30,960
+
+ 
+
+821
+00:20:30,960 --> 00:20:33,750
+
+for the right task the task is the
+
+822
+00:20:33,750 --> 00:20:33,760
+for the right task the task is the
+ 
+
+823
+00:20:33,760 --> 00:20:35,510
+for the right task the task is the
+responsibility of the head to implement
+
+824
+00:20:35,510 --> 00:20:35,520
+responsibility of the head to implement
+ 
+
+825
+00:20:35,520 --> 00:20:39,990
+responsibility of the head to implement
+it um and and definitely we see here a
+
+826
+00:20:39,990 --> 00:20:40,000
+it um and and definitely we see here a
+ 
+
+827
+00:20:40,000 --> 00:20:41,789
+it um and and definitely we see here a
+good small example but it actually
+
+828
+00:20:41,789 --> 00:20:41,799
+good small example but it actually
+ 
+
+829
+00:20:41,799 --> 00:20:44,230
+good small example but it actually
+taught us a couple of things we have not
+
+830
+00:20:44,230 --> 00:20:44,240
+taught us a couple of things we have not
+ 
+
+831
+00:20:44,240 --> 00:20:47,149
+taught us a couple of things we have not
+seen before to close the discussion
+
+832
+00:20:47,149 --> 00:20:47,159
+seen before to close the discussion
+ 
+
+833
+00:20:47,159 --> 00:20:50,549
+seen before to close the discussion
+we'll go back to that uh site tensorflow
+
+834
+00:20:50,549 --> 00:20:50,559
+we'll go back to that uh site tensorflow
+ 
+
+835
+00:20:50,559 --> 00:20:53,190
+we'll go back to that uh site tensorflow
+playground and recreate the architecture
+
+836
+00:20:53,190 --> 00:20:53,200
+playground and recreate the architecture
+ 
+
+837
+00:20:53,200 --> 00:20:56,070
+playground and recreate the architecture
+we had put together so we were going to
+
+838
+00:20:56,070 --> 00:20:56,080
+we had put together so we were going to
+ 
+
+839
+00:20:56,080 --> 00:20:59,230
+we had put together so we were going to
+have two layers
+
+840
+00:20:59,230 --> 00:20:59,240
+have two layers
+ 
+
+841
+00:20:59,240 --> 00:21:01,710
+have two layers
+uh and in the first layer is going cons
+
+842
+00:21:01,710 --> 00:21:01,720
+uh and in the first layer is going cons
+ 
+
+843
+00:21:01,720 --> 00:21:04,190
+uh and in the first layer is going cons
+consist of two neurons both neurons
+
+844
+00:21:04,190 --> 00:21:04,200
+consist of two neurons both neurons
+ 
+
+845
+00:21:04,200 --> 00:21:06,149
+consist of two neurons both neurons
+accept exactly the same X as it's
+
+846
+00:21:06,149 --> 00:21:06,159
+accept exactly the same X as it's
+ 
+
+847
+00:21:06,159 --> 00:21:08,510
+accept exactly the same X as it's
+actually shown over here and the output
+
+848
+00:21:08,510 --> 00:21:08,520
+actually shown over here and the output
+ 
+
+849
+00:21:08,520 --> 00:21:11,430
+actually shown over here and the output
+of this uh each neuron is being combined
+
+850
+00:21:11,430 --> 00:21:11,440
+of this uh each neuron is being combined
+ 
+
+851
+00:21:11,440 --> 00:21:14,950
+of this uh each neuron is being combined
+by the head that's the last neuron at
+
+852
+00:21:14,950 --> 00:21:14,960
+by the head that's the last neuron at
+ 
+
+853
+00:21:14,960 --> 00:21:18,070
+by the head that's the last neuron at
+the top of the layer if you like okay
+
+854
+00:21:18,070 --> 00:21:18,080
+the top of the layer if you like okay
+ 
+
+855
+00:21:18,080 --> 00:21:20,909
+the top of the layer if you like okay
+and uh now we are going
+
+856
+00:21:20,909 --> 00:21:20,919
+and uh now we are going
+ 
+
+857
+00:21:20,919 --> 00:21:26,510
+and uh now we are going
+to uh sort of play again with this uh
+
+858
+00:21:26,510 --> 00:21:26,520
+to uh sort of play again with this uh
+ 
+
+859
+00:21:26,520 --> 00:21:28,070
+to uh sort of play again with this uh
+experiment in this kind of more
+
+860
+00:21:28,070 --> 00:21:28,080
+experiment in this kind of more
+ 
+
+861
+00:21:28,080 --> 00:21:30,950
+experiment in this kind of more
+complicated ated uh experiment uh data
+
+862
+00:21:30,950 --> 00:21:30,960
+complicated ated uh experiment uh data
+ 
+
+863
+00:21:30,960 --> 00:21:33,510
+complicated ated uh experiment uh data
+set that we have uh seen earlier that a
+
+864
+00:21:33,510 --> 00:21:33,520
+set that we have uh seen earlier that a
+ 
+
+865
+00:21:33,520 --> 00:21:35,390
+set that we have uh seen earlier that a
+single neuron was not really able to do
+
+866
+00:21:35,390 --> 00:21:35,400
+single neuron was not really able to do
+ 
+
+867
+00:21:35,400 --> 00:21:39,390
+single neuron was not really able to do
+much and we are going to just press the
+
+868
+00:21:39,390 --> 00:21:39,400
+much and we are going to just press the
+ 
+
+869
+00:21:39,400 --> 00:21:41,430
+much and we are going to just press the
+play button and see what
+
+870
+00:21:41,430 --> 00:21:41,440
+play button and see what
+ 
+
+871
+00:21:41,440 --> 00:21:44,070
+play button and see what
+happens so again the stochastic grade
+
+872
+00:21:44,070 --> 00:21:44,080
+happens so again the stochastic grade
+ 
+
+873
+00:21:44,080 --> 00:21:46,750
+happens so again the stochastic grade
+descent is now looking at this kind of a
+
+874
+00:21:46,750 --> 00:21:46,760
+descent is now looking at this kind of a
+ 
+
+875
+00:21:46,760 --> 00:21:48,149
+descent is now looking at this kind of a
+nine-dimensional
+
+876
+00:21:48,149 --> 00:21:48,159
+nine-dimensional
+ 
+
+877
+00:21:48,159 --> 00:21:52,710
+nine-dimensional
+space and um it's continues to look we
+
+878
+00:21:52,710 --> 00:21:52,720
+space and um it's continues to look we
+ 
+
+879
+00:21:52,720 --> 00:21:55,909
+space and um it's continues to look we
+are evidently going through many many
+
+880
+00:21:55,909 --> 00:21:55,919
+are evidently going through many many
+ 
+
+881
+00:21:55,919 --> 00:21:59,390
+are evidently going through many many
+epochs our uh training loss and test
+
+882
+00:21:59,390 --> 00:21:59,400
+epochs our uh training loss and test
+ 
+
+883
+00:21:59,400 --> 00:22:04,390
+epochs our uh training loss and test
+loss um seem to have been stuck uh at
+
+884
+00:22:04,390 --> 00:22:04,400
+loss um seem to have been stuck uh at
+ 
+
+885
+00:22:04,400 --> 00:22:06,950
+loss um seem to have been stuck uh at
+around uh
+
+886
+00:22:06,950 --> 00:22:06,960
+around uh
+ 
+
+887
+00:22:06,960 --> 00:22:11,870
+around uh
+0.5 so not really uh a very good um sort
+
+888
+00:22:11,870 --> 00:22:11,880
+0.5 so not really uh a very good um sort
+ 
+
+889
+00:22:11,880 --> 00:22:14,029
+0.5 so not really uh a very good um sort
+of uh Behavior
+
+890
+00:22:14,029 --> 00:22:14,039
+of uh Behavior
+ 
+
+891
+00:22:14,039 --> 00:22:16,710
+of uh Behavior
+yet but we should also be patient
+
+892
+00:22:16,710 --> 00:22:16,720
+yet but we should also be patient
+ 
+
+893
+00:22:16,720 --> 00:22:18,350
+yet but we should also be patient
+because you know we never I mean this
+
+894
+00:22:18,350 --> 00:22:18,360
+because you know we never I mean this
+ 
+
+895
+00:22:18,360 --> 00:22:20,230
+because you know we never I mean this
+thing is actually running in the
+
+896
+00:22:20,230 --> 00:22:20,240
+thing is actually running in the
+ 
+
+897
+00:22:20,240 --> 00:22:24,430
+thing is actually running in the
+browser um it is using yeah you know the
+
+898
+00:22:24,430 --> 00:22:24,440
+browser um it is using yeah you know the
+ 
+
+899
+00:22:24,440 --> 00:22:26,750
+browser um it is using yeah you know the
+kind of V8 engine which is behind the
+
+900
+00:22:26,750 --> 00:22:26,760
+kind of V8 engine which is behind the
+ 
+
+901
+00:22:26,760 --> 00:22:28,789
+kind of V8 engine which is behind the
+these browser to do the calculations in
+
+902
+00:22:28,789 --> 00:22:28,799
+these browser to do the calculations in
+ 
+
+903
+00:22:28,799 --> 00:22:30,549
+these browser to do the calculations in
+kind of a JavaScript so it's not really
+
+904
+00:22:30,549 --> 00:22:30,559
+kind of a JavaScript so it's not really
+ 
+
+905
+00:22:30,559 --> 00:22:32,590
+kind of a JavaScript so it's not really
+really the fastest
+
+906
+00:22:32,590 --> 00:22:32,600
+really the fastest
+ 
+
+907
+00:22:32,600 --> 00:22:34,789
+really the fastest
+implementation and uh since we are
+
+908
+00:22:34,789 --> 00:22:34,799
+implementation and uh since we are
+ 
+
+909
+00:22:34,799 --> 00:22:36,630
+implementation and uh since we are
+looking in this n-dimensional space now
+
+910
+00:22:36,630 --> 00:22:36,640
+looking in this n-dimensional space now
+ 
+
+911
+00:22:36,640 --> 00:22:38,870
+looking in this n-dimensional space now
+I think we should give it some time yes
+
+912
+00:22:38,870 --> 00:22:38,880
+I think we should give it some time yes
+ 
+
+913
+00:22:38,880 --> 00:22:42,110
+I think we should give it some time yes
+surely enough some local Minima seems to
+
+914
+00:22:42,110 --> 00:22:42,120
+surely enough some local Minima seems to
+ 
+
+915
+00:22:42,120 --> 00:22:43,350
+surely enough some local Minima seems to
+have been
+
+916
+00:22:43,350 --> 00:22:43,360
+have been
+ 
+
+917
+00:22:43,360 --> 00:22:46,029
+have been
+found at this moment so the loss kind of
+
+918
+00:22:46,029 --> 00:22:46,039
+found at this moment so the loss kind of
+ 
+
+919
+00:22:46,039 --> 00:22:49,870
+found at this moment so the loss kind of
+dropped we start seeing some elements of
+
+920
+00:22:49,870 --> 00:22:49,880
+dropped we start seeing some elements of
+ 
+
+921
+00:22:49,880 --> 00:22:52,870
+dropped we start seeing some elements of
+a loss function uh being significantly
+
+922
+00:22:52,870 --> 00:22:52,880
+a loss function uh being significantly
+ 
+
+923
+00:22:52,880 --> 00:22:54,669
+a loss function uh being significantly
+now dropped and look what happens now
+
+924
+00:22:54,669 --> 00:22:54,679
+now dropped and look what happens now
+ 
+
+925
+00:22:54,679 --> 00:22:55,990
+now dropped and look what happens now
+with a decision
+
+926
+00:22:55,990 --> 00:22:56,000
+with a decision
+ 
+
+927
+00:22:56,000 --> 00:22:59,230
+with a decision
+boundary um the decision boundary
+
+928
+00:22:59,230 --> 00:22:59,240
+boundary um the decision boundary
+ 
+
+929
+00:22:59,240 --> 00:23:01,950
+boundary um the decision boundary
+uh Without Really us doing that much and
+
+930
+00:23:01,950 --> 00:23:01,960
+uh Without Really us doing that much and
+ 
+
+931
+00:23:01,960 --> 00:23:04,230
+uh Without Really us doing that much and
+then really adding these neurons became
+
+932
+00:23:04,230 --> 00:23:04,240
+then really adding these neurons became
+ 
+
+933
+00:23:04,240 --> 00:23:05,350
+then really adding these neurons became
+kind of
+
+934
+00:23:05,350 --> 00:23:05,360
+kind of
+ 
+
+935
+00:23:05,360 --> 00:23:08,830
+kind of
+quadratic and it's kind of almost there
+
+936
+00:23:08,830 --> 00:23:08,840
+quadratic and it's kind of almost there
+ 
+
+937
+00:23:08,840 --> 00:23:12,029
+quadratic and it's kind of almost there
+in a sense that it is uh all we need to
+
+938
+00:23:12,029 --> 00:23:12,039
+in a sense that it is uh all we need to
+ 
+
+939
+00:23:12,039 --> 00:23:13,630
+in a sense that it is uh all we need to
+understand is whether if I if we can
+
+940
+00:23:13,630 --> 00:23:13,640
+understand is whether if I if we can
+ 
+
+941
+00:23:13,640 --> 00:23:15,549
+understand is whether if I if we can
+give it some more time perhaps another
+
+942
+00:23:15,549 --> 00:23:15,559
+give it some more time perhaps another
+ 
+
+943
+00:23:15,559 --> 00:23:18,110
+give it some more time perhaps another
+local Minima which is even better than
+
+944
+00:23:18,110 --> 00:23:18,120
+local Minima which is even better than
+ 
+
+945
+00:23:18,120 --> 00:23:20,149
+local Minima which is even better than
+the one that we have just experienced
+
+946
+00:23:20,149 --> 00:23:20,159
+the one that we have just experienced
+ 
+
+947
+00:23:20,159 --> 00:23:23,510
+the one that we have just experienced
+will be found and uh we are going to
+
+948
+00:23:23,510 --> 00:23:23,520
+will be found and uh we are going to
+ 
+
+949
+00:23:23,520 --> 00:23:28,470
+will be found and uh we are going to
+just let it run and um uh however we we
+
+950
+00:23:28,470 --> 00:23:28,480
+just let it run and um uh however we we
+ 
+
+951
+00:23:28,480 --> 00:23:30,870
+just let it run and um uh however we we
+we can actually show some kind of a
+
+952
+00:23:30,870 --> 00:23:30,880
+we can actually show some kind of a
+ 
+
+953
+00:23:30,880 --> 00:23:33,310
+we can actually show some kind of a
+useful trajectory now in front of us we
+
+954
+00:23:33,310 --> 00:23:33,320
+useful trajectory now in front of us we
+ 
+
+955
+00:23:33,320 --> 00:23:35,830
+useful trajectory now in front of us we
+have seen as we are adding more
+
+956
+00:23:35,830 --> 00:23:35,840
+have seen as we are adding more
+ 
+
+957
+00:23:35,840 --> 00:23:40,070
+have seen as we are adding more
+neurons uh then uh effectively we are
+
+958
+00:23:40,070 --> 00:23:40,080
+neurons uh then uh effectively we are
+ 
+
+959
+00:23:40,080 --> 00:23:42,430
+neurons uh then uh effectively we are
+enhancing the modeling capabilities of
+
+960
+00:23:42,430 --> 00:23:42,440
+enhancing the modeling capabilities of
+ 
+
+961
+00:23:42,440 --> 00:23:45,470
+enhancing the modeling capabilities of
+our hypothesis set so we should have now
+
+962
+00:23:45,470 --> 00:23:45,480
+our hypothesis set so we should have now
+ 
+
+963
+00:23:45,480 --> 00:23:47,789
+our hypothesis set so we should have now
+some analogy in our mind what we have
+
+964
+00:23:47,789 --> 00:23:47,799
+some analogy in our mind what we have
+ 
+
+965
+00:23:47,799 --> 00:23:51,070
+some analogy in our mind what we have
+seen in the earlier as a hypothesis set
+
+966
+00:23:51,070 --> 00:23:51,080
+seen in the earlier as a hypothesis set
+ 
+
+967
+00:23:51,080 --> 00:23:54,549
+seen in the earlier as a hypothesis set
+and the um the the set of functions G
+
+968
+00:23:54,549 --> 00:23:54,559
+and the um the the set of functions G
+ 
+
+969
+00:23:54,559 --> 00:23:57,750
+and the um the the set of functions G
+that we have discussed um are is
+
+970
+00:23:57,750 --> 00:23:57,760
+that we have discussed um are is
+ 
+
+971
+00:23:57,760 --> 00:24:00,830
+that we have discussed um are is
+actually translate into an architecture
+
+972
+00:24:00,830 --> 00:24:00,840
+actually translate into an architecture
+ 
+
+973
+00:24:00,840 --> 00:24:03,350
+actually translate into an architecture
+so the more complicated the architecture
+
+974
+00:24:03,350 --> 00:24:03,360
+so the more complicated the architecture
+ 
+
+975
+00:24:03,360 --> 00:24:06,630
+so the more complicated the architecture
+uh becomes perhaps the more uh we
+
+976
+00:24:06,630 --> 00:24:06,640
+uh becomes perhaps the more uh we
+ 
+
+977
+00:24:06,640 --> 00:24:09,789
+uh becomes perhaps the more uh we
+increase uh the number of hidden layers
+
+978
+00:24:09,789 --> 00:24:09,799
+increase uh the number of hidden layers
+ 
+
+979
+00:24:09,799 --> 00:24:12,990
+increase uh the number of hidden layers
+or even the number of neurons which are
+
+980
+00:24:12,990 --> 00:24:13,000
+or even the number of neurons which are
+ 
+
+981
+00:24:13,000 --> 00:24:15,909
+or even the number of neurons which are
+uh in each layer then we would expect to
+
+982
+00:24:15,909 --> 00:24:15,919
+uh in each layer then we would expect to
+ 
+
+983
+00:24:15,919 --> 00:24:20,549
+uh in each layer then we would expect to
+see uh an ability to sort of fit more
+
+984
+00:24:20,549 --> 00:24:20,559
+see uh an ability to sort of fit more
+ 
+
+985
+00:24:20,559 --> 00:24:23,830
+see uh an ability to sort of fit more
+challenging Target functions so let's
+
+986
+00:24:23,830 --> 00:24:23,840
+challenging Target functions so let's
+ 
+
+987
+00:24:23,840 --> 00:24:26,470
+challenging Target functions so let's
+play this with uh for for a while let's
+
+988
+00:24:26,470 --> 00:24:26,480
+play this with uh for for a while let's
+ 
+
+989
+00:24:26,480 --> 00:24:28,149
+play this with uh for for a while let's
+leave it leave it running over there and
+
+990
+00:24:28,149 --> 00:24:28,159
+leave it leave it running over there and
+ 
+
+991
+00:24:28,159 --> 00:24:28,909
+leave it leave it running over there and
+then
+
+992
+00:24:28,909 --> 00:24:28,919
+then
+ 
+
+993
+00:24:28,919 --> 00:24:33,029
+then
+if it founds a good um local Minima and
+
+994
+00:24:33,029 --> 00:24:33,039
+if it founds a good um local Minima and
+ 
+
+995
+00:24:33,039 --> 00:24:35,950
+if it founds a good um local Minima and
+we can actually stop the iterations and
+
+996
+00:24:35,950 --> 00:24:35,960
+we can actually stop the iterations and
+ 
+
+997
+00:24:35,960 --> 00:24:39,510
+we can actually stop the iterations and
+present it to you all right now from uh
+
+998
+00:24:39,510 --> 00:24:39,520
+present it to you all right now from uh
+ 
+
+999
+00:24:39,520 --> 00:24:41,909
+present it to you all right now from uh
+actually let it run and then from uh
+
+1000
+00:24:41,909 --> 00:24:41,919
+actually let it run and then from uh
+ 
+
+1001
+00:24:41,919 --> 00:24:43,310
+actually let it run and then from uh
+that kind of perspective I think the
+
+1002
+00:24:43,310 --> 00:24:43,320
+that kind of perspective I think the
+ 
+
+1003
+00:24:43,320 --> 00:24:45,870
+that kind of perspective I think the
+next discussion would actually be to try
+
+1004
+00:24:45,870 --> 00:24:45,880
+next discussion would actually be to try
+ 
+
+1005
+00:24:45,880 --> 00:24:48,789
+next discussion would actually be to try
+to create a mathematical abstraction of
+
+1006
+00:24:48,789 --> 00:24:48,799
+to create a mathematical abstraction of
+ 
+
+1007
+00:24:48,799 --> 00:24:51,950
+to create a mathematical abstraction of
+these um networks that we'll be calling
+
+1008
+00:24:51,950 --> 00:24:51,960
+these um networks that we'll be calling
+ 
+
+1009
+00:24:51,960 --> 00:24:54,029
+these um networks that we'll be calling
+fully connected Network so we need to
+
+1010
+00:24:54,029 --> 00:24:54,039
+fully connected Network so we need to
+ 
+
+1011
+00:24:54,039 --> 00:24:55,430
+fully connected Network so we need to
+understand why we call them fully
+
+1012
+00:24:55,430 --> 00:24:55,440
+understand why we call them fully
+ 
+
+1013
+00:24:55,440 --> 00:24:58,440
+understand why we call them fully
+connected
+

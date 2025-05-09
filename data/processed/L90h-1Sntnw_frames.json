@@ -1,0 +1,5034 @@
+[
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 0,
+    "timestamp_ms": 640,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0000_640.jpg",
+    "frame_hash": "610d4318a5c0db72885b15a106ac9902"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 1,
+    "timestamp_ms": 3830,
+    "subtitle_text": "in this video we now go into the second",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0001_3830.jpg",
+    "frame_hash": "0aa8e60db211c0e55cff9fd471ebd53d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 3,
+    "timestamp_ms": 7510,
+    "subtitle_text": "um sort of method of prediction we will",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0003_7510.jpg",
+    "frame_hash": "2f1afb4f6cf1f1ea03b4451d69c8b23b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 4,
+    "timestamp_ms": 7520,
+    "subtitle_text": "um sort of method of prediction we will address first of all the prediction",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0004_7520.jpg",
+    "frame_hash": "aeab6fc521f88ea74171c11521bd7b2a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 5,
+    "timestamp_ms": 8870,
+    "subtitle_text": "address first of all the prediction",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0005_8870.jpg",
+    "frame_hash": "f63b2d104a3aa8b3093c4fe4a8de0682"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 7,
+    "timestamp_ms": 11350,
+    "subtitle_text": "problem and then the control problem uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0007_11350.jpg",
+    "frame_hash": "a7fdc9f2977ffa479324fcd3d838e339"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 9,
+    "timestamp_ms": 13549,
+    "subtitle_text": "that kind of naturally flows after Monte",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0009_13549.jpg",
+    "frame_hash": "4138bfce5da81ea0036b456fa20ef303"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 10,
+    "timestamp_ms": 13559,
+    "subtitle_text": "that kind of naturally flows after Monte Carlo that is called temporal difference",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0010_13559.jpg",
+    "frame_hash": "b6342cb7228627f91af589264c18320f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 11,
+    "timestamp_ms": 15669,
+    "subtitle_text": "Carlo that is called temporal difference",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0011_15669.jpg",
+    "frame_hash": "fb102cc9eccf84b71bd83038a258e6e9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 13,
+    "timestamp_ms": 18429,
+    "subtitle_text": "and this is kind of an important",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0013_18429.jpg",
+    "frame_hash": "66831135a87b41127af83ce8e9323f8b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 15,
+    "timestamp_ms": 21310,
+    "subtitle_text": "category of of of methods that that I",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0015_21310.jpg",
+    "frame_hash": "3b4c1426691b4b994f98f4f28ec29e2a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 16,
+    "timestamp_ms": 21320,
+    "subtitle_text": "category of of of methods that that I think they are going to at some point",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0016_21320.jpg",
+    "frame_hash": "839cf15b3d60f5f1a7108f4113bb1992"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 17,
+    "timestamp_ms": 23750,
+    "subtitle_text": "think they are going to at some point",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0017_23750.jpg",
+    "frame_hash": "597f39aa36ce2fdabf0de6cfc489d1fb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 19,
+    "timestamp_ms": 26950,
+    "subtitle_text": "merge together uh with other approaches",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0019_26950.jpg",
+    "frame_hash": "65437bb18fbb4709df355495a84f16a1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 21,
+    "timestamp_ms": 29509,
+    "subtitle_text": "we have seen in in in solving if you",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0021_29509.jpg",
+    "frame_hash": "6a30fcd30c853ddcfd8695b16a60193e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 22,
+    "timestamp_ms": 29519,
+    "subtitle_text": "we have seen in in in solving if you like a more elegantly the prediction uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0022_29519.jpg",
+    "frame_hash": "78da8670cbf5da580475304318bf97ff"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 23,
+    "timestamp_ms": 32109,
+    "subtitle_text": "like a more elegantly the prediction uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0023_32109.jpg",
+    "frame_hash": "621ee03b5793ff3e5790f657ae51a0b2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 24,
+    "timestamp_ms": 32119,
+    "subtitle_text": "like a more elegantly the prediction uh the value function prediction problem we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0024_32119.jpg",
+    "frame_hash": "a319036140058b05a070358d45fe71b4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 25,
+    "timestamp_ms": 34950,
+    "subtitle_text": "the value function prediction problem we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0025_34950.jpg",
+    "frame_hash": "38b991af85e9ec57f7a07c1ab2cf91df"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 27,
+    "timestamp_ms": 37950,
+    "subtitle_text": "have seen in the mon car prediction that",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0027_37950.jpg",
+    "frame_hash": "c91e57c026f4d7679d4c010b01fd0dc5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 29,
+    "timestamp_ms": 40150,
+    "subtitle_text": "the mod carand of a value function",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0029_40150.jpg",
+    "frame_hash": "7d9a5697617dc9a9d665fc3732f65d5e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 31,
+    "timestamp_ms": 42910,
+    "subtitle_text": "update is um as",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0031_42910.jpg",
+    "frame_hash": "3b23932885c7f5d2d54b5c66328ec804"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 32,
+    "timestamp_ms": 42920,
+    "subtitle_text": "update is um as follows uh let's say V",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0032_42920.jpg",
+    "frame_hash": "d6a3a1365cb24c4008988749bdd0133c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 33,
+    "timestamp_ms": 47150,
+    "subtitle_text": "follows uh let's say V",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0033_47150.jpg",
+    "frame_hash": "b0656e6bfae32e9ee5f60174c9963f3d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 35,
+    "timestamp_ms": 53430,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0035_53430.jpg",
+    "frame_hash": "c64b3dc240a61634bd7d324cc09c4c5c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 37,
+    "timestamp_ms": 56189,
+    "subtitle_text": "Pi first",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0037_56189.jpg",
+    "frame_hash": "87be97d74882ea7949d9fc10373b5e37"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 39,
+    "timestamp_ms": 60029,
+    "subtitle_text": "T is uh equal",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0039_60029.jpg",
+    "frame_hash": "6f88a162dcdb3b7db3a0336b5f10f611"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 41,
+    "timestamp_ms": 61709,
+    "subtitle_text": "V Pi of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0041_61709.jpg",
+    "frame_hash": "1be9479b2af1c8baf8ef21c34e3b1d31"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 42,
+    "timestamp_ms": 61719,
+    "subtitle_text": "V Pi of S Plus",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0042_61719.jpg",
+    "frame_hash": "658d16c3d904e6ddebdb0a81a2059e9d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 43,
+    "timestamp_ms": 66230,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0043_66230.jpg",
+    "frame_hash": "45adc3c49e674fcb669e0357cfe27fc4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 45,
+    "timestamp_ms": 70630,
+    "subtitle_text": "Alpha the return after this uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0045_70630.jpg",
+    "frame_hash": "2cbd75d3fad3fd12c93c52ac30460a9d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 47,
+    "timestamp_ms": 72670,
+    "subtitle_text": "State",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0047_72670.jpg",
+    "frame_hash": "fd10653dff0e3f4aa46bf630aa9bcb42"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 49,
+    "timestamp_ms": 76109,
+    "subtitle_text": "minus the previous",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0049_76109.jpg",
+    "frame_hash": "dc053840a9610c55c4468c714c181ace"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 50,
+    "timestamp_ms": 76119,
+    "subtitle_text": "minus the previous estimate St okay so this is um what was",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0050_76119.jpg",
+    "frame_hash": "1a7d81b5862e0341cd6e44bae2a1924c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 51,
+    "timestamp_ms": 81590,
+    "subtitle_text": "estimate St okay so this is um what was",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0051_81590.jpg",
+    "frame_hash": "3b55daed6b263eb2998e986e987b375a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 53,
+    "timestamp_ms": 84510,
+    "subtitle_text": "happening in the Monte Carlo approach",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0053_84510.jpg",
+    "frame_hash": "d34ab971d1dc406bef91d06ae57266f1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 54,
+    "timestamp_ms": 84520,
+    "subtitle_text": "happening in the Monte Carlo approach and what we actually uh is happening in",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0054_84520.jpg",
+    "frame_hash": "09efeedd2cb28d25037dc10f2a3a3d5d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 55,
+    "timestamp_ms": 86990,
+    "subtitle_text": "and what we actually uh is happening in",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0055_86990.jpg",
+    "frame_hash": "7b6476754ed73ac17b86b2bb6c542f9b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 57,
+    "timestamp_ms": 89910,
+    "subtitle_text": "the temporal difference is that again of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0057_89910.jpg",
+    "frame_hash": "c263e600b7dd0ab7750960a31db81639"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 58,
+    "timestamp_ms": 89920,
+    "subtitle_text": "the temporal difference is that again of of course this means that we have to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0058_89920.jpg",
+    "frame_hash": "90c5c12ffe21d5aa9d974d3d32bc8923"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 59,
+    "timestamp_ms": 91030,
+    "subtitle_text": "of course this means that we have to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0059_91030.jpg",
+    "frame_hash": "2515f2f78929fa3afdcb84c0221743bb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 61,
+    "timestamp_ms": 94469,
+    "subtitle_text": "wait until the actual realization of the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0061_94469.jpg",
+    "frame_hash": "14843b59e0294d28a7f0b71502f949cd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 63,
+    "timestamp_ms": 97109,
+    "subtitle_text": "episode kind of happens and all and all",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0063_97109.jpg",
+    "frame_hash": "43fb7fa5ca9d68b0e56c866fc134aea1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 64,
+    "timestamp_ms": 97119,
+    "subtitle_text": "episode kind of happens and all and all the experience kind of formulated within",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0064_97119.jpg",
+    "frame_hash": "ecadb37003eda559688da121541a8a87"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 65,
+    "timestamp_ms": 98910,
+    "subtitle_text": "the experience kind of formulated within",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0065_98910.jpg",
+    "frame_hash": "6c14f29c24247e9ef24da72dc87ea746"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 66,
+    "timestamp_ms": 98920,
+    "subtitle_text": "the experience kind of formulated within the episode until we are able to update",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0066_98920.jpg",
+    "frame_hash": "f312d4731531b7dd3cde739336584b61"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 67,
+    "timestamp_ms": 101469,
+    "subtitle_text": "the episode until we are able to update",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0067_101469.jpg",
+    "frame_hash": "338db7846919d467f71ec530155d0631"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 69,
+    "timestamp_ms": 103350,
+    "subtitle_text": "this kind of value function in the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0069_103350.jpg",
+    "frame_hash": "9b397d911ebf1d155443feeafb8574bd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 71,
+    "timestamp_ms": 105709,
+    "subtitle_text": "temporal difference uh what we actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0071_105709.jpg",
+    "frame_hash": "a0bbd45cde1f5cf75ac1574b21074a23"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 72,
+    "timestamp_ms": 105719,
+    "subtitle_text": "temporal difference uh what we actually do is we have another um sort of an",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0072_105719.jpg",
+    "frame_hash": "1c0f65416ae779e6ae683ef2806ddbf0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 73,
+    "timestamp_ms": 109350,
+    "subtitle_text": "do is we have another um sort of an",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0073_109350.jpg",
+    "frame_hash": "35627cc6e3473e85c80ac741caee48eb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 75,
+    "timestamp_ms": 111630,
+    "subtitle_text": "advant what what it turns out to be an",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0075_111630.jpg",
+    "frame_hash": "9a6b9361681bb328e37f4a06e0c5e012"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 77,
+    "timestamp_ms": 113990,
+    "subtitle_text": "advantage is that we don't have to wait",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0077_113990.jpg",
+    "frame_hash": "705596d65099053f6a913213529a9ef5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 79,
+    "timestamp_ms": 117469,
+    "subtitle_text": "until uh the the the episode completes",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0079_117469.jpg",
+    "frame_hash": "7f038dd3277bc82eadd450259988be2c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 81,
+    "timestamp_ms": 121350,
+    "subtitle_text": "and the equation becomes V I of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0081_121350.jpg",
+    "frame_hash": "bdf7fe8c762b3b01e58780335cee997f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 83,
+    "timestamp_ms": 126630,
+    "subtitle_text": "St is equal to V Pi capital V that is of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0083_126630.jpg",
+    "frame_hash": "4666f531963279d934ff0cf6d01267f1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 85,
+    "timestamp_ms": 128910,
+    "subtitle_text": "St",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0085_128910.jpg",
+    "frame_hash": "1b75dcb81518add2977e5059b564a521"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 86,
+    "timestamp_ms": 128920,
+    "subtitle_text": "St minus I'm sorry plus",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0086_128920.jpg",
+    "frame_hash": "397e3539001f82cf3c7fe12e0fce0503"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 87,
+    "timestamp_ms": 132790,
+    "subtitle_text": "minus I'm sorry plus",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0087_132790.jpg",
+    "frame_hash": "168c6e62f02cbc4c5394c75d84ab722d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 89,
+    "timestamp_ms": 138190,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0089_138190.jpg",
+    "frame_hash": "5a9f492424c683eaa643a0ab8371cbc8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 91,
+    "timestamp_ms": 141509,
+    "subtitle_text": "following uh the this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0091_141509.jpg",
+    "frame_hash": "0aefcf3801229317e07ecd1f4ba7a7cd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 92,
+    "timestamp_ms": 141519,
+    "subtitle_text": "following uh the this is RT +",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0092_141519.jpg",
+    "frame_hash": "b37957b0013132dd7b53b83ee54c2cd0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 93,
+    "timestamp_ms": 144630,
+    "subtitle_text": "is RT +",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0093_144630.jpg",
+    "frame_hash": "348535071c356e9f53e7af7b6d1f9ced"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 95,
+    "timestamp_ms": 151309,
+    "subtitle_text": "1 plus gamma V of St + 1",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0095_151309.jpg",
+    "frame_hash": "fd8599be28d8513db17e0ddea5eb8c17"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 96,
+    "timestamp_ms": 151319,
+    "subtitle_text": "1 plus gamma V of St + 1 minus V of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0096_151319.jpg",
+    "frame_hash": "15cf515db4af0df3385f44b688ded504"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 97,
+    "timestamp_ms": 155670,
+    "subtitle_text": "minus V of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0097_155670.jpg",
+    "frame_hash": "a4a6e0b4a4e72a5e77509765e384372f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 99,
+    "timestamp_ms": 157190,
+    "subtitle_text": "s",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0099_157190.jpg",
+    "frame_hash": "4f4a552bbf2e9c32d510cc8ff7aa41a6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 101,
+    "timestamp_ms": 159509,
+    "subtitle_text": "now you know so what is really the big",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0101_159509.jpg",
+    "frame_hash": "4bdc7d159b35ce8e338b5e9b2c854131"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 102,
+    "timestamp_ms": 159519,
+    "subtitle_text": "now you know so what is really the big deal about it uh the you can consider",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0102_159519.jpg",
+    "frame_hash": "f86fde2c2079c533d0f528fd3aebf362"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 103,
+    "timestamp_ms": 162790,
+    "subtitle_text": "deal about it uh the you can consider",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0103_162790.jpg",
+    "frame_hash": "c83f24c26dfef20af87263711fc88e10"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 105,
+    "timestamp_ms": 165270,
+    "subtitle_text": "the temporal difference learning um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0105_165270.jpg",
+    "frame_hash": "3d425a65d4a6df402152f7a0a8000d60"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 107,
+    "timestamp_ms": 167309,
+    "subtitle_text": "approach as kind of some kind of a",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0107_167309.jpg",
+    "frame_hash": "3e63b2bed0b8cfc2a93746df0b19e674"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 108,
+    "timestamp_ms": 167319,
+    "subtitle_text": "approach as kind of some kind of a hybrid between what we have we're doing",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0108_167319.jpg",
+    "frame_hash": "1b9576043628d2147e93bdafc7784ce5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 109,
+    "timestamp_ms": 170030,
+    "subtitle_text": "hybrid between what we have we're doing",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0109_170030.jpg",
+    "frame_hash": "a5f7c0279bd6ec356e41e266d4ca9f34"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 111,
+    "timestamp_ms": 173070,
+    "subtitle_text": "in Mont Carlo and what we are doing in U",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0111_173070.jpg",
+    "frame_hash": "4b629de70e0a8fed559edc8f273f930a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 113,
+    "timestamp_ms": 175550,
+    "subtitle_text": "a dynamic programming and in the dynamic",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0113_175550.jpg",
+    "frame_hash": "50ded9a09afe368c82ef5671581e351c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 115,
+    "timestamp_ms": 178430,
+    "subtitle_text": "programming kind of video we have seen",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0115_178430.jpg",
+    "frame_hash": "b039ab15e7a1d1f58651f251bcdbfda9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 117,
+    "timestamp_ms": 180869,
+    "subtitle_text": "that uh there is boot strapping and here",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0117_180869.jpg",
+    "frame_hash": "d6270994f3ec99833c2799f13afeb5cb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 119,
+    "timestamp_ms": 183309,
+    "subtitle_text": "you see the bootstrapping in front of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0119_183309.jpg",
+    "frame_hash": "f2d2c52ae26ea8ee53be9749efe998c3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 120,
+    "timestamp_ms": 183319,
+    "subtitle_text": "you see the bootstrapping in front of you so we are using the value function",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0120_183319.jpg",
+    "frame_hash": "6cca4ef37839acbc0ad0fc80f79c367b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 121,
+    "timestamp_ms": 186830,
+    "subtitle_text": "you so we are using the value function",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0121_186830.jpg",
+    "frame_hash": "c93a18ecf2ad9ad4ff423524143b7230"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 123,
+    "timestamp_ms": 189990,
+    "subtitle_text": "of the next state and it's estimate if",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0123_189990.jpg",
+    "frame_hash": "ac5b7b8c28584ff15d5b2096eebdbc16"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 125,
+    "timestamp_ms": 193869,
+    "subtitle_text": "you like in order to put strap uh the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0125_193869.jpg",
+    "frame_hash": "da611a15839552b97b04de56a99f254f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 127,
+    "timestamp_ms": 196589,
+    "subtitle_text": "value function of uh the state that we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0127_196589.jpg",
+    "frame_hash": "05d86baefdc8e95baa79577f71bc6c0a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 129,
+    "timestamp_ms": 200670,
+    "subtitle_text": "are interested in and uh and at the same",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0129_200670.jpg",
+    "frame_hash": "a1d6e246c0756e5d598c5303c2679796"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 131,
+    "timestamp_ms": 204710,
+    "subtitle_text": "time um we are effectively uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0131_204710.jpg",
+    "frame_hash": "c94f9af8f4464c5bae20a633d5bd84a0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 132,
+    "timestamp_ms": 204720,
+    "subtitle_text": "time um we are effectively uh maintaining the sort of the Monte Carlo",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0132_204720.jpg",
+    "frame_hash": "cbdebcf76475840488ef1f802b399ac7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 133,
+    "timestamp_ms": 207430,
+    "subtitle_text": "maintaining the sort of the Monte Carlo",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0133_207430.jpg",
+    "frame_hash": "d1e95b51236dc9224989a89e42b380cd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 135,
+    "timestamp_ms": 208869,
+    "subtitle_text": "kind of approach in the sense that we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0135_208869.jpg",
+    "frame_hash": "954387ee9f79ecc676fe29770d03822f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 137,
+    "timestamp_ms": 210670,
+    "subtitle_text": "are still",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0137_210670.jpg",
+    "frame_hash": "0c92d21373af7b01081f1996a95a91e6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 139,
+    "timestamp_ms": 213589,
+    "subtitle_text": "um generating if you like experiences uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0139_213589.jpg",
+    "frame_hash": "d3c7e43980e763a4d75a847f6cb984fc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 141,
+    "timestamp_ms": 216350,
+    "subtitle_text": "that we would like to um sort of uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0141_216350.jpg",
+    "frame_hash": "b95c072c978c4b1ae5f065e0722d5a06"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 143,
+    "timestamp_ms": 219149,
+    "subtitle_text": "consider in that evaluation let me WR",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0143_219149.jpg",
+    "frame_hash": "729e2ccd8e8eae0d3e1c19c1807b30d1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 144,
+    "timestamp_ms": 219159,
+    "subtitle_text": "consider in that evaluation let me WR write this down the so-called One",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0144_219159.jpg",
+    "frame_hash": "813f7cabee623ba5c9f3541b0da98c94"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 145,
+    "timestamp_ms": 225390,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0145_225390.jpg",
+    "frame_hash": "6573df8146bb726a8b9a0a7910375839"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 147,
+    "timestamp_ms": 228030,
+    "subtitle_text": "Step more specifically we'll refer to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0147_228030.jpg",
+    "frame_hash": "3e32b6df4f1498050e9ba46d927e91ab"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 149,
+    "timestamp_ms": 229229,
+    "subtitle_text": "this as",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0149_229229.jpg",
+    "frame_hash": "5de7796e90bdd6103565ae1c3cd232ae"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 151,
+    "timestamp_ms": 235789,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0151_235789.jpg",
+    "frame_hash": "2a8f33e3a31efe3da3bb04332159667f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 153,
+    "timestamp_ms": 242429,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0153_242429.jpg",
+    "frame_hash": "3845ac7fe32b2003e3d754dcfc714337"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 155,
+    "timestamp_ms": 244550,
+    "subtitle_text": "of dynamic",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0155_244550.jpg",
+    "frame_hash": "b9930911fff58c14ec5b3b85b24c53fe"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 157,
+    "timestamp_ms": 253470,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0157_253470.jpg",
+    "frame_hash": "640cef2dcba5cad72603de20c44af8b5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 159,
+    "timestamp_ms": 256030,
+    "subtitle_text": "sampling of Monte",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0159_256030.jpg",
+    "frame_hash": "edb7a88be452624ed642a12ad03122be"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 161,
+    "timestamp_ms": 260110,
+    "subtitle_text": "Carlo to give you a kind of a an example",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0161_260110.jpg",
+    "frame_hash": "2080639d2d724a5863358611a9413c72"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 162,
+    "timestamp_ms": 260120,
+    "subtitle_text": "Carlo to give you a kind of a an example from real life that you can always kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0162_260120.jpg",
+    "frame_hash": "8162738e1dfcab737577d522defd1c13"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 163,
+    "timestamp_ms": 261870,
+    "subtitle_text": "from real life that you can always kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0163_261870.jpg",
+    "frame_hash": "d3ca8279a1021567aee5183e0649cf82"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 165,
+    "timestamp_ms": 265870,
+    "subtitle_text": "of refer to um and kind of map it to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0165_265870.jpg",
+    "frame_hash": "10567eb860890c8d98504de4391612d2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 167,
+    "timestamp_ms": 268350,
+    "subtitle_text": "that kind of equation so let's assume",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0167_268350.jpg",
+    "frame_hash": "d512363bc7690a6fe7b9235d4e3c873f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 169,
+    "timestamp_ms": 272749,
+    "subtitle_text": "that I'm coming from um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0169_272749.jpg",
+    "frame_hash": "06f7443e46012453e4a220c287bd24e4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 170,
+    "timestamp_ms": 272759,
+    "subtitle_text": "that I'm coming from um Brooklyn so let's call",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0170_272759.jpg",
+    "frame_hash": "27040d57ffe63d760e944d17cac7a922"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 171,
+    "timestamp_ms": 276390,
+    "subtitle_text": "Brooklyn so let's call",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0171_276390.jpg",
+    "frame_hash": "adbdceea640c17685bf6fa03e874edcd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 173,
+    "timestamp_ms": 278950,
+    "subtitle_text": "this uh the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0173_278950.jpg",
+    "frame_hash": "bdcf740f8687fd8381fbea4d9327d591"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 175,
+    "timestamp_ms": 284629,
+    "subtitle_text": "um SB the state that I am um in Brooklyn",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0175_284629.jpg",
+    "frame_hash": "8d628b86e514f87b3711789e4deeddf3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 177,
+    "timestamp_ms": 289670,
+    "subtitle_text": "right now and uh at some point I need to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0177_289670.jpg",
+    "frame_hash": "fa6e21ba3f3780e7332ad1fbba98ae12"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 179,
+    "timestamp_ms": 293150,
+    "subtitle_text": "uh go back to uh New Jersey in uh and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0179_293150.jpg",
+    "frame_hash": "5c7b2706ebe6577c17709ae80b8a18dd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 181,
+    "timestamp_ms": 295710,
+    "subtitle_text": "and therefore I have two options either",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0181_295710.jpg",
+    "frame_hash": "18692144eab3390f2a157f0abf18b6f3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 182,
+    "timestamp_ms": 295720,
+    "subtitle_text": "and therefore I have two options either to take an",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0182_295720.jpg",
+    "frame_hash": "94bf62b7c06a4f9f7b33149cb2eed827"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 183,
+    "timestamp_ms": 297629,
+    "subtitle_text": "to take an",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0183_297629.jpg",
+    "frame_hash": "29f69ecdfa5e8b1921c9dd2ef6d8b807"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 185,
+    "timestamp_ms": 300230,
+    "subtitle_text": "action uh to go through the Brooklyn",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0185_300230.jpg",
+    "frame_hash": "100851a03c2f46b3e1b12676b7cc10f3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 187,
+    "timestamp_ms": 303070,
+    "subtitle_text": "Bridge or to take another action and go",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0187_303070.jpg",
+    "frame_hash": "3db6bfe56a56764c34972e0bed3b1acd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 189,
+    "timestamp_ms": 305350,
+    "subtitle_text": "through the Manhattan Bridge so that's",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0189_305350.jpg",
+    "frame_hash": "fd81633662d77eaabffb71ef21ca2a95"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 191,
+    "timestamp_ms": 306710,
+    "subtitle_text": "my",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0191_306710.jpg",
+    "frame_hash": "4fc32670c84be6c5382dc952d61bd028"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 192,
+    "timestamp_ms": 306720,
+    "subtitle_text": "my A1 and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0192_306720.jpg",
+    "frame_hash": "3ca4df5679428f6be222b5ca6437ac62"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 193,
+    "timestamp_ms": 315230,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0193_315230.jpg",
+    "frame_hash": "60b3e692994ed9c6041c90cf1de94481"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 195,
+    "timestamp_ms": 323189,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0195_323189.jpg",
+    "frame_hash": "38f672df38966aab8b1390475e56460a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 197,
+    "timestamp_ms": 325670,
+    "subtitle_text": "Manhattan and let's also now Define two",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0197_325670.jpg",
+    "frame_hash": "ab0e564f062e0e87643b502888c52cee"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 199,
+    "timestamp_ms": 329110,
+    "subtitle_text": "other states the past Brooklyn and the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0199_329110.jpg",
+    "frame_hash": "56c32e923769fc4ca3b10d10b7094606"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 200,
+    "timestamp_ms": 329120,
+    "subtitle_text": "other states the past Brooklyn and the past man cut and Bridge states that I",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0200_329120.jpg",
+    "frame_hash": "7bca47c027022df896e4fbcee13718cb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 201,
+    "timestamp_ms": 331629,
+    "subtitle_text": "past man cut and Bridge states that I",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0201_331629.jpg",
+    "frame_hash": "d20d81cf421119db007e028446ca6310"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 203,
+    "timestamp_ms": 335270,
+    "subtitle_text": "end up after I kind of crossed uh those",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0203_335270.jpg",
+    "frame_hash": "666e679323b5ea7bab7c0e62ff8c92c1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 205,
+    "timestamp_ms": 338749,
+    "subtitle_text": "two Bridges so just like what happens in",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0205_338749.jpg",
+    "frame_hash": "3a369fc106ace31b03d2ddce609ec6ff"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 206,
+    "timestamp_ms": 338759,
+    "subtitle_text": "two Bridges so just like what happens in in kind of real life the moment you go",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0206_338759.jpg",
+    "frame_hash": "e51a440b6cafcd55f614bb29fe663301"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 207,
+    "timestamp_ms": 341870,
+    "subtitle_text": "in kind of real life the moment you go",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0207_341870.jpg",
+    "frame_hash": "e291dd2dc5a316d8e45b914e80266d4b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 209,
+    "timestamp_ms": 344830,
+    "subtitle_text": "through um a kind of a significant kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0209_344830.jpg",
+    "frame_hash": "6f7ba6ced9f827f5935f9083baa3caeb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 211,
+    "timestamp_ms": 347670,
+    "subtitle_text": "of milestone in your commute let's say",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0211_347670.jpg",
+    "frame_hash": "d409b1352b5574e1242670e63ccc9633"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 213,
+    "timestamp_ms": 350430,
+    "subtitle_text": "crossing a very uh too busy kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0213_350430.jpg",
+    "frame_hash": "0cb088d73b88bfc4e882213d8f6e78d1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 215,
+    "timestamp_ms": 352870,
+    "subtitle_text": "landmarks over here uh then you can",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0215_352870.jpg",
+    "frame_hash": "93d5ac8e327484748419c8cc07bfb9da"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 217,
+    "timestamp_ms": 354830,
+    "subtitle_text": "actually update your estimate okay now",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0217_354830.jpg",
+    "frame_hash": "1c3118d8288434040694dfc2e85dc75f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 219,
+    "timestamp_ms": 356270,
+    "subtitle_text": "that I have passed the Brooklyn Bridge",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0219_356270.jpg",
+    "frame_hash": "66cf747eb48c07bfe3c87f3db35c3df9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 221,
+    "timestamp_ms": 358950,
+    "subtitle_text": "now I have another uh you know 40",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0221_358950.jpg",
+    "frame_hash": "3f5c52fab37b5ef77a47efdd6108657f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 223,
+    "timestamp_ms": 361950,
+    "subtitle_text": "minutes to reach my kind of destination",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0223_361950.jpg",
+    "frame_hash": "42b9679445bb380badbe4f5c260f0efa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 225,
+    "timestamp_ms": 366629,
+    "subtitle_text": "then uh that is this value over here uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0225_366629.jpg",
+    "frame_hash": "d6e08f8ccbf746faf777e4b6edc30b7d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 227,
+    "timestamp_ms": 369510,
+    "subtitle_text": "the fact that you uh can now update the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0227_369510.jpg",
+    "frame_hash": "159eefa526034830cb401dbda29f0639"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 228,
+    "timestamp_ms": 369520,
+    "subtitle_text": "the fact that you uh can now update the SB using another guess so we are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0228_369520.jpg",
+    "frame_hash": "4cd257b5fd9cc52127765c826c4221e2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 229,
+    "timestamp_ms": 372390,
+    "subtitle_text": "SB using another guess so we are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0229_372390.jpg",
+    "frame_hash": "a2a568d39375a5b78ccd1c225e57c3f3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 231,
+    "timestamp_ms": 375350,
+    "subtitle_text": "effectively estimating using yet another",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0231_375350.jpg",
+    "frame_hash": "54b55acfc1c80d26757730a181b4b86b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 233,
+    "timestamp_ms": 376990,
+    "subtitle_text": "estimate and this is basically what the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0233_376990.jpg",
+    "frame_hash": "223b76bec0fb52a92672e909b9391125"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 235,
+    "timestamp_ms": 381350,
+    "subtitle_text": "bootstrapping is so the um we kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0235_381350.jpg",
+    "frame_hash": "44eac3d46e998b47c9442b7d05b413ed"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 237,
+    "timestamp_ms": 384150,
+    "subtitle_text": "receive our reward here uh which is this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0237_384150.jpg",
+    "frame_hash": "41975ce50bb2027ebc87c2a26c6bd3e7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 239,
+    "timestamp_ms": 387110,
+    "subtitle_text": "the moment we uh sort of pass we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0239_387110.jpg",
+    "frame_hash": "3735d520129327d66b43a5d36824eeb2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 240,
+    "timestamp_ms": 387120,
+    "subtitle_text": "the moment we uh sort of pass we actually taking this action and we are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0240_387120.jpg",
+    "frame_hash": "664d57e8721c179f1047748ed29dfe67"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 241,
+    "timestamp_ms": 389150,
+    "subtitle_text": "actually taking this action and we are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0241_389150.jpg",
+    "frame_hash": "a46f29f9ed62620551cae7812d01a70d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 243,
+    "timestamp_ms": 391790,
+    "subtitle_text": "uh sort of of uh Landing into these S",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0243_391790.jpg",
+    "frame_hash": "be20749313c43393cfebd17a39cd35eb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 245,
+    "timestamp_ms": 392790,
+    "subtitle_text": "Prime",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0245_392790.jpg",
+    "frame_hash": "718d08ae254f61e93d78e148878621b7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 247,
+    "timestamp_ms": 395909,
+    "subtitle_text": "States and uh we are actually using the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0247_395909.jpg",
+    "frame_hash": "de23f98f9f67fee232f1f25a6631e3b6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 248,
+    "timestamp_ms": 395919,
+    "subtitle_text": "States and uh we are actually using the estimates of these uh States in order",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0248_395919.jpg",
+    "frame_hash": "57f8c9201d72bd4714be395185161b4d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 249,
+    "timestamp_ms": 397950,
+    "subtitle_text": "estimates of these uh States in order",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0249_397950.jpg",
+    "frame_hash": "6f4a62717e3217d481ca7fc290b8f402"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 251,
+    "timestamp_ms": 402270,
+    "subtitle_text": "for for us to uh bootstrap and update in",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0251_402270.jpg",
+    "frame_hash": "dd8cc65a744afa0b45041f1c710eb997"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 253,
+    "timestamp_ms": 405670,
+    "subtitle_text": "uh the estimate of the state again we're",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0253_405670.jpg",
+    "frame_hash": "c0a08dde991b0d433443040a55468da2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 255,
+    "timestamp_ms": 409150,
+    "subtitle_text": "doing uh one step unrolling uh here and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0255_409150.jpg",
+    "frame_hash": "9e3cc20619f707951947d4e2104c0c2f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 257,
+    "timestamp_ms": 412309,
+    "subtitle_text": "this is uh the what a diff temporal",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0257_412309.jpg",
+    "frame_hash": "bc04bddd7840426f495b457609c8fbf8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 258,
+    "timestamp_ms": 412319,
+    "subtitle_text": "this is uh the what a diff temporal difference actually is um so that's um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0258_412319.jpg",
+    "frame_hash": "9104d746a99a4d209c2c2205a73258ea"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 259,
+    "timestamp_ms": 416309,
+    "subtitle_text": "difference actually is um so that's um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0259_416309.jpg",
+    "frame_hash": "8e5a8f388b883f6c95adbf126782c2ca"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 260,
+    "timestamp_ms": 416319,
+    "subtitle_text": "difference actually is um so that's um uh so now I think we should come to the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0260_416319.jpg",
+    "frame_hash": "1880fcf18df442ca736aa4775c02d7e7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 261,
+    "timestamp_ms": 418230,
+    "subtitle_text": "uh so now I think we should come to the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0261_418230.jpg",
+    "frame_hash": "49abf40ddfb41f09c2eb3bfca8bd4d42"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 263,
+    "timestamp_ms": 420710,
+    "subtitle_text": "discussion as to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0263_420710.jpg",
+    "frame_hash": "d26faa8a6a31f823ee564988ea302b92"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 264,
+    "timestamp_ms": 420720,
+    "subtitle_text": "discussion as to um is that temporal difference method um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0264_420720.jpg",
+    "frame_hash": "890c9c54166d805b70d51e0ad77d04b2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 265,
+    "timestamp_ms": 423589,
+    "subtitle_text": "um is that temporal difference method um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0265_423589.jpg",
+    "frame_hash": "eb5c713ef69eca31ae1587a37063042a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 267,
+    "timestamp_ms": 425869,
+    "subtitle_text": "has any other Advantage compared to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0267_425869.jpg",
+    "frame_hash": "f972e93f92247269bebca728fdbaf920"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 269,
+    "timestamp_ms": 428629,
+    "subtitle_text": "Monto Carlo obviously we don't have to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0269_428629.jpg",
+    "frame_hash": "11ba38cba47be55ac13623d2f5103d57"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 271,
+    "timestamp_ms": 431710,
+    "subtitle_text": "wait until the episode ends until uh for",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0271_431710.jpg",
+    "frame_hash": "87d8b930696932926afd42768fa5a81e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 272,
+    "timestamp_ms": 431720,
+    "subtitle_text": "wait until the episode ends until uh for us to update sometimes the episodes are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0272_431720.jpg",
+    "frame_hash": "9914e297080a3f2860e540190f945c58"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 273,
+    "timestamp_ms": 434710,
+    "subtitle_text": "us to update sometimes the episodes are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0273_434710.jpg",
+    "frame_hash": "c0d1bd6f02e51b4b537a9ca3e9feacf2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 274,
+    "timestamp_ms": 434720,
+    "subtitle_text": "us to update sometimes the episodes are so long uh that uh you know the that's",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0274_434720.jpg",
+    "frame_hash": "8191135f5dc982ae4a44aa373714873a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 275,
+    "timestamp_ms": 439270,
+    "subtitle_text": "so long uh that uh you know the that's",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0275_439270.jpg",
+    "frame_hash": "b5aa4d9399b1c583e79555bc5423650e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 277,
+    "timestamp_ms": 441430,
+    "subtitle_text": "kind of a significant Advantage",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0277_441430.jpg",
+    "frame_hash": "79fb102daf0eade8821d3e706f490836"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 279,
+    "timestamp_ms": 442830,
+    "subtitle_text": "effectively making the temporal",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0279_442830.jpg",
+    "frame_hash": "c0cc2e1a8e76ab58153ca09c8c6061aa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 281,
+    "timestamp_ms": 445350,
+    "subtitle_text": "difference method I will call it as part",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0281_445350.jpg",
+    "frame_hash": "933d52a5b4f1b34538bdd39925505f0d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 283,
+    "timestamp_ms": 447790,
+    "subtitle_text": "of what's called online",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0283_447790.jpg",
+    "frame_hash": "d17c1367fab8ce40b22ba0cfae306722"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 285,
+    "timestamp_ms": 450710,
+    "subtitle_text": "learning uh the other uh kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0285_450710.jpg",
+    "frame_hash": "1d9c7063161a81852a835b77b1e10ad1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 286,
+    "timestamp_ms": 450720,
+    "subtitle_text": "learning uh the other uh kind of significant difference is that um it",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0286_450720.jpg",
+    "frame_hash": "5b429f2d76410bfa6e27943417ef9c94"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 287,
+    "timestamp_ms": 453950,
+    "subtitle_text": "significant difference is that um it",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0287_453950.jpg",
+    "frame_hash": "024d1c9052173925dc64ca2b892cc0fa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 289,
+    "timestamp_ms": 459589,
+    "subtitle_text": "turns out that uh they do converge um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0289_459589.jpg",
+    "frame_hash": "e4844266ba2dfeb2dd06bf07945971b8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 291,
+    "timestamp_ms": 463070,
+    "subtitle_text": "into the uh so there's not really uh any",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0291_463070.jpg",
+    "frame_hash": "9484a769cfd5e69c7469d7603e837a1f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 293,
+    "timestamp_ms": 466749,
+    "subtitle_text": "issue of using a guess or an estimate to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0293_466749.jpg",
+    "frame_hash": "3cad3fbe152c8dfde5f705916076caa9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 294,
+    "timestamp_ms": 466759,
+    "subtitle_text": "issue of using a guess or an estimate to bootstrap and update another estimate",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0294_466759.jpg",
+    "frame_hash": "65fd09a8664938aaaf102255d3313c2a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 295,
+    "timestamp_ms": 469629,
+    "subtitle_text": "bootstrap and update another estimate",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0295_469629.jpg",
+    "frame_hash": "65184b4805115af801a59aa072bf2744"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 297,
+    "timestamp_ms": 471070,
+    "subtitle_text": "they it has been shown although we're",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0297_471070.jpg",
+    "frame_hash": "92d2477a96447950b84a278ffbbe3267"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 299,
+    "timestamp_ms": 473110,
+    "subtitle_text": "not going to do the uh you know any",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0299_473110.jpg",
+    "frame_hash": "a77f5cb63b9f5ef66fd96339ad4bae68"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 300,
+    "timestamp_ms": 473120,
+    "subtitle_text": "not going to do the uh you know any detailed discussion here the temporal",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0300_473120.jpg",
+    "frame_hash": "4fa8d0a62045a87e250567d7688eb035"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 301,
+    "timestamp_ms": 475390,
+    "subtitle_text": "detailed discussion here the temporal",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0301_475390.jpg",
+    "frame_hash": "08f916270fbe120044e268888f55ee49"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 303,
+    "timestamp_ms": 478909,
+    "subtitle_text": "difference methods are uh converging and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0303_478909.jpg",
+    "frame_hash": "e96ad2d50c5789b3c82c1a682fbeda3f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 304,
+    "timestamp_ms": 478919,
+    "subtitle_text": "difference methods are uh converging and uh in in fact depending on the setting",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0304_478919.jpg",
+    "frame_hash": "75f466ea92ab8ca236d5dcd94b4611df"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 305,
+    "timestamp_ms": 482230,
+    "subtitle_text": "uh in in fact depending on the setting",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0305_482230.jpg",
+    "frame_hash": "22176187842eb8400ea584be6390d653"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 307,
+    "timestamp_ms": 485230,
+    "subtitle_text": "uh of uh this Alpha over there if it is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0307_485230.jpg",
+    "frame_hash": "87d9c729814bd8f929336cd5bcfebc1e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 309,
+    "timestamp_ms": 488149,
+    "subtitle_text": "kind of a small value it converges and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0309_488149.jpg",
+    "frame_hash": "0afc823f5f60e9389f31e20cf39757c5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 310,
+    "timestamp_ms": 488159,
+    "subtitle_text": "kind of a small value it converges and and everything is fine the one thing",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0310_488159.jpg",
+    "frame_hash": "3e1f36be3368970385113187464bcdf2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 311,
+    "timestamp_ms": 490909,
+    "subtitle_text": "and everything is fine the one thing",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0311_490909.jpg",
+    "frame_hash": "7f641223514041e313be411e7c4729b2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 312,
+    "timestamp_ms": 490919,
+    "subtitle_text": "and everything is fine the one thing that um you can actually see the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0312_490919.jpg",
+    "frame_hash": "f57c024b17c29deb9b84ab272974fb9a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 313,
+    "timestamp_ms": 492749,
+    "subtitle_text": "that um you can actually see the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0313_492749.jpg",
+    "frame_hash": "d28756cc46c7e3d21ed65a7d385ad086"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 314,
+    "timestamp_ms": 492759,
+    "subtitle_text": "that um you can actually see the convergence is by running an example uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0314_492759.jpg",
+    "frame_hash": "66a52564607477825620bbed92d5357c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 315,
+    "timestamp_ms": 495790,
+    "subtitle_text": "convergence is by running an example uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0315_495790.jpg",
+    "frame_hash": "cba1980271d2ea3c3c9fa5a95ce6d68a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 317,
+    "timestamp_ms": 498950,
+    "subtitle_text": "in the previous video we have seen uh an",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0317_498950.jpg",
+    "frame_hash": "103a3c35641f750f42dd62d3eb14bcd2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 319,
+    "timestamp_ms": 503149,
+    "subtitle_text": "a mark of reward process and uh using if",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0319_503149.jpg",
+    "frame_hash": "e93aa68bea989f9b443a5b8a1f4f8878"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 320,
+    "timestamp_ms": 503159,
+    "subtitle_text": "a mark of reward process and uh using if you like two terminal States and I think",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0320_503159.jpg",
+    "frame_hash": "a2efefca8148c7cfc6726afb9a931783"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 321,
+    "timestamp_ms": 505830,
+    "subtitle_text": "you like two terminal States and I think",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0321_505830.jpg",
+    "frame_hash": "aab581b76194a42309d5e2b5cd9526ed"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 323,
+    "timestamp_ms": 508390,
+    "subtitle_text": "it's worthwhile going through uh that",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0323_508390.jpg",
+    "frame_hash": "d831cfb7b71d23d18396bbbe93b857e7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 325,
+    "timestamp_ms": 510749,
+    "subtitle_text": "example with with a temporal difference",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0325_510749.jpg",
+    "frame_hash": "7e75aa8e710daec738f8c6f1a24b1047"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 326,
+    "timestamp_ms": 510759,
+    "subtitle_text": "example with with a temporal difference now and we've seen how the Carlo kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0326_510759.jpg",
+    "frame_hash": "652637aa9769830f8b871d54375b43b4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 327,
+    "timestamp_ms": 513949,
+    "subtitle_text": "now and we've seen how the Carlo kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0327_513949.jpg",
+    "frame_hash": "7500c6f68b6dd7d3ce4aa6e301365da7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 328,
+    "timestamp_ms": 513959,
+    "subtitle_text": "now and we've seen how the Carlo kind of approximates the sort of True Value",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0328_513959.jpg",
+    "frame_hash": "2c79a5906aa2aec2c74bb2aa16374187"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 329,
+    "timestamp_ms": 516750,
+    "subtitle_text": "approximates the sort of True Value",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0329_516750.jpg",
+    "frame_hash": "dc8c841cef2fcffc623e3ac36f59446d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 331,
+    "timestamp_ms": 519589,
+    "subtitle_text": "function and I just want to show",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0331_519589.jpg",
+    "frame_hash": "30ebfb551cfeb7aaa01a1835e985ea25"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 333,
+    "timestamp_ms": 523750,
+    "subtitle_text": "you uh the uh sort of how the Monte",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0333_523750.jpg",
+    "frame_hash": "9e24203c86e29c62c490fd6719fd7f5e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 335,
+    "timestamp_ms": 525350,
+    "subtitle_text": "Carlo and temporal difference methods",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0335_525350.jpg",
+    "frame_hash": "8210ce0e71dfa6236dacc0bbf52bb36a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 337,
+    "timestamp_ms": 526430,
+    "subtitle_text": "now",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0337_526430.jpg",
+    "frame_hash": "54e5bc463b2c7f5e994b125634d01879"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 339,
+    "timestamp_ms": 530070,
+    "subtitle_text": "compare and so this is where the Monte",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0339_530070.jpg",
+    "frame_hash": "df00cd45027bd49d431dbaf24773e915"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 341,
+    "timestamp_ms": 532990,
+    "subtitle_text": "Carlo is depends on the values values of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0341_532990.jpg",
+    "frame_hash": "ecaf6376747bc7e076cf63efdb4feabf"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 343,
+    "timestamp_ms": 537110,
+    "subtitle_text": "alpha because we are effectively um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0343_537110.jpg",
+    "frame_hash": "4004e85947dbe50643d6469450e299f2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 344,
+    "timestamp_ms": 537120,
+    "subtitle_text": "alpha because we are effectively um waiting until the episode uh kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0344_537120.jpg",
+    "frame_hash": "8011a4d567670ffdca144498a96744da"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 345,
+    "timestamp_ms": 539750,
+    "subtitle_text": "waiting until the episode uh kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0345_539750.jpg",
+    "frame_hash": "c54270292ac06dba74378f55af5e3cfa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 347,
+    "timestamp_ms": 542990,
+    "subtitle_text": "finishes uh then we have um a",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0347_542990.jpg",
+    "frame_hash": "3c329d47888770c7fd823b5273bf527c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 349,
+    "timestamp_ms": 545790,
+    "subtitle_text": "significant kind of I will call it",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0349_545790.jpg",
+    "frame_hash": "e44662cf76c3b416f34f5228a961a0b6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 351,
+    "timestamp_ms": 549670,
+    "subtitle_text": "convergence slower convergence okay so",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0351_549670.jpg",
+    "frame_hash": "2b26c126bdc21652b8a98ed10ffc568f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 353,
+    "timestamp_ms": 552509,
+    "subtitle_text": "um as compared to temporal difference",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0353_552509.jpg",
+    "frame_hash": "49e8cd17cd3860c91adb1495aacd6ca9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 354,
+    "timestamp_ms": 552519,
+    "subtitle_text": "um as compared to temporal difference where actually we have uh you know",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0354_552519.jpg",
+    "frame_hash": "05339e71b87041413aa610ad0ccbaa1a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 355,
+    "timestamp_ms": 555750,
+    "subtitle_text": "where actually we have uh you know",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0355_555750.jpg",
+    "frame_hash": "706fe7e7fb32f00fd6c5a6975a358ef6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 357,
+    "timestamp_ms": 558389,
+    "subtitle_text": "definitely faster convergence and you",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0357_558389.jpg",
+    "frame_hash": "b53e83e7768fb13a1f4affe3036d8e48"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 359,
+    "timestamp_ms": 560949,
+    "subtitle_text": "can actually see some Behavior which",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0359_560949.jpg",
+    "frame_hash": "56b6ec7254a0b4ec8859e5416b24d680"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 360,
+    "timestamp_ms": 560959,
+    "subtitle_text": "can actually see some Behavior which kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0360_560959.jpg",
+    "frame_hash": "13ab7901af32583eee45f2dc402782d9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 361,
+    "timestamp_ms": 561790,
+    "subtitle_text": "kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0361_561790.jpg",
+    "frame_hash": "7e5382a4d1c6517ea28bd7fbb64a87f6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 363,
+    "timestamp_ms": 565430,
+    "subtitle_text": "matches uh the stochastic approximation",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0363_565430.jpg",
+    "frame_hash": "dad1f12638b65d08158a2052ba623aa7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 365,
+    "timestamp_ms": 567550,
+    "subtitle_text": "uh type of type of algorith like the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0365_567550.jpg",
+    "frame_hash": "b03cc7b291d01351c674183781f2a0eb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 367,
+    "timestamp_ms": 570110,
+    "subtitle_text": "ones that are uh those",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0367_570110.jpg",
+    "frame_hash": "6b090a3eff983b6884bd7c954b32158e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 368,
+    "timestamp_ms": 570120,
+    "subtitle_text": "ones that are uh those uh where the lower the alpha is then we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0368_570120.jpg",
+    "frame_hash": "ddfb3367b1ec9a71d4a7269c708b71e3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 369,
+    "timestamp_ms": 574430,
+    "subtitle_text": "uh where the lower the alpha is then we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0369_574430.jpg",
+    "frame_hash": "cef60c4bacff7c060d70ec241ca87a8b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 371,
+    "timestamp_ms": 576550,
+    "subtitle_text": "have slower kind of convergence but then",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0371_576550.jpg",
+    "frame_hash": "5ddd4bf3d5204f4a8d877fc83370d614"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 373,
+    "timestamp_ms": 579310,
+    "subtitle_text": "the residual kind of error that we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0373_579310.jpg",
+    "frame_hash": "e74ecd6ed2c909d964ba3083b409d78d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 374,
+    "timestamp_ms": 579320,
+    "subtitle_text": "the residual kind of error that we actually get in terms of U root Min",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0374_579320.jpg",
+    "frame_hash": "e90e249a78b7b7cb4c31339e329bd67d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 375,
+    "timestamp_ms": 583069,
+    "subtitle_text": "actually get in terms of U root Min",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0375_583069.jpg",
+    "frame_hash": "3e2ff702e257f4f2c540c9fe76edb165"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 377,
+    "timestamp_ms": 584630,
+    "subtitle_text": "square error that is between the true",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0377_584630.jpg",
+    "frame_hash": "b7438472863e7de4e230b5f74e03a863"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 379,
+    "timestamp_ms": 586949,
+    "subtitle_text": "function and the estimated value",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0379_586949.jpg",
+    "frame_hash": "d2e3de08b8cfc97a8f995695e0251cec"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 380,
+    "timestamp_ms": 586959,
+    "subtitle_text": "function and the estimated value function is lower than perhaps",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0380_586959.jpg",
+    "frame_hash": "1dc6429bb4dc1dd2adf82a54913d6171"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 381,
+    "timestamp_ms": 589230,
+    "subtitle_text": "function is lower than perhaps",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0381_589230.jpg",
+    "frame_hash": "12c064b104ccca49ed047de0876ff47a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 383,
+    "timestamp_ms": 592190,
+    "subtitle_text": "converging faster um and that's kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0383_592190.jpg",
+    "frame_hash": "989f1ddddc38a2b7d7ba1c182f8d9505"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 385,
+    "timestamp_ms": 594350,
+    "subtitle_text": "a classic Behavior with a good radios",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0385_594350.jpg",
+    "frame_hash": "673d423e50a7073798b4f9f0f7db7705"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 387,
+    "timestamp_ms": 596470,
+    "subtitle_text": "but bottom line is a temporal difference",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0387_596470.jpg",
+    "frame_hash": "9be9eec68aed7d41513f5e8f473c5010"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 389,
+    "timestamp_ms": 599430,
+    "subtitle_text": "seems to be performing uh better than",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0389_599430.jpg",
+    "frame_hash": "6c4edfd61fb6c96b5da6ce50988fb695"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 391,
+    "timestamp_ms": 602350,
+    "subtitle_text": "Monte Carlo methods before proceeding",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0391_602350.jpg",
+    "frame_hash": "a6b52c952eddfac55bd93f063b28fc50"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 393,
+    "timestamp_ms": 604670,
+    "subtitle_text": "into closing this soall prediction",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0393_604670.jpg",
+    "frame_hash": "6fdf5d610095f237fc56e795b88d65c3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 395,
+    "timestamp_ms": 606590,
+    "subtitle_text": "problem with temporal difference",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0395_606590.jpg",
+    "frame_hash": "f8e9c6f5bcd313a31fd8dbed104dfb65"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 397,
+    "timestamp_ms": 609670,
+    "subtitle_text": "learning methods I think it's worthwhile",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0397_609670.jpg",
+    "frame_hash": "1411438d35a17e46e12e17d6631ed8bb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 399,
+    "timestamp_ms": 612269,
+    "subtitle_text": "addressing an enhancement which kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0399_612269.jpg",
+    "frame_hash": "c94dea3fca8769d61c16843d7e8fdc0c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 401,
+    "timestamp_ms": 614190,
+    "subtitle_text": "brides the gap between what we've seen",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0401_614190.jpg",
+    "frame_hash": "663233f527dce2e8b87cd1c7a33a29bb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 403,
+    "timestamp_ms": 617470,
+    "subtitle_text": "in Monte Carlo and the singl step",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0403_617470.jpg",
+    "frame_hash": "f21ceeb4357b0aaa972fb3c2022c0d0c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 405,
+    "timestamp_ms": 619069,
+    "subtitle_text": "temporal difference learning that we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0405_619069.jpg",
+    "frame_hash": "fd8905f660e101dbe45ece23a23c7e57"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 407,
+    "timestamp_ms": 622190,
+    "subtitle_text": "just saw and this actually called TD of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0407_622190.jpg",
+    "frame_hash": "afe019dbf43808062b0d83c330207e89"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 409,
+    "timestamp_ms": 624590,
+    "subtitle_text": "Lambda it's uh kind of known for for",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0409_624590.jpg",
+    "frame_hash": "1c1003b1271e74a6dcc1c25ab21aa16c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 411,
+    "timestamp_ms": 626750,
+    "subtitle_text": "with this notation uh and we'll see",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0411_626750.jpg",
+    "frame_hash": "d1662127053cbf0e560ce6923a063845"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 413,
+    "timestamp_ms": 628870,
+    "subtitle_text": "exactly what Lambda is in a moment but",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0413_628870.jpg",
+    "frame_hash": "8fc77de57efcf1f5ef3c4c7b8143c8b9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 415,
+    "timestamp_ms": 630910,
+    "subtitle_text": "the main advantage of this enhancement",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0415_630910.jpg",
+    "frame_hash": "4c8893df8366d089c565fdc18d5a3fc6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 416,
+    "timestamp_ms": 630920,
+    "subtitle_text": "the main advantage of this enhancement is that it",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0416_630920.jpg",
+    "frame_hash": "dbed44905aea87bfae2828741093c01c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 417,
+    "timestamp_ms": 631910,
+    "subtitle_text": "is that it",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0417_631910.jpg",
+    "frame_hash": "1e8115f4534c9b1c4ed2f9264f0433e1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 418,
+    "timestamp_ms": 631920,
+    "subtitle_text": "is that it decouples uh the uh sort of action um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0418_631920.jpg",
+    "frame_hash": "b8c2f713f8f83720abe2d8643a231e96"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 419,
+    "timestamp_ms": 636829,
+    "subtitle_text": "decouples uh the uh sort of action um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0419_636829.jpg",
+    "frame_hash": "19afd230c2c0d4d7518e29219dbe2f3b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 421,
+    "timestamp_ms": 640350,
+    "subtitle_text": "actions from uh value updates so the you",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0421_640350.jpg",
+    "frame_hash": "874c1303f907db0aaaae98bdde066185"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 423,
+    "timestamp_ms": 643470,
+    "subtitle_text": "know in the single step process we are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0423_643470.jpg",
+    "frame_hash": "85edab4ba68d44ea33ab766f4ac02af7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 425,
+    "timestamp_ms": 647470,
+    "subtitle_text": "taking an action at every uh time step",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0425_647470.jpg",
+    "frame_hash": "b0d42ab3e9f3ee15667c4e3525030ebd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 427,
+    "timestamp_ms": 651110,
+    "subtitle_text": "and also we are updating the value uh at",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0427_651110.jpg",
+    "frame_hash": "df801f289140fc04cfa63e44c89ede36"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 428,
+    "timestamp_ms": 651120,
+    "subtitle_text": "and also we are updating the value uh at every time step and this does not really",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0428_651120.jpg",
+    "frame_hash": "ea2931a00b4c706d35ccc1cd6f3a86ba"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 429,
+    "timestamp_ms": 653509,
+    "subtitle_text": "every time step and this does not really",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0429_653509.jpg",
+    "frame_hash": "91ca96aaa65fdd36401a8581dc60f3c7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 430,
+    "timestamp_ms": 653519,
+    "subtitle_text": "every time step and this does not really make a necessarily the best it is not",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0430_653519.jpg",
+    "frame_hash": "4112ec2e2f2d023a06e216a99c736d8a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 431,
+    "timestamp_ms": 656389,
+    "subtitle_text": "make a necessarily the best it is not",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0431_656389.jpg",
+    "frame_hash": "c40e8540d1f73463c21d44c6b15137a7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 433,
+    "timestamp_ms": 658190,
+    "subtitle_text": "necessarily the best choice we actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0433_658190.jpg",
+    "frame_hash": "4964c53936f86c463cb5cf962bf56afe"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 435,
+    "timestamp_ms": 660870,
+    "subtitle_text": "you may well prefer to keep uh the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0435_660870.jpg",
+    "frame_hash": "2c55027a4a400752a336e91287095845"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 437,
+    "timestamp_ms": 662790,
+    "subtitle_text": "actions coming in as frequently as",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0437_662790.jpg",
+    "frame_hash": "418d5c13b98954c4ef67c8a5b11df283"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 439,
+    "timestamp_ms": 666150,
+    "subtitle_text": "possible but at the same time to uh only",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0439_666150.jpg",
+    "frame_hash": "b50b5e4e0af87ce0d5b0dd38d7c69f08"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 441,
+    "timestamp_ms": 668350,
+    "subtitle_text": "update States when there are significant",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0441_668350.jpg",
+    "frame_hash": "caba17ef720cec7c84a92d3c2aa2e183"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 443,
+    "timestamp_ms": 670750,
+    "subtitle_text": "updates that taking place and not every",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0443_670750.jpg",
+    "frame_hash": "f7079255d28563cc23b79b5402f35fc8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 445,
+    "timestamp_ms": 672310,
+    "subtitle_text": "time",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0445_672310.jpg",
+    "frame_hash": "fb02e7aa1779dd3eb52c5d209e29f742"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 446,
+    "timestamp_ms": 672320,
+    "subtitle_text": "time step one small correction I wanted to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0446_672320.jpg",
+    "frame_hash": "3a50ceb01a9f8705da24a4d0985a479d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 447,
+    "timestamp_ms": 675190,
+    "subtitle_text": "step one small correction I wanted to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0447_675190.jpg",
+    "frame_hash": "305f584aeb7e3d557c73e5211f89f4c1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 449,
+    "timestamp_ms": 679150,
+    "subtitle_text": "post on the formula of the return the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0449_679150.jpg",
+    "frame_hash": "5c1f178923971742a983fba449718aa8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 451,
+    "timestamp_ms": 681710,
+    "subtitle_text": "right formula is actually this one and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0451_681710.jpg",
+    "frame_hash": "42af8456927ba0b68917cb36c84294d0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 452,
+    "timestamp_ms": 681720,
+    "subtitle_text": "right formula is actually this one and uh this correction was needed because",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0452_681720.jpg",
+    "frame_hash": "2df51c14eaf862c861cc8dfd6c748b27"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 453,
+    "timestamp_ms": 684110,
+    "subtitle_text": "uh this correction was needed because",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0453_684110.jpg",
+    "frame_hash": "a2fa0aff41e7bdcb9854d4f4edb8d189"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 454,
+    "timestamp_ms": 684120,
+    "subtitle_text": "uh this correction was needed because when we went to episodic experiences",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0454_684120.jpg",
+    "frame_hash": "ac56c078f04b99ef19b44b003626cedc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 455,
+    "timestamp_ms": 687590,
+    "subtitle_text": "when we went to episodic experiences",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0455_687590.jpg",
+    "frame_hash": "1547a22178faac63f88208b1fb598450"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 457,
+    "timestamp_ms": 690190,
+    "subtitle_text": "later on in reinforcement learning",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0457_690190.jpg",
+    "frame_hash": "6d3984f2d2060c03939399b1d896a3fa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 459,
+    "timestamp_ms": 692190,
+    "subtitle_text": "uh we uh kind of discovered that this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0459_692190.jpg",
+    "frame_hash": "2d1e8f412e48b75b1addab7b6effcb3e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 461,
+    "timestamp_ms": 694389,
+    "subtitle_text": "was an incorrect formula so there was a",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0461_694389.jpg",
+    "frame_hash": "7007287cc6c570bd8c442f936115dba2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 463,
+    "timestamp_ms": 696990,
+    "subtitle_text": "couple of typos here uh so that's the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0463_696990.jpg",
+    "frame_hash": "51f9f439a2f548f0e79b409e2d6584f1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 465,
+    "timestamp_ms": 699350,
+    "subtitle_text": "right one so I'm going to post that uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0465_699350.jpg",
+    "frame_hash": "a0397f5cd21b06019fbe655427cfab9d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 467,
+    "timestamp_ms": 703629,
+    "subtitle_text": "on the MTP uh section uh and we have not",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0467_703629.jpg",
+    "frame_hash": "db35d1e7900c636a1c1f4679de69bcf5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 469,
+    "timestamp_ms": 705710,
+    "subtitle_text": "really used explicitly this form of that",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0469_705710.jpg",
+    "frame_hash": "1ac695c182265cd6225355f7d47bbec9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 470,
+    "timestamp_ms": 705720,
+    "subtitle_text": "really used explicitly this form of that formula anyway in a subsequent kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0470_705720.jpg",
+    "frame_hash": "37797af2032b1f644c7e09123dcbecc0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 471,
+    "timestamp_ms": 708550,
+    "subtitle_text": "formula anyway in a subsequent kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0471_708550.jpg",
+    "frame_hash": "b9730fc6d433499e7385181321fbbabc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 473,
+    "timestamp_ms": 711629,
+    "subtitle_text": "discussion so I think we should be okay",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0473_711629.jpg",
+    "frame_hash": "ce8e8fe8a49aeec3e81253d11fb8afa0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 475,
+    "timestamp_ms": 713750,
+    "subtitle_text": "and this is another uh place where we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0475_713750.jpg",
+    "frame_hash": "8ec59fb020b8159b46770d80fc5e6e15"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 477,
+    "timestamp_ms": 716030,
+    "subtitle_text": "have actually had a couple of typos on",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0477_716030.jpg",
+    "frame_hash": "4d5f1c9dc9a879347da2e179aa950f08"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 479,
+    "timestamp_ms": 719550,
+    "subtitle_text": "the return uh now when we have an",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0479_719550.jpg",
+    "frame_hash": "107b1f21738f49cf4ca2960c2fb1454b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 481,
+    "timestamp_ms": 722670,
+    "subtitle_text": "episode capital T of duration capital T",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0481_722670.jpg",
+    "frame_hash": "9f4026d46fe2e9f28705b6b2dbdcd53a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 483,
+    "timestamp_ms": 724790,
+    "subtitle_text": "and uh we are effectively calculating",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0483_724790.jpg",
+    "frame_hash": "1fed155b3ee7d787e774fc50204f5cd3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 485,
+    "timestamp_ms": 727990,
+    "subtitle_text": "the return starting from uh when we are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0485_727990.jpg",
+    "frame_hash": "bf09cd65b45c8d901ab8dddf31ef492b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 487,
+    "timestamp_ms": 731509,
+    "subtitle_text": "at State at time step t Okay so that's",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0487_731509.jpg",
+    "frame_hash": "f5777260dffa868238f195cca4015c33"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 488,
+    "timestamp_ms": 731519,
+    "subtitle_text": "at State at time step t Okay so that's uh that's the second uh type over there",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0488_731519.jpg",
+    "frame_hash": "ae2b27bf7d3d32803f6b494b036a01aa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 489,
+    "timestamp_ms": 733710,
+    "subtitle_text": "uh that's the second uh type over there",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0489_733710.jpg",
+    "frame_hash": "f453e0773c629ac2a2a157a2a5f3e552"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 490,
+    "timestamp_ms": 733720,
+    "subtitle_text": "uh that's the second uh type over there that we uh need to be aware of and this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0490_733720.jpg",
+    "frame_hash": "1c88325e07874cf596c991525df8d99f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 491,
+    "timestamp_ms": 735949,
+    "subtitle_text": "that we uh need to be aware of and this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0491_735949.jpg",
+    "frame_hash": "9fb8f070b6079ca13be1170d76f6600f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 492,
+    "timestamp_ms": 735959,
+    "subtitle_text": "that we uh need to be aware of and this one will actually uh carry over uh when",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0492_735959.jpg",
+    "frame_hash": "48c116286455cdcd848efaa45754e928"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 493,
+    "timestamp_ms": 738670,
+    "subtitle_text": "one will actually uh carry over uh when",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0493_738670.jpg",
+    "frame_hash": "0b2517f1d99c2ba3e08c587d43e59851"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 495,
+    "timestamp_ms": 742790,
+    "subtitle_text": "we're discussing uh now the uh returns",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0495_742790.jpg",
+    "frame_hash": "cc956883dd3a3afda3ae9bc609aad094"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 497,
+    "timestamp_ms": 745430,
+    "subtitle_text": "uh for uh multiple steps multiple step",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0497_745430.jpg",
+    "frame_hash": "d944f921837b3af67494b3d3ddc4dd78"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 499,
+    "timestamp_ms": 747470,
+    "subtitle_text": "time diff uh different temporal",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0499_747470.jpg",
+    "frame_hash": "5567b536537a42493f01b6597199723b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 501,
+    "timestamp_ms": 750150,
+    "subtitle_text": "difference uh methods",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0501_750150.jpg",
+    "frame_hash": "a3a41c071190711a0ffe8572fd2b75d0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 503,
+    "timestamp_ms": 755110,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0503_755110.jpg",
+    "frame_hash": "527a925b874534322431c2bbc5a86246"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 504,
+    "timestamp_ms": 755120,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0504_755120.jpg",
+    "frame_hash": "bb85525f0f203c2103edc02d6b5d2009"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 505,
+    "timestamp_ms": 757949,
+    "subtitle_text": "steps our return actually will be uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0505_757949.jpg",
+    "frame_hash": "afbd83c63f2dc8ca0f150966415615f6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 506,
+    "timestamp_ms": 757959,
+    "subtitle_text": "steps our return actually will be uh written as GT let me write it as uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0506_757959.jpg",
+    "frame_hash": "83a2234ad20660781c2b61a88dc2c809"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 507,
+    "timestamp_ms": 761150,
+    "subtitle_text": "written as GT let me write it as uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0507_761150.jpg",
+    "frame_hash": "4322687a0df1a8827c0666498f3a67c6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 509,
+    "timestamp_ms": 765550,
+    "subtitle_text": "after end steps it will be RT + 1+ GMA",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0509_765550.jpg",
+    "frame_hash": "49f47f0ec3fec7b671e35b4b6c0d5bb5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 511,
+    "timestamp_ms": 771670,
+    "subtitle_text": "RT + 2 plus dot dot dot plus gamma to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0511_771670.jpg",
+    "frame_hash": "8e85deff7e5abb86cf343369cd68ad6b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 513,
+    "timestamp_ms": 775430,
+    "subtitle_text": "the power of n minus1 r of t +",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0513_775430.jpg",
+    "frame_hash": "6623e305a83f28f4f42ffb27e1d581b0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 515,
+    "timestamp_ms": 780910,
+    "subtitle_text": "n plus gamma n",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0515_780910.jpg",
+    "frame_hash": "0cd1db221b386f062f9a068bc475b736"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 516,
+    "timestamp_ms": 780920,
+    "subtitle_text": "n plus gamma n v s of t plus n so I actually wrote also",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0516_780920.jpg",
+    "frame_hash": "e90f200168f864cb00e5cc127e004f02"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 517,
+    "timestamp_ms": 785910,
+    "subtitle_text": "v s of t plus n so I actually wrote also",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0517_785910.jpg",
+    "frame_hash": "c736ed8fc76076a194b290f77e70e55a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 518,
+    "timestamp_ms": 785920,
+    "subtitle_text": "v s of t plus n so I actually wrote also uh and then I kind of recorded uh some",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0518_785920.jpg",
+    "frame_hash": "4e427d6f867345d6c060ee6c3af3b3ea"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 519,
+    "timestamp_ms": 789910,
+    "subtitle_text": "uh and then I kind of recorded uh some",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0519_789910.jpg",
+    "frame_hash": "ab012c6f307f88c3a7e9d46f44ce322a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 520,
+    "timestamp_ms": 789920,
+    "subtitle_text": "uh and then I kind of recorded uh some other um equation this equation is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0520_789920.jpg",
+    "frame_hash": "62498b29d162f6d1bc95aef77ffdbbcf"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 521,
+    "timestamp_ms": 792710,
+    "subtitle_text": "other um equation this equation is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0521_792710.jpg",
+    "frame_hash": "0e55fc6879dcdcb0caee23710a82e392"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 522,
+    "timestamp_ms": 792720,
+    "subtitle_text": "other um equation this equation is effectively the one that kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0522_792720.jpg",
+    "frame_hash": "d91e7599979da1b4cd086086cd88c19e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 523,
+    "timestamp_ms": 794230,
+    "subtitle_text": "effectively the one that kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0523_794230.jpg",
+    "frame_hash": "0999471146c60ae3234a8ad0d200a26a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 525,
+    "timestamp_ms": 797230,
+    "subtitle_text": "summarizes how we will actually be using",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0525_797230.jpg",
+    "frame_hash": "84f8e6b711e7fce5d3c32489403c5ff0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 527,
+    "timestamp_ms": 801350,
+    "subtitle_text": "the endstep return uh in the updated",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0527_801350.jpg",
+    "frame_hash": "f535ae412742576e63bb8f99dd8916fa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 529,
+    "timestamp_ms": 805629,
+    "subtitle_text": "equation for um the the N step uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0529_805629.jpg",
+    "frame_hash": "5b7dcbf59594f9505ea9f881986db09d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 531,
+    "timestamp_ms": 807870,
+    "subtitle_text": "temporal difference method and as you",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0531_807870.jpg",
+    "frame_hash": "aa3ca8f4f5d4771a983f1c5eaf23637d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 533,
+    "timestamp_ms": 809269,
+    "subtitle_text": "can see the only thing that actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0533_809269.jpg",
+    "frame_hash": "5bf91a222a61d2fe593bb7a267dc38e0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 535,
+    "timestamp_ms": 812670,
+    "subtitle_text": "changes over here is that uh instead of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0535_812670.jpg",
+    "frame_hash": "f8821340385baea20c3d04d10b5ffae6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 537,
+    "timestamp_ms": 815870,
+    "subtitle_text": "having this uh term which is actually we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0537_815870.jpg",
+    "frame_hash": "a1b9d0e9831e9e5593794af4fedba73f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 539,
+    "timestamp_ms": 820870,
+    "subtitle_text": "call TD Target uh we have the end uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0539_820870.jpg",
+    "frame_hash": "f55c2d903911c343d6647286c00e6d56"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 541,
+    "timestamp_ms": 823710,
+    "subtitle_text": "return the endep return in its place so",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0541_823710.jpg",
+    "frame_hash": "a46e6af1d3eb58b2035997d8992ee7e5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 542,
+    "timestamp_ms": 823720,
+    "subtitle_text": "return the endep return in its place so the endstep return in its place for n is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0542_823720.jpg",
+    "frame_hash": "3d5f98212a3a8c27976001a82d0c51a1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 543,
+    "timestamp_ms": 825710,
+    "subtitle_text": "the endstep return in its place for n is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0543_825710.jpg",
+    "frame_hash": "35ccf79b005b872c418e04f236e20262"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 544,
+    "timestamp_ms": 825720,
+    "subtitle_text": "the endstep return in its place for n is equal to 1 effectively it is the RT + 1",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0544_825720.jpg",
+    "frame_hash": "5a16a3c0b05f15b93f7aba81c3c8bcd5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 545,
+    "timestamp_ms": 830269,
+    "subtitle_text": "equal to 1 effectively it is the RT + 1",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0545_830269.jpg",
+    "frame_hash": "24df476766d23ab631d788942d59b7d3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 547,
+    "timestamp_ms": 834710,
+    "subtitle_text": "+ gamma V St + 1 so we are back into the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0547_834710.jpg",
+    "frame_hash": "7c0d30f3428313684d1df6d14d2b1844"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 548,
+    "timestamp_ms": 834720,
+    "subtitle_text": "+ gamma V St + 1 so we are back into the TD uh zero as we'll call it we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0548_834720.jpg",
+    "frame_hash": "a004e3366dee73844c247c33fe88c116"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 549,
+    "timestamp_ms": 837110,
+    "subtitle_text": "TD uh zero as we'll call it we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0549_837110.jpg",
+    "frame_hash": "66b38e5f48e05cdbeba9580d2cf54131"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 550,
+    "timestamp_ms": 837120,
+    "subtitle_text": "TD uh zero as we'll call it we understand exactly why the zero the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0550_837120.jpg",
+    "frame_hash": "64a4ad515959c48324e769eff4ca9059"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 551,
+    "timestamp_ms": 839269,
+    "subtitle_text": "understand exactly why the zero the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0551_839269.jpg",
+    "frame_hash": "20ecb2e2857d79199e3b1471ee0b8286"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 553,
+    "timestamp_ms": 841150,
+    "subtitle_text": "Lambda is equal Z corresponds to this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0553_841150.jpg",
+    "frame_hash": "20b485cabc6e1d114ae55283a95ca4d2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 555,
+    "timestamp_ms": 845350,
+    "subtitle_text": "case U and uh and that's basically the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0555_845350.jpg",
+    "frame_hash": "0de2565822655e35a4d6c272da128cc3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 557,
+    "timestamp_ms": 848350,
+    "subtitle_text": "uh sort of the the the end result of the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0557_848350.jpg",
+    "frame_hash": "8f236362072193f6fa9795230d7fca2b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 559,
+    "timestamp_ms": 851790,
+    "subtitle_text": "endep return so now we can actually uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0559_851790.jpg",
+    "frame_hash": "4b390f364d17d502c3915dc65b8c55fb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 561,
+    "timestamp_ms": 855310,
+    "subtitle_text": "decouple uh the um estimate of the value",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0561_855310.jpg",
+    "frame_hash": "43c36bcf2c8df7d7879a038e07c3f805"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 562,
+    "timestamp_ms": 855320,
+    "subtitle_text": "decouple uh the um estimate of the value function and the bootstrapping actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0562_855320.jpg",
+    "frame_hash": "1fbb56c9365f81e9e3dcde7d3a99b7b1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 563,
+    "timestamp_ms": 857509,
+    "subtitle_text": "function and the bootstrapping actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0563_857509.jpg",
+    "frame_hash": "33fcbd6a8222ab0c81631cf28ba92edb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 564,
+    "timestamp_ms": 857519,
+    "subtitle_text": "function and the bootstrapping actually we do over there uh for and and the um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0564_857519.jpg",
+    "frame_hash": "6d28caca6b94f637c6e3cf710937297e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 565,
+    "timestamp_ms": 861829,
+    "subtitle_text": "we do over there uh for and and the um",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0565_861829.jpg",
+    "frame_hash": "ac0c18192e341ac55635903606a1884a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 567,
+    "timestamp_ms": 864310,
+    "subtitle_text": "and and and the sort of action that we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0567_864310.jpg",
+    "frame_hash": "076acc6dcfc535cc2f59865cf7e934db"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 568,
+    "timestamp_ms": 864320,
+    "subtitle_text": "and and and the sort of action that we are taking so we can continue take the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0568_864320.jpg",
+    "frame_hash": "c1ccb364501d143256f170cdb5266d7b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 569,
+    "timestamp_ms": 866150,
+    "subtitle_text": "are taking so we can continue take the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0569_866150.jpg",
+    "frame_hash": "d7b98e6731ea7170b2120413ab1f275e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 571,
+    "timestamp_ms": 869509,
+    "subtitle_text": "actions at every step and uh uh while we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0571_869509.jpg",
+    "frame_hash": "8844537daf605613430073f9b4f58d47"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 572,
+    "timestamp_ms": 869519,
+    "subtitle_text": "actions at every step and uh uh while we will be updating after end steps uh the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0572_869519.jpg",
+    "frame_hash": "6eb53cd5457b041f8e27483e6c286d92"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 573,
+    "timestamp_ms": 872550,
+    "subtitle_text": "will be updating after end steps uh the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0573_872550.jpg",
+    "frame_hash": "9121baae6207067469ef1cfeddb7be18"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 575,
+    "timestamp_ms": 874550,
+    "subtitle_text": "value function okay so that's basically",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0575_874550.jpg",
+    "frame_hash": "e60690c2757d83c0f8640ee6a9b13544"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 577,
+    "timestamp_ms": 876949,
+    "subtitle_text": "that equation allows us to do so now out",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0577_876949.jpg",
+    "frame_hash": "97a0edb27238fdbd478297f61a21416c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 578,
+    "timestamp_ms": 876959,
+    "subtitle_text": "that equation allows us to do so now out of some uh studies which are not going",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0578_876959.jpg",
+    "frame_hash": "dfae174125dad1bd17ce861e06c8718d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 579,
+    "timestamp_ms": 880230,
+    "subtitle_text": "of some uh studies which are not going",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0579_880230.jpg",
+    "frame_hash": "f58ac8cb9ff5aeaa38aa78acbcef9b04"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 581,
+    "timestamp_ms": 882990,
+    "subtitle_text": "to be presented here uh but they are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0581_882990.jpg",
+    "frame_hash": "c3b2605accc983d6474a0f72edab97b8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 583,
+    "timestamp_ms": 886110,
+    "subtitle_text": "definitely included in the uh Saturn's",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0583_886110.jpg",
+    "frame_hash": "a010ef6100bb7a5aabb2d941425ba398"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 584,
+    "timestamp_ms": 886120,
+    "subtitle_text": "definitely included in the uh Saturn's book for those who are interested to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0584_886120.jpg",
+    "frame_hash": "167935ef8216896f3b1b821a242fca2c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 585,
+    "timestamp_ms": 887790,
+    "subtitle_text": "book for those who are interested to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0585_887790.jpg",
+    "frame_hash": "28fd415ce01302d6b7f3b10329178ba8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 587,
+    "timestamp_ms": 890749,
+    "subtitle_text": "Deep dive a bit uh further they have",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0587_890749.jpg",
+    "frame_hash": "1ec15e7c8331d8543cae4876dabffb64"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 588,
+    "timestamp_ms": 890759,
+    "subtitle_text": "Deep dive a bit uh further they have shown that the way that the um end step",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0588_890759.jpg",
+    "frame_hash": "1635b77804094b1ef334899ec4977325"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 589,
+    "timestamp_ms": 894269,
+    "subtitle_text": "shown that the way that the um end step",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0589_894269.jpg",
+    "frame_hash": "82d6da81d1dfa55719e1d465347bf9dc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 591,
+    "timestamp_ms": 896069,
+    "subtitle_text": "what is really the best end to choose",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0591_896069.jpg",
+    "frame_hash": "78eeb82742a3d3430313fd42eddc4a9f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 593,
+    "timestamp_ms": 897910,
+    "subtitle_text": "okay so it's basically uh is it the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0593_897910.jpg",
+    "frame_hash": "fa14ab99c2d5c01663df9671443c7309"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 594,
+    "timestamp_ms": 897920,
+    "subtitle_text": "okay so it's basically uh is it the hyper parameter how we are actually go",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0594_897920.jpg",
+    "frame_hash": "fb99a698750f88bf49abe45ccb925db5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 595,
+    "timestamp_ms": 899550,
+    "subtitle_text": "hyper parameter how we are actually go",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0595_899550.jpg",
+    "frame_hash": "4ec57a96de14defe3a436adb62007ebb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 597,
+    "timestamp_ms": 902949,
+    "subtitle_text": "about defining this hyperparameter and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0597_902949.jpg",
+    "frame_hash": "b281dfd8bf711328d8e03510a610f164"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 598,
+    "timestamp_ms": 902959,
+    "subtitle_text": "about defining this hyperparameter and what actually has been found is that uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0598_902959.jpg",
+    "frame_hash": "656210060eda19b8d8b78753f9784acd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 599,
+    "timestamp_ms": 905550,
+    "subtitle_text": "what actually has been found is that uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0599_905550.jpg",
+    "frame_hash": "0632b7b5e0a87026c2da54ba300aef94"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 601,
+    "timestamp_ms": 908189,
+    "subtitle_text": "there are certain kind of trade-offs uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0601_908189.jpg",
+    "frame_hash": "d785198b54e88825779110a229037a7f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 603,
+    "timestamp_ms": 910749,
+    "subtitle_text": "uh between choosing the sort of n is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0603_910749.jpg",
+    "frame_hash": "b657fcd28f98006ab30cc6b66fc83b13"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 604,
+    "timestamp_ms": 910759,
+    "subtitle_text": "uh between choosing the sort of n is equal to one the one step and having",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0604_910759.jpg",
+    "frame_hash": "10de05dbcca8db26f709a93b5c4e8c9d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 605,
+    "timestamp_ms": 912910,
+    "subtitle_text": "equal to one the one step and having",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0605_912910.jpg",
+    "frame_hash": "e1983f26cf85ff0eaa8f4cc3360d3db9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 606,
+    "timestamp_ms": 912920,
+    "subtitle_text": "equal to one the one step and having large n and as you can understand and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0606_912920.jpg",
+    "frame_hash": "aa45578d0da36a2f1d904ff8df4a9820"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 607,
+    "timestamp_ms": 915870,
+    "subtitle_text": "large n and as you can understand and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0607_915870.jpg",
+    "frame_hash": "4b8a63fea16c1c9d0d66bb2c05bb16a2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 609,
+    "timestamp_ms": 918550,
+    "subtitle_text": "the algorith that we are effectively",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0609_918550.jpg",
+    "frame_hash": "9cdf510b3da11d7a17d2f5025a5aba18"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 611,
+    "timestamp_ms": 920949,
+    "subtitle_text": "concluded um out of this discussion is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0611_920949.jpg",
+    "frame_hash": "cb13da2b92d5cab99397911f5ef320ff"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 612,
+    "timestamp_ms": 920959,
+    "subtitle_text": "concluded um out of this discussion is just called the TD Lambda algorith which",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0612_920959.jpg",
+    "frame_hash": "cee20c5a79290261899503d165e560cc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 613,
+    "timestamp_ms": 922829,
+    "subtitle_text": "just called the TD Lambda algorith which",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0613_922829.jpg",
+    "frame_hash": "522b2b5854286a2b064807dfea31595e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 615,
+    "timestamp_ms": 925230,
+    "subtitle_text": "is basically what it does is that",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0615_925230.jpg",
+    "frame_hash": "c4de03bce844acf87fca1769984e5012"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 617,
+    "timestamp_ms": 928150,
+    "subtitle_text": "instead of selecting one out of the N it",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0617_928150.jpg",
+    "frame_hash": "5c9e128bef3accf9e9513a49ffbb9b72"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 619,
+    "timestamp_ms": 930069,
+    "subtitle_text": "tries to average",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0619_930069.jpg",
+    "frame_hash": "e5c0a331659122d9c1a713b174476ca4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 621,
+    "timestamp_ms": 933829,
+    "subtitle_text": "many uh returns endep returns many ends",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0621_933829.jpg",
+    "frame_hash": "e0721cb3e2333c2074c4a4ee01fff26e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 623,
+    "timestamp_ms": 935470,
+    "subtitle_text": "in other words so the let's call it the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0623_935470.jpg",
+    "frame_hash": "017c6cbb42567f0ed91b4f3f65b5590f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 625,
+    "timestamp_ms": 937230,
+    "subtitle_text": "many end kind of algorith or Lambda",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0625_937230.jpg",
+    "frame_hash": "322cad4dfec91b3b303395e31bb37206"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 627,
+    "timestamp_ms": 939990,
+    "subtitle_text": "algorithm and the way that it is um uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0627_939990.jpg",
+    "frame_hash": "6ac67908cf87d5fc10848a885c77d00c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 629,
+    "timestamp_ms": 940990,
+    "subtitle_text": "being",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0629_940990.jpg",
+    "frame_hash": "c939b90dc02b7b2a6d7ffd7232534b18"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 631,
+    "timestamp_ms": 943910,
+    "subtitle_text": "presented is that uh we are actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0631_943910.jpg",
+    "frame_hash": "cea855eda0babc1c1db1b5d1f17817f6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 632,
+    "timestamp_ms": 943920,
+    "subtitle_text": "presented is that uh we are actually defining the average return with a a",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0632_943920.jpg",
+    "frame_hash": "feb727d83aaa3afb2374f3d804cb38bf"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 633,
+    "timestamp_ms": 948590,
+    "subtitle_text": "defining the average return with a a",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0633_948590.jpg",
+    "frame_hash": "226e80c610143a43c245db7a29149288"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 635,
+    "timestamp_ms": 951430,
+    "subtitle_text": "weight that it is uh negative",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0635_951430.jpg",
+    "frame_hash": "b05c98929a079d07ac7a026665b92fcb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 637,
+    "timestamp_ms": 953470,
+    "subtitle_text": "exponential as it actually shown and of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0637_953470.jpg",
+    "frame_hash": "5840ea1c105697668568102d69230ac3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 639,
+    "timestamp_ms": 957389,
+    "subtitle_text": "course applies up to uh it is such that",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0639_957389.jpg",
+    "frame_hash": "5fb1ace411ddcedbdd79dc04d2388a78"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 641,
+    "timestamp_ms": 959189,
+    "subtitle_text": "the summation of all the weights in is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0641_959189.jpg",
+    "frame_hash": "40d60170f5ca05328db9c6dca8972cd2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 643,
+    "timestamp_ms": 962749,
+    "subtitle_text": "averaging sometimes to one and uh the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0643_962749.jpg",
+    "frame_hash": "e6607d7f37af38a424a703705f24d920"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 644,
+    "timestamp_ms": 962759,
+    "subtitle_text": "averaging sometimes to one and uh the equation of the waiting of the returns",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0644_962759.jpg",
+    "frame_hash": "c6b6e102b728eda2d768a78e5c5a46d8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 645,
+    "timestamp_ms": 967110,
+    "subtitle_text": "equation of the waiting of the returns",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0645_967110.jpg",
+    "frame_hash": "a2c094701dc4bb2846576d4cc88249ec"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 646,
+    "timestamp_ms": 967120,
+    "subtitle_text": "equation of the waiting of the returns to average them is this equation over",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0646_967120.jpg",
+    "frame_hash": "03035d368c47443db645b520634cfbd1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 647,
+    "timestamp_ms": 969590,
+    "subtitle_text": "to average them is this equation over",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0647_969590.jpg",
+    "frame_hash": "4417b6bb170bf0c118bd749848481581"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 649,
+    "timestamp_ms": 971749,
+    "subtitle_text": "here which is the way it is actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0649_971749.jpg",
+    "frame_hash": "cb4f03cb70bfb98ffbccb9852c606a07"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 650,
+    "timestamp_ms": 971759,
+    "subtitle_text": "here which is the way it is actually plotted over here uh on the as a as a",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0650_971759.jpg",
+    "frame_hash": "4b1d4e1e57be706dfea90cd8532c687a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 651,
+    "timestamp_ms": 974749,
+    "subtitle_text": "plotted over here uh on the as a as a",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0651_974749.jpg",
+    "frame_hash": "989a768e2192c22e157af6ce4e70c7f0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 652,
+    "timestamp_ms": 974759,
+    "subtitle_text": "plotted over here uh on the as a as a time as a Time index a Time step index",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0652_974759.jpg",
+    "frame_hash": "fc265da8c317b466ddd2191c5dcf9a84"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 653,
+    "timestamp_ms": 977509,
+    "subtitle_text": "time as a Time index a Time step index",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0653_977509.jpg",
+    "frame_hash": "59ea8bb25e6d01266775579536f97c9b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 654,
+    "timestamp_ms": 977519,
+    "subtitle_text": "time as a Time index a Time step index up to the of course the um uh episode",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0654_977519.jpg",
+    "frame_hash": "a2207812a98c138ac841f2bfcc77d8cc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 655,
+    "timestamp_ms": 981150,
+    "subtitle_text": "up to the of course the um uh episode",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0655_981150.jpg",
+    "frame_hash": "42b6b76115c3a47fbcc1456bde0e732f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 657,
+    "timestamp_ms": 983550,
+    "subtitle_text": "kind of length and now let's write down",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0657_983550.jpg",
+    "frame_hash": "ec705440569a0356441f171daf58d8a2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 659,
+    "timestamp_ms": 986749,
+    "subtitle_text": "the final uh kind of TD Lambda uh update",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0659_986749.jpg",
+    "frame_hash": "81f690e92c64b1b118976d3d7e4b0d78"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 660,
+    "timestamp_ms": 986759,
+    "subtitle_text": "the final uh kind of TD Lambda uh update equation and also show that with Lambda",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0660_986759.jpg",
+    "frame_hash": "0f9d3bccf7e2adeabcfb5725f2178731"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 661,
+    "timestamp_ms": 989590,
+    "subtitle_text": "equation and also show that with Lambda",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0661_989590.jpg",
+    "frame_hash": "0d2e45d42fc7f86c6df41ceeb291b711"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 663,
+    "timestamp_ms": 991629,
+    "subtitle_text": "is equal to Z this corresponds to the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0663_991629.jpg",
+    "frame_hash": "25d5c090b0e907601f0140150ae995b5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 665,
+    "timestamp_ms": 994189,
+    "subtitle_text": "one step temporal difference also known",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0665_994189.jpg",
+    "frame_hash": "d600a73936a93b84a1f23b65028b22be"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 667,
+    "timestamp_ms": 997150,
+    "subtitle_text": "as TD of Zer and with Lambda is equal to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0667_997150.jpg",
+    "frame_hash": "bc93b2aaa16c68ef39c9e89a6b2f88f7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 669,
+    "timestamp_ms": 1001030,
+    "subtitle_text": "one is roughly equivalent to the Monte",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0669_1001030.jpg",
+    "frame_hash": "3d0f114ac6553e212bf2689f59fb9ca8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 671,
+    "timestamp_ms": 1004069,
+    "subtitle_text": "Carlo so the equation is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0671_1004069.jpg",
+    "frame_hash": "ec0408c27d89d0883372a3cc219bfdcc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 673,
+    "timestamp_ms": 1008110,
+    "subtitle_text": "V let say t+",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0673_1008110.jpg",
+    "frame_hash": "2af929e77126450bed27c56bc9f55f2c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 674,
+    "timestamp_ms": 1008120,
+    "subtitle_text": "V let say t+ n since we were also adding policy Pi",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0674_1008120.jpg",
+    "frame_hash": "62b794dfd73a3888f1bd149d905021d1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 675,
+    "timestamp_ms": 1011150,
+    "subtitle_text": "n since we were also adding policy Pi",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0675_1011150.jpg",
+    "frame_hash": "07927637fbc3246999307f65b0cd82d3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 677,
+    "timestamp_ms": 1015389,
+    "subtitle_text": "let's add it s is equal to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0677_1015389.jpg",
+    "frame_hash": "2819a9ffc7b2604773e9b2294d18b761"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 679,
+    "timestamp_ms": 1021629,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0679_1021629.jpg",
+    "frame_hash": "5307678f34c962c831e0bc0cd8da1b48"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 681,
+    "timestamp_ms": 1024590,
+    "subtitle_text": "of S Plus",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0681_1024590.jpg",
+    "frame_hash": "bc2e2e57ac66a67e162704219b03d945"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 683,
+    "timestamp_ms": 1026909,
+    "subtitle_text": "Alpha",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0683_1026909.jpg",
+    "frame_hash": "3d2b1b647f942136d75a8a656d1af7b2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 684,
+    "timestamp_ms": 1026919,
+    "subtitle_text": "Alpha g",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0684_1026919.jpg",
+    "frame_hash": "a35ad396b24e87e87a82c05095a65834"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 685,
+    "timestamp_ms": 1028470,
+    "subtitle_text": "g",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0685_1028470.jpg",
+    "frame_hash": "fddee173ef55bd84d3b8a8c4af75b647"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 687,
+    "timestamp_ms": 1032230,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0687_1032230.jpg",
+    "frame_hash": "a6050028679fecbd558168fd34ea4355"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 689,
+    "timestamp_ms": 1036029,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0689_1036029.jpg",
+    "frame_hash": "1a5dc30ba4d4065784560486aa81d9c8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 691,
+    "timestamp_ms": 1040150,
+    "subtitle_text": "minus uh uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0691_1040150.jpg",
+    "frame_hash": "5723c95e6bb61b2728319aa93db4da71"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 693,
+    "timestamp_ms": 1044750,
+    "subtitle_text": "V uh of t + N - one",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0693_1044750.jpg",
+    "frame_hash": "867d7e523a74af89e39354ebacc5f30f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 695,
+    "timestamp_ms": 1046909,
+    "subtitle_text": "Pi of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0695_1046909.jpg",
+    "frame_hash": "8b4188fadf5efd2f794515c6cab71246"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 696,
+    "timestamp_ms": 1046919,
+    "subtitle_text": "Pi of s okay so that this is the equation and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0696_1046919.jpg",
+    "frame_hash": "1e120ee1e5a2de15f76b4cd41719867d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 697,
+    "timestamp_ms": 1050310,
+    "subtitle_text": "s okay so that this is the equation and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0697_1050310.jpg",
+    "frame_hash": "a11483a3ef77ed2d1ae62272bfe627df"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 698,
+    "timestamp_ms": 1050320,
+    "subtitle_text": "s okay so that this is the equation and now um we said that we're going to uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0698_1050320.jpg",
+    "frame_hash": "2c30faad5104e935da2da326ece77b74"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 699,
+    "timestamp_ms": 1054190,
+    "subtitle_text": "now um we said that we're going to uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0699_1054190.jpg",
+    "frame_hash": "6c9565c0d2b9cabaea11be95d1f566f4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 701,
+    "timestamp_ms": 1056190,
+    "subtitle_text": "Define also the GT of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0701_1056190.jpg",
+    "frame_hash": "9da8c29a3e24d41db91fa96b6117678c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 703,
+    "timestamp_ms": 1058510,
+    "subtitle_text": "Lambda which we have seen already we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0703_1058510.jpg",
+    "frame_hash": "4f785387c701405da27bd645b07787e4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 704,
+    "timestamp_ms": 1058520,
+    "subtitle_text": "Lambda which we have seen already we have seen already the equation now we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0704_1058520.jpg",
+    "frame_hash": "e447090ebc8d1cc109140edca1217c93"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 705,
+    "timestamp_ms": 1059990,
+    "subtitle_text": "have seen already the equation now we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0705_1059990.jpg",
+    "frame_hash": "433461fac83737251a9dbee1ac38c0d4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 707,
+    "timestamp_ms": 1063710,
+    "subtitle_text": "need to show that for Lambda is equal to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0707_1063710.jpg",
+    "frame_hash": "4a340fa3c44155c25bc8ebf9ac137513"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 708,
+    "timestamp_ms": 1063720,
+    "subtitle_text": "need to show that for Lambda is equal to Z this corresponds",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0708_1063720.jpg",
+    "frame_hash": "577986d329961f67bcaf2857638f2106"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 709,
+    "timestamp_ms": 1066350,
+    "subtitle_text": "Z this corresponds",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0709_1066350.jpg",
+    "frame_hash": "22c21995dea7bbde0fabac892e75ee4d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 710,
+    "timestamp_ms": 1066360,
+    "subtitle_text": "Z this corresponds to notation Y is DD of zero the zero",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0710_1066360.jpg",
+    "frame_hash": "6b27529cf9b62ae3c9473b123df55cba"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 711,
+    "timestamp_ms": 1070070,
+    "subtitle_text": "to notation Y is DD of zero the zero",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0711_1070070.jpg",
+    "frame_hash": "c29d05937f1682e8717d2e1b9a847d18"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 713,
+    "timestamp_ms": 1074310,
+    "subtitle_text": "here corresponds to Lambda or to the on",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0713_1074310.jpg",
+    "frame_hash": "6b289864911b2dbfd32132f9487ca5b3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 714,
+    "timestamp_ms": 1074320,
+    "subtitle_text": "here corresponds to Lambda or to the on step uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0714_1074320.jpg",
+    "frame_hash": "110e331b257105fe4d194e15a7942944"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 715,
+    "timestamp_ms": 1076230,
+    "subtitle_text": "step uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0715_1076230.jpg",
+    "frame_hash": "5631f6bf3c033ed9927756725a51c91f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 717,
+    "timestamp_ms": 1080230,
+    "subtitle_text": "TD and uh so we'll take the the equation",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0717_1080230.jpg",
+    "frame_hash": "eb271905c5d7ce7d3dbbf67caba97b8a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 719,
+    "timestamp_ms": 1084710,
+    "subtitle_text": "that we have already quoted so this is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0719_1084710.jpg",
+    "frame_hash": "485e100fc66e8e694a02eba69ffd6e7f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 720,
+    "timestamp_ms": 1084720,
+    "subtitle_text": "that we have already quoted so this is uh GT of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0720_1084720.jpg",
+    "frame_hash": "05b3e783e73ce2e9073f687b4027a35c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 721,
+    "timestamp_ms": 1087430,
+    "subtitle_text": "uh GT of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0721_1087430.jpg",
+    "frame_hash": "31355f0d4aff6614ecca2078164fd5fa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 723,
+    "timestamp_ms": 1092510,
+    "subtitle_text": "Lambda was- 1 - Lambda summation from n",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0723_1092510.jpg",
+    "frame_hash": "604036f9f4dfa395e58155b59e8536e4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 724,
+    "timestamp_ms": 1092520,
+    "subtitle_text": "Lambda was- 1 - Lambda summation from n is = to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0724_1092520.jpg",
+    "frame_hash": "c5bc3bd0c593359addd6b51d7c518dbb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 725,
+    "timestamp_ms": 1093789,
+    "subtitle_text": "is = to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0725_1093789.jpg",
+    "frame_hash": "a115edb96b68c9f570c2b6d8ef674686"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 727,
+    "timestamp_ms": 1096789,
+    "subtitle_text": "1 uh to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0727_1096789.jpg",
+    "frame_hash": "2fe3ff8421d160140b8b8cc3d35f162c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 729,
+    "timestamp_ms": 1099190,
+    "subtitle_text": "Infinity this is n is equal to 1 in",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0729_1099190.jpg",
+    "frame_hash": "93065436f3d48c1e7faee29a79e200ba"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 731,
+    "timestamp_ms": 1105029,
+    "subtitle_text": "other words Lambda n -1 GT of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0731_1105029.jpg",
+    "frame_hash": "7cfaaa2e1f945f34f5ca407277228111"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 733,
+    "timestamp_ms": 1108990,
+    "subtitle_text": "N and we'll write it as as this equation",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0733_1108990.jpg",
+    "frame_hash": "48793b0f923d76200ead61f9bcfaab6f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 735,
+    "timestamp_ms": 1111070,
+    "subtitle_text": "here which is exactly identical to this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0735_1111070.jpg",
+    "frame_hash": "7da79e533622dc6af0e3357ef7df256b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 737,
+    "timestamp_ms": 1114630,
+    "subtitle_text": "but we just changed the notation to be a",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0737_1114630.jpg",
+    "frame_hash": "75dac0298c6d8d8d1be0cff5b7090166"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 739,
+    "timestamp_ms": 1116830,
+    "subtitle_text": "bit more compatible to the Saturn kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0739_1116830.jpg",
+    "frame_hash": "83ae1a7d77d51b65175c7273639470e9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 741,
+    "timestamp_ms": 1119789,
+    "subtitle_text": "of book notation where um he is actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0741_1119789.jpg",
+    "frame_hash": "4d86a40ec0dd9e13175483024c92acb4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 743,
+    "timestamp_ms": 1123230,
+    "subtitle_text": "using this kind of uh uh notation to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0743_1123230.jpg",
+    "frame_hash": "fdf3ac0296702dbcc1d436ceb6757d3f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 745,
+    "timestamp_ms": 1125789,
+    "subtitle_text": "indicate a return from the returns from",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0745_1125789.jpg",
+    "frame_hash": "e08748deb3452ea93319842198af28f2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 747,
+    "timestamp_ms": 1129310,
+    "subtitle_text": "T to t plus n okay so um this between",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0747_1129310.jpg",
+    "frame_hash": "94dccd5c22f850bccb62596786fff167"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 748,
+    "timestamp_ms": 1129320,
+    "subtitle_text": "T to t plus n okay so um this between the T and T plus n kind of a time step",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0748_1129320.jpg",
+    "frame_hash": "d87c5f7bfced85712fae59dc42863be4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 749,
+    "timestamp_ms": 1132190,
+    "subtitle_text": "the T and T plus n kind of a time step",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0749_1132190.jpg",
+    "frame_hash": "1c5264d553110be80fc892222f5d6032"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 751,
+    "timestamp_ms": 1135390,
+    "subtitle_text": "that is okay so effectively the the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0751_1135390.jpg",
+    "frame_hash": "445943d25589352d3bfccc3f46815047"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 753,
+    "timestamp_ms": 1140909,
+    "subtitle_text": "returns in TD in EP TD are trated trated",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0753_1140909.jpg",
+    "frame_hash": "9165221226c75717ea52b891f1a70091"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 754,
+    "timestamp_ms": 1140919,
+    "subtitle_text": "returns in TD in EP TD are trated trated into two portions one is really the true",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0754_1140919.jpg",
+    "frame_hash": "264c55343af6997530a0085945a510fa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 755,
+    "timestamp_ms": 1143830,
+    "subtitle_text": "into two portions one is really the true",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0755_1143830.jpg",
+    "frame_hash": "d3033fd3766f0b6550fff032a38dace9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 757,
+    "timestamp_ms": 1145710,
+    "subtitle_text": "uh returns with all the discounted kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0757_1145710.jpg",
+    "frame_hash": "e7b506d9d2c10c0d055a9a0e9c3c634b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 758,
+    "timestamp_ms": 1145720,
+    "subtitle_text": "uh returns with all the discounted kind of rewards and the other is this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0758_1145720.jpg",
+    "frame_hash": "f74ebde669de857f56c6b32cc1b313bf"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 759,
+    "timestamp_ms": 1148510,
+    "subtitle_text": "of rewards and the other is this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0759_1148510.jpg",
+    "frame_hash": "bc752f32fa100b1230346e6c22410ebb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 760,
+    "timestamp_ms": 1148520,
+    "subtitle_text": "of rewards and the other is this remaining term or the missing term which",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0760_1148520.jpg",
+    "frame_hash": "5f69599f1c72b9b6f49750a8cd3432be"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 761,
+    "timestamp_ms": 1150510,
+    "subtitle_text": "remaining term or the missing term which",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0761_1150510.jpg",
+    "frame_hash": "2a72e11870982865475ca3f71918e287"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 762,
+    "timestamp_ms": 1150520,
+    "subtitle_text": "remaining term or the missing term which is approximated by the discounted kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0762_1150520.jpg",
+    "frame_hash": "ae51a08668589773900950569578b4f6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 763,
+    "timestamp_ms": 1152390,
+    "subtitle_text": "is approximated by the discounted kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0763_1152390.jpg",
+    "frame_hash": "555df9dea963fc78b9b3c56bd837df09"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 765,
+    "timestamp_ms": 1154789,
+    "subtitle_text": "of value function and as you can see",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0765_1154789.jpg",
+    "frame_hash": "6341951bff4a635832a3ec2ce34b9c04"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 767,
+    "timestamp_ms": 1156390,
+    "subtitle_text": "from the core side the notation kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0767_1156390.jpg",
+    "frame_hash": "a416b0c6f3f81e48ffecf3d736433f3b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 769,
+    "timestamp_ms": 1160590,
+    "subtitle_text": "makes sense because the GT from T to t +",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0769_1160590.jpg",
+    "frame_hash": "a323073bdce96275aa818d8a6eed48af"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 771,
+    "timestamp_ms": 1163710,
+    "subtitle_text": "one is effectively what we had for the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0771_1163710.jpg",
+    "frame_hash": "c995e34d4a979383aa5a925c429a385c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 773,
+    "timestamp_ms": 1167230,
+    "subtitle_text": "one step the t+ two for the two step the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0773_1167230.jpg",
+    "frame_hash": "5bc747479a5bd28deb57ad07387bd03a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 775,
+    "timestamp_ms": 1169590,
+    "subtitle_text": "three step t plus three for the uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0775_1169590.jpg",
+    "frame_hash": "56f8046844c29d4b1560c205e3459388"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 777,
+    "timestamp_ms": 1173710,
+    "subtitle_text": "three-step TD and so on all the way to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0777_1173710.jpg",
+    "frame_hash": "51e7fe74e24a7d8f36d5a395ee11c9e9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 778,
+    "timestamp_ms": 1173720,
+    "subtitle_text": "three-step TD and so on all the way to uh the U TD Infinity in fact and we'll",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0778_1173720.jpg",
+    "frame_hash": "1cade68e2b297762563ab89b364dbad8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 779,
+    "timestamp_ms": 1177710,
+    "subtitle_text": "uh the U TD Infinity in fact and we'll",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0779_1177710.jpg",
+    "frame_hash": "ccf61b279f34d18ccaa77ae329f248c3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 780,
+    "timestamp_ms": 1177720,
+    "subtitle_text": "uh the U TD Infinity in fact and we'll see exactly how we will account for that",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0780_1177720.jpg",
+    "frame_hash": "04a0ce036aceeedd0fe070885119b79e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 781,
+    "timestamp_ms": 1180950,
+    "subtitle_text": "see exactly how we will account for that",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0781_1180950.jpg",
+    "frame_hash": "42b8aba8353d190baaacb8c8db8ab665"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 783,
+    "timestamp_ms": 1183029,
+    "subtitle_text": "remaining what for the for the for the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0783_1183029.jpg",
+    "frame_hash": "9e987bb9ce541c0b91deda6b6320abe9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 785,
+    "timestamp_ms": 1186190,
+    "subtitle_text": "terms after uh the uh terminating kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0785_1186190.jpg",
+    "frame_hash": "b1568a2af95f8523d5fe09f353f6fc93"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 787,
+    "timestamp_ms": 1189750,
+    "subtitle_text": "of state we can actually now break this",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0787_1189750.jpg",
+    "frame_hash": "f9731d55c6e8d9db76940b610493c9bb"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 789,
+    "timestamp_ms": 1192190,
+    "subtitle_text": "uh summation over this Infinity terms",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0789_1192190.jpg",
+    "frame_hash": "5d8e4da77b7d37e950173823fb012503"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 791,
+    "timestamp_ms": 1193789,
+    "subtitle_text": "into two parts and actually this is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0791_1193789.jpg",
+    "frame_hash": "8c2d329949c0301934ca2ca3ff44321f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 793,
+    "timestamp_ms": 1195990,
+    "subtitle_text": "actually shown over here when we have",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0793_1195990.jpg",
+    "frame_hash": "aceeab66f2aa6c06e4d627abb7b3a736"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 795,
+    "timestamp_ms": 1198190,
+    "subtitle_text": "actually have plotted this weights that",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0795_1198190.jpg",
+    "frame_hash": "bb21512d195df95053edbdaa52486578"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 797,
+    "timestamp_ms": 1201149,
+    "subtitle_text": "we are line uh into two parts the first",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0797_1201149.jpg",
+    "frame_hash": "1b2324b85b37ce50119a5ec3e3449aec"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 798,
+    "timestamp_ms": 1201159,
+    "subtitle_text": "we are line uh into two parts the first part is what is actually shown here as",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0798_1201159.jpg",
+    "frame_hash": "8bcb33307b6d6b342ac93b6783238d7b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 799,
+    "timestamp_ms": 1202909,
+    "subtitle_text": "part is what is actually shown here as",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0799_1202909.jpg",
+    "frame_hash": "207411f0db334166a5b6da33bcb580bc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 800,
+    "timestamp_ms": 1202919,
+    "subtitle_text": "part is what is actually shown here as the white portion and the second part is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0800_1202919.jpg",
+    "frame_hash": "3aa90eba8e31285a3f34345c867445c9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 801,
+    "timestamp_ms": 1205909,
+    "subtitle_text": "the white portion and the second part is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0801_1205909.jpg",
+    "frame_hash": "92c2ba893454d92f49029e492d323b0d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 802,
+    "timestamp_ms": 1205919,
+    "subtitle_text": "the white portion and the second part is what everything is after that the kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0802_1205919.jpg",
+    "frame_hash": "77de8b3d60a96281fca4596149c8ea40"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 803,
+    "timestamp_ms": 1208350,
+    "subtitle_text": "what everything is after that the kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0803_1208350.jpg",
+    "frame_hash": "0c765c3aca8ff1649b7925083506d853"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 805,
+    "timestamp_ms": 1210710,
+    "subtitle_text": "of a shaded region over here and of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0805_1210710.jpg",
+    "frame_hash": "4538ed72739e722a59a4ec8f805251d9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 807,
+    "timestamp_ms": 1213470,
+    "subtitle_text": "course the key term over there is the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0807_1213470.jpg",
+    "frame_hash": "b01a33d2bbc4ed7b0720e5b67f5b3077"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 809,
+    "timestamp_ms": 1216470,
+    "subtitle_text": "capital T which is the episode length",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0809_1216470.jpg",
+    "frame_hash": "aef1cf225d80198bebacbbc9c1b8cf45"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 811,
+    "timestamp_ms": 1218549,
+    "subtitle_text": "and so what we need to do now is we go",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0811_1218549.jpg",
+    "frame_hash": "9ae2f6829cb659d4761d3a2cf636ba36"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 812,
+    "timestamp_ms": 1218559,
+    "subtitle_text": "and so what we need to do now is we go back to the Whiteboard and start you",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0812_1218559.jpg",
+    "frame_hash": "1982fdceda50ea1f1451396bb4774abc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 813,
+    "timestamp_ms": 1221830,
+    "subtitle_text": "back to the Whiteboard and start you",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0813_1221830.jpg",
+    "frame_hash": "3b706ec4118c828d6bea3929ff87f57e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 815,
+    "timestamp_ms": 1224029,
+    "subtitle_text": "know writing a couple of considerations",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0815_1224029.jpg",
+    "frame_hash": "2be783e8bd39b9420bccfcd2f16b51cc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 817,
+    "timestamp_ms": 1226350,
+    "subtitle_text": "down so for all",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0817_1226350.jpg",
+    "frame_hash": "91b5ce655b50536ec70424da9759735b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 819,
+    "timestamp_ms": 1231549,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0819_1231549.jpg",
+    "frame_hash": "dea66c5d5a6a21d516d9674dd72fd7f0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 820,
+    "timestamp_ms": 1231559,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0820_1231559.jpg",
+    "frame_hash": "3576f65f2076ea6076a5105eafbd3db7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 821,
+    "timestamp_ms": 1236110,
+    "subtitle_text": "1 for n is equal to 1",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0821_1236110.jpg",
+    "frame_hash": "7801bc12cd3b6b494910203b49b23eae"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 822,
+    "timestamp_ms": 1236120,
+    "subtitle_text": "1 for n is equal to 1 2 uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0822_1236120.jpg",
+    "frame_hash": "c01204c801f99fedc819c20cf1aae019"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 823,
+    "timestamp_ms": 1239669,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0823_1239669.jpg",
+    "frame_hash": "d15b16df010aa06d3a4ef86698b7af79"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 825,
+    "timestamp_ms": 1242870,
+    "subtitle_text": "t uh minus t minus",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0825_1242870.jpg",
+    "frame_hash": "cb6dc1b6b613d72bb44cb75796dfcaa6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 827,
+    "timestamp_ms": 1249430,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0827_1249430.jpg",
+    "frame_hash": "5692441d6de3c57ecebb9ddcac9b1cc5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 829,
+    "timestamp_ms": 1252950,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0829_1252950.jpg",
+    "frame_hash": "0d4006aa9ad8f3b8a42823cfb5a9a83c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 831,
+    "timestamp_ms": 1260750,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0831_1260750.jpg",
+    "frame_hash": "c626f28845d8f78aedbbda1c8b8c30f1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 833,
+    "timestamp_ms": 1263070,
+    "subtitle_text": "with this kind of decaying Lambda",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0833_1263070.jpg",
+    "frame_hash": "51e7f7038f0101c3a42e3dff63ebd63c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 835,
+    "timestamp_ms": 1265350,
+    "subtitle_text": "factors we I say decaying because as you",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0835_1265350.jpg",
+    "frame_hash": "22d3bde9ec103ed47f86023beb74c512"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 837,
+    "timestamp_ms": 1267549,
+    "subtitle_text": "can see it was a decaying kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0837_1267549.jpg",
+    "frame_hash": "0beb26d7c67d6cb12599541878721bbd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 838,
+    "timestamp_ms": 1267559,
+    "subtitle_text": "can see it was a decaying kind of geometric progression of that uh because",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0838_1267559.jpg",
+    "frame_hash": "4cb75ddbe2bdc9fa942bb3dad8efe1d8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 839,
+    "timestamp_ms": 1271310,
+    "subtitle_text": "geometric progression of that uh because",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0839_1271310.jpg",
+    "frame_hash": "416a84696f447c55defea6496ea19ed0"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 840,
+    "timestamp_ms": 1271320,
+    "subtitle_text": "geometric progression of that uh because Lambda is less than or equal to one they",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0840_1271320.jpg",
+    "frame_hash": "8a6f16e7bb1b9c420d448b4a9a942ba2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 841,
+    "timestamp_ms": 1273830,
+    "subtitle_text": "Lambda is less than or equal to one they",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0841_1273830.jpg",
+    "frame_hash": "5a910ca70e59cd120c85b45809efb880"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 843,
+    "timestamp_ms": 1277190,
+    "subtitle_text": "get weighted with uh the they're",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0843_1277190.jpg",
+    "frame_hash": "078377111fe17df62a33443aa902aa36"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 845,
+    "timestamp_ms": 1282909,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0845_1282909.jpg",
+    "frame_hash": "c322f2d7526edcdbbf045537f189c980"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 846,
+    "timestamp_ms": 1282919,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0846_1282919.jpg",
+    "frame_hash": "dc78b07f1b8db4987a0746b962e75d96"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 847,
+    "timestamp_ms": 1289430,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0847_1289430.jpg",
+    "frame_hash": "f39074ba1b4899e8a2e02f44da268531"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 849,
+    "timestamp_ms": 1292269,
+    "subtitle_text": "so I'm going to take this I'm going to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0849_1292269.jpg",
+    "frame_hash": "4558ffaddcfefd0dd15ca01a29dcb102"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 851,
+    "timestamp_ms": 1295350,
+    "subtitle_text": "take this and break it down into two",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0851_1295350.jpg",
+    "frame_hash": "2130b61c8c76cd3ef7e8c1d5c6cdd7b1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 853,
+    "timestamp_ms": 1298750,
+    "subtitle_text": "parts the first part is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0853_1298750.jpg",
+    "frame_hash": "c2635b0e28a5cfabc814a0354d7268aa"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 855,
+    "timestamp_ms": 1301549,
+    "subtitle_text": "1 1us",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0855_1301549.jpg",
+    "frame_hash": "f57dd0a28e0c4e67bf207384f8128678"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 856,
+    "timestamp_ms": 1301559,
+    "subtitle_text": "1 1us Lambda",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0856_1301559.jpg",
+    "frame_hash": "c996372694d3c792f9c477a7cd680708"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 857,
+    "timestamp_ms": 1303789,
+    "subtitle_text": "Lambda",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0857_1303789.jpg",
+    "frame_hash": "540e70c13d3467c460963725055343a4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 859,
+    "timestamp_ms": 1310830,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0859_1310830.jpg",
+    "frame_hash": "bbaa7add8d86235ecc2f4dc2aee2ba7a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 861,
+    "timestamp_ms": 1312909,
+    "subtitle_text": "1",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0861_1312909.jpg",
+    "frame_hash": "f3733c5091746e644f7d3463742bc2b3"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 862,
+    "timestamp_ms": 1312919,
+    "subtitle_text": "1 to uh n to capital",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0862_1312919.jpg",
+    "frame_hash": "04b1eeaa571397830a12390a09e33760"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 863,
+    "timestamp_ms": 1316350,
+    "subtitle_text": "to uh n to capital",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0863_1316350.jpg",
+    "frame_hash": "2db9fd8790e2ebc4043a52d7893bef1e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 865,
+    "timestamp_ms": 1321029,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0865_1321029.jpg",
+    "frame_hash": "1a8dbd18747aec9a2e6043a44ad0af5e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 867,
+    "timestamp_ms": 1328430,
+    "subtitle_text": "-1 Lambda to n + n minus one and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0867_1328430.jpg",
+    "frame_hash": "867827e7d71e3fba4761a1a40caad448"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 869,
+    "timestamp_ms": 1334230,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0869_1334230.jpg",
+    "frame_hash": "bdfb2b43ac0188658bc1ce4bec9bec1a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 871,
+    "timestamp_ms": 1336710,
+    "subtitle_text": "n that's the first term and then we'll",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0871_1336710.jpg",
+    "frame_hash": "a46b57560d0b372581b684ed136e6053"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 872,
+    "timestamp_ms": 1336720,
+    "subtitle_text": "n that's the first term and then we'll see uh that the second term is uh 1",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0872_1336720.jpg",
+    "frame_hash": "95a7a0db8ebe4dad825ca6115b8de241"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 873,
+    "timestamp_ms": 1340190,
+    "subtitle_text": "see uh that the second term is uh 1",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0873_1340190.jpg",
+    "frame_hash": "5bf2fd1813a722f36c8fed84217ec208"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 875,
+    "timestamp_ms": 1342870,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0875_1342870.jpg",
+    "frame_hash": "c289d01591fe34b3d8fb552bc862ac9d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 877,
+    "timestamp_ms": 1347029,
+    "subtitle_text": "Lambda Lambda to t -",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0877_1347029.jpg",
+    "frame_hash": "9b53d42c3b0e4f7eaede117a885b1237"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 879,
+    "timestamp_ms": 1349710,
+    "subtitle_text": "tus1 GT",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0879_1349710.jpg",
+    "frame_hash": "ebabd700c7217a835dc8b27ab9ee459a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 880,
+    "timestamp_ms": 1349720,
+    "subtitle_text": "tus1 GT okay so this is basically the the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0880_1349720.jpg",
+    "frame_hash": "7102a2c1015cc288c4b34e3bf8767d22"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 881,
+    "timestamp_ms": 1351990,
+    "subtitle_text": "okay so this is basically the the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0881_1351990.jpg",
+    "frame_hash": "e77d93d0dc79cfae358520e5d573b158"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 883,
+    "timestamp_ms": 1354630,
+    "subtitle_text": "expression and let me just uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0883_1354630.jpg",
+    "frame_hash": "dfa59c2e4bfec3edf0aae904b56501f6"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 885,
+    "timestamp_ms": 1356789,
+    "subtitle_text": "effectively highlight the following as",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0885_1356789.jpg",
+    "frame_hash": "a81f995d222a1690be44dcb6d2db1c9f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 887,
+    "timestamp_ms": 1361789,
+    "subtitle_text": "we can see uh anything that it is um you",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0887_1361789.jpg",
+    "frame_hash": "afed0ddf09f4bb5d69d7d6a8429dece8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 889,
+    "timestamp_ms": 1363470,
+    "subtitle_text": "know why we actually came to this kind",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0889_1363470.jpg",
+    "frame_hash": "a6e3d4cfe1aaf0eca3c5429a4cb1d093"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 891,
+    "timestamp_ms": 1366269,
+    "subtitle_text": "of uh you know consideration especially",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0891_1366269.jpg",
+    "frame_hash": "06a60f6ae162fe7cc9b9c4564b549d4f"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 893,
+    "timestamp_ms": 1369110,
+    "subtitle_text": "with respect to the last term over there",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0893_1369110.jpg",
+    "frame_hash": "ee81bf165005e4a9798199b0f5063438"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 894,
+    "timestamp_ms": 1369120,
+    "subtitle_text": "with respect to the last term over there uh so the first thing is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0894_1369120.jpg",
+    "frame_hash": "14d02a292c027248afd68efccbc3fd13"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 895,
+    "timestamp_ms": 1370950,
+    "subtitle_text": "uh so the first thing is",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0895_1370950.jpg",
+    "frame_hash": "f77a71080901cf97acc769dd83e25dd5"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 897,
+    "timestamp_ms": 1373789,
+    "subtitle_text": "that uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0897_1373789.jpg",
+    "frame_hash": "4ffea45a9043ff08e7e3dbb7d474ce19"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 899,
+    "timestamp_ms": 1379269,
+    "subtitle_text": "anything any instant T where uh we are",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0899_1379269.jpg",
+    "frame_hash": "bd6c14c879de10eeb9e8d0976823d7d7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 901,
+    "timestamp_ms": 1382590,
+    "subtitle_text": "going Beyond if you like the terminating",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0901_1382590.jpg",
+    "frame_hash": "0df7a8cd95a7d101860573ffe662b6d8"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 903,
+    "timestamp_ms": 1385590,
+    "subtitle_text": "kind of state so any anything that",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0903_1385590.jpg",
+    "frame_hash": "d7c3ec3ec539264ec49caa1f2187ddc9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 905,
+    "timestamp_ms": 1388510,
+    "subtitle_text": "anything that it is with IND this is t +",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0905_1388510.jpg",
+    "frame_hash": "24526a1a07afc4c2c494b3a7cfc4fa74"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 906,
+    "timestamp_ms": 1388520,
+    "subtitle_text": "anything that it is with IND this is t + n greater than or equal to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0906_1388520.jpg",
+    "frame_hash": "d7defefa378a3e87f91743e3481a1adc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 907,
+    "timestamp_ms": 1391310,
+    "subtitle_text": "n greater than or equal to",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0907_1391310.jpg",
+    "frame_hash": "5fed8192237d6e741f52bf813a0c1042"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 908,
+    "timestamp_ms": 1391320,
+    "subtitle_text": "n greater than or equal to T or effectively",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0908_1391320.jpg",
+    "frame_hash": "d03063823d2323bddca8b4ecf683d86e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 909,
+    "timestamp_ms": 1394430,
+    "subtitle_text": "T or effectively",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0909_1394430.jpg",
+    "frame_hash": "ce55085260ae0cbf0ee4274200c061c9"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 911,
+    "timestamp_ms": 1399350,
+    "subtitle_text": "n greater than equal to T minus t then",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0911_1399350.jpg",
+    "frame_hash": "ded6dec7a750b5b8927551c494529e93"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 913,
+    "timestamp_ms": 1402470,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0913_1402470.jpg",
+    "frame_hash": "4f2c0c4771df0fbdf74479c7ffd2a1b7"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 915,
+    "timestamp_ms": 1406430,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0915_1406430.jpg",
+    "frame_hash": "f8cd8f4d5b890b72685acd57860da5c2"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 917,
+    "timestamp_ms": 1416230,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0917_1416230.jpg",
+    "frame_hash": "c8004fa0603dbf6ffd3ffa7191263b74"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 919,
+    "timestamp_ms": 1424950,
+    "subtitle_text": "",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0919_1424950.jpg",
+    "frame_hash": "0b554aa5b2abc3010b01d4993633ee83"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 921,
+    "timestamp_ms": 1426630,
+    "subtitle_text": "return",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0921_1426630.jpg",
+    "frame_hash": "bbcd23762da642cae45958c2ca82b088"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 923,
+    "timestamp_ms": 1428909,
+    "subtitle_text": "CT course all the rewards after the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0923_1428909.jpg",
+    "frame_hash": "931ed682d1c21c1affe688942ceb0e39"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 924,
+    "timestamp_ms": 1428919,
+    "subtitle_text": "CT course all the rewards after the terminating state are actually zero and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0924_1428919.jpg",
+    "frame_hash": "d7048a8c289d7fbe421a719249e500bc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 925,
+    "timestamp_ms": 1431430,
+    "subtitle_text": "terminating state are actually zero and",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0925_1431430.jpg",
+    "frame_hash": "a9d3aea4cc88d7fda3492506f25a9c33"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 927,
+    "timestamp_ms": 1433950,
+    "subtitle_text": "of course this means that the full",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0927_1433950.jpg",
+    "frame_hash": "1d3eeb56985d37969e4344a6001e5e89"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 929,
+    "timestamp_ms": 1437669,
+    "subtitle_text": "return uh is uh is basically what is uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0929_1437669.jpg",
+    "frame_hash": "f06f38749904f05234ad5dd86e880b34"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 931,
+    "timestamp_ms": 1440110,
+    "subtitle_text": "what it corresponds to to to those cases",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0931_1440110.jpg",
+    "frame_hash": "335818c594f4da431daa7ef9f5204707"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 932,
+    "timestamp_ms": 1440120,
+    "subtitle_text": "what it corresponds to to to those cases so that is the reason why I actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0932_1440120.jpg",
+    "frame_hash": "81ebfd2f0b5150ac2fe36a4d8cee0958"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 933,
+    "timestamp_ms": 1441789,
+    "subtitle_text": "so that is the reason why I actually",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0933_1441789.jpg",
+    "frame_hash": "47f226106d49df3c5dd6dca10414a93c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 935,
+    "timestamp_ms": 1445190,
+    "subtitle_text": "wrote from n is equal to 1 to capital T",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0935_1445190.jpg",
+    "frame_hash": "416b2bc1ff4dbb4ca26627cc94964945"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 937,
+    "timestamp_ms": 1448230,
+    "subtitle_text": "minus t minus1 because this is just",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0937_1448230.jpg",
+    "frame_hash": "82d208a8c875d014d345e0147992e747"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 939,
+    "timestamp_ms": 1450029,
+    "subtitle_text": "before this condition gets to be",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0939_1450029.jpg",
+    "frame_hash": "de125b0400b6a890f0cf969ca3a51fd4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 941,
+    "timestamp_ms": 1453710,
+    "subtitle_text": "satisfied right so it's everything uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0941_1453710.jpg",
+    "frame_hash": "1eac1b713a015ba9a219af7d31acac6a"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 942,
+    "timestamp_ms": 1453720,
+    "subtitle_text": "satisfied right so it's everything uh before this uh State over here as we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0942_1453720.jpg",
+    "frame_hash": "612dd51e9a7abe4b1b021ae941a32608"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 943,
+    "timestamp_ms": 1456269,
+    "subtitle_text": "before this uh State over here as we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0943_1456269.jpg",
+    "frame_hash": "2229332751749f5a5349f8f0593905bf"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 945,
+    "timestamp_ms": 1458830,
+    "subtitle_text": "actually can see on the site the first",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0945_1458830.jpg",
+    "frame_hash": "5581d4c8262e06da80b0db99149a77de"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 947,
+    "timestamp_ms": 1461310,
+    "subtitle_text": "Factor the first uh term if you like in",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0947_1461310.jpg",
+    "frame_hash": "5904d56abd3314afa80c581f316d1ede"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 948,
+    "timestamp_ms": 1461320,
+    "subtitle_text": "Factor the first uh term if you like in this summation we just broke up",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0948_1461320.jpg",
+    "frame_hash": "690f40537b2dc4b707666c66aa80f98e"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 949,
+    "timestamp_ms": 1463390,
+    "subtitle_text": "this summation we just broke up",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0949_1463390.jpg",
+    "frame_hash": "620d8f6c397c54b91d7e2501286b5112"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 951,
+    "timestamp_ms": 1465430,
+    "subtitle_text": "corresponds to the weights that we have",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0951_1465430.jpg",
+    "frame_hash": "aa83b7d5bcf8410e705ef35a8fe58958"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 953,
+    "timestamp_ms": 1467990,
+    "subtitle_text": "applied they're actually shown here in",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0953_1467990.jpg",
+    "frame_hash": "a31b15a2481013db56e0534b595efeed"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 955,
+    "timestamp_ms": 1469430,
+    "subtitle_text": "this white",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0955_1469430.jpg",
+    "frame_hash": "1edba3a1fd3edaf0ea611568dcf5c43b"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 957,
+    "timestamp_ms": 1472950,
+    "subtitle_text": "region of this like you know",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0957_1472950.jpg",
+    "frame_hash": "ff0928cc4d0e443236bb7d0093456b94"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 959,
+    "timestamp_ms": 1475630,
+    "subtitle_text": "geometrically decaying uh if you like",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0959_1475630.jpg",
+    "frame_hash": "46f59c6b248cf631c29e56952c0f12bc"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 961,
+    "timestamp_ms": 1478510,
+    "subtitle_text": "weight curve and then the last term the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0961_1478510.jpg",
+    "frame_hash": "b0a51c303b25ec60f87ddd86e424b891"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 962,
+    "timestamp_ms": 1478520,
+    "subtitle_text": "weight curve and then the last term the last term corresponds to uh this weight",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0962_1478520.jpg",
+    "frame_hash": "3d988e4c1b6a516b75309a786774f6a4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 963,
+    "timestamp_ms": 1481950,
+    "subtitle_text": "last term corresponds to uh this weight",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0963_1481950.jpg",
+    "frame_hash": "476372d192e9bf2987b2774b2b63465d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 965,
+    "timestamp_ms": 1484430,
+    "subtitle_text": "over here that anything",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0965_1484430.jpg",
+    "frame_hash": "84a421edc7e2eb582fb41621b3455c2c"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 967,
+    "timestamp_ms": 1488310,
+    "subtitle_text": "is beyond uh capital T which is the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0967_1488310.jpg",
+    "frame_hash": "13d6b30bcbd8e220362d6015641dc387"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 968,
+    "timestamp_ms": 1488320,
+    "subtitle_text": "is beyond uh capital T which is the episode will actually be weighted by uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0968_1488320.jpg",
+    "frame_hash": "66022ca8c8cd65eb872e42350f081827"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 969,
+    "timestamp_ms": 1491789,
+    "subtitle_text": "episode will actually be weighted by uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0969_1491789.jpg",
+    "frame_hash": "f5850fecd2a1667fc241e373806d5805"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 971,
+    "timestamp_ms": 1494750,
+    "subtitle_text": "1 minus Lambda Lambda to T capital T",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0971_1494750.jpg",
+    "frame_hash": "88f2906ae7c45f45877e9662bf181708"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 973,
+    "timestamp_ms": 1497630,
+    "subtitle_text": "minus t minus one and that's basically",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0973_1497630.jpg",
+    "frame_hash": "3bd8fe2be28f0d3f7cdade5bc74b8422"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 975,
+    "timestamp_ms": 1500990,
+    "subtitle_text": "what we also have um uh kind of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0975_1500990.jpg",
+    "frame_hash": "196eb8d8f9bb58e9e349829a6a114ac4"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 977,
+    "timestamp_ms": 1503149,
+    "subtitle_text": "mentioned here on the site in terms of",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0977_1503149.jpg",
+    "frame_hash": "f52f621330eb54518d5c69ffc2b04899"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 978,
+    "timestamp_ms": 1503159,
+    "subtitle_text": "mentioned here on the site in terms of equation all right so this is basically",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0978_1503159.jpg",
+    "frame_hash": "df405000a36acd18c4874aa6cb727979"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 979,
+    "timestamp_ms": 1506630,
+    "subtitle_text": "equation all right so this is basically",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0979_1506630.jpg",
+    "frame_hash": "7ffeae610a72981ae111b0b30f3fc80d"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 981,
+    "timestamp_ms": 1509269,
+    "subtitle_text": "um uh everything that we actually can",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0981_1509269.jpg",
+    "frame_hash": "ff2f9fba5591d8c87ecfeaf255a001d1"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 983,
+    "timestamp_ms": 1513230,
+    "subtitle_text": "mention regarding uh TD of n this is the",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0983_1513230.jpg",
+    "frame_hash": "83aee0c351686d8f66e1dca37fbcbcbd"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 985,
+    "timestamp_ms": 1516149,
+    "subtitle_text": "um sort of endep TD and what actually we",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0985_1516149.jpg",
+    "frame_hash": "8a68469a4a720d699d8353814c40db54"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 986,
+    "timestamp_ms": 1516159,
+    "subtitle_text": "um sort of endep TD and what actually we need to do next is we need to start uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0986_1516159.jpg",
+    "frame_hash": "6fc7aa5adccbb3e5ffd5abdca06c4c48"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 987,
+    "timestamp_ms": 1518750,
+    "subtitle_text": "need to do next is we need to start uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0987_1518750.jpg",
+    "frame_hash": "443ff220f702981789a4f733b65e2179"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 989,
+    "timestamp_ms": 1521750,
+    "subtitle_text": "considering the control problem and uh",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0989_1521750.jpg",
+    "frame_hash": "c0c24dd61fa0cc80794df381629dcc09"
+  },
+  {
+    "video_id": "L90h-1Sntnw",
+    "frame_index": 991,
+    "timestamp_ms": 1523669,
+    "subtitle_text": "this will be done in a in a different",
+    "frame_path": "data/processed/L90h-1Sntnw/frame_0991_1523669.jpg",
+    "frame_hash": "69d7bdf1c3ba91bc3315b846824245e7"
+  }
+]

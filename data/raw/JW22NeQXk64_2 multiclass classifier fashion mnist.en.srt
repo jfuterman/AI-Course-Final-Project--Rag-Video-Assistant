@@ -1,0 +1,6465 @@
+1
+00:00:01,280 --> 00:00:05,749
+
+we should imagine these uh networks that
+
+2
+00:00:05,749 --> 00:00:05,759
+we should imagine these uh networks that
+ 
+
+3
+00:00:05,759 --> 00:00:08,750
+we should imagine these uh networks that
+we call fully connected Network
+
+4
+00:00:08,750 --> 00:00:08,760
+we call fully connected Network
+ 
+
+5
+00:00:08,760 --> 00:00:10,470
+we call fully connected Network
+architectures to
+
+6
+00:00:10,470 --> 00:00:10,480
+architectures to
+ 
+
+7
+00:00:10,480 --> 00:00:14,150
+architectures to
+resemble uh some form of a pyramidal
+
+8
+00:00:14,150 --> 00:00:14,160
+resemble uh some form of a pyramidal
+ 
+
+9
+00:00:14,160 --> 00:00:16,510
+resemble uh some form of a pyramidal
+shape I call it like
+
+10
+00:00:16,510 --> 00:00:16,520
+shape I call it like
+ 
+
+11
+00:00:16,520 --> 00:00:20,590
+shape I call it like
+this uh okay so we have here at the
+
+12
+00:00:20,590 --> 00:00:20,600
+this uh okay so we have here at the
+ 
+
+13
+00:00:20,600 --> 00:00:24,550
+this uh okay so we have here at the
+bottom of this pyramid is the input
+
+14
+00:00:24,550 --> 00:00:24,560
+bottom of this pyramid is the input
+ 
+
+15
+00:00:24,560 --> 00:00:28,509
+bottom of this pyramid is the input
+X okay this pencil is all right we have
+
+16
+00:00:28,509 --> 00:00:28,519
+X okay this pencil is all right we have
+ 
+
+17
+00:00:28,519 --> 00:00:33,590
+X okay this pencil is all right we have
+this x which is is fitting the input um
+
+18
+00:00:33,590 --> 00:00:33,600
+this x which is is fitting the input um
+ 
+
+19
+00:00:33,600 --> 00:00:36,030
+this x which is is fitting the input um
+and we'll call this the so-called input
+
+20
+00:00:36,030 --> 00:00:36,040
+and we'll call this the so-called input
+ 
+
+21
+00:00:36,040 --> 00:00:38,470
+and we'll call this the so-called input
+layer and we will have
+
+22
+00:00:38,470 --> 00:00:38,480
+layer and we will have
+ 
+
+23
+00:00:38,480 --> 00:00:42,709
+layer and we will have
+stacks of additional layers one uh one
+
+24
+00:00:42,709 --> 00:00:42,719
+stacks of additional layers one uh one
+ 
+
+25
+00:00:42,719 --> 00:00:44,790
+stacks of additional layers one uh one
+on top of the other so in general we'll
+
+26
+00:00:44,790 --> 00:00:44,800
+on top of the other so in general we'll
+ 
+
+27
+00:00:44,800 --> 00:00:46,430
+on top of the other so in general we'll
+have layer
+
+28
+00:00:46,430 --> 00:00:46,440
+have layer
+ 
+
+29
+00:00:46,440 --> 00:00:53,950
+have layer
+l l+ one L +2 all the way to the last
+
+30
+00:00:53,950 --> 00:00:53,960
+l l+ one L +2 all the way to the last
+ 
+
+31
+00:00:53,960 --> 00:00:57,750
+l l+ one L +2 all the way to the last
+layer that we call as we said the
+
+32
+00:00:57,750 --> 00:00:57,760
+layer that we call as we said the
+ 
+
+33
+00:00:57,760 --> 00:01:01,349
+layer that we call as we said the
+head and uh this input layer now I'm not
+
+34
+00:01:01,349 --> 00:01:01,359
+head and uh this input layer now I'm not
+ 
+
+35
+00:01:01,359 --> 00:01:03,910
+head and uh this input layer now I'm not
+going to I'm going to just use the these
+
+36
+00:01:03,910 --> 00:01:03,920
+going to I'm going to just use the these
+ 
+
+37
+00:01:03,920 --> 00:01:06,789
+going to I'm going to just use the these
+circles to represent the neurons this
+
+38
+00:01:06,789 --> 00:01:06,799
+circles to represent the neurons this
+ 
+
+39
+00:01:06,799 --> 00:01:08,590
+circles to represent the neurons this
+input is going to be
+
+40
+00:01:08,590 --> 00:01:08,600
+input is going to be
+ 
+
+41
+00:01:08,600 --> 00:01:12,630
+input is going to be
+fed to all the
+
+42
+00:01:12,630 --> 00:01:12,640
+
+ 
+
+43
+00:01:12,640 --> 00:01:14,550
+
+neurons and each
+
+44
+00:01:14,550 --> 00:01:14,560
+neurons and each
+ 
+
+45
+00:01:14,560 --> 00:01:16,950
+neurons and each
+neuron is going to
+
+46
+00:01:16,950 --> 00:01:16,960
+neuron is going to
+ 
+
+47
+00:01:16,960 --> 00:01:21,749
+neuron is going to
+be connected to all of the
+
+48
+00:01:21,749 --> 00:01:21,759
+be connected to all of the
+ 
+
+49
+00:01:21,759 --> 00:01:25,630
+be connected to all of the
+neurons of the layer above it and so on
+
+50
+00:01:25,630 --> 00:01:25,640
+neurons of the layer above it and so on
+ 
+
+51
+00:01:25,640 --> 00:01:27,390
+neurons of the layer above it and so on
+and so on so I'm not going to draw all
+
+52
+00:01:27,390 --> 00:01:27,400
+and so on so I'm not going to draw all
+ 
+
+53
+00:01:27,400 --> 00:01:28,990
+and so on so I'm not going to draw all
+the lines because it will be a fairly
+
+54
+00:01:28,990 --> 00:01:29,000
+the lines because it will be a fairly
+ 
+
+55
+00:01:29,000 --> 00:01:33,590
+the lines because it will be a fairly
+messy kind of Di diagram and uh okay
+
+56
+00:01:33,590 --> 00:01:33,600
+messy kind of Di diagram and uh okay
+ 
+
+57
+00:01:33,600 --> 00:01:36,469
+messy kind of Di diagram and uh okay
+maybe I drew too
+
+58
+00:01:36,469 --> 00:01:36,479
+maybe I drew too
+ 
+
+59
+00:01:36,479 --> 00:01:38,109
+maybe I drew too
+many
+
+60
+00:01:38,109 --> 00:01:38,119
+many
+ 
+
+61
+00:01:38,119 --> 00:01:45,870
+many
+layers let me call this now the
+
+62
+00:01:45,870 --> 00:01:45,880
+
+ 
+
+63
+00:01:45,880 --> 00:01:51,510
+
+head it's now easy to see what's
+
+64
+00:01:51,510 --> 00:01:51,520
+
+ 
+
+65
+00:01:51,520 --> 00:01:53,950
+
+happening and evidently over here we're
+
+66
+00:01:53,950 --> 00:01:53,960
+happening and evidently over here we're
+ 
+
+67
+00:01:53,960 --> 00:01:55,670
+happening and evidently over here we're
+going to have the white hat that's now
+
+68
+00:01:55,670 --> 00:01:55,680
+going to have the white hat that's now
+ 
+
+69
+00:01:55,680 --> 00:02:00,469
+going to have the white hat that's now
+my head
+
+70
+00:02:00,469 --> 00:02:00,479
+
+ 
+
+71
+00:02:00,479 --> 00:02:03,749
+
+and this whole thing is going to
+
+72
+00:02:03,749 --> 00:02:03,759
+and this whole thing is going to
+ 
+
+73
+00:02:03,759 --> 00:02:09,469
+and this whole thing is going to
+be the
+
+74
+00:02:09,469 --> 00:02:09,479
+
+ 
+
+75
+00:02:09,479 --> 00:02:13,910
+
+body all right so that's uh that is uh
+
+76
+00:02:13,910 --> 00:02:13,920
+body all right so that's uh that is uh
+ 
+
+77
+00:02:13,920 --> 00:02:15,949
+body all right so that's uh that is uh
+if you like
+
+78
+00:02:15,949 --> 00:02:15,959
+if you like
+ 
+
+79
+00:02:15,959 --> 00:02:19,150
+if you like
+the um canonical kind of architecture we
+
+80
+00:02:19,150 --> 00:02:19,160
+the um canonical kind of architecture we
+ 
+
+81
+00:02:19,160 --> 00:02:21,390
+the um canonical kind of architecture we
+will see for fully connected kind of
+
+82
+00:02:21,390 --> 00:02:21,400
+will see for fully connected kind of
+ 
+
+83
+00:02:21,400 --> 00:02:24,710
+will see for fully connected kind of
+networks now each of obviously we cannot
+
+84
+00:02:24,710 --> 00:02:24,720
+networks now each of obviously we cannot
+ 
+
+85
+00:02:24,720 --> 00:02:26,270
+networks now each of obviously we cannot
+really go on with drawing as we have
+
+86
+00:02:26,270 --> 00:02:26,280
+really go on with drawing as we have
+ 
+
+87
+00:02:26,280 --> 00:02:28,070
+really go on with drawing as we have
+been doing up to now so we have to
+
+88
+00:02:28,070 --> 00:02:28,080
+been doing up to now so we have to
+ 
+
+89
+00:02:28,080 --> 00:02:30,309
+been doing up to now so we have to
+Define if you like a mathematical AB
+
+90
+00:02:30,309 --> 00:02:30,319
+Define if you like a mathematical AB
+ 
+
+91
+00:02:30,319 --> 00:02:33,949
+Define if you like a mathematical AB
+ruction of each layer so I will just
+
+92
+00:02:33,949 --> 00:02:33,959
+ruction of each layer so I will just
+ 
+
+93
+00:02:33,959 --> 00:02:38,190
+ruction of each layer so I will just
+going to draw how we will represent one
+
+94
+00:02:38,190 --> 00:02:38,200
+going to draw how we will represent one
+ 
+
+95
+00:02:38,200 --> 00:02:40,110
+going to draw how we will represent one
+layer that we'll be calling the dense
+
+96
+00:02:40,110 --> 00:02:40,120
+layer that we'll be calling the dense
+ 
+
+97
+00:02:40,120 --> 00:02:43,110
+layer that we'll be calling the dense
+layer or fully connected layer but is
+
+98
+00:02:43,110 --> 00:02:43,120
+layer or fully connected layer but is
+ 
+
+99
+00:02:43,120 --> 00:02:44,830
+layer or fully connected layer but is
+typically also known as dense because
+
+100
+00:02:44,830 --> 00:02:44,840
+typically also known as dense because
+ 
+
+101
+00:02:44,840 --> 00:02:48,149
+typically also known as dense because
+there's a dense connectivity
+
+102
+00:02:48,149 --> 00:02:48,159
+there's a dense connectivity
+ 
+
+103
+00:02:48,159 --> 00:02:51,070
+there's a dense connectivity
+diagram uh and a dense Matrix which is
+
+104
+00:02:51,070 --> 00:02:51,080
+diagram uh and a dense Matrix which is
+ 
+
+105
+00:02:51,080 --> 00:02:53,030
+diagram uh and a dense Matrix which is
+going to be representing this
+
+106
+00:02:53,030 --> 00:02:53,040
+going to be representing this
+ 
+
+107
+00:02:53,040 --> 00:02:55,830
+going to be representing this
+connectivity so let me just draw
+
+108
+00:02:55,830 --> 00:02:55,840
+connectivity so let me just draw
+ 
+
+109
+00:02:55,840 --> 00:02:58,470
+connectivity so let me just draw
+the uh layer I'm going to use this kind
+
+110
+00:02:58,470 --> 00:02:58,480
+the uh layer I'm going to use this kind
+ 
+
+111
+00:02:58,480 --> 00:03:00,390
+the uh layer I'm going to use this kind
+of a trapezoidal
+
+112
+00:03:00,390 --> 00:03:00,400
+of a trapezoidal
+ 
+
+113
+00:03:00,400 --> 00:03:02,990
+of a trapezoidal
+symbol to
+
+114
+00:03:02,990 --> 00:03:03,000
+symbol to
+ 
+
+115
+00:03:03,000 --> 00:03:05,470
+symbol to
+indicate uh this
+
+116
+00:03:05,470 --> 00:03:05,480
+indicate uh this
+ 
+
+117
+00:03:05,480 --> 00:03:09,110
+indicate uh this
+uh Matrix Now by Vector
+
+118
+00:03:09,110 --> 00:03:09,120
+uh Matrix Now by Vector
+ 
+
+119
+00:03:09,120 --> 00:03:12,070
+uh Matrix Now by Vector
+that's let's say the L
+
+120
+00:03:12,070 --> 00:03:12,080
+that's let's say the L
+ 
+
+121
+00:03:12,080 --> 00:03:17,509
+that's let's say the L
+layer matrix by Vector now since I I put
+
+122
+00:03:17,509 --> 00:03:17,519
+layer matrix by Vector now since I I put
+ 
+
+123
+00:03:17,519 --> 00:03:21,350
+layer matrix by Vector now since I I put
+X there it's better to just put an index
+
+124
+00:03:21,350 --> 00:03:21,360
+X there it's better to just put an index
+ 
+
+125
+00:03:21,360 --> 00:03:22,830
+X there it's better to just put an index
+of one there because that's basically
+
+126
+00:03:22,830 --> 00:03:22,840
+of one there because that's basically
+ 
+
+127
+00:03:22,840 --> 00:03:26,589
+of one there because that's basically
+the first
+
+128
+00:03:26,589 --> 00:03:26,599
+
+ 
+
+129
+00:03:26,599 --> 00:03:33,070
+
+layer followed by this kind of a bias
+
+130
+00:03:33,070 --> 00:03:33,080
+
+ 
+
+131
+00:03:33,080 --> 00:03:35,990
+
+and followed by a new nonlinear function
+
+132
+00:03:35,990 --> 00:03:36,000
+and followed by a new nonlinear function
+ 
+
+133
+00:03:36,000 --> 00:03:38,429
+and followed by a new nonlinear function
+that we call the
+
+134
+00:03:38,429 --> 00:03:38,439
+that we call the
+ 
+
+135
+00:03:38,439 --> 00:03:41,990
+that we call the
+ru now it makes sense this kind of block
+
+136
+00:03:41,990 --> 00:03:42,000
+ru now it makes sense this kind of block
+ 
+
+137
+00:03:42,000 --> 00:03:44,190
+ru now it makes sense this kind of block
+diagram we see in front of us so forget
+
+138
+00:03:44,190 --> 00:03:44,200
+diagram we see in front of us so forget
+ 
+
+139
+00:03:44,200 --> 00:03:46,869
+diagram we see in front of us so forget
+a little bit about this kind of a new
+
+140
+00:03:46,869 --> 00:03:46,879
+a little bit about this kind of a new
+ 
+
+141
+00:03:46,879 --> 00:03:48,550
+a little bit about this kind of a new
+nonlinear function which we call
+
+142
+00:03:48,550 --> 00:03:48,560
+nonlinear function which we call
+ 
+
+143
+00:03:48,560 --> 00:03:52,190
+nonlinear function which we call
+rectified linear unit uh but uh just
+
+144
+00:03:52,190 --> 00:03:52,200
+rectified linear unit uh but uh just
+ 
+
+145
+00:03:52,200 --> 00:03:53,830
+rectified linear unit uh but uh just
+kind of stay here in this kind of
+
+146
+00:03:53,830 --> 00:03:53,840
+kind of stay here in this kind of
+ 
+
+147
+00:03:53,840 --> 00:03:56,589
+kind of stay here in this kind of
+portion so we actually see that we take
+
+148
+00:03:56,589 --> 00:03:56,599
+portion so we actually see that we take
+ 
+
+149
+00:03:56,599 --> 00:03:59,869
+portion so we actually see that we take
+this x vector and this x Vector let's
+
+150
+00:03:59,869 --> 00:03:59,879
+this x vector and this x Vector let's
+ 
+
+151
+00:03:59,879 --> 00:04:02,869
+this x vector and this x Vector let's
+call this to be um has dimensionality of
+
+152
+00:04:02,869 --> 00:04:02,879
+call this to be um has dimensionality of
+ 
+
+153
+00:04:02,879 --> 00:04:07,470
+call this to be um has dimensionality of
+n x let's write this down so X is
+
+154
+00:04:07,470 --> 00:04:07,480
+n x let's write this down so X is
+ 
+
+155
+00:04:07,480 --> 00:04:09,830
+n x let's write this down so X is
+belongs to R to the^ of NX in other
+
+156
+00:04:09,830 --> 00:04:09,840
+belongs to R to the^ of NX in other
+ 
+
+157
+00:04:09,840 --> 00:04:12,390
+belongs to R to the^ of NX in other
+words x the number of dimensions of of X
+
+158
+00:04:12,390 --> 00:04:12,400
+words x the number of dimensions of of X
+ 
+
+159
+00:04:12,400 --> 00:04:15,509
+words x the number of dimensions of of X
+is NX *
+
+160
+00:04:15,509 --> 00:04:15,519
+
+ 
+
+161
+00:04:15,519 --> 00:04:19,909
+
+1 and typically by a matrix by Vector
+
+162
+00:04:19,909 --> 00:04:19,919
+1 and typically by a matrix by Vector
+ 
+
+163
+00:04:19,919 --> 00:04:23,150
+1 and typically by a matrix by Vector
+multiplication we are able to do some
+
+164
+00:04:23,150 --> 00:04:23,160
+multiplication we are able to do some
+ 
+
+165
+00:04:23,160 --> 00:04:24,990
+multiplication we are able to do some
+form of dimensionality reduction as you
+
+166
+00:04:24,990 --> 00:04:25,000
+form of dimensionality reduction as you
+ 
+
+167
+00:04:25,000 --> 00:04:28,469
+form of dimensionality reduction as you
+can see the canonical shape of this kind
+
+168
+00:04:28,469 --> 00:04:28,479
+can see the canonical shape of this kind
+ 
+
+169
+00:04:28,479 --> 00:04:30,870
+can see the canonical shape of this kind
+of network is to per perform subsequent
+
+170
+00:04:30,870 --> 00:04:30,880
+of network is to per perform subsequent
+ 
+
+171
+00:04:30,880 --> 00:04:32,749
+of network is to per perform subsequent
+projections from one layer to another
+
+172
+00:04:32,749 --> 00:04:32,759
+projections from one layer to another
+ 
+
+173
+00:04:32,759 --> 00:04:37,430
+projections from one layer to another
+down to a potentially a single scale
+
+174
+00:04:37,430 --> 00:04:37,440
+down to a potentially a single scale
+ 
+
+175
+00:04:37,440 --> 00:04:42,189
+down to a potentially a single scale
+scalar this scalar unit is the
+
+176
+00:04:42,189 --> 00:04:42,199
+scalar this scalar unit is the
+ 
+
+177
+00:04:42,199 --> 00:04:44,749
+scalar this scalar unit is the
+interpreted evidently as the probability
+
+178
+00:04:44,749 --> 00:04:44,759
+interpreted evidently as the probability
+ 
+
+179
+00:04:44,759 --> 00:04:47,590
+interpreted evidently as the probability
+of the positive class given the input X
+
+180
+00:04:47,590 --> 00:04:47,600
+of the positive class given the input X
+ 
+
+181
+00:04:47,600 --> 00:04:49,670
+of the positive class given the input X
+as we have seen in the case of
+
+182
+00:04:49,670 --> 00:04:49,680
+as we have seen in the case of
+ 
+
+183
+00:04:49,680 --> 00:04:54,430
+as we have seen in the case of
+classification or could be uh the U uh
+
+184
+00:04:54,430 --> 00:04:54,440
+classification or could be uh the U uh
+ 
+
+185
+00:04:54,440 --> 00:04:56,310
+classification or could be uh the U uh
+the real number in the case of
+
+186
+00:04:56,310 --> 00:04:56,320
+the real number in the case of
+ 
+
+187
+00:04:56,320 --> 00:04:58,990
+the real number in the case of
+regression okay but that's really the
+
+188
+00:04:58,990 --> 00:04:59,000
+regression okay but that's really the
+ 
+
+189
+00:04:59,000 --> 00:05:00,830
+regression okay but that's really the
+limit so we can start with some really
+
+190
+00:05:00,830 --> 00:05:00,840
+limit so we can start with some really
+ 
+
+191
+00:05:00,840 --> 00:05:04,070
+limit so we can start with some really
+large dimensional uh Vector X and highly
+
+192
+00:05:04,070 --> 00:05:04,080
+large dimensional uh Vector X and highly
+ 
+
+193
+00:05:04,080 --> 00:05:05,430
+large dimensional uh Vector X and highly
+dimensional Vector X and actually
+
+194
+00:05:05,430 --> 00:05:05,440
+dimensional Vector X and actually
+ 
+
+195
+00:05:05,440 --> 00:05:08,430
+dimensional Vector X and actually
+conclude into this into a scaler so how
+
+196
+00:05:08,430 --> 00:05:08,440
+conclude into this into a scaler so how
+ 
+
+197
+00:05:08,440 --> 00:05:11,710
+conclude into this into a scaler so how
+we will actually do that well it all we
+
+198
+00:05:11,710 --> 00:05:11,720
+we will actually do that well it all we
+ 
+
+199
+00:05:11,720 --> 00:05:13,629
+we will actually do that well it all we
+need to do is to Dimension properly the
+
+200
+00:05:13,629 --> 00:05:13,639
+need to do is to Dimension properly the
+ 
+
+201
+00:05:13,639 --> 00:05:17,469
+need to do is to Dimension properly the
+W Matrix so each layer is doing its own
+
+202
+00:05:17,469 --> 00:05:17,479
+W Matrix so each layer is doing its own
+ 
+
+203
+00:05:17,479 --> 00:05:20,590
+W Matrix so each layer is doing its own
+kind of dimensionality uh reduction uh
+
+204
+00:05:20,590 --> 00:05:20,600
+kind of dimensionality uh reduction uh
+ 
+
+205
+00:05:20,600 --> 00:05:24,150
+kind of dimensionality uh reduction uh
+right here at this point so our W Matrix
+
+206
+00:05:24,150 --> 00:05:24,160
+right here at this point so our W Matrix
+ 
+
+207
+00:05:24,160 --> 00:05:29,029
+right here at this point so our W Matrix
+is going to uh be such that it will need
+
+208
+00:05:29,029 --> 00:05:29,039
+is going to uh be such that it will need
+ 
+
+209
+00:05:29,039 --> 00:05:33,230
+is going to uh be such that it will need
+to we start from some uh desired Z that
+
+210
+00:05:33,230 --> 00:05:33,240
+to we start from some uh desired Z that
+ 
+
+211
+00:05:33,240 --> 00:05:37,950
+to we start from some uh desired Z that
+we want to form so the Z is given by W X
+
+212
+00:05:37,950 --> 00:05:37,960
+we want to form so the Z is given by W X
+ 
+
+213
+00:05:37,960 --> 00:05:40,830
+we want to form so the Z is given by W X
+plus b WX +
+
+214
+00:05:40,830 --> 00:05:40,840
+plus b WX +
+ 
+
+215
+00:05:40,840 --> 00:05:44,870
+plus b WX +
+B so that is my uh operation up to this
+
+216
+00:05:44,870 --> 00:05:44,880
+B so that is my uh operation up to this
+ 
+
+217
+00:05:44,880 --> 00:05:48,710
+B so that is my uh operation up to this
+point in time uh so if we are to
+
+218
+00:05:48,710 --> 00:05:48,720
+point in time uh so if we are to
+ 
+
+219
+00:05:48,720 --> 00:05:52,870
+point in time uh so if we are to
+form uh some NZ * 1
+
+220
+00:05:52,870 --> 00:05:52,880
+form uh some NZ * 1
+ 
+
+221
+00:05:52,880 --> 00:05:57,670
+form uh some NZ * 1
+Vector where NZ is going to be uh much
+
+222
+00:05:57,670 --> 00:05:57,680
+Vector where NZ is going to be uh much
+ 
+
+223
+00:05:57,680 --> 00:06:01,390
+Vector where NZ is going to be uh much
+uh smaller uh than the n n x all we need
+
+224
+00:06:01,390 --> 00:06:01,400
+uh smaller uh than the n n x all we need
+ 
+
+225
+00:06:01,400 --> 00:06:03,189
+uh smaller uh than the n n x all we need
+to do is to make sure that we Dimension
+
+226
+00:06:03,189 --> 00:06:03,199
+to do is to make sure that we Dimension
+ 
+
+227
+00:06:03,199 --> 00:06:05,110
+to do is to make sure that we Dimension
+the
+
+228
+00:06:05,110 --> 00:06:05,120
+the
+ 
+
+229
+00:06:05,120 --> 00:06:09,710
+the
+W so let's say NZ time NX that's the
+
+230
+00:06:09,710 --> 00:06:09,720
+W so let's say NZ time NX that's the
+ 
+
+231
+00:06:09,720 --> 00:06:11,070
+W so let's say NZ time NX that's the
+dimensionals of
+
+232
+00:06:11,070 --> 00:06:11,080
+dimensionals of
+ 
+
+233
+00:06:11,080 --> 00:06:13,270
+dimensionals of
+W uh because it's a right hand sign
+
+234
+00:06:13,270 --> 00:06:13,280
+W uh because it's a right hand sign
+ 
+
+235
+00:06:13,280 --> 00:06:15,230
+W uh because it's a right hand sign
+multiplication some authors also treat
+
+236
+00:06:15,230 --> 00:06:15,240
+multiplication some authors also treat
+ 
+
+237
+00:06:15,240 --> 00:06:17,510
+multiplication some authors also treat
+it as a left hand side it's one and the
+
+238
+00:06:17,510 --> 00:06:17,520
+it as a left hand side it's one and the
+ 
+
+239
+00:06:17,520 --> 00:06:18,589
+it as a left hand side it's one and the
+same
+
+240
+00:06:18,589 --> 00:06:18,599
+same
+ 
+
+241
+00:06:18,599 --> 00:06:24,070
+same
+thing plus the bias which is NZ *
+
+242
+00:06:24,070 --> 00:06:24,080
+thing plus the bias which is NZ *
+ 
+
+243
+00:06:24,080 --> 00:06:27,909
+thing plus the bias which is NZ *
+1 so this multiplication now makes sense
+
+244
+00:06:27,909 --> 00:06:27,919
+1 so this multiplication now makes sense
+ 
+
+245
+00:06:27,919 --> 00:06:30,950
+1 so this multiplication now makes sense
+uh that it will produce uh the uh NZ
+
+246
+00:06:30,950 --> 00:06:30,960
+uh that it will produce uh the uh NZ
+ 
+
+247
+00:06:30,960 --> 00:06:33,110
+uh that it will produce uh the uh NZ
+Dimensions at the output uh and uh we
+
+248
+00:06:33,110 --> 00:06:33,120
+Dimensions at the output uh and uh we
+ 
+
+249
+00:06:33,120 --> 00:06:36,629
+Dimensions at the output uh and uh we
+can just make sure that we have NZ less
+
+250
+00:06:36,629 --> 00:06:36,639
+can just make sure that we have NZ less
+ 
+
+251
+00:06:36,639 --> 00:06:39,589
+can just make sure that we have NZ less
+than NX again it's up to us to Define
+
+252
+00:06:39,589 --> 00:06:39,599
+than NX again it's up to us to Define
+ 
+
+253
+00:06:39,599 --> 00:06:41,710
+than NX again it's up to us to Define
+exactly what type of Dimensions we need
+
+254
+00:06:41,710 --> 00:06:41,720
+exactly what type of Dimensions we need
+ 
+
+255
+00:06:41,720 --> 00:06:45,230
+exactly what type of Dimensions we need
+each layer to produce and to reduce
+
+256
+00:06:45,230 --> 00:06:45,240
+each layer to produce and to reduce
+ 
+
+257
+00:06:45,240 --> 00:06:48,110
+each layer to produce and to reduce
+effectively now in terms of the other
+
+258
+00:06:48,110 --> 00:06:48,120
+effectively now in terms of the other
+ 
+
+259
+00:06:48,120 --> 00:06:49,790
+effectively now in terms of the other
+thing that we have actually written over
+
+260
+00:06:49,790 --> 00:06:49,800
+thing that we have actually written over
+ 
+
+261
+00:06:49,800 --> 00:06:53,270
+thing that we have actually written over
+here empirically has been shown that and
+
+262
+00:06:53,270 --> 00:06:53,280
+here empirically has been shown that and
+ 
+
+263
+00:06:53,280 --> 00:06:54,670
+here empirically has been shown that and
+this is something that we will
+
+264
+00:06:54,670 --> 00:06:54,680
+this is something that we will
+ 
+
+265
+00:06:54,680 --> 00:06:56,790
+this is something that we will
+understand after we treat back
+
+266
+00:06:56,790 --> 00:06:56,800
+understand after we treat back
+ 
+
+267
+00:06:56,800 --> 00:06:59,070
+understand after we treat back
+propagation empirically has been shown
+
+268
+00:06:59,070 --> 00:06:59,080
+propagation empirically has been shown
+ 
+
+269
+00:06:59,080 --> 00:07:01,550
+propagation empirically has been shown
+that a new uh nonlinear
+
+270
+00:07:01,550 --> 00:07:01,560
+that a new uh nonlinear
+ 
+
+271
+00:07:01,560 --> 00:07:06,270
+that a new uh nonlinear
+unit that I am going to plot over
+
+272
+00:07:06,270 --> 00:07:06,280
+
+ 
+
+273
+00:07:06,280 --> 00:07:09,550
+
+here this nonlinear unit that we call
+
+274
+00:07:09,550 --> 00:07:09,560
+here this nonlinear unit that we call
+ 
+
+275
+00:07:09,560 --> 00:07:12,990
+here this nonlinear unit that we call
+the reu is called rectified linear unit
+
+276
+00:07:12,990 --> 00:07:13,000
+the reu is called rectified linear unit
+ 
+
+277
+00:07:13,000 --> 00:07:15,629
+the reu is called rectified linear unit
+it is linear unit for all positive value
+
+278
+00:07:15,629 --> 00:07:15,639
+it is linear unit for all positive value
+ 
+
+279
+00:07:15,639 --> 00:07:18,950
+it is linear unit for all positive value
+so that's this angle is
+
+280
+00:07:18,950 --> 00:07:18,960
+so that's this angle is
+ 
+
+281
+00:07:18,960 --> 00:07:23,990
+so that's this angle is
+45° uh 45° and then we have
+
+282
+00:07:23,990 --> 00:07:24,000
+45° uh 45° and then we have
+ 
+
+283
+00:07:24,000 --> 00:07:29,150
+45° uh 45° and then we have
+U the input Z and the output this axis
+
+284
+00:07:29,150 --> 00:07:29,160
+U the input Z and the output this axis
+ 
+
+285
+00:07:29,160 --> 00:07:31,150
+U the input Z and the output this axis
+is Ru of
+
+286
+00:07:31,150 --> 00:07:31,160
+is Ru of
+ 
+
+287
+00:07:31,160 --> 00:07:35,189
+is Ru of
+Z and uh the all
+
+288
+00:07:35,189 --> 00:07:35,199
+Z and uh the all
+ 
+
+289
+00:07:35,199 --> 00:07:39,510
+Z and uh the all
+negative logits Z are mapped to zero and
+
+290
+00:07:39,510 --> 00:07:39,520
+negative logits Z are mapped to zero and
+ 
+
+291
+00:07:39,520 --> 00:07:41,390
+negative logits Z are mapped to zero and
+that's what makes it nonlinear if you
+
+292
+00:07:41,390 --> 00:07:41,400
+that's what makes it nonlinear if you
+ 
+
+293
+00:07:41,400 --> 00:07:43,230
+that's what makes it nonlinear if you
+have minus one it's zero if you have one
+
+294
+00:07:43,230 --> 00:07:43,240
+have minus one it's zero if you have one
+ 
+
+295
+00:07:43,240 --> 00:07:46,909
+have minus one it's zero if you have one
+minus one million it's also zero okay so
+
+296
+00:07:46,909 --> 00:07:46,919
+minus one million it's also zero okay so
+ 
+
+297
+00:07:46,919 --> 00:07:50,869
+minus one million it's also zero okay so
+um the um reu from now on we will write
+
+298
+00:07:50,869 --> 00:07:50,879
+um the um reu from now on we will write
+ 
+
+299
+00:07:50,879 --> 00:07:55,110
+um the um reu from now on we will write
+it as a an expression which
+
+300
+00:07:55,110 --> 00:07:55,120
+it as a an expression which
+ 
+
+301
+00:07:55,120 --> 00:07:58,790
+it as a an expression which
+effectively agrees with this diagram R
+
+302
+00:07:58,790 --> 00:07:58,800
+effectively agrees with this diagram R
+ 
+
+303
+00:07:58,800 --> 00:08:03,790
+effectively agrees with this diagram R
+of Z is is equal to Max of 0 comma Z
+
+304
+00:08:03,790 --> 00:08:03,800
+of Z is is equal to Max of 0 comma Z
+ 
+
+305
+00:08:03,800 --> 00:08:05,430
+of Z is is equal to Max of 0 comma Z
+that is the
+
+306
+00:08:05,430 --> 00:08:05,440
+that is the
+ 
+
+307
+00:08:05,440 --> 00:08:08,950
+that is the
+equation um when Z is positive uh the
+
+308
+00:08:08,950 --> 00:08:08,960
+equation um when Z is positive uh the
+ 
+
+309
+00:08:08,960 --> 00:08:10,270
+equation um when Z is positive uh the
+output is
+
+310
+00:08:10,270 --> 00:08:10,280
+output is
+ 
+
+311
+00:08:10,280 --> 00:08:12,950
+output is
+z if it is negative the output will be
+
+312
+00:08:12,950 --> 00:08:12,960
+z if it is negative the output will be
+ 
+
+313
+00:08:12,960 --> 00:08:16,550
+z if it is negative the output will be
+zero that's that's how this equation is
+
+314
+00:08:16,550 --> 00:08:16,560
+zero that's that's how this equation is
+ 
+
+315
+00:08:16,560 --> 00:08:19,270
+zero that's that's how this equation is
+should be read and uh basically we are
+
+316
+00:08:19,270 --> 00:08:19,280
+should be read and uh basically we are
+ 
+
+317
+00:08:19,280 --> 00:08:23,309
+should be read and uh basically we are
+done we have now one uh dense
+
+318
+00:08:23,309 --> 00:08:23,319
+done we have now one uh dense
+ 
+
+319
+00:08:23,319 --> 00:08:27,309
+done we have now one uh dense
+layer the block diagram of a dense layer
+
+320
+00:08:27,309 --> 00:08:27,319
+layer the block diagram of a dense layer
+ 
+
+321
+00:08:27,319 --> 00:08:30,350
+layer the block diagram of a dense layer
+and what we will do is we'll now see um
+
+322
+00:08:30,350 --> 00:08:30,360
+and what we will do is we'll now see um
+ 
+
+323
+00:08:30,360 --> 00:08:34,870
+and what we will do is we'll now see um
+an example of
+
+324
+00:08:34,870 --> 00:08:34,880
+
+ 
+
+325
+00:08:34,880 --> 00:08:37,630
+
+um where we actually going to be put all
+
+326
+00:08:37,630 --> 00:08:37,640
+um where we actually going to be put all
+ 
+
+327
+00:08:37,640 --> 00:08:40,269
+um where we actually going to be put all
+these kind of multiple layers uh stacked
+
+328
+00:08:40,269 --> 00:08:40,279
+these kind of multiple layers uh stacked
+ 
+
+329
+00:08:40,279 --> 00:08:45,269
+these kind of multiple layers uh stacked
+together so that is called the
+
+330
+00:08:45,269 --> 00:08:45,279
+
+ 
+
+331
+00:08:45,279 --> 00:08:47,590
+
+dense
+
+332
+00:08:47,590 --> 00:08:47,600
+dense
+ 
+
+333
+00:08:47,600 --> 00:08:50,550
+dense
+layer and so let's now uh move into into
+
+334
+00:08:50,550 --> 00:08:50,560
+layer and so let's now uh move into into
+ 
+
+335
+00:08:50,560 --> 00:08:52,150
+layer and so let's now uh move into into
+this example and see what
+
+336
+00:08:52,150 --> 00:08:52,160
+this example and see what
+ 
+
+337
+00:08:52,160 --> 00:08:54,310
+this example and see what
+happens an example application that
+
+338
+00:08:54,310 --> 00:08:54,320
+happens an example application that
+ 
+
+339
+00:08:54,320 --> 00:08:56,990
+happens an example application that
+we're going to see is the so-called
+
+340
+00:08:56,990 --> 00:08:57,000
+we're going to see is the so-called
+ 
+
+341
+00:08:57,000 --> 00:08:59,670
+we're going to see is the so-called
+multiclass classification
+
+342
+00:08:59,670 --> 00:08:59,680
+multiclass classification
+ 
+
+343
+00:08:59,680 --> 00:09:01,870
+multiclass classification
+and for that uh application we'll be
+
+344
+00:09:01,870 --> 00:09:01,880
+and for that uh application we'll be
+ 
+
+345
+00:09:01,880 --> 00:09:05,269
+and for that uh application we'll be
+using a notebook that is in our site
+
+346
+00:09:05,269 --> 00:09:05,279
+using a notebook that is in our site
+ 
+
+347
+00:09:05,279 --> 00:09:08,509
+using a notebook that is in our site
+called the shold fashionist case
+
+348
+00:09:08,509 --> 00:09:08,519
+called the shold fashionist case
+ 
+
+349
+00:09:08,519 --> 00:09:12,949
+called the shold fashionist case
+study uh the um notebook can be launched
+
+350
+00:09:12,949 --> 00:09:12,959
+study uh the um notebook can be launched
+ 
+
+351
+00:09:12,959 --> 00:09:15,910
+study uh the um notebook can be launched
+in Google collab with a single button so
+
+352
+00:09:15,910 --> 00:09:15,920
+in Google collab with a single button so
+ 
+
+353
+00:09:15,920 --> 00:09:19,230
+in Google collab with a single button so
+as you scroll this you will uh basically
+
+354
+00:09:19,230 --> 00:09:19,240
+as you scroll this you will uh basically
+ 
+
+355
+00:09:19,240 --> 00:09:21,550
+as you scroll this you will uh basically
+press this button to go to
+
+356
+00:09:21,550 --> 00:09:21,560
+press this button to go to
+ 
+
+357
+00:09:21,560 --> 00:09:24,389
+press this button to go to
+collab uh which is an environment of
+
+358
+00:09:24,389 --> 00:09:24,399
+collab uh which is an environment of
+ 
+
+359
+00:09:24,399 --> 00:09:27,710
+collab uh which is an environment of
+python runtime uh that uh is in the
+
+360
+00:09:27,710 --> 00:09:27,720
+python runtime uh that uh is in the
+ 
+
+361
+00:09:27,720 --> 00:09:30,150
+python runtime uh that uh is in the
+cloud and is offering to us also some
+
+362
+00:09:30,150 --> 00:09:30,160
+cloud and is offering to us also some
+ 
+
+363
+00:09:30,160 --> 00:09:32,949
+cloud and is offering to us also some
+accelerated kind of compute for all our
+
+364
+00:09:32,949 --> 00:09:32,959
+accelerated kind of compute for all our
+ 
+
+365
+00:09:32,959 --> 00:09:36,310
+accelerated kind of compute for all our
+applications here so you can uh for that
+
+366
+00:09:36,310 --> 00:09:36,320
+applications here so you can uh for that
+ 
+
+367
+00:09:36,320 --> 00:09:37,870
+applications here so you can uh for that
+specific example it's actually a good
+
+368
+00:09:37,870 --> 00:09:37,880
+specific example it's actually a good
+ 
+
+369
+00:09:37,880 --> 00:09:41,389
+specific example it's actually a good
+idea to change the runtime type to uh
+
+370
+00:09:41,389 --> 00:09:41,399
+idea to change the runtime type to uh
+ 
+
+371
+00:09:41,399 --> 00:09:43,230
+idea to change the runtime type to uh
+that of uh
+
+372
+00:09:43,230 --> 00:09:43,240
+that of uh
+ 
+
+373
+00:09:43,240 --> 00:09:46,710
+that of uh
+GPU and you can select the cheapest kind
+
+374
+00:09:46,710 --> 00:09:46,720
+GPU and you can select the cheapest kind
+ 
+
+375
+00:09:46,720 --> 00:09:51,030
+GPU and you can select the cheapest kind
+of GPU it's the T T4 in this specific um
+
+376
+00:09:51,030 --> 00:09:51,040
+of GPU it's the T T4 in this specific um
+ 
+
+377
+00:09:51,040 --> 00:09:55,509
+of GPU it's the T T4 in this specific um
+uh case uh and uh if you are uh to you
+
+378
+00:09:55,509 --> 00:09:55,519
+uh case uh and uh if you are uh to you
+ 
+
+379
+00:09:55,519 --> 00:09:57,269
+uh case uh and uh if you are uh to you
+know pay a subscription to Google then
+
+380
+00:09:57,269 --> 00:09:57,279
+know pay a subscription to Google then
+ 
+
+381
+00:09:57,279 --> 00:09:59,150
+know pay a subscription to Google then
+you can select some more powerful GP but
+
+382
+00:09:59,150 --> 00:09:59,160
+you can select some more powerful GP but
+ 
+
+383
+00:09:59,160 --> 00:10:02,630
+you can select some more powerful GP but
+for our application here uh that that
+
+384
+00:10:02,630 --> 00:10:02,640
+for our application here uh that that
+ 
+
+385
+00:10:02,640 --> 00:10:05,350
+for our application here uh that that
+GPU is sufficient okay so you can press
+
+386
+00:10:05,350 --> 00:10:05,360
+GPU is sufficient okay so you can press
+ 
+
+387
+00:10:05,360 --> 00:10:08,710
+GPU is sufficient okay so you can press
+the save button over here and what is um
+
+388
+00:10:08,710 --> 00:10:08,720
+the save button over here and what is um
+ 
+
+389
+00:10:08,720 --> 00:10:12,069
+the save button over here and what is um
+now happening is that you can uh connect
+
+390
+00:10:12,069 --> 00:10:12,079
+now happening is that you can uh connect
+ 
+
+391
+00:10:12,079 --> 00:10:14,150
+now happening is that you can uh connect
+to Google cloud and the Google Cloud
+
+392
+00:10:14,150 --> 00:10:14,160
+to Google cloud and the Google Cloud
+ 
+
+393
+00:10:14,160 --> 00:10:17,069
+to Google cloud and the Google Cloud
+will actually give you uh a computation
+
+394
+00:10:17,069 --> 00:10:17,079
+will actually give you uh a computation
+ 
+
+395
+00:10:17,079 --> 00:10:19,870
+will actually give you uh a computation
+Resource as you can see here with some
+
+396
+00:10:19,870 --> 00:10:19,880
+Resource as you can see here with some
+ 
+
+397
+00:10:19,880 --> 00:10:23,430
+Resource as you can see here with some
+memories and CPU and and and the T4 GPU
+
+398
+00:10:23,430 --> 00:10:23,440
+memories and CPU and and and the T4 GPU
+ 
+
+399
+00:10:23,440 --> 00:10:27,389
+memories and CPU and and and the T4 GPU
+to be able to run uh this application so
+
+400
+00:10:27,389 --> 00:10:27,399
+to be able to run uh this application so
+ 
+
+401
+00:10:27,399 --> 00:10:29,310
+to be able to run uh this application so
+um I hope everyone is familiar with py
+
+402
+00:10:29,310 --> 00:10:29,320
+um I hope everyone is familiar with py
+ 
+
+403
+00:10:29,320 --> 00:10:32,190
+um I hope everyone is familiar with py
+py notebooks and if not we have other
+
+404
+00:10:32,190 --> 00:10:32,200
+py notebooks and if not we have other
+ 
+
+405
+00:10:32,200 --> 00:10:34,509
+py notebooks and if not we have other
+videos that actually can of teach you
+
+406
+00:10:34,509 --> 00:10:34,519
+videos that actually can of teach you
+ 
+
+407
+00:10:34,519 --> 00:10:35,310
+videos that actually can of teach you
+the
+
+408
+00:10:35,310 --> 00:10:35,320
+the
+ 
+
+409
+00:10:35,320 --> 00:10:37,710
+the
+basics uh but this application is
+
+410
+00:10:37,710 --> 00:10:37,720
+basics uh but this application is
+ 
+
+411
+00:10:37,720 --> 00:10:40,430
+basics uh but this application is
+actually written in a a framework called
+
+412
+00:10:40,430 --> 00:10:40,440
+actually written in a a framework called
+ 
+
+413
+00:10:40,440 --> 00:10:43,750
+actually written in a a framework called
+tensorflow caras um kasas is a kind of a
+
+414
+00:10:43,750 --> 00:10:43,760
+tensorflow caras um kasas is a kind of a
+ 
+
+415
+00:10:43,760 --> 00:10:46,350
+tensorflow caras um kasas is a kind of a
+higher level API than tensor flow and
+
+416
+00:10:46,350 --> 00:10:46,360
+higher level API than tensor flow and
+ 
+
+417
+00:10:46,360 --> 00:10:47,629
+higher level API than tensor flow and
+exactly the same
+
+418
+00:10:47,629 --> 00:10:47,639
+exactly the same
+ 
+
+419
+00:10:47,639 --> 00:10:50,389
+exactly the same
+application you can actually find it in
+
+420
+00:10:50,389 --> 00:10:50,399
+application you can actually find it in
+ 
+
+421
+00:10:50,399 --> 00:10:53,870
+application you can actually find it in
+uh for pytorch uh if you go to the pytor
+
+422
+00:10:53,870 --> 00:10:53,880
+uh for pytorch uh if you go to the pytor
+ 
+
+423
+00:10:53,880 --> 00:10:56,310
+uh for pytorch uh if you go to the pytor
+website uh but for now in this specific
+
+424
+00:10:56,310 --> 00:10:56,320
+website uh but for now in this specific
+ 
+
+425
+00:10:56,320 --> 00:10:59,350
+website uh but for now in this specific
+case we're going to go with caras now
+
+426
+00:10:59,350 --> 00:10:59,360
+case we're going to go with caras now
+ 
+
+427
+00:10:59,360 --> 00:11:01,310
+case we're going to go with caras now
+now uh the data set that we're going to
+
+428
+00:11:01,310 --> 00:11:01,320
+now uh the data set that we're going to
+ 
+
+429
+00:11:01,320 --> 00:11:04,030
+now uh the data set that we're going to
+be working with is the so-called an
+
+430
+00:11:04,030 --> 00:11:04,040
+be working with is the so-called an
+ 
+
+431
+00:11:04,040 --> 00:11:06,590
+be working with is the so-called an
+evolution of the very famous data set
+
+432
+00:11:06,590 --> 00:11:06,600
+evolution of the very famous data set
+ 
+
+433
+00:11:06,600 --> 00:11:09,829
+evolution of the very famous data set
+called mnist the mnist data set was
+
+434
+00:11:09,829 --> 00:11:09,839
+called mnist the mnist data set was
+ 
+
+435
+00:11:09,839 --> 00:11:14,069
+called mnist the mnist data set was
+generated and created uh for um allowing
+
+436
+00:11:14,069 --> 00:11:14,079
+generated and created uh for um allowing
+ 
+
+437
+00:11:14,079 --> 00:11:16,790
+generated and created uh for um allowing
+um to to actually perform multiclass
+
+438
+00:11:16,790 --> 00:11:16,800
+um to to actually perform multiclass
+ 
+
+439
+00:11:16,800 --> 00:11:20,590
+um to to actually perform multiclass
+classification on and digits uh from 0
+
+440
+00:11:20,590 --> 00:11:20,600
+classification on and digits uh from 0
+ 
+
+441
+00:11:20,600 --> 00:11:24,190
+classification on and digits uh from 0
+to 9 therefore we have 10 classes and
+
+442
+00:11:24,190 --> 00:11:24,200
+to 9 therefore we have 10 classes and
+ 
+
+443
+00:11:24,200 --> 00:11:26,190
+to 9 therefore we have 10 classes and
+what has happened is that over the years
+
+444
+00:11:26,190 --> 00:11:26,200
+what has happened is that over the years
+ 
+
+445
+00:11:26,200 --> 00:11:29,790
+what has happened is that over the years
+uh lots of uh you know modeling uh of
+
+446
+00:11:29,790 --> 00:11:29,800
+uh lots of uh you know modeling uh of
+ 
+
+447
+00:11:29,800 --> 00:11:31,470
+uh lots of uh you know modeling uh of
+lots of modeling activity the
+
+448
+00:11:31,470 --> 00:11:31,480
+lots of modeling activity the
+ 
+
+449
+00:11:31,480 --> 00:11:33,269
+lots of modeling activity the
+performance the classification
+
+450
+00:11:33,269 --> 00:11:33,279
+performance the classification
+ 
+
+451
+00:11:33,279 --> 00:11:35,269
+performance the classification
+performance and accuracy in that kind of
+
+452
+00:11:35,269 --> 00:11:35,279
+performance and accuracy in that kind of
+ 
+
+453
+00:11:35,279 --> 00:11:39,350
+performance and accuracy in that kind of
+data set um saturated to the point that
+
+454
+00:11:39,350 --> 00:11:39,360
+data set um saturated to the point that
+ 
+
+455
+00:11:39,360 --> 00:11:41,230
+data set um saturated to the point that
+cannot really be used as a data set
+
+456
+00:11:41,230 --> 00:11:41,240
+cannot really be used as a data set
+ 
+
+457
+00:11:41,240 --> 00:11:43,310
+cannot really be used as a data set
+anymore at least for this specific
+
+458
+00:11:43,310 --> 00:11:43,320
+anymore at least for this specific
+ 
+
+459
+00:11:43,320 --> 00:11:45,269
+anymore at least for this specific
+simple task we have here which is
+
+460
+00:11:45,269 --> 00:11:45,279
+simple task we have here which is
+ 
+
+461
+00:11:45,279 --> 00:11:47,550
+simple task we have here which is
+multiclass classification so people have
+
+462
+00:11:47,550 --> 00:11:47,560
+multiclass classification so people have
+ 
+
+463
+00:11:47,560 --> 00:11:50,710
+multiclass classification so people have
+thought about uh how we can create a bit
+
+464
+00:11:50,710 --> 00:11:50,720
+thought about uh how we can create a bit
+ 
+
+465
+00:11:50,720 --> 00:11:53,389
+thought about uh how we can create a bit
+more challenging data set and they came
+
+466
+00:11:53,389 --> 00:11:53,399
+more challenging data set and they came
+ 
+
+467
+00:11:53,399 --> 00:11:57,069
+more challenging data set and they came
+out U with the So-Cal fashionist which
+
+468
+00:11:57,069 --> 00:11:57,079
+out U with the So-Cal fashionist which
+ 
+
+469
+00:11:57,079 --> 00:12:01,430
+out U with the So-Cal fashionist which
+is uh exactly the same in terms of the
+
+470
+00:12:01,430 --> 00:12:01,440
+is uh exactly the same in terms of the
+ 
+
+471
+00:12:01,440 --> 00:12:04,110
+is uh exactly the same in terms of the
+uh imagery that we are feeding into uh
+
+472
+00:12:04,110 --> 00:12:04,120
+uh imagery that we are feeding into uh
+ 
+
+473
+00:12:04,120 --> 00:12:09,269
+uh imagery that we are feeding into uh
+the X's our X's here are 28 by 28 pixels
+
+474
+00:12:09,269 --> 00:12:09,279
+the X's our X's here are 28 by 28 pixels
+ 
+
+475
+00:12:09,279 --> 00:12:12,269
+the X's our X's here are 28 by 28 pixels
+grayscale images and instead of and
+
+476
+00:12:12,269 --> 00:12:12,279
+grayscale images and instead of and
+ 
+
+477
+00:12:12,279 --> 00:12:16,230
+grayscale images and instead of and
+digits we have uh the um uh fashion
+
+478
+00:12:16,230 --> 00:12:16,240
+digits we have uh the um uh fashion
+ 
+
+479
+00:12:16,240 --> 00:12:18,629
+digits we have uh the um uh fashion
+items and here you scroll down a little
+
+480
+00:12:18,629 --> 00:12:18,639
+items and here you scroll down a little
+ 
+
+481
+00:12:18,639 --> 00:12:21,990
+items and here you scroll down a little
+bit you can uh first of all you can load
+
+482
+00:12:21,990 --> 00:12:22,000
+bit you can uh first of all you can load
+ 
+
+483
+00:12:22,000 --> 00:12:24,230
+bit you can uh first of all you can load
+the data set with just a single line of
+
+484
+00:12:24,230 --> 00:12:24,240
+the data set with just a single line of
+ 
+
+485
+00:12:24,240 --> 00:12:28,590
+the data set with just a single line of
+code uh and uh here are the 10 classes
+
+486
+00:12:28,590 --> 00:12:28,600
+code uh and uh here are the 10 classes
+ 
+
+487
+00:12:28,600 --> 00:12:31,350
+code uh and uh here are the 10 classes
+that we will be concerned with uh in
+
+488
+00:12:31,350 --> 00:12:31,360
+that we will be concerned with uh in
+ 
+
+489
+00:12:31,360 --> 00:12:33,110
+that we will be concerned with uh in
+this specific uh
+
+490
+00:12:33,110 --> 00:12:33,120
+this specific uh
+ 
+
+491
+00:12:33,120 --> 00:12:37,910
+this specific uh
+example all right so um we have 60,000
+
+492
+00:12:37,910 --> 00:12:37,920
+example all right so um we have 60,000
+ 
+
+493
+00:12:37,920 --> 00:12:39,949
+example all right so um we have 60,000
+uh training images after we split our
+
+494
+00:12:39,949 --> 00:12:39,959
+uh training images after we split our
+ 
+
+495
+00:12:39,959 --> 00:12:43,110
+uh training images after we split our
+data set to a train and and validation
+
+496
+00:12:43,110 --> 00:12:43,120
+data set to a train and and validation
+ 
+
+497
+00:12:43,120 --> 00:12:47,550
+data set to a train and and validation
+or test as it's called here and the U uh
+
+498
+00:12:47,550 --> 00:12:47,560
+or test as it's called here and the U uh
+ 
+
+499
+00:12:47,560 --> 00:12:49,829
+or test as it's called here and the U uh
+we can actually run uh this whole
+
+500
+00:12:49,829 --> 00:12:49,839
+we can actually run uh this whole
+ 
+
+501
+00:12:49,839 --> 00:12:53,269
+we can actually run uh this whole
+notebook in one go or run every cell
+
+502
+00:12:53,269 --> 00:12:53,279
+notebook in one go or run every cell
+ 
+
+503
+00:12:53,279 --> 00:12:55,590
+notebook in one go or run every cell
+individually as we go along so if you go
+
+504
+00:12:55,590 --> 00:12:55,600
+individually as we go along so if you go
+ 
+
+505
+00:12:55,600 --> 00:12:58,710
+individually as we go along so if you go
+to runtime uh since we Chang it to a GPU
+
+506
+00:12:58,710 --> 00:12:58,720
+to runtime uh since we Chang it to a GPU
+ 
+
+507
+00:12:58,720 --> 00:13:02,310
+to runtime uh since we Chang it to a GPU
+and press the run all buttom then uh The
+
+508
+00:13:02,310 --> 00:13:02,320
+and press the run all buttom then uh The
+ 
+
+509
+00:13:02,320 --> 00:13:04,710
+and press the run all buttom then uh The
+Notebook will be executed and we should
+
+510
+00:13:04,710 --> 00:13:04,720
+Notebook will be executed and we should
+ 
+
+511
+00:13:04,720 --> 00:13:08,990
+Notebook will be executed and we should
+actually start seeing some um examples
+
+512
+00:13:08,990 --> 00:13:09,000
+actually start seeing some um examples
+ 
+
+513
+00:13:09,000 --> 00:13:12,990
+actually start seeing some um examples
+some outputs uh from the code cells so
+
+514
+00:13:12,990 --> 00:13:13,000
+some outputs uh from the code cells so
+ 
+
+515
+00:13:13,000 --> 00:13:17,430
+some outputs uh from the code cells so
+here we see the U you know 28x 28 uh
+
+516
+00:13:17,430 --> 00:13:17,440
+here we see the U you know 28x 28 uh
+ 
+
+517
+00:13:17,440 --> 00:13:20,829
+here we see the U you know 28x 28 uh
+pixels images that we are going to be uh
+
+518
+00:13:20,829 --> 00:13:20,839
+pixels images that we are going to be uh
+ 
+
+519
+00:13:20,839 --> 00:13:23,910
+pixels images that we are going to be uh
+processing and so what we will do now is
+
+520
+00:13:23,910 --> 00:13:23,920
+processing and so what we will do now is
+ 
+
+521
+00:13:23,920 --> 00:13:27,269
+processing and so what we will do now is
+we will um scroll a little bit just to
+
+522
+00:13:27,269 --> 00:13:27,279
+we will um scroll a little bit just to
+ 
+
+523
+00:13:27,279 --> 00:13:29,870
+we will um scroll a little bit just to
+see some examples and stay at this point
+
+524
+00:13:29,870 --> 00:13:29,880
+see some examples and stay at this point
+ 
+
+525
+00:13:29,880 --> 00:13:31,790
+see some examples and stay at this point
+that we are going to be building a Model
+
+526
+00:13:31,790 --> 00:13:31,800
+that we are going to be building a Model
+ 
+
+527
+00:13:31,800 --> 00:13:34,310
+that we are going to be building a Model
+A predictor uh this predictor is going
+
+528
+00:13:34,310 --> 00:13:34,320
+A predictor uh this predictor is going
+ 
+
+529
+00:13:34,320 --> 00:13:37,750
+A predictor uh this predictor is going
+to be consisting of fully connected
+
+530
+00:13:37,750 --> 00:13:37,760
+to be consisting of fully connected
+ 
+
+531
+00:13:37,760 --> 00:13:41,189
+to be consisting of fully connected
+layers and uh this is our model over
+
+532
+00:13:41,189 --> 00:13:41,199
+layers and uh this is our model over
+ 
+
+533
+00:13:41,199 --> 00:13:44,150
+layers and uh this is our model over
+here and what we will do is we'll uh
+
+534
+00:13:44,150 --> 00:13:44,160
+here and what we will do is we'll uh
+ 
+
+535
+00:13:44,160 --> 00:13:46,629
+here and what we will do is we'll uh
+convert this uh lines of code into a
+
+536
+00:13:46,629 --> 00:13:46,639
+convert this uh lines of code into a
+ 
+
+537
+00:13:46,639 --> 00:13:49,750
+convert this uh lines of code into a
+diagram in our uh sort of uh document
+
+538
+00:13:49,750 --> 00:13:49,760
+diagram in our uh sort of uh document
+ 
+
+539
+00:13:49,760 --> 00:13:52,269
+diagram in our uh sort of uh document
+camera here and so I'm going to stop and
+
+540
+00:13:52,269 --> 00:13:52,279
+camera here and so I'm going to stop and
+ 
+
+541
+00:13:52,279 --> 00:13:54,829
+camera here and so I'm going to stop and
+switch to the other scene where we have
+
+542
+00:13:54,829 --> 00:13:54,839
+switch to the other scene where we have
+ 
+
+543
+00:13:54,839 --> 00:13:57,030
+switch to the other scene where we have
+been uh will'll be
+
+544
+00:13:57,030 --> 00:13:57,040
+been uh will'll be
+ 
+
+545
+00:13:57,040 --> 00:14:00,189
+been uh will'll be
+writing and generating if you like this
+
+546
+00:14:00,189 --> 00:14:00,199
+writing and generating if you like this
+ 
+
+547
+00:14:00,199 --> 00:14:04,949
+writing and generating if you like this
+uh this diagram okay so let's see we are
+
+548
+00:14:04,949 --> 00:14:04,959
+uh this diagram okay so let's see we are
+ 
+
+549
+00:14:04,959 --> 00:14:06,710
+uh this diagram okay so let's see we are
+going to turn the page a little bit
+
+550
+00:14:06,710 --> 00:14:06,720
+going to turn the page a little bit
+ 
+
+551
+00:14:06,720 --> 00:14:10,030
+going to turn the page a little bit
+because we are have a bit more elaborate
+
+552
+00:14:10,030 --> 00:14:10,040
+because we are have a bit more elaborate
+ 
+
+553
+00:14:10,040 --> 00:14:13,230
+because we are have a bit more elaborate
+diagram to draw so I'm going to title
+
+554
+00:14:13,230 --> 00:14:13,240
+diagram to draw so I'm going to title
+ 
+
+555
+00:14:13,240 --> 00:14:16,230
+diagram to draw so I'm going to title
+this U the
+
+556
+00:14:16,230 --> 00:14:16,240
+this U the
+ 
+
+557
+00:14:16,240 --> 00:14:18,550
+this U the
+uh let me call it
+
+558
+00:14:18,550 --> 00:14:18,560
+uh let me call it
+ 
+
+559
+00:14:18,560 --> 00:14:22,870
+uh let me call it
+a
+
+560
+00:14:22,870 --> 00:14:22,880
+
+ 
+
+561
+00:14:22,880 --> 00:14:24,470
+
+multi-layer
+
+562
+00:14:24,470 --> 00:14:24,480
+multi-layer
+ 
+
+563
+00:14:24,480 --> 00:14:26,389
+multi-layer
+multi-layer let me also bring the
+
+564
+00:14:26,389 --> 00:14:26,399
+multi-layer let me also bring the
+ 
+
+565
+00:14:26,399 --> 00:14:30,590
+multi-layer let me also bring the
+microphone close by so multilayer ler
+
+566
+00:14:30,590 --> 00:14:30,600
+microphone close by so multilayer ler
+ 
+
+567
+00:14:30,600 --> 00:14:37,110
+microphone close by so multilayer ler
+uh
+
+568
+00:14:37,110 --> 00:14:37,120
+
+ 
+
+569
+00:14:37,120 --> 00:14:40,110
+
+classification and this is the so-called
+
+570
+00:14:40,110 --> 00:14:40,120
+classification and this is the so-called
+ 
+
+571
+00:14:40,120 --> 00:14:41,110
+classification and this is the so-called
+fully
+
+572
+00:14:41,110 --> 00:14:41,120
+fully
+ 
+
+573
+00:14:41,120 --> 00:14:48,389
+fully
+connected uh sort of
+
+574
+00:14:48,389 --> 00:14:48,399
+
+ 
+
+575
+00:14:48,399 --> 00:14:52,030
+
+architecture so uh the model if we see
+
+576
+00:14:52,030 --> 00:14:52,040
+architecture so uh the model if we see
+ 
+
+577
+00:14:52,040 --> 00:14:56,030
+architecture so uh the model if we see
+the code uh is uh going to be able to
+
+578
+00:14:56,030 --> 00:14:56,040
+the code uh is uh going to be able to
+ 
+
+579
+00:14:56,040 --> 00:14:59,550
+the code uh is uh going to be able to
+process uh this type of data however
+
+580
+00:14:59,550 --> 00:14:59,560
+process uh this type of data however
+ 
+
+581
+00:14:59,560 --> 00:15:02,590
+process uh this type of data however
+we are not ready yet to process images
+
+582
+00:15:02,590 --> 00:15:02,600
+we are not ready yet to process images
+ 
+
+583
+00:15:02,600 --> 00:15:05,430
+we are not ready yet to process images
+uh so what we will do is we will flatten
+
+584
+00:15:05,430 --> 00:15:05,440
+uh so what we will do is we will flatten
+ 
+
+585
+00:15:05,440 --> 00:15:08,269
+uh so what we will do is we will flatten
+this 28x 28 images so remember that we
+
+586
+00:15:08,269 --> 00:15:08,279
+this 28x 28 images so remember that we
+ 
+
+587
+00:15:08,279 --> 00:15:11,310
+this 28x 28 images so remember that we
+are been dealing with we have been given
+
+588
+00:15:11,310 --> 00:15:11,320
+are been dealing with we have been given
+ 
+
+589
+00:15:11,320 --> 00:15:14,350
+are been dealing with we have been given
+this
+
+590
+00:15:14,350 --> 00:15:14,360
+
+ 
+
+591
+00:15:14,360 --> 00:15:18,150
+
+28 by 28 pixels
+
+592
+00:15:18,150 --> 00:15:18,160
+28 by 28 pixels
+ 
+
+593
+00:15:18,160 --> 00:15:20,949
+28 by 28 pixels
+images uh sort of representing some kind
+
+594
+00:15:20,949 --> 00:15:20,959
+images uh sort of representing some kind
+ 
+
+595
+00:15:20,959 --> 00:15:24,710
+images uh sort of representing some kind
+of fashion item
+
+596
+00:15:24,710 --> 00:15:24,720
+
+ 
+
+597
+00:15:24,720 --> 00:15:29,470
+
+um something like that and uh and then
+
+598
+00:15:29,470 --> 00:15:29,480
+um something like that and uh and then
+ 
+
+599
+00:15:29,480 --> 00:15:33,309
+um something like that and uh and then
+we are going to um uh flatten that kind
+
+600
+00:15:33,309 --> 00:15:33,319
+we are going to um uh flatten that kind
+ 
+
+601
+00:15:33,319 --> 00:15:36,829
+we are going to um uh flatten that kind
+of image to create a vector so the first
+
+602
+00:15:36,829 --> 00:15:36,839
+of image to create a vector so the first
+ 
+
+603
+00:15:36,839 --> 00:15:38,990
+of image to create a vector so the first
+thing that happens is that we take this
+
+604
+00:15:38,990 --> 00:15:39,000
+thing that happens is that we take this
+ 
+
+605
+00:15:39,000 --> 00:15:43,189
+thing that happens is that we take this
+uh X let me call it X Prime for a lack
+
+606
+00:15:43,189 --> 00:15:43,199
+uh X let me call it X Prime for a lack
+ 
+
+607
+00:15:43,199 --> 00:15:45,870
+uh X let me call it X Prime for a lack
+of a better letter and we will pass it
+
+608
+00:15:45,870 --> 00:15:45,880
+of a better letter and we will pass it
+ 
+
+609
+00:15:45,880 --> 00:15:50,949
+of a better letter and we will pass it
+through the
+
+610
+00:15:50,949 --> 00:15:50,959
+
+ 
+
+611
+00:15:50,959 --> 00:15:55,910
+
+flatten function to create an X and if
+
+612
+00:15:55,910 --> 00:15:55,920
+flatten function to create an X and if
+ 
+
+613
+00:15:55,920 --> 00:15:58,550
+flatten function to create an X and if
+this x Prime is 20 by 28 well if you
+
+614
+00:15:58,550 --> 00:15:58,560
+this x Prime is 20 by 28 well if you
+ 
+
+615
+00:15:58,560 --> 00:16:00,870
+this x Prime is 20 by 28 well if you
+multiply 28 by 28 you have you're coming
+
+616
+00:16:00,870 --> 00:16:00,880
+multiply 28 by 28 you have you're coming
+ 
+
+617
+00:16:00,880 --> 00:16:04,030
+multiply 28 by 28 you have you're coming
+up with a number called 768 okay so it
+
+618
+00:16:04,030 --> 00:16:04,040
+up with a number called 768 okay so it
+ 
+
+619
+00:16:04,040 --> 00:16:06,189
+up with a number called 768 okay so it
+is going to be
+
+620
+00:16:06,189 --> 00:16:06,199
+is going to be
+ 
+
+621
+00:16:06,199 --> 00:16:11,030
+is going to be
+768 * 1 that's my Vector over here and
+
+622
+00:16:11,030 --> 00:16:11,040
+768 * 1 that's my Vector over here and
+ 
+
+623
+00:16:11,040 --> 00:16:13,470
+768 * 1 that's my Vector over here and
+then from that point onwards we will be
+
+624
+00:16:13,470 --> 00:16:13,480
+then from that point onwards we will be
+ 
+
+625
+00:16:13,480 --> 00:16:16,470
+then from that point onwards we will be
+applying a stacking of fully connected
+
+626
+00:16:16,470 --> 00:16:16,480
+applying a stacking of fully connected
+ 
+
+627
+00:16:16,480 --> 00:16:18,710
+applying a stacking of fully connected
+or dense layers as we call them uh
+
+628
+00:16:18,710 --> 00:16:18,720
+or dense layers as we call them uh
+ 
+
+629
+00:16:18,720 --> 00:16:20,629
+or dense layers as we call them uh
+earlier so we
+
+630
+00:16:20,629 --> 00:16:20,639
+earlier so we
+ 
+
+631
+00:16:20,639 --> 00:16:27,150
+earlier so we
+are going to be applying uh this uh W1 *
+
+632
+00:16:27,150 --> 00:16:27,160
+are going to be applying uh this uh W1 *
+ 
+
+633
+00:16:27,160 --> 00:16:29,829
+are going to be applying uh this uh W1 *
+X
+
+634
+00:16:29,829 --> 00:16:29,839
+X
+ 
+
+635
+00:16:29,839 --> 00:16:36,389
+X
+followed by the so-called bias
+
+636
+00:16:36,389 --> 00:16:36,399
+
+ 
+
+637
+00:16:36,399 --> 00:16:40,550
+
+one followed by
+
+638
+00:16:40,550 --> 00:16:40,560
+
+ 
+
+639
+00:16:40,560 --> 00:16:44,790
+
+aelu to generate the
+
+640
+00:16:44,790 --> 00:16:44,800
+aelu to generate the
+ 
+
+641
+00:16:44,800 --> 00:16:48,389
+aelu to generate the
+H1 and then uh we are going to see
+
+642
+00:16:48,389 --> 00:16:48,399
+H1 and then uh we are going to see
+ 
+
+643
+00:16:48,399 --> 00:16:51,430
+H1 and then uh we are going to see
+exactly what are the dimensions that I
+
+644
+00:16:51,430 --> 00:16:51,440
+exactly what are the dimensions that I
+ 
+
+645
+00:16:51,440 --> 00:16:54,670
+exactly what are the dimensions that I
+want us to use over here um so in this
+
+646
+00:16:54,670 --> 00:16:54,680
+want us to use over here um so in this
+ 
+
+647
+00:16:54,680 --> 00:16:56,749
+want us to use over here um so in this
+specific example in this specific code I
+
+648
+00:16:56,749 --> 00:16:56,759
+specific example in this specific code I
+ 
+
+649
+00:16:56,759 --> 00:16:59,749
+specific example in this specific code I
+can see that they want us to use
+
+650
+00:16:59,749 --> 00:16:59,759
+can see that they want us to use
+ 
+
+651
+00:16:59,759 --> 00:17:01,990
+can see that they want us to use
+um to to have a a dimensionality
+
+652
+00:17:01,990 --> 00:17:02,000
+um to to have a a dimensionality
+ 
+
+653
+00:17:02,000 --> 00:17:03,949
+um to to have a a dimensionality
+reduction from
+
+654
+00:17:03,949 --> 00:17:03,959
+reduction from
+ 
+
+655
+00:17:03,959 --> 00:17:08,189
+reduction from
+768 uh to
+
+656
+00:17:08,189 --> 00:17:08,199
+
+ 
+
+657
+00:17:08,199 --> 00:17:13,270
+
+128 uh size over here so my H1 over here
+
+658
+00:17:13,270 --> 00:17:13,280
+128 uh size over here so my H1 over here
+ 
+
+659
+00:17:13,280 --> 00:17:15,230
+128 uh size over here so my H1 over here
+is going to be a
+
+660
+00:17:15,230 --> 00:17:15,240
+is going to be a
+ 
+
+661
+00:17:15,240 --> 00:17:17,829
+is going to be a
+128 *
+
+662
+00:17:17,829 --> 00:17:17,839
+128 *
+ 
+
+663
+00:17:17,839 --> 00:17:22,750
+128 *
+1 all right so what is uh now going to
+
+664
+00:17:22,750 --> 00:17:22,760
+1 all right so what is uh now going to
+ 
+
+665
+00:17:22,760 --> 00:17:25,789
+1 all right so what is uh now going to
+happen is that we have now the first
+
+666
+00:17:25,789 --> 00:17:25,799
+happen is that we have now the first
+ 
+
+667
+00:17:25,799 --> 00:17:27,069
+happen is that we have now the first
+layer kind of
+
+668
+00:17:27,069 --> 00:17:27,079
+layer kind of
+ 
+
+669
+00:17:27,079 --> 00:17:30,029
+layer kind of
+completed so the outut of this kind of
+
+670
+00:17:30,029 --> 00:17:30,039
+completed so the outut of this kind of
+ 
+
+671
+00:17:30,039 --> 00:17:35,510
+completed so the outut of this kind of
+layer is going to uh go into another
+
+672
+00:17:35,510 --> 00:17:35,520
+layer is going to uh go into another
+ 
+
+673
+00:17:35,520 --> 00:17:38,150
+layer is going to uh go into another
+dense layer uh but this dense layer is
+
+674
+00:17:38,150 --> 00:17:38,160
+dense layer uh but this dense layer is
+ 
+
+675
+00:17:38,160 --> 00:17:42,270
+dense layer uh but this dense layer is
+going to um be the head of the network
+
+676
+00:17:42,270 --> 00:17:42,280
+going to um be the head of the network
+ 
+
+677
+00:17:42,280 --> 00:17:47,350
+going to um be the head of the network
+so we will take H1 and we will pass it
+
+678
+00:17:47,350 --> 00:17:47,360
+so we will take H1 and we will pass it
+ 
+
+679
+00:17:47,360 --> 00:17:50,990
+so we will take H1 and we will pass it
+through another transformation another
+
+680
+00:17:50,990 --> 00:17:51,000
+through another transformation another
+ 
+
+681
+00:17:51,000 --> 00:17:53,990
+through another transformation another
+reduction well we know exactly the
+
+682
+00:17:53,990 --> 00:17:54,000
+reduction well we know exactly the
+ 
+
+683
+00:17:54,000 --> 00:17:55,870
+reduction well we know exactly the
+number of Dimensions that we need to hit
+
+684
+00:17:55,870 --> 00:17:55,880
+number of Dimensions that we need to hit
+ 
+
+685
+00:17:55,880 --> 00:17:58,510
+number of Dimensions that we need to hit
+since is our last layer in the network
+
+686
+00:17:58,510 --> 00:17:58,520
+since is our last layer in the network
+ 
+
+687
+00:17:58,520 --> 00:18:01,149
+since is our last layer in the network
+is evidently going to be 10 because we
+
+688
+00:18:01,149 --> 00:18:01,159
+is evidently going to be 10 because we
+ 
+
+689
+00:18:01,159 --> 00:18:04,310
+is evidently going to be 10 because we
+have 10 classes to classify we need to
+
+690
+00:18:04,310 --> 00:18:04,320
+have 10 classes to classify we need to
+ 
+
+691
+00:18:04,320 --> 00:18:08,029
+have 10 classes to classify we need to
+have a 10 dimensional Vector uh at the
+
+692
+00:18:08,029 --> 00:18:08,039
+have a 10 dimensional Vector uh at the
+ 
+
+693
+00:18:08,039 --> 00:18:10,430
+have a 10 dimensional Vector uh at the
+output of the of the network so we'll
+
+694
+00:18:10,430 --> 00:18:10,440
+output of the of the network so we'll
+ 
+
+695
+00:18:10,440 --> 00:18:12,470
+output of the of the network so we'll
+see exactly how we will convert this
+
+696
+00:18:12,470 --> 00:18:12,480
+see exactly how we will convert this
+ 
+
+697
+00:18:12,480 --> 00:18:15,070
+see exactly how we will convert this
+Vector into probabilities in a moment
+
+698
+00:18:15,070 --> 00:18:15,080
+Vector into probabilities in a moment
+ 
+
+699
+00:18:15,080 --> 00:18:17,029
+Vector into probabilities in a moment
+but that's basically the in terms of
+
+700
+00:18:17,029 --> 00:18:17,039
+but that's basically the in terms of
+ 
+
+701
+00:18:17,039 --> 00:18:19,310
+but that's basically the in terms of
+Dimensions at least we know what we will
+
+702
+00:18:19,310 --> 00:18:19,320
+Dimensions at least we know what we will
+ 
+
+703
+00:18:19,320 --> 00:18:25,270
+Dimensions at least we know what we will
+end up so this is going to be
+
+704
+00:18:25,270 --> 00:18:25,280
+end up so this is going to be
+ 
+
+705
+00:18:25,280 --> 00:18:27,430
+end up so this is going to be
+W2
+
+706
+00:18:27,430 --> 00:18:27,440
+W2
+ 
+
+707
+00:18:27,440 --> 00:18:31,430
+W2
+H1 that's a another uh followed by some
+
+708
+00:18:31,430 --> 00:18:31,440
+H1 that's a another uh followed by some
+ 
+
+709
+00:18:31,440 --> 00:18:34,990
+H1 that's a another uh followed by some
+kind of
+
+710
+00:18:34,990 --> 00:18:35,000
+
+ 
+
+711
+00:18:35,000 --> 00:18:39,070
+
+bias that's a second layer bias and then
+
+712
+00:18:39,070 --> 00:18:39,080
+bias that's a second layer bias and then
+ 
+
+713
+00:18:39,080 --> 00:18:41,029
+bias that's a second layer bias and then
+uh we are going to
+
+714
+00:18:41,029 --> 00:18:41,039
+uh we are going to
+ 
+
+715
+00:18:41,039 --> 00:18:43,470
+uh we are going to
+have
+
+716
+00:18:43,470 --> 00:18:43,480
+have
+ 
+
+717
+00:18:43,480 --> 00:18:50,870
+have
+uh a block that we'll be calling soft
+
+718
+00:18:50,870 --> 00:18:50,880
+
+ 
+
+719
+00:18:50,880 --> 00:18:54,789
+
+Max that is going to produce for us the
+
+720
+00:18:54,789 --> 00:18:54,799
+Max that is going to produce for us the
+ 
+
+721
+00:18:54,799 --> 00:18:57,870
+Max that is going to produce for us the
+Y heart and let me now explain what a
+
+722
+00:18:57,870 --> 00:18:57,880
+Y heart and let me now explain what a
+ 
+
+723
+00:18:57,880 --> 00:19:00,430
+Y heart and let me now explain what a
+soft Max is and uh why we didn't have a
+
+724
+00:19:00,430 --> 00:19:00,440
+soft Max is and uh why we didn't have a
+ 
+
+725
+00:19:00,440 --> 00:19:06,789
+soft Max is and uh why we didn't have a
+Ru first of all so if we had um a deeper
+
+726
+00:19:06,789 --> 00:19:06,799
+Ru first of all so if we had um a deeper
+ 
+
+727
+00:19:06,799 --> 00:19:09,070
+Ru first of all so if we had um a deeper
+kind of network we would actually repeat
+
+728
+00:19:09,070 --> 00:19:09,080
+kind of network we would actually repeat
+ 
+
+729
+00:19:09,080 --> 00:19:11,789
+kind of network we would actually repeat
+more than one time this kind of layer
+
+730
+00:19:11,789 --> 00:19:11,799
+more than one time this kind of layer
+ 
+
+731
+00:19:11,799 --> 00:19:13,950
+more than one time this kind of layer
+evidently with a different kind of
+
+732
+00:19:13,950 --> 00:19:13,960
+evidently with a different kind of
+ 
+
+733
+00:19:13,960 --> 00:19:16,630
+evidently with a different kind of
+dimensionality so we will go from 128
+
+734
+00:19:16,630 --> 00:19:16,640
+dimensionality so we will go from 128
+ 
+
+735
+00:19:16,640 --> 00:19:20,950
+dimensionality so we will go from 128
+perhaps to let's say 64 and then from 64
+
+736
+00:19:20,950 --> 00:19:20,960
+perhaps to let's say 64 and then from 64
+ 
+
+737
+00:19:20,960 --> 00:19:24,669
+perhaps to let's say 64 and then from 64
+uh down to 10 uh right now the author of
+
+738
+00:19:24,669 --> 00:19:24,679
+uh down to 10 uh right now the author of
+ 
+
+739
+00:19:24,679 --> 00:19:26,669
+uh down to 10 uh right now the author of
+The Notebook suggested that you know one
+
+740
+00:19:26,669 --> 00:19:26,679
+The Notebook suggested that you know one
+ 
+
+741
+00:19:26,679 --> 00:19:29,070
+The Notebook suggested that you know one
+layer is enough and I agree for the
+
+742
+00:19:29,070 --> 00:19:29,080
+layer is enough and I agree for the
+ 
+
+743
+00:19:29,080 --> 00:19:33,029
+layer is enough and I agree for the
+specific um type of complexity uh of the
+
+744
+00:19:33,029 --> 00:19:33,039
+specific um type of complexity uh of the
+ 
+
+745
+00:19:33,039 --> 00:19:35,950
+specific um type of complexity uh of the
+target function I think it's okay uh so
+
+746
+00:19:35,950 --> 00:19:35,960
+target function I think it's okay uh so
+ 
+
+747
+00:19:35,960 --> 00:19:39,029
+target function I think it's okay uh so
+we don't have another layer uh uh but uh
+
+748
+00:19:39,029 --> 00:19:39,039
+we don't have another layer uh uh but uh
+ 
+
+749
+00:19:39,039 --> 00:19:41,350
+we don't have another layer uh uh but uh
+in the head over here we are going to be
+
+750
+00:19:41,350 --> 00:19:41,360
+in the head over here we are going to be
+ 
+
+751
+00:19:41,360 --> 00:19:43,549
+in the head over here we are going to be
+facing and and solving the following
+
+752
+00:19:43,549 --> 00:19:43,559
+facing and and solving the following
+ 
+
+753
+00:19:43,559 --> 00:19:46,070
+facing and and solving the following
+kind of problem so we are going to have
+
+754
+00:19:46,070 --> 00:19:46,080
+kind of problem so we are going to have
+ 
+
+755
+00:19:46,080 --> 00:19:50,549
+kind of problem so we are going to have
+some uh let me call them uh this Vector
+
+756
+00:19:50,549 --> 00:19:50,559
+some uh let me call them uh this Vector
+ 
+
+757
+00:19:50,559 --> 00:19:53,590
+some uh let me call them uh this Vector
+over here Z1 as we always we're calling
+
+758
+00:19:53,590 --> 00:19:53,600
+over here Z1 as we always we're calling
+ 
+
+759
+00:19:53,600 --> 00:19:56,909
+over here Z1 as we always we're calling
+Z the soal vector called that holds all
+
+760
+00:19:56,909 --> 00:19:56,919
+Z the soal vector called that holds all
+ 
+
+761
+00:19:56,919 --> 00:19:59,390
+Z the soal vector called that holds all
+the logics
+
+762
+00:19:59,390 --> 00:19:59,400
+the logics
+ 
+
+763
+00:19:59,400 --> 00:20:02,630
+the logics
+and Z2 and by
+
+764
+00:20:02,630 --> 00:20:02,640
+and Z2 and by
+ 
+
+765
+00:20:02,640 --> 00:20:05,310
+and Z2 and by
+Logics uh broadly speaking we talking
+
+766
+00:20:05,310 --> 00:20:05,320
+Logics uh broadly speaking we talking
+ 
+
+767
+00:20:05,320 --> 00:20:07,110
+Logics uh broadly speaking we talking
+about a sort of
+
+768
+00:20:07,110 --> 00:20:07,120
+about a sort of
+ 
+
+769
+00:20:07,120 --> 00:20:11,110
+about a sort of
+unnormalized uh probabilities um that is
+
+770
+00:20:11,110 --> 00:20:11,120
+unnormalized uh probabilities um that is
+ 
+
+771
+00:20:11,120 --> 00:20:15,350
+unnormalized uh probabilities um that is
+coming out of this uh dot product and
+
+772
+00:20:15,350 --> 00:20:15,360
+coming out of this uh dot product and
+ 
+
+773
+00:20:15,360 --> 00:20:19,710
+coming out of this uh dot product and
+this is um this Vector Z2 here evidently
+
+774
+00:20:19,710 --> 00:20:19,720
+this is um this Vector Z2 here evidently
+ 
+
+775
+00:20:19,720 --> 00:20:22,789
+this is um this Vector Z2 here evidently
+has dimensionality of 10 * 1 okay so let
+
+776
+00:20:22,789 --> 00:20:22,799
+has dimensionality of 10 * 1 okay so let
+ 
+
+777
+00:20:22,799 --> 00:20:26,510
+has dimensionality of 10 * 1 okay so let
+me write this down 10 * 1 so what we
+
+778
+00:20:26,510 --> 00:20:26,520
+me write this down 10 * 1 so what we
+ 
+
+779
+00:20:26,520 --> 00:20:29,350
+me write this down 10 * 1 so what we
+want to produce at the output is a
+
+780
+00:20:29,350 --> 00:20:29,360
+want to produce at the output is a
+ 
+
+781
+00:20:29,360 --> 00:20:32,190
+want to produce at the output is a
+posterior probability and this posterior
+
+782
+00:20:32,190 --> 00:20:32,200
+posterior probability and this posterior
+ 
+
+783
+00:20:32,200 --> 00:20:34,070
+posterior probability and this posterior
+probability we already have met many
+
+784
+00:20:34,070 --> 00:20:34,080
+probability we already have met many
+ 
+
+785
+00:20:34,080 --> 00:20:36,510
+probability we already have met many
+times in the binary classification case
+
+786
+00:20:36,510 --> 00:20:36,520
+times in the binary classification case
+ 
+
+787
+00:20:36,520 --> 00:20:38,470
+times in the binary classification case
+so if we had a binary classification
+
+788
+00:20:38,470 --> 00:20:38,480
+so if we had a binary classification
+ 
+
+789
+00:20:38,480 --> 00:20:41,270
+so if we had a binary classification
+case well evidently we needed to just
+
+790
+00:20:41,270 --> 00:20:41,280
+case well evidently we needed to just
+ 
+
+791
+00:20:41,280 --> 00:20:44,990
+case well evidently we needed to just
+produce a scalar at the output uh where
+
+792
+00:20:44,990 --> 00:20:45,000
+produce a scalar at the output uh where
+ 
+
+793
+00:20:45,000 --> 00:20:46,750
+produce a scalar at the output uh where
+the Y hat will be the probability of the
+
+794
+00:20:46,750 --> 00:20:46,760
+the Y hat will be the probability of the
+ 
+
+795
+00:20:46,760 --> 00:20:48,669
+the Y hat will be the probability of the
+positive class given
+
+796
+00:20:48,669 --> 00:20:48,679
+positive class given
+ 
+
+797
+00:20:48,679 --> 00:20:51,789
+positive class given
+x uh however over here we are not going
+
+798
+00:20:51,789 --> 00:20:51,799
+x uh however over here we are not going
+ 
+
+799
+00:20:51,799 --> 00:20:54,630
+x uh however over here we are not going
+to have a scaler we need to have 10
+
+800
+00:20:54,630 --> 00:20:54,640
+to have a scaler we need to have 10
+ 
+
+801
+00:20:54,640 --> 00:20:57,310
+to have a scaler we need to have 10
+probabilities so we need to produce a
+
+802
+00:20:57,310 --> 00:20:57,320
+probabilities so we need to produce a
+ 
+
+803
+00:20:57,320 --> 00:20:59,110
+probabilities so we need to produce a
+probability distribution so that's the
+
+804
+00:20:59,110 --> 00:20:59,120
+probability distribution so that's the
+ 
+
+805
+00:20:59,120 --> 00:21:03,510
+probability distribution so that's the
+first important uh point so the
+
+806
+00:21:03,510 --> 00:21:03,520
+first important uh point so the
+ 
+
+807
+00:21:03,520 --> 00:21:09,789
+first important uh point so the
+body uh which is uh
+
+808
+00:21:09,789 --> 00:21:09,799
+
+ 
+
+809
+00:21:09,799 --> 00:21:13,269
+
+this let me call this the body let me
+
+810
+00:21:13,269 --> 00:21:13,279
+this let me call this the body let me
+ 
+
+811
+00:21:13,279 --> 00:21:18,669
+this let me call this the body let me
+call this the
+
+812
+00:21:18,669 --> 00:21:18,679
+
+ 
+
+813
+00:21:18,679 --> 00:21:20,590
+
+head is
+
+814
+00:21:20,590 --> 00:21:20,600
+head is
+ 
+
+815
+00:21:20,600 --> 00:21:24,110
+head is
+generating if you like the uh uh some
+
+816
+00:21:24,110 --> 00:21:24,120
+generating if you like the uh uh some
+ 
+
+817
+00:21:24,120 --> 00:21:26,830
+generating if you like the uh uh some
+dimensions in fact I would I would call
+
+818
+00:21:26,830 --> 00:21:26,840
+dimensions in fact I would I would call
+ 
+
+819
+00:21:26,840 --> 00:21:28,590
+dimensions in fact I would I would call
+yeah let let me let me just call this
+
+820
+00:21:28,590 --> 00:21:28,600
+yeah let let me let me just call this
+ 
+
+821
+00:21:28,600 --> 00:21:31,390
+yeah let let me let me just call this
+the head okay that's fine um it takes
+
+822
+00:21:31,390 --> 00:21:31,400
+the head okay that's fine um it takes
+ 
+
+823
+00:21:31,400 --> 00:21:33,990
+the head okay that's fine um it takes
+128 uh dimensional Vector at the input
+
+824
+00:21:33,990 --> 00:21:34,000
+128 uh dimensional Vector at the input
+ 
+
+825
+00:21:34,000 --> 00:21:36,310
+128 uh dimensional Vector at the input
+the H1 and converts it into a logic
+
+826
+00:21:36,310 --> 00:21:36,320
+the H1 and converts it into a logic
+ 
+
+827
+00:21:36,320 --> 00:21:39,350
+the H1 and converts it into a logic
+Vector Z2 uh before fitting into this
+
+828
+00:21:39,350 --> 00:21:39,360
+Vector Z2 uh before fitting into this
+ 
+
+829
+00:21:39,360 --> 00:21:42,070
+Vector Z2 uh before fitting into this
+soft Max block uh that soft Max block
+
+830
+00:21:42,070 --> 00:21:42,080
+soft Max block uh that soft Max block
+ 
+
+831
+00:21:42,080 --> 00:21:43,350
+soft Max block uh that soft Max block
+the responsibility of this soft Max
+
+832
+00:21:43,350 --> 00:21:43,360
+the responsibility of this soft Max
+ 
+
+833
+00:21:43,360 --> 00:21:46,630
+the responsibility of this soft Max
+block is to create uh this posterior
+
+834
+00:21:46,630 --> 00:21:46,640
+block is to create uh this posterior
+ 
+
+835
+00:21:46,640 --> 00:21:48,190
+block is to create uh this posterior
+probability
+
+836
+00:21:48,190 --> 00:21:48,200
+probability
+ 
+
+837
+00:21:48,200 --> 00:21:50,789
+probability
+distribution and here I have drawn the
+
+838
+00:21:50,789 --> 00:21:50,799
+distribution and here I have drawn the
+ 
+
+839
+00:21:50,799 --> 00:21:53,029
+distribution and here I have drawn the
+probability distribution at the Y at the
+
+840
+00:21:53,029 --> 00:21:53,039
+probability distribution at the Y at the
+ 
+
+841
+00:21:53,039 --> 00:21:55,470
+probability distribution at the Y at the
+output in other words the probability of
+
+842
+00:21:55,470 --> 00:21:55,480
+output in other words the probability of
+ 
+
+843
+00:21:55,480 --> 00:21:59,669
+output in other words the probability of
+Y given X comma let's say Theta which is
+
+844
+00:21:59,669 --> 00:21:59,679
+Y given X comma let's say Theta which is
+ 
+
+845
+00:21:59,679 --> 00:22:03,710
+Y given X comma let's say Theta which is
+Theta is the set of parameters of our uh
+
+846
+00:22:03,710 --> 00:22:03,720
+Theta is the set of parameters of our uh
+ 
+
+847
+00:22:03,720 --> 00:22:06,909
+Theta is the set of parameters of our uh
+Network and uh this is going to be
+
+848
+00:22:06,909 --> 00:22:06,919
+Network and uh this is going to be
+ 
+
+849
+00:22:06,919 --> 00:22:08,470
+Network and uh this is going to be
+something like that some probability
+
+850
+00:22:08,470 --> 00:22:08,480
+something like that some probability
+ 
+
+851
+00:22:08,480 --> 00:22:10,310
+something like that some probability
+must function like that evidently will
+
+852
+00:22:10,310 --> 00:22:10,320
+must function like that evidently will
+ 
+
+853
+00:22:10,320 --> 00:22:12,510
+must function like that evidently will
+be a proper probability distribution so
+
+854
+00:22:12,510 --> 00:22:12,520
+be a proper probability distribution so
+ 
+
+855
+00:22:12,520 --> 00:22:15,549
+be a proper probability distribution so
+the summation uh let's say from J is
+
+856
+00:22:15,549 --> 00:22:15,559
+the summation uh let's say from J is
+ 
+
+857
+00:22:15,559 --> 00:22:18,510
+the summation uh let's say from J is
+equal to Zer to capital K which in this
+
+858
+00:22:18,510 --> 00:22:18,520
+equal to Zer to capital K which in this
+ 
+
+859
+00:22:18,520 --> 00:22:24,630
+equal to Zer to capital K which in this
+case is N9 uh of the um p with index J
+
+860
+00:22:24,630 --> 00:22:24,640
+case is N9 uh of the um p with index J
+ 
+
+861
+00:22:24,640 --> 00:22:28,950
+case is N9 uh of the um p with index J
+over here is going to be 1.0
+
+862
+00:22:28,950 --> 00:22:28,960
+over here is going to be 1.0
+ 
+
+863
+00:22:28,960 --> 00:22:31,549
+over here is going to be 1.0
+and the soft Max now Block in order to
+
+864
+00:22:31,549 --> 00:22:31,559
+and the soft Max now Block in order to
+ 
+
+865
+00:22:31,559 --> 00:22:33,510
+and the soft Max now Block in order to
+introduce this kind of soft Max block we
+
+866
+00:22:33,510 --> 00:22:33,520
+introduce this kind of soft Max block we
+ 
+
+867
+00:22:33,520 --> 00:22:35,750
+introduce this kind of soft Max block we
+need to kind of under at the end of the
+
+868
+00:22:35,750 --> 00:22:35,760
+need to kind of under at the end of the
+ 
+
+869
+00:22:35,760 --> 00:22:37,510
+need to kind of under at the end of the
+day start from what we are trying to
+
+870
+00:22:37,510 --> 00:22:37,520
+day start from what we are trying to
+ 
+
+871
+00:22:37,520 --> 00:22:40,430
+day start from what we are trying to
+achieve here so we definitely want to
+
+872
+00:22:40,430 --> 00:22:40,440
+achieve here so we definitely want to
+ 
+
+873
+00:22:40,440 --> 00:22:45,669
+achieve here so we definitely want to
+report the largest possible index in uh
+
+874
+00:22:45,669 --> 00:22:45,679
+report the largest possible index in uh
+ 
+
+875
+00:22:45,679 --> 00:22:48,470
+report the largest possible index in uh
+uh that one if you like the battle among
+
+876
+00:22:48,470 --> 00:22:48,480
+uh that one if you like the battle among
+ 
+
+877
+00:22:48,480 --> 00:22:50,029
+uh that one if you like the battle among
+all the classes that we have present
+
+878
+00:22:50,029 --> 00:22:50,039
+all the classes that we have present
+ 
+
+879
+00:22:50,039 --> 00:22:53,269
+all the classes that we have present
+here so this is let's say the index K so
+
+880
+00:22:53,269 --> 00:22:53,279
+here so this is let's say the index K so
+ 
+
+881
+00:22:53,279 --> 00:22:55,909
+here so this is let's say the index K so
+if we are to report that this would
+
+882
+00:22:55,909 --> 00:22:55,919
+if we are to report that this would
+ 
+
+883
+00:22:55,919 --> 00:22:58,669
+if we are to report that this would
+actually perform an argmax operator so
+
+884
+00:22:58,669 --> 00:22:58,679
+actually perform an argmax operator so
+ 
+
+885
+00:22:58,679 --> 00:23:01,669
+actually perform an argmax operator so
+it's
+
+886
+00:23:01,669 --> 00:23:01,679
+
+ 
+
+887
+00:23:01,679 --> 00:23:04,510
+
+argmax over all indices
+
+888
+00:23:04,510 --> 00:23:04,520
+argmax over all indices
+ 
+
+889
+00:23:04,520 --> 00:23:08,990
+argmax over all indices
+JS of the uh uh the
+
+890
+00:23:08,990 --> 00:23:09,000
+JS of the uh uh the
+ 
+
+891
+00:23:09,000 --> 00:23:10,990
+JS of the uh uh the
+U the
+
+892
+00:23:10,990 --> 00:23:11,000
+U the
+ 
+
+893
+00:23:11,000 --> 00:23:16,830
+U the
+Z that it is at the um
+
+894
+00:23:16,830 --> 00:23:16,840
+
+ 
+
+895
+00:23:16,840 --> 00:23:20,789
+
+input and this is this Z has this um
+
+896
+00:23:20,789 --> 00:23:20,799
+input and this is this Z has this um
+ 
+
+897
+00:23:20,799 --> 00:23:24,549
+input and this is this Z has this um
+sort of a j u capital K elements and and
+
+898
+00:23:24,549 --> 00:23:24,559
+sort of a j u capital K elements and and
+ 
+
+899
+00:23:24,559 --> 00:23:28,510
+sort of a j u capital K elements and and
+this is uh this is going to be the class
+
+900
+00:23:28,510 --> 00:23:28,520
+this is uh this is going to be the class
+ 
+
+901
+00:23:28,520 --> 00:23:31,909
+this is uh this is going to be the class
+that we are going to report if we uh had
+
+902
+00:23:31,909 --> 00:23:31,919
+that we are going to report if we uh had
+ 
+
+903
+00:23:31,919 --> 00:23:33,470
+that we are going to report if we uh had
+only the requirement to do a hard
+
+904
+00:23:33,470 --> 00:23:33,480
+only the requirement to do a hard
+ 
+
+905
+00:23:33,480 --> 00:23:35,190
+only the requirement to do a hard
+decision so we are to do a requirement
+
+906
+00:23:35,190 --> 00:23:35,200
+decision so we are to do a requirement
+ 
+
+907
+00:23:35,200 --> 00:23:37,390
+decision so we are to do a requirement
+to do a hard decision let's say the K
+
+908
+00:23:37,390 --> 00:23:37,400
+to do a hard decision let's say the K
+ 
+
+909
+00:23:37,400 --> 00:23:39,470
+to do a hard decision let's say the K
+class is the class which is actually
+
+910
+00:23:39,470 --> 00:23:39,480
+class is the class which is actually
+ 
+
+911
+00:23:39,480 --> 00:23:41,269
+class is the class which is actually
+present over there that's what have
+
+912
+00:23:41,269 --> 00:23:41,279
+present over there that's what have
+ 
+
+913
+00:23:41,279 --> 00:23:44,750
+present over there that's what have
+reported based on this uh elements of
+
+914
+00:23:44,750 --> 00:23:44,760
+reported based on this uh elements of
+ 
+
+915
+00:23:44,760 --> 00:23:46,909
+reported based on this uh elements of
+the Z Vector we have selected if you
+
+916
+00:23:46,909 --> 00:23:46,919
+the Z Vector we have selected if you
+ 
+
+917
+00:23:46,919 --> 00:23:50,789
+the Z Vector we have selected if you
+like the maximum Vector but um typically
+
+918
+00:23:50,789 --> 00:23:50,799
+like the maximum Vector but um typically
+ 
+
+919
+00:23:50,799 --> 00:23:53,070
+like the maximum Vector but um typically
+we would do not want to do that we would
+
+920
+00:23:53,070 --> 00:23:53,080
+we would do not want to do that we would
+ 
+
+921
+00:23:53,080 --> 00:23:55,789
+we would do not want to do that we would
+not definitely report a class let's say
+
+922
+00:23:55,789 --> 00:23:55,799
+not definitely report a class let's say
+ 
+
+923
+00:23:55,799 --> 00:23:58,110
+not definitely report a class let's say
+that this is this specific fashion item
+
+924
+00:23:58,110 --> 00:23:58,120
+that this is this specific fashion item
+ 
+
+925
+00:23:58,120 --> 00:24:00,390
+that this is this specific fashion item
+but at the same time report some form of
+
+926
+00:24:00,390 --> 00:24:00,400
+but at the same time report some form of
+ 
+
+927
+00:24:00,400 --> 00:24:03,110
+but at the same time report some form of
+a confidence how confident we are about
+
+928
+00:24:03,110 --> 00:24:03,120
+a confidence how confident we are about
+ 
+
+929
+00:24:03,120 --> 00:24:04,909
+a confidence how confident we are about
+our prediction and that is something
+
+930
+00:24:04,909 --> 00:24:04,919
+our prediction and that is something
+ 
+
+931
+00:24:04,919 --> 00:24:07,750
+our prediction and that is something
+that we also have done in binary
+
+932
+00:24:07,750 --> 00:24:07,760
+that we also have done in binary
+ 
+
+933
+00:24:07,760 --> 00:24:10,870
+that we also have done in binary
+classification so the way to think about
+
+934
+00:24:10,870 --> 00:24:10,880
+classification so the way to think about
+ 
+
+935
+00:24:10,880 --> 00:24:13,549
+classification so the way to think about
+uh the soft Max is some kind of a softer
+
+936
+00:24:13,549 --> 00:24:13,559
+uh the soft Max is some kind of a softer
+ 
+
+937
+00:24:13,559 --> 00:24:15,190
+uh the soft Max is some kind of a softer
+version of
+
+938
+00:24:15,190 --> 00:24:15,200
+version of
+ 
+
+939
+00:24:15,200 --> 00:24:18,310
+version of
+argmax uh and we are going to just write
+
+940
+00:24:18,310 --> 00:24:18,320
+argmax uh and we are going to just write
+ 
+
+941
+00:24:18,320 --> 00:24:22,110
+argmax uh and we are going to just write
+now the um
+
+942
+00:24:22,110 --> 00:24:22,120
+
+ 
+
+943
+00:24:22,120 --> 00:24:24,669
+
+equation that this block is implementing
+
+944
+00:24:24,669 --> 00:24:24,679
+equation that this block is implementing
+ 
+
+945
+00:24:24,679 --> 00:24:26,430
+equation that this block is implementing
+this block is a vector input Vector
+
+946
+00:24:26,430 --> 00:24:26,440
+this block is a vector input Vector
+ 
+
+947
+00:24:26,440 --> 00:24:30,510
+this block is a vector input Vector
+output block so it will be a soft Max of
+
+948
+00:24:30,510 --> 00:24:30,520
+output block so it will be a soft Max of
+ 
+
+949
+00:24:30,520 --> 00:24:34,990
+output block so it will be a soft Max of
+Z let's say uh
+
+950
+00:24:34,990 --> 00:24:35,000
+Z let's say uh
+ 
+
+951
+00:24:35,000 --> 00:24:41,950
+Z let's say uh
+J it is the ratio of e to the power of
+
+952
+00:24:41,950 --> 00:24:41,960
+J it is the ratio of e to the power of
+ 
+
+953
+00:24:41,960 --> 00:24:48,549
+J it is the ratio of e to the power of
+CJ um and uh divided by the
+
+954
+00:24:48,549 --> 00:24:48,559
+CJ um and uh divided by the
+ 
+
+955
+00:24:48,559 --> 00:24:53,269
+CJ um and uh divided by the
+summation over all uh JS in fact instead
+
+956
+00:24:53,269 --> 00:24:53,279
+summation over all uh JS in fact instead
+ 
+
+957
+00:24:53,279 --> 00:24:56,630
+summation over all uh JS in fact instead
+of using the J over here let me use the
+
+958
+00:24:56,630 --> 00:24:56,640
+of using the J over here let me use the
+ 
+
+959
+00:24:56,640 --> 00:24:59,710
+of using the J over here let me use the
+small letter k
+
+960
+00:24:59,710 --> 00:24:59,720
+small letter k
+ 
+
+961
+00:24:59,720 --> 00:25:06,029
+small letter k
+as the uh as the
+
+962
+00:25:06,029 --> 00:25:06,039
+
+ 
+
+963
+00:25:06,039 --> 00:25:11,070
+
+index so small letter K and uh this is e
+
+964
+00:25:11,070 --> 00:25:11,080
+index so small letter K and uh this is e
+ 
+
+965
+00:25:11,080 --> 00:25:13,350
+index so small letter K and uh this is e
+to the power of
+
+966
+00:25:13,350 --> 00:25:13,360
+to the power of
+ 
+
+967
+00:25:13,360 --> 00:25:17,310
+to the power of
+CJ so what we do um in English is to
+
+968
+00:25:17,310 --> 00:25:17,320
+CJ so what we do um in English is to
+ 
+
+969
+00:25:17,320 --> 00:25:19,909
+CJ so what we do um in English is to
+just how to translate this equation in a
+
+970
+00:25:19,909 --> 00:25:19,919
+just how to translate this equation in a
+ 
+
+971
+00:25:19,919 --> 00:25:23,750
+just how to translate this equation in a
+kind of intuitive way we are going to
+
+972
+00:25:23,750 --> 00:25:23,760
+kind of intuitive way we are going to
+ 
+
+973
+00:25:23,760 --> 00:25:26,190
+kind of intuitive way we are going to
+convert all the logic into positive
+
+974
+00:25:26,190 --> 00:25:26,200
+convert all the logic into positive
+ 
+
+975
+00:25:26,200 --> 00:25:27,470
+convert all the logic into positive
+numbers that's basically what the
+
+976
+00:25:27,470 --> 00:25:27,480
+numbers that's basically what the
+ 
+
+977
+00:25:27,480 --> 00:25:29,630
+numbers that's basically what the
+numerator is doing and we are going to
+
+978
+00:25:29,630 --> 00:25:29,640
+numerator is doing and we are going to
+ 
+
+979
+00:25:29,640 --> 00:25:31,789
+numerator is doing and we are going to
+normalize them so that at the end of the
+
+980
+00:25:31,789 --> 00:25:31,799
+normalize them so that at the end of the
+ 
+
+981
+00:25:31,799 --> 00:25:32,710
+normalize them so that at the end of the
+day the
+
+982
+00:25:32,710 --> 00:25:32,720
+day the
+ 
+
+983
+00:25:32,720 --> 00:25:35,870
+day the
+summation of uh what comes out of the
+
+984
+00:25:35,870 --> 00:25:35,880
+summation of uh what comes out of the
+ 
+
+985
+00:25:35,880 --> 00:25:37,549
+summation of uh what comes out of the
+soft Max which is basically this
+
+986
+00:25:37,549 --> 00:25:37,559
+soft Max which is basically this
+ 
+
+987
+00:25:37,559 --> 00:25:40,190
+soft Max which is basically this
+probability is equal to 1.0 so that's
+
+988
+00:25:40,190 --> 00:25:40,200
+probability is equal to 1.0 so that's
+ 
+
+989
+00:25:40,200 --> 00:25:42,789
+probability is equal to 1.0 so that's
+basically what the soft Max is doing and
+
+990
+00:25:42,789 --> 00:25:42,799
+basically what the soft Max is doing and
+ 
+
+991
+00:25:42,799 --> 00:25:46,430
+basically what the soft Max is doing and
+visually we could um interpret it as
+
+992
+00:25:46,430 --> 00:25:46,440
+visually we could um interpret it as
+ 
+
+993
+00:25:46,440 --> 00:25:49,029
+visually we could um interpret it as
+follows if we do not care about any
+
+994
+00:25:49,029 --> 00:25:49,039
+follows if we do not care about any
+ 
+
+995
+00:25:49,039 --> 00:25:51,830
+follows if we do not care about any
+confidence we are effectively reporting
+
+996
+00:25:51,830 --> 00:25:51,840
+confidence we are effectively reporting
+ 
+
+997
+00:25:51,840 --> 00:25:55,070
+confidence we are effectively reporting
+the maximum possible class uh the
+
+998
+00:25:55,070 --> 00:25:55,080
+the maximum possible class uh the
+ 
+
+999
+00:25:55,080 --> 00:25:57,909
+the maximum possible class uh the
+maximum class uh index uh the the the
+
+1000
+00:25:57,909 --> 00:25:57,919
+maximum class uh index uh the the the
+ 
+
+1001
+00:25:57,919 --> 00:25:59,549
+maximum class uh index uh the the the
+index across from the maximum element
+
+1002
+00:25:59,549 --> 00:25:59,559
+index across from the maximum element
+ 
+
+1003
+00:25:59,559 --> 00:26:02,029
+index across from the maximum element
+here so we are putting a some form of we
+
+1004
+00:26:02,029 --> 00:26:02,039
+here so we are putting a some form of we
+ 
+
+1005
+00:26:02,039 --> 00:26:05,269
+here so we are putting a some form of we
+are ignoring all of the other indices
+
+1006
+00:26:05,269 --> 00:26:05,279
+are ignoring all of the other indices
+ 
+
+1007
+00:26:05,279 --> 00:26:06,510
+are ignoring all of the other indices
+all of the other
+
+1008
+00:26:06,510 --> 00:26:06,520
+all of the other
+ 
+
+1009
+00:26:06,520 --> 00:26:09,230
+all of the other
+classes and uh we put is it is as if
+
+1010
+00:26:09,230 --> 00:26:09,240
+classes and uh we put is it is as if
+ 
+
+1011
+00:26:09,240 --> 00:26:12,070
+classes and uh we put is it is as if
+we're putting this kind of a window
+
+1012
+00:26:12,070 --> 00:26:12,080
+we're putting this kind of a window
+ 
+
+1013
+00:26:12,080 --> 00:26:14,430
+we're putting this kind of a window
+around this class and there okay 100%
+
+1014
+00:26:14,430 --> 00:26:14,440
+around this class and there okay 100%
+ 
+
+1015
+00:26:14,440 --> 00:26:17,230
+around this class and there okay 100%
+I'm 100% confident that it is this class
+
+1016
+00:26:17,230 --> 00:26:17,240
+I'm 100% confident that it is this class
+ 
+
+1017
+00:26:17,240 --> 00:26:20,389
+I'm 100% confident that it is this class
+that is present in my uh input over here
+
+1018
+00:26:20,389 --> 00:26:20,399
+that is present in my uh input over here
+ 
+
+1019
+00:26:20,399 --> 00:26:25,549
+that is present in my uh input over here
+um in the soft Max um we are going to uh
+
+1020
+00:26:25,549 --> 00:26:25,559
+um in the soft Max um we are going to uh
+ 
+
+1021
+00:26:25,559 --> 00:26:28,710
+um in the soft Max um we are going to uh
+definitely consider the heights of the
+
+1022
+00:26:28,710 --> 00:26:28,720
+definitely consider the heights of the
+ 
+
+1023
+00:26:28,720 --> 00:26:30,590
+definitely consider the heights of the
+other uh
+
+1024
+00:26:30,590 --> 00:26:30,600
+other uh
+ 
+
+1025
+00:26:30,600 --> 00:26:34,630
+other uh
+logits uh the normalized logits and and
+
+1026
+00:26:34,630 --> 00:26:34,640
+logits uh the normalized logits and and
+ 
+
+1027
+00:26:34,640 --> 00:26:38,029
+logits uh the normalized logits and and
+that kind of makes sense if my uh over
+
+1028
+00:26:38,029 --> 00:26:38,039
+that kind of makes sense if my uh over
+ 
+
+1029
+00:26:38,039 --> 00:26:40,310
+that kind of makes sense if my uh over
+here I have a
+
+1030
+00:26:40,310 --> 00:26:40,320
+here I have a
+ 
+
+1031
+00:26:40,320 --> 00:26:44,389
+here I have a
+0.3 and uh all the others are let's
+
+1032
+00:26:44,389 --> 00:26:44,399
+0.3 and uh all the others are let's
+ 
+
+1033
+00:26:44,399 --> 00:26:47,710
+0.3 and uh all the others are let's
+say uh
+
+1034
+00:26:47,710 --> 00:26:47,720
+
+ 
+
+1035
+00:26:47,720 --> 00:26:52,630
+
+0.2 or or even 0.1 and uh there's one
+
+1036
+00:26:52,630 --> 00:26:52,640
+0.2 or or even 0.1 and uh there's one
+ 
+
+1037
+00:26:52,640 --> 00:26:55,110
+0.2 or or even 0.1 and uh there's one
+other class that is actually
+
+1038
+00:26:55,110 --> 00:26:55,120
+other class that is actually
+ 
+
+1039
+00:26:55,120 --> 00:26:57,990
+other class that is actually
+0.29 then it actually Mak sense to not
+
+1040
+00:26:57,990 --> 00:26:58,000
+0.29 then it actually Mak sense to not
+ 
+
+1041
+00:26:58,000 --> 00:27:00,950
+0.29 then it actually Mak sense to not
+be 100% confident that this is the uh
+
+1042
+00:27:00,950 --> 00:27:00,960
+be 100% confident that this is the uh
+ 
+
+1043
+00:27:00,960 --> 00:27:02,789
+be 100% confident that this is the uh
+class that is actually present because
+
+1044
+00:27:02,789 --> 00:27:02,799
+class that is actually present because
+ 
+
+1045
+00:27:02,799 --> 00:27:04,269
+class that is actually present because
+hey there is another index which is
+
+1046
+00:27:04,269 --> 00:27:04,279
+hey there is another index which is
+ 
+
+1047
+00:27:04,279 --> 00:27:07,389
+hey there is another index which is
+almost as as good as as what you're
+
+1048
+00:27:07,389 --> 00:27:07,399
+almost as as good as as what you're
+ 
+
+1049
+00:27:07,399 --> 00:27:09,430
+almost as as good as as what you're
+going to be reporting here so that's
+
+1050
+00:27:09,430 --> 00:27:09,440
+going to be reporting here so that's
+ 
+
+1051
+00:27:09,440 --> 00:27:11,110
+going to be reporting here so that's
+what the soft Max is actually doing is
+
+1052
+00:27:11,110 --> 00:27:11,120
+what the soft Max is actually doing is
+ 
+
+1053
+00:27:11,120 --> 00:27:13,190
+what the soft Max is actually doing is
+actually placing some form of a software
+
+1054
+00:27:13,190 --> 00:27:13,200
+actually placing some form of a software
+ 
+
+1055
+00:27:13,200 --> 00:27:18,310
+actually placing some form of a software
+window around uh the U reported uh
+
+1056
+00:27:18,310 --> 00:27:18,320
+window around uh the U reported uh
+ 
+
+1057
+00:27:18,320 --> 00:27:21,029
+window around uh the U reported uh
+classes the reported probabilities and
+
+1058
+00:27:21,029 --> 00:27:21,039
+classes the reported probabilities and
+ 
+
+1059
+00:27:21,039 --> 00:27:23,470
+classes the reported probabilities and
+uh that is what at the end of the day uh
+
+1060
+00:27:23,470 --> 00:27:23,480
+uh that is what at the end of the day uh
+ 
+
+1061
+00:27:23,480 --> 00:27:26,149
+uh that is what at the end of the day uh
+we are uh that's the reason why we are
+
+1062
+00:27:26,149 --> 00:27:26,159
+we are uh that's the reason why we are
+ 
+
+1063
+00:27:26,159 --> 00:27:28,830
+we are uh that's the reason why we are
+going to definitely report uh
+
+1064
+00:27:28,830 --> 00:27:28,840
+going to definitely report uh
+ 
+
+1065
+00:27:28,840 --> 00:27:32,350
+going to definitely report uh
+much much smaller confidence than 100%
+
+1066
+00:27:32,350 --> 00:27:32,360
+much much smaller confidence than 100%
+ 
+
+1067
+00:27:32,360 --> 00:27:34,630
+much much smaller confidence than 100%
+with the soft
+
+1068
+00:27:34,630 --> 00:27:34,640
+with the soft
+ 
+
+1069
+00:27:34,640 --> 00:27:36,830
+with the soft
+Max let's trite it
+
+1070
+00:27:36,830 --> 00:27:36,840
+Max let's trite it
+ 
+
+1071
+00:27:36,840 --> 00:27:39,549
+Max let's trite it
+down
+
+1072
+00:27:39,549 --> 00:27:39,559
+down
+ 
+
+1073
+00:27:39,559 --> 00:27:44,430
+down
+softmax is
+
+1074
+00:27:44,430 --> 00:27:44,440
+
+ 
+
+1075
+00:27:44,440 --> 00:27:46,149
+
+producing a
+
+1076
+00:27:46,149 --> 00:27:46,159
+producing a
+ 
+
+1077
+00:27:46,159 --> 00:27:49,389
+producing a
+softer
+
+1078
+00:27:49,389 --> 00:27:49,399
+
+ 
+
+1079
+00:27:49,399 --> 00:27:51,269
+
+version of
+
+1080
+00:27:51,269 --> 00:27:51,279
+version of
+ 
+
+1081
+00:27:51,279 --> 00:27:53,710
+version of
+arcmax we are going to of course still
+
+1082
+00:27:53,710 --> 00:27:53,720
+arcmax we are going to of course still
+ 
+
+1083
+00:27:53,720 --> 00:27:56,710
+arcmax we are going to of course still
+report that class K won the battle but
+
+1084
+00:27:56,710 --> 00:27:56,720
+report that class K won the battle but
+ 
+
+1085
+00:27:56,720 --> 00:27:59,070
+report that class K won the battle but
+we are going to also report a number
+
+1086
+00:27:59,070 --> 00:27:59,080
+we are going to also report a number
+ 
+
+1087
+00:27:59,080 --> 00:28:01,830
+we are going to also report a number
+next to it which is definitely much less
+
+1088
+00:28:01,830 --> 00:28:01,840
+next to it which is definitely much less
+ 
+
+1089
+00:28:01,840 --> 00:28:05,029
+next to it which is definitely much less
+than 100% so when we have an output
+
+1090
+00:28:05,029 --> 00:28:05,039
+than 100% so when we have an output
+ 
+
+1091
+00:28:05,039 --> 00:28:07,549
+than 100% so when we have an output
+which is you know all the classes are
+
+1092
+00:28:07,549 --> 00:28:07,559
+which is you know all the classes are
+ 
+
+1093
+00:28:07,559 --> 00:28:10,230
+which is you know all the classes are
+are very very similar but only one is
+
+1094
+00:28:10,230 --> 00:28:10,240
+are very very similar but only one is
+ 
+
+1095
+00:28:10,240 --> 00:28:13,350
+are very very similar but only one is
+like slightly above the others uh then
+
+1096
+00:28:13,350 --> 00:28:13,360
+like slightly above the others uh then
+ 
+
+1097
+00:28:13,360 --> 00:28:16,430
+like slightly above the others uh then
+we are going to report a much much lower
+
+1098
+00:28:16,430 --> 00:28:16,440
+we are going to report a much much lower
+ 
+
+1099
+00:28:16,440 --> 00:28:19,389
+we are going to report a much much lower
+confidence uh about our prediction for
+
+1100
+00:28:19,389 --> 00:28:19,399
+confidence uh about our prediction for
+ 
+
+1101
+00:28:19,399 --> 00:28:21,870
+confidence uh about our prediction for
+that specific class than compared to the
+
+1102
+00:28:21,870 --> 00:28:21,880
+that specific class than compared to the
+ 
+
+1103
+00:28:21,880 --> 00:28:23,630
+that specific class than compared to the
+case where all the other classes are
+
+1104
+00:28:23,630 --> 00:28:23,640
+case where all the other classes are
+ 
+
+1105
+00:28:23,640 --> 00:28:26,630
+case where all the other classes are
+very suppressed and this class has uh
+
+1106
+00:28:26,630 --> 00:28:26,640
+very suppressed and this class has uh
+ 
+
+1107
+00:28:26,640 --> 00:28:31,149
+very suppressed and this class has uh
+really uh sort of of w the battle uh
+
+1108
+00:28:31,149 --> 00:28:31,159
+really uh sort of of w the battle uh
+ 
+
+1109
+00:28:31,159 --> 00:28:33,789
+really uh sort of of w the battle uh
+inside our uh
+
+1110
+00:28:33,789 --> 00:28:33,799
+inside our uh
+ 
+
+1111
+00:28:33,799 --> 00:28:36,430
+inside our uh
+predictor back to our code over here we
+
+1112
+00:28:36,430 --> 00:28:36,440
+predictor back to our code over here we
+ 
+
+1113
+00:28:36,440 --> 00:28:39,470
+predictor back to our code over here we
+have translated this section of the code
+
+1114
+00:28:39,470 --> 00:28:39,480
+have translated this section of the code
+ 
+
+1115
+00:28:39,480 --> 00:28:41,789
+have translated this section of the code
+to a block diagram we have explained all
+
+1116
+00:28:41,789 --> 00:28:41,799
+to a block diagram we have explained all
+ 
+
+1117
+00:28:41,799 --> 00:28:45,630
+to a block diagram we have explained all
+the elements of this and uh uh
+
+1118
+00:28:45,630 --> 00:28:45,640
+the elements of this and uh uh
+ 
+
+1119
+00:28:45,640 --> 00:28:48,230
+the elements of this and uh uh
+subsequently what we are actually doing
+
+1120
+00:28:48,230 --> 00:28:48,240
+subsequently what we are actually doing
+ 
+
+1121
+00:28:48,240 --> 00:28:51,870
+subsequently what we are actually doing
+is we are compiling this model using an
+
+1122
+00:28:51,870 --> 00:28:51,880
+is we are compiling this model using an
+ 
+
+1123
+00:28:51,880 --> 00:28:53,990
+is we are compiling this model using an
+Optimizer uh over here the author
+
+1124
+00:28:53,990 --> 00:28:54,000
+Optimizer uh over here the author
+ 
+
+1125
+00:28:54,000 --> 00:28:57,789
+Optimizer uh over here the author
+selected Adam is an Adaptive um learning
+
+1126
+00:28:57,789 --> 00:28:57,799
+selected Adam is an Adaptive um learning
+ 
+
+1127
+00:28:57,799 --> 00:29:00,389
+selected Adam is an Adaptive um learning
+rate kind of scheme very similar to
+
+1128
+00:29:00,389 --> 00:29:00,399
+rate kind of scheme very similar to
+ 
+
+1129
+00:29:00,399 --> 00:29:01,830
+rate kind of scheme very similar to
+stochastic grade descent so if you
+
+1130
+00:29:01,830 --> 00:29:01,840
+stochastic grade descent so if you
+ 
+
+1131
+00:29:01,840 --> 00:29:04,230
+stochastic grade descent so if you
+replace Adam with stochastic gr descent
+
+1132
+00:29:04,230 --> 00:29:04,240
+replace Adam with stochastic gr descent
+ 
+
+1133
+00:29:04,240 --> 00:29:06,630
+replace Adam with stochastic gr descent
+you know not really many things will
+
+1134
+00:29:06,630 --> 00:29:06,640
+you know not really many things will
+ 
+
+1135
+00:29:06,640 --> 00:29:11,149
+you know not really many things will
+change and uh the U we're actually using
+
+1136
+00:29:11,149 --> 00:29:11,159
+change and uh the U we're actually using
+ 
+
+1137
+00:29:11,159 --> 00:29:15,190
+change and uh the U we're actually using
+the uh non binary version of the Cross
+
+1138
+00:29:15,190 --> 00:29:15,200
+the uh non binary version of the Cross
+ 
+
+1139
+00:29:15,200 --> 00:29:18,990
+the uh non binary version of the Cross
+entropy um loss function we have seen uh
+
+1140
+00:29:18,990 --> 00:29:19,000
+entropy um loss function we have seen uh
+ 
+
+1141
+00:29:19,000 --> 00:29:20,990
+entropy um loss function we have seen uh
+which uh is a bit different than the
+
+1142
+00:29:20,990 --> 00:29:21,000
+which uh is a bit different than the
+ 
+
+1143
+00:29:21,000 --> 00:29:22,950
+which uh is a bit different than the
+binary cross entropy but is you know
+
+1144
+00:29:22,950 --> 00:29:22,960
+binary cross entropy but is you know
+ 
+
+1145
+00:29:22,960 --> 00:29:25,389
+binary cross entropy but is you know
+almost identically in the same because
+
+1146
+00:29:25,389 --> 00:29:25,399
+almost identically in the same because
+ 
+
+1147
+00:29:25,399 --> 00:29:27,509
+almost identically in the same because
+we are instead of having two class over
+
+1148
+00:29:27,509 --> 00:29:27,519
+we are instead of having two class over
+ 
+
+1149
+00:29:27,519 --> 00:29:28,750
+we are instead of having two class over
+here we have
+
+1150
+00:29:28,750 --> 00:29:28,760
+here we have
+ 
+
+1151
+00:29:28,760 --> 00:29:31,190
+here we have
+and having two terms in the binary
+
+1152
+00:29:31,190 --> 00:29:31,200
+and having two terms in the binary
+ 
+
+1153
+00:29:31,200 --> 00:29:34,269
+and having two terms in the binary
+crossentropy loss we have 10 classes and
+
+1154
+00:29:34,269 --> 00:29:34,279
+crossentropy loss we have 10 classes and
+ 
+
+1155
+00:29:34,279 --> 00:29:36,590
+crossentropy loss we have 10 classes and
+and therefore we have a summation of 10
+
+1156
+00:29:36,590 --> 00:29:36,600
+and therefore we have a summation of 10
+ 
+
+1157
+00:29:36,600 --> 00:29:39,310
+and therefore we have a summation of 10
+terms inside this categorical cross
+
+1158
+00:29:39,310 --> 00:29:39,320
+terms inside this categorical cross
+ 
+
+1159
+00:29:39,320 --> 00:29:41,950
+terms inside this categorical cross
+entropy loss function um and then of
+
+1160
+00:29:41,950 --> 00:29:41,960
+entropy loss function um and then of
+ 
+
+1161
+00:29:41,960 --> 00:29:44,149
+entropy loss function um and then of
+course we are using a metric which is
+
+1162
+00:29:44,149 --> 00:29:44,159
+course we are using a metric which is
+ 
+
+1163
+00:29:44,159 --> 00:29:46,549
+course we are using a metric which is
+the accuracy metric we are going to
+
+1164
+00:29:46,549 --> 00:29:46,559
+the accuracy metric we are going to
+ 
+
+1165
+00:29:46,559 --> 00:29:49,070
+the accuracy metric we are going to
+train the model with the do fit API
+
+1166
+00:29:49,070 --> 00:29:49,080
+train the model with the do fit API
+ 
+
+1167
+00:29:49,080 --> 00:29:51,909
+train the model with the do fit API
+which is uh all the way from pyit learn
+
+1168
+00:29:51,909 --> 00:29:51,919
+which is uh all the way from pyit learn
+ 
+
+1169
+00:29:51,919 --> 00:29:55,710
+which is uh all the way from pyit learn
+inherited and this is U being used here
+
+1170
+00:29:55,710 --> 00:29:55,720
+inherited and this is U being used here
+ 
+
+1171
+00:29:55,720 --> 00:29:58,509
+inherited and this is U being used here
+with a certain number of epochs
+
+1172
+00:29:58,509 --> 00:29:58,519
+with a certain number of epochs
+ 
+
+1173
+00:29:58,519 --> 00:30:01,630
+with a certain number of epochs
+and having uh the uh evaluation done
+
+1174
+00:30:01,630 --> 00:30:01,640
+and having uh the uh evaluation done
+ 
+
+1175
+00:30:01,640 --> 00:30:04,710
+and having uh the uh evaluation done
+here and printed out that's a 87%
+
+1176
+00:30:04,710 --> 00:30:04,720
+here and printed out that's a 87%
+ 
+
+1177
+00:30:04,720 --> 00:30:07,070
+here and printed out that's a 87%
+accuracy what we have achieved here and
+
+1178
+00:30:07,070 --> 00:30:07,080
+accuracy what we have achieved here and
+ 
+
+1179
+00:30:07,080 --> 00:30:10,110
+accuracy what we have achieved here and
+we are uh then able to do predictions so
+
+1180
+00:30:10,110 --> 00:30:10,120
+we are uh then able to do predictions so
+ 
+
+1181
+00:30:10,120 --> 00:30:12,789
+we are uh then able to do predictions so
+we're going to see some outputs uh which
+
+1182
+00:30:12,789 --> 00:30:12,799
+we're going to see some outputs uh which
+ 
+
+1183
+00:30:12,799 --> 00:30:15,350
+we're going to see some outputs uh which
+evidently there will be some y hat
+
+1184
+00:30:15,350 --> 00:30:15,360
+evidently there will be some y hat
+ 
+
+1185
+00:30:15,360 --> 00:30:17,789
+evidently there will be some y hat
+output that we are producing so we have
+
+1186
+00:30:17,789 --> 00:30:17,799
+output that we are producing so we have
+ 
+
+1187
+00:30:17,799 --> 00:30:21,630
+output that we are producing so we have
+um uh let's say using test images we are
+
+1188
+00:30:21,630 --> 00:30:21,640
+um uh let's say using test images we are
+ 
+
+1189
+00:30:21,640 --> 00:30:23,990
+um uh let's say using test images we are
+able to use to do predictions and let's
+
+1190
+00:30:23,990 --> 00:30:24,000
+able to use to do predictions and let's
+ 
+
+1191
+00:30:24,000 --> 00:30:26,950
+able to use to do predictions and let's
+do the predictions for the first image
+
+1192
+00:30:26,950 --> 00:30:26,960
+do the predictions for the first image
+ 
+
+1193
+00:30:26,960 --> 00:30:30,149
+do the predictions for the first image
+uh which is index Z Z of my test data
+
+1194
+00:30:30,149 --> 00:30:30,159
+uh which is index Z Z of my test data
+ 
+
+1195
+00:30:30,159 --> 00:30:32,710
+uh which is index Z Z of my test data
+set this is evidently going to produce
+
+1196
+00:30:32,710 --> 00:30:32,720
+set this is evidently going to produce
+ 
+
+1197
+00:30:32,720 --> 00:30:35,430
+set this is evidently going to produce
+an array of 10 numbers and these numbers
+
+1198
+00:30:35,430 --> 00:30:35,440
+an array of 10 numbers and these numbers
+ 
+
+1199
+00:30:35,440 --> 00:30:38,470
+an array of 10 numbers and these numbers
+are the probabilities which I just drew
+
+1200
+00:30:38,470 --> 00:30:38,480
+are the probabilities which I just drew
+ 
+
+1201
+00:30:38,480 --> 00:30:40,830
+are the probabilities which I just drew
+uh the in the in this kind of a
+
+1202
+00:30:40,830 --> 00:30:40,840
+uh the in the in this kind of a
+ 
+
+1203
+00:30:40,840 --> 00:30:43,110
+uh the in the in this kind of a
+probability Mass function a few moments
+
+1204
+00:30:43,110 --> 00:30:43,120
+probability Mass function a few moments
+ 
+
+1205
+00:30:43,120 --> 00:30:46,710
+probability Mass function a few moments
+ago and uh that's uh basically it we are
+
+1206
+00:30:46,710 --> 00:30:46,720
+ago and uh that's uh basically it we are
+ 
+
+1207
+00:30:46,720 --> 00:30:49,909
+ago and uh that's uh basically it we are
+going to definitely uh use the argmax
+
+1208
+00:30:49,909 --> 00:30:49,919
+going to definitely uh use the argmax
+ 
+
+1209
+00:30:49,919 --> 00:30:53,269
+going to definitely uh use the argmax
+operator to report uh the class in this
+
+1210
+00:30:53,269 --> 00:30:53,279
+operator to report uh the class in this
+ 
+
+1211
+00:30:53,279 --> 00:30:57,110
+operator to report uh the class in this
+case it is the winning class is index 9
+
+1212
+00:30:57,110 --> 00:30:57,120
+case it is the winning class is index 9
+ 
+
+1213
+00:30:57,120 --> 00:30:59,669
+case it is the winning class is index 9
+and uh as you can see here we have a
+
+1214
+00:30:59,669 --> 00:30:59,679
+and uh as you can see here we have a
+ 
+
+1215
+00:30:59,679 --> 00:31:02,669
+and uh as you can see here we have a
+very good situation uh we are
+
+1216
+00:31:02,669 --> 00:31:02,679
+very good situation uh we are
+ 
+
+1217
+00:31:02,679 --> 00:31:04,549
+very good situation uh we are
+98.89%
+
+1218
+00:31:04,549 --> 00:31:04,559
+98.89%
+ 
+
+1219
+00:31:04,559 --> 00:31:08,310
+98.89%
+confident uh that this is the U correct
+
+1220
+00:31:08,310 --> 00:31:08,320
+confident uh that this is the U correct
+ 
+
+1221
+00:31:08,320 --> 00:31:12,110
+confident uh that this is the U correct
+class and this is uh the result of the
+
+1222
+00:31:12,110 --> 00:31:12,120
+class and this is uh the result of the
+ 
+
+1223
+00:31:12,120 --> 00:31:15,230
+class and this is uh the result of the
+soft Max block as we discussed so this
+
+1224
+00:31:15,230 --> 00:31:15,240
+soft Max block as we discussed so this
+ 
+
+1225
+00:31:15,240 --> 00:31:19,950
+soft Max block as we discussed so this
+is the uh I'm guessing the some uh plots
+
+1226
+00:31:19,950 --> 00:31:19,960
+is the uh I'm guessing the some uh plots
+ 
+
+1227
+00:31:19,960 --> 00:31:22,310
+is the uh I'm guessing the some uh plots
+of this posterior probability there are
+
+1228
+00:31:22,310 --> 00:31:22,320
+of this posterior probability there are
+ 
+
+1229
+00:31:22,320 --> 00:31:25,750
+of this posterior probability there are
+some small probabilities around class 5
+
+1230
+00:31:25,750 --> 00:31:25,760
+some small probabilities around class 5
+ 
+
+1231
+00:31:25,760 --> 00:31:29,350
+some small probabilities around class 5
+and Class 7 uh and definitely we have
+
+1232
+00:31:29,350 --> 00:31:29,360
+and Class 7 uh and definitely we have
+ 
+
+1233
+00:31:29,360 --> 00:31:31,509
+and Class 7 uh and definitely we have
+the specific class which is angle boot
+
+1234
+00:31:31,509 --> 00:31:31,519
+the specific class which is angle boot
+ 
+
+1235
+00:31:31,519 --> 00:31:35,870
+the specific class which is angle boot
+over here and we are also seeing um
+
+1236
+00:31:35,870 --> 00:31:35,880
+over here and we are also seeing um
+ 
+
+1237
+00:31:35,880 --> 00:31:38,310
+over here and we are also seeing um
+mistake that the predictor actually has
+
+1238
+00:31:38,310 --> 00:31:38,320
+mistake that the predictor actually has
+ 
+
+1239
+00:31:38,320 --> 00:31:42,750
+mistake that the predictor actually has
+made for another uh uh example uh I
+
+1240
+00:31:42,750 --> 00:31:42,760
+made for another uh uh example uh I
+ 
+
+1241
+00:31:42,760 --> 00:31:45,830
+made for another uh uh example uh I
+believe the example here is
+
+1242
+00:31:45,830 --> 00:31:45,840
+believe the example here is
+ 
+
+1243
+00:31:45,840 --> 00:31:50,269
+believe the example here is
+uh um probably some other some other
+
+1244
+00:31:50,269 --> 00:31:50,279
+uh um probably some other some other
+ 
+
+1245
+00:31:50,279 --> 00:31:52,549
+uh um probably some other some other
+test image it doesn't really matter
+
+1246
+00:31:52,549 --> 00:31:52,559
+test image it doesn't really matter
+ 
+
+1247
+00:31:52,559 --> 00:31:54,430
+test image it doesn't really matter
+exactly which one uh where we have
+
+1248
+00:31:54,430 --> 00:31:54,440
+exactly which one uh where we have
+ 
+
+1249
+00:31:54,440 --> 00:31:57,509
+exactly which one uh where we have
+actually reported uh that uh this is a
+
+1250
+00:31:57,509 --> 00:31:57,519
+actually reported uh that uh this is a
+ 
+
+1251
+00:31:57,519 --> 00:32:01,669
+actually reported uh that uh this is a
+sneak sneer and uh in fact uh although
+
+1252
+00:32:01,669 --> 00:32:01,679
+sneak sneer and uh in fact uh although
+ 
+
+1253
+00:32:01,679 --> 00:32:03,310
+sneak sneer and uh in fact uh although
+it is a sneaker we reporting that this
+
+1254
+00:32:03,310 --> 00:32:03,320
+it is a sneaker we reporting that this
+ 
+
+1255
+00:32:03,320 --> 00:32:06,269
+it is a sneaker we reporting that this
+is going this is a sandal okay that's
+
+1256
+00:32:06,269 --> 00:32:06,279
+is going this is a sandal okay that's
+ 
+
+1257
+00:32:06,279 --> 00:32:10,549
+is going this is a sandal okay that's
+the category five all right so we are
+
+1258
+00:32:10,549 --> 00:32:10,559
+the category five all right so we are
+ 
+
+1259
+00:32:10,559 --> 00:32:12,430
+the category five all right so we are
+just doing exactly the same for many
+
+1260
+00:32:12,430 --> 00:32:12,440
+just doing exactly the same for many
+ 
+
+1261
+00:32:12,440 --> 00:32:16,149
+just doing exactly the same for many
+images and we are concluding uh this uh
+
+1262
+00:32:16,149 --> 00:32:16,159
+images and we are concluding uh this uh
+ 
+
+1263
+00:32:16,159 --> 00:32:17,230
+images and we are concluding uh this uh
+this this
+
+1264
+00:32:17,230 --> 00:32:17,240
+this this
+ 
+
+1265
+00:32:17,240 --> 00:32:20,870
+this this
+notebook um that's basically it we we
+
+1266
+00:32:20,870 --> 00:32:20,880
+notebook um that's basically it we we
+ 
+
+1267
+00:32:20,880 --> 00:32:25,070
+notebook um that's basically it we we
+have uh just went through our first uh
+
+1268
+00:32:25,070 --> 00:32:25,080
+have uh just went through our first uh
+ 
+
+1269
+00:32:25,080 --> 00:32:27,149
+have uh just went through our first uh
+application that is actually using fully
+
+1270
+00:32:27,149 --> 00:32:27,159
+application that is actually using fully
+ 
+
+1271
+00:32:27,159 --> 00:32:30,149
+application that is actually using fully
+connected layer years and we are going
+
+1272
+00:32:30,149 --> 00:32:30,159
+connected layer years and we are going
+ 
+
+1273
+00:32:30,159 --> 00:32:32,909
+connected layer years and we are going
+now to go U into discussing a little bit
+
+1274
+00:32:32,909 --> 00:32:32,919
+now to go U into discussing a little bit
+ 
+
+1275
+00:32:32,919 --> 00:32:37,549
+now to go U into discussing a little bit
+on how uh the internal internals of this
+
+1276
+00:32:37,549 --> 00:32:37,559
+on how uh the internal internals of this
+ 
+
+1277
+00:32:37,559 --> 00:32:39,789
+on how uh the internal internals of this
+kind of training procedure uh are
+
+1278
+00:32:39,789 --> 00:32:39,799
+kind of training procedure uh are
+ 
+
+1279
+00:32:39,799 --> 00:32:41,870
+kind of training procedure uh are
+working more specifically we are going
+
+1280
+00:32:41,870 --> 00:32:41,880
+working more specifically we are going
+ 
+
+1281
+00:32:41,880 --> 00:32:45,430
+working more specifically we are going
+to be concerned a little bit with the uh
+
+1282
+00:32:45,430 --> 00:32:45,440
+to be concerned a little bit with the uh
+ 
+
+1283
+00:32:45,440 --> 00:32:48,870
+to be concerned a little bit with the uh
+calculation of the gradient which is um
+
+1284
+00:32:48,870 --> 00:32:48,880
+calculation of the gradient which is um
+ 
+
+1285
+00:32:48,880 --> 00:32:52,110
+calculation of the gradient which is um
+present in stochastic gr descent and we
+
+1286
+00:32:52,110 --> 00:32:52,120
+present in stochastic gr descent and we
+ 
+
+1287
+00:32:52,120 --> 00:32:54,310
+present in stochastic gr descent and we
+will look at a operation which is called
+
+1288
+00:32:54,310 --> 00:32:54,320
+will look at a operation which is called
+ 
+
+1289
+00:32:54,320 --> 00:32:57,149
+will look at a operation which is called
+back propagation operation that it will
+
+1290
+00:32:57,149 --> 00:32:57,159
+back propagation operation that it will
+ 
+
+1291
+00:32:57,159 --> 00:32:59,629
+back propagation operation that it will
+uh calculate this gradient uh very
+
+1292
+00:32:59,629 --> 00:32:59,639
+uh calculate this gradient uh very
+ 
+
+1293
+00:32:59,639 --> 00:33:02,960
+uh calculate this gradient uh very
+efficiently for us
+

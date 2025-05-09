@@ -1,0 +1,5202 @@
+[
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 0,
+    "timestamp_ms": 80,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0000_80.jpg",
+    "frame_hash": "730e686d78123694e91b0107e3534824"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 1,
+    "timestamp_ms": 1830,
+    "subtitle_text": "ear video we have seen statistical",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0001_1830.jpg",
+    "frame_hash": "0d284aa86cd04e57b807ec53a2b84971"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 3,
+    "timestamp_ms": 4390,
+    "subtitle_text": "learning at least in the supervised",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0003_4390.jpg",
+    "frame_hash": "b1830300ae228d566ffbb0c381376e5a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 5,
+    "timestamp_ms": 9030,
+    "subtitle_text": "learning uh approach and we have seen uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0005_9030.jpg",
+    "frame_hash": "65b9729593270f34544d7be425008fa3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 7,
+    "timestamp_ms": 11350,
+    "subtitle_text": "linear models for aggression and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0007_11350.jpg",
+    "frame_hash": "1470fd5fdb22f6caaeac48feaddce6ad"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 9,
+    "timestamp_ms": 13270,
+    "subtitle_text": "generalized linear models for",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0009_13270.jpg",
+    "frame_hash": "7829e9b85de1051afc388ed5491ea8e6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 11,
+    "timestamp_ms": 15749,
+    "subtitle_text": "classification in this video we are",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0011_15749.jpg",
+    "frame_hash": "af472364e8888d4dd16a5924c544a159"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 12,
+    "timestamp_ms": 15759,
+    "subtitle_text": "classification in this video we are going to expand now to a a type of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0012_15759.jpg",
+    "frame_hash": "b8c76a5620ec3c7c22721d9b3b6ef7bf"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 13,
+    "timestamp_ms": 18269,
+    "subtitle_text": "going to expand now to a a type of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0013_18269.jpg",
+    "frame_hash": "bf56ccbb69aa683813f6c2eca6156162"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 15,
+    "timestamp_ms": 20990,
+    "subtitle_text": "predictors which are differentiable end",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0015_20990.jpg",
+    "frame_hash": "9532e42e43aaace0d9bdf22f66617606"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 17,
+    "timestamp_ms": 23109,
+    "subtitle_text": "to end so we are not going to be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0017_23109.jpg",
+    "frame_hash": "22de98bd64a8de553054bba379c56ef9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 18,
+    "timestamp_ms": 23119,
+    "subtitle_text": "to end so we are not going to be requiring just the loss function to be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0018_23119.jpg",
+    "frame_hash": "1ce60a3e13d672671337b97e11de052c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 19,
+    "timestamp_ms": 25070,
+    "subtitle_text": "requiring just the loss function to be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0019_25070.jpg",
+    "frame_hash": "965147f71025510f726505bb0c7c6193"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 21,
+    "timestamp_ms": 26589,
+    "subtitle_text": "differentiable with respect to the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0021_26589.jpg",
+    "frame_hash": "80a0242330e096ead6fa87c1d81dc074"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 23,
+    "timestamp_ms": 28950,
+    "subtitle_text": "parameters but we also going to be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0023_28950.jpg",
+    "frame_hash": "297260e7b26c728444f1d4eb9fa05e62"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 25,
+    "timestamp_ms": 31470,
+    "subtitle_text": "requiring all of the components of this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0025_31470.jpg",
+    "frame_hash": "80461439210bd366661a09401d31a83a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 27,
+    "timestamp_ms": 32830,
+    "subtitle_text": "prediction architecture to be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0027_32830.jpg",
+    "frame_hash": "16f7ce195fc00653bc5c07dd8eb9d0c1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 29,
+    "timestamp_ms": 34270,
+    "subtitle_text": "differentiable with respect to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0029_34270.jpg",
+    "frame_hash": "9937cb8ea3124f2431996ce1fff36867"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 31,
+    "timestamp_ms": 38229,
+    "subtitle_text": "parameters these predictors are part of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0031_38229.jpg",
+    "frame_hash": "ac174cb619bf22581ace1b9c9dc02e2f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 33,
+    "timestamp_ms": 40510,
+    "subtitle_text": "what we call the connectionism",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0033_40510.jpg",
+    "frame_hash": "4fdd6ca8a94d87fa7a04d2e7eed369d8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 34,
+    "timestamp_ms": 40520,
+    "subtitle_text": "what we call the connectionism philosophy uh where we are actually",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0034_40520.jpg",
+    "frame_hash": "b0422ca80fa3fae82457b403fd388157"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 35,
+    "timestamp_ms": 42549,
+    "subtitle_text": "philosophy uh where we are actually",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0035_42549.jpg",
+    "frame_hash": "33fd81d3a13955530a0801064594c13d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 36,
+    "timestamp_ms": 42559,
+    "subtitle_text": "philosophy uh where we are actually putting together individual units that",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0036_42559.jpg",
+    "frame_hash": "c339c60afe400a3fc99a1d38f7db5cc4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 37,
+    "timestamp_ms": 44590,
+    "subtitle_text": "putting together individual units that",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0037_44590.jpg",
+    "frame_hash": "feb87378a4e20a1290d27fdf71b90e12"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 39,
+    "timestamp_ms": 47990,
+    "subtitle_text": "we'll call sigmoidal neurons that when",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0039_47990.jpg",
+    "frame_hash": "8ec45e283162af09c6cc06c6293f5251"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 41,
+    "timestamp_ms": 49950,
+    "subtitle_text": "they are connected together in a proper",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0041_49950.jpg",
+    "frame_hash": "63903ac160420bc7119a0df031fe0ffc"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 43,
+    "timestamp_ms": 51630,
+    "subtitle_text": "way that we see exactly what proper",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0043_51630.jpg",
+    "frame_hash": "32b17d01c4113c236d587f2bf4b6e431"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 45,
+    "timestamp_ms": 54750,
+    "subtitle_text": "means they are exhibiting some I will",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0045_54750.jpg",
+    "frame_hash": "b1922449b13a6ee946edcd8c1f6e0837"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 47,
+    "timestamp_ms": 57110,
+    "subtitle_text": "call it Universal approximation uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0047_57110.jpg",
+    "frame_hash": "e47f1699ef9223d613df469e87ad78b3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 48,
+    "timestamp_ms": 57120,
+    "subtitle_text": "call it Universal approximation uh properties so let's get started with",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0048_57120.jpg",
+    "frame_hash": "02fcc3661772352a82365546d9c2b3a9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 49,
+    "timestamp_ms": 59990,
+    "subtitle_text": "properties so let's get started with",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0049_59990.jpg",
+    "frame_hash": "fcf8f65dd6ecd82a08f6d7d53544999a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 51,
+    "timestamp_ms": 62709,
+    "subtitle_text": "producing just a single Sig sigmoidal",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0051_62709.jpg",
+    "frame_hash": "16e776f7f98150198bc0bc31d7ddbff8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 52,
+    "timestamp_ms": 62719,
+    "subtitle_text": "producing just a single Sig sigmoidal kind of neuron and uh let's for that",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0052_62719.jpg",
+    "frame_hash": "a65cdace9db87a1aaeb5428ed89f3f8c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 53,
+    "timestamp_ms": 66070,
+    "subtitle_text": "kind of neuron and uh let's for that",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0053_66070.jpg",
+    "frame_hash": "37f87b27b4d52f063b9487b1fc9971d3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 55,
+    "timestamp_ms": 68630,
+    "subtitle_text": "let's go to the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0055_68630.jpg",
+    "frame_hash": "fcaf17950587035f0de540e794e06532"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 57,
+    "timestamp_ms": 71109,
+    "subtitle_text": "site so the actual neuron that we see",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0057_71109.jpg",
+    "frame_hash": "b04a0dd4a141b4f01b6c3d6a64ee2296"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 59,
+    "timestamp_ms": 72950,
+    "subtitle_text": "here on the side on the top figure over",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0059_72950.jpg",
+    "frame_hash": "17386263dbe5d1379b0889d6e7126175"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 61,
+    "timestamp_ms": 75190,
+    "subtitle_text": "here is a fairly complicated kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0061_75190.jpg",
+    "frame_hash": "c9f6bc66e1e346b76ce744c6e8b78259"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 63,
+    "timestamp_ms": 77630,
+    "subtitle_text": "organism it has inputs that we call Dent",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0063_77630.jpg",
+    "frame_hash": "d5b37b288fe38f11d3d6d81015af22e7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 65,
+    "timestamp_ms": 80990,
+    "subtitle_text": "rites and outputs and in between inputs",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0065_80990.jpg",
+    "frame_hash": "0be6d18e96fdc5427bbc938732d9675c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 67,
+    "timestamp_ms": 83149,
+    "subtitle_text": "and output is actually this compressive",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0067_83149.jpg",
+    "frame_hash": "b8574c21b1a9309a50a9c9e1a3a4afd5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 68,
+    "timestamp_ms": 83159,
+    "subtitle_text": "and output is actually this compressive stage that is called myelinated action",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0068_83159.jpg",
+    "frame_hash": "7fb6d6bc6546908a6f6cc38c0f8bd2b0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 69,
+    "timestamp_ms": 86510,
+    "subtitle_text": "stage that is called myelinated action",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0069_86510.jpg",
+    "frame_hash": "d5311f1ba12f614a8d28b1812332d965"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 70,
+    "timestamp_ms": 86520,
+    "subtitle_text": "stage that is called myelinated action and signals are actually going from",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0070_86520.jpg",
+    "frame_hash": "27f18fc2eadadf7058a2f7d4a6905cec"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 71,
+    "timestamp_ms": 88230,
+    "subtitle_text": "and signals are actually going from",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0071_88230.jpg",
+    "frame_hash": "7af168e1fb48a77de800dbf58e1710a4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 73,
+    "timestamp_ms": 91710,
+    "subtitle_text": "those dentes through this action uh into",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0073_91710.jpg",
+    "frame_hash": "ebcd33c70fc18339f57041b7f101e910"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 75,
+    "timestamp_ms": 96109,
+    "subtitle_text": "outputs and this neuron this unit is uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0075_96109.jpg",
+    "frame_hash": "6c16917323eb448a9bb3f72f58d5539d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 76,
+    "timestamp_ms": 96119,
+    "subtitle_text": "outputs and this neuron this unit is uh going to be connected to other units",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0076_96119.jpg",
+    "frame_hash": "951991ba9172995d95d8c3400e8e7cf2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 77,
+    "timestamp_ms": 98109,
+    "subtitle_text": "going to be connected to other units",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0077_98109.jpg",
+    "frame_hash": "07c2b6f9cf45241ddafcd25fe3c1630d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 79,
+    "timestamp_ms": 101270,
+    "subtitle_text": "that we'll see in a moment now rosenblat",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0079_101270.jpg",
+    "frame_hash": "cc07fa604c0cb594181092d3ac5a44b1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 81,
+    "timestamp_ms": 102910,
+    "subtitle_text": "working in a government sponsor",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0081_102910.jpg",
+    "frame_hash": "6805cf5b832ab4fb94336fa0e7f22612"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 82,
+    "timestamp_ms": 102920,
+    "subtitle_text": "working in a government sponsor laboratory 60 years ago uh he actually",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0082_102920.jpg",
+    "frame_hash": "e29683deb6ae14a0a114e9046e893dbe"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 83,
+    "timestamp_ms": 106109,
+    "subtitle_text": "laboratory 60 years ago uh he actually",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0083_106109.jpg",
+    "frame_hash": "eedd7e90e165aa5e5fa92013f33af35f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 84,
+    "timestamp_ms": 106119,
+    "subtitle_text": "laboratory 60 years ago uh he actually came up with an uh architecture that",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0084_106119.jpg",
+    "frame_hash": "e38af570e133b6a967903abf33008098"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 85,
+    "timestamp_ms": 109429,
+    "subtitle_text": "came up with an uh architecture that",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0085_109429.jpg",
+    "frame_hash": "6e3ebc60af9b9b321a586ba1534a735a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 87,
+    "timestamp_ms": 112510,
+    "subtitle_text": "kind of resembles uh this uh organism",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0087_112510.jpg",
+    "frame_hash": "b5734d2c3c5dc508a8e380e70bc0a236"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 88,
+    "timestamp_ms": 112520,
+    "subtitle_text": "kind of resembles uh this uh organism and we actually we have seen this type",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0088_112520.jpg",
+    "frame_hash": "2c5a5e46c60cec55fec40cc569988be1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 89,
+    "timestamp_ms": 114109,
+    "subtitle_text": "and we actually we have seen this type",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0089_114109.jpg",
+    "frame_hash": "01e538230e2e053b150b6435244ae12b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 90,
+    "timestamp_ms": 114119,
+    "subtitle_text": "and we actually we have seen this type of architecture uh before uh so let me",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0090_114119.jpg",
+    "frame_hash": "b8c76f00b368cf9f127a407f83baa898"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 91,
+    "timestamp_ms": 117270,
+    "subtitle_text": "of architecture uh before uh so let me",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0091_117270.jpg",
+    "frame_hash": "233faf81a5141d36d29959e3cf8c6cdd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 93,
+    "timestamp_ms": 120990,
+    "subtitle_text": "just uh write the kind of a d diagram on",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0093_120990.jpg",
+    "frame_hash": "7acc1664b6fe20ae287a2df36cfe219d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 95,
+    "timestamp_ms": 126510,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0095_126510.jpg",
+    "frame_hash": "2114b5251b6bb66246afa12c88c49676"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 96,
+    "timestamp_ms": 126520,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0096_126520.jpg",
+    "frame_hash": "0a2b6e22cd296f12d7b4e9942d4a6a23"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 97,
+    "timestamp_ms": 129430,
+    "subtitle_text": "now this first kind of stage of this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0097_129430.jpg",
+    "frame_hash": "dec6bf7aafa48487a0efb8b77e90ffc2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 99,
+    "timestamp_ms": 130910,
+    "subtitle_text": "neuron",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0099_130910.jpg",
+    "frame_hash": "7cdead5426551c20e521733b09e24bda"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 100,
+    "timestamp_ms": 130920,
+    "subtitle_text": "neuron is a DOT product is sigmoidal Neuron",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0100_130920.jpg",
+    "frame_hash": "babb4614a242e12ee60c5f0b08996723"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 101,
+    "timestamp_ms": 134110,
+    "subtitle_text": "is a DOT product is sigmoidal Neuron",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0101_134110.jpg",
+    "frame_hash": "27b646efc6e641fca35b537e6f0e9f4a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 102,
+    "timestamp_ms": 134120,
+    "subtitle_text": "is a DOT product is sigmoidal Neuron that is there are various kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0102_134120.jpg",
+    "frame_hash": "827347a50e51ce7c02b66f46f7edf887"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 103,
+    "timestamp_ms": 136070,
+    "subtitle_text": "that is there are various kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0103_136070.jpg",
+    "frame_hash": "92393a304a1316a9d58b8e3b74bf5921"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 105,
+    "timestamp_ms": 138430,
+    "subtitle_text": "neurons uh but here we're just reading",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0105_138430.jpg",
+    "frame_hash": "d226479489350005e0ac80dd085c65f5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 107,
+    "timestamp_ms": 142270,
+    "subtitle_text": "the sigmoidal version so we have the dot",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0107_142270.jpg",
+    "frame_hash": "a3fdfed8797e5ec7255eaa147b238aca"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 109,
+    "timestamp_ms": 146070,
+    "subtitle_text": "product of w transpose X these are both",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0109_146070.jpg",
+    "frame_hash": "c627bf7d478ce778401a87d8b7ae617f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 111,
+    "timestamp_ms": 146949,
+    "subtitle_text": "uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0111_146949.jpg",
+    "frame_hash": "2195407e9f69240f5d360fed56465b6e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 112,
+    "timestamp_ms": 146959,
+    "subtitle_text": "uh vectors uh and explicitly we are sort of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0112_146959.jpg",
+    "frame_hash": "731c6cc81261da12315e40bf524a5497"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 113,
+    "timestamp_ms": 152270,
+    "subtitle_text": "vectors uh and explicitly we are sort of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0113_152270.jpg",
+    "frame_hash": "2691b93004bca4b9cde6238565a8c975"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 115,
+    "timestamp_ms": 155110,
+    "subtitle_text": "denoting here this kind of a bias term",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0115_155110.jpg",
+    "frame_hash": "43df01ceb7ce3402753c4b59c5ad3e42"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 116,
+    "timestamp_ms": 155120,
+    "subtitle_text": "denoting here this kind of a bias term uh that uh is kind of explicitly shown",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0116_155120.jpg",
+    "frame_hash": "ad3ab091840c44d59410be2a6ef531f5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 117,
+    "timestamp_ms": 158710,
+    "subtitle_text": "uh that uh is kind of explicitly shown",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0117_158710.jpg",
+    "frame_hash": "e5395731aa4636ba0bee039dbed9e979"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 118,
+    "timestamp_ms": 158720,
+    "subtitle_text": "uh that uh is kind of explicitly shown as B and uh the uh last stage is a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0118_158720.jpg",
+    "frame_hash": "6f0b62b6ddee473c52e98ade44e115b9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 119,
+    "timestamp_ms": 165350,
+    "subtitle_text": "as B and uh the uh last stage is a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0119_165350.jpg",
+    "frame_hash": "259f815a18365afab83fadc07677093e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 121,
+    "timestamp_ms": 167589,
+    "subtitle_text": "nonlinearity which is the sigmoidal",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0121_167589.jpg",
+    "frame_hash": "05b426bf773f20d4abab3a616998b339"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 123,
+    "timestamp_ms": 170149,
+    "subtitle_text": "nonlinearity we have also seen in the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0123_170149.jpg",
+    "frame_hash": "719c37c32f41a1a99901104f307c8a71"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 124,
+    "timestamp_ms": 170159,
+    "subtitle_text": "nonlinearity we have also seen in the treatment of logistic",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0124_170159.jpg",
+    "frame_hash": "1792a4cfffdef9f1a72e4717a2cd7ef9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 125,
+    "timestamp_ms": 172270,
+    "subtitle_text": "treatment of logistic",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0125_172270.jpg",
+    "frame_hash": "8e4a03e4e2beeaa34c5f979d53611e17"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 127,
+    "timestamp_ms": 175430,
+    "subtitle_text": "regression uh so typically this signal",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0127_175430.jpg",
+    "frame_hash": "33948a88226472c1caa2d12c06ceb19f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 129,
+    "timestamp_ms": 184309,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0129_184309.jpg",
+    "frame_hash": "2a90443326518ec06cc32f2ccbd26225"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 130,
+    "timestamp_ms": 184319,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0130_184319.jpg",
+    "frame_hash": "28f07beac5889ec22b9ebfcf5c7e0b5f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 131,
+    "timestamp_ms": 193309,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0131_193309.jpg",
+    "frame_hash": "734387f69029933dd2f15b0b74aa36ae"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 132,
+    "timestamp_ms": 193319,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0132_193319.jpg",
+    "frame_hash": "b1ba9e448f7013e4113947793bb8e6af"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 133,
+    "timestamp_ms": 195270,
+    "subtitle_text": "function and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0133_195270.jpg",
+    "frame_hash": "b818da827e5f807a1de469ec3c5fb63f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 135,
+    "timestamp_ms": 197430,
+    "subtitle_text": "evidently just like in other we have",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0135_197430.jpg",
+    "frame_hash": "555e7b78d3f2282019aa6411212e9eee"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 137,
+    "timestamp_ms": 199270,
+    "subtitle_text": "done up to now we have a y hat at the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0137_199270.jpg",
+    "frame_hash": "bd310995fa1572576cd0a2a4505e6a63"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 139,
+    "timestamp_ms": 201550,
+    "subtitle_text": "output that is the predicted Target",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0139_201550.jpg",
+    "frame_hash": "6dfd25f13d5ea7ad40c6a3de3bb5710d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 141,
+    "timestamp_ms": 203869,
+    "subtitle_text": "variable and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0141_203869.jpg",
+    "frame_hash": "38dd1123fcc27a26afbd0c2e4bc7433d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 143,
+    "timestamp_ms": 207509,
+    "subtitle_text": "also we know now that corresponds to the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0143_207509.jpg",
+    "frame_hash": "6ee79c13c0a022f437330a107386bfaf"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 144,
+    "timestamp_ms": 207519,
+    "subtitle_text": "also we know now that corresponds to the probability of Y is equal to 1 given",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0144_207519.jpg",
+    "frame_hash": "6986f1f5549c9d9175f39a42e68122ce"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 145,
+    "timestamp_ms": 211110,
+    "subtitle_text": "probability of Y is equal to 1 given",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0145_211110.jpg",
+    "frame_hash": "7d9b0f7bca754b1788d85ae874853553"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 146,
+    "timestamp_ms": 211120,
+    "subtitle_text": "probability of Y is equal to 1 given X so that is uh basically the block",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0146_211120.jpg",
+    "frame_hash": "314d8a0f9882704aa8550699f9a69a38"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 147,
+    "timestamp_ms": 214070,
+    "subtitle_text": "X so that is uh basically the block",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0147_214070.jpg",
+    "frame_hash": "d09b4ea9e82ef182b66ca59270ca26ef"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 149,
+    "timestamp_ms": 217309,
+    "subtitle_text": "diagram of the sigmoidal kind of neuron",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0149_217309.jpg",
+    "frame_hash": "9ede6175bb87e47484b2c545b20827c1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 150,
+    "timestamp_ms": 217319,
+    "subtitle_text": "diagram of the sigmoidal kind of neuron and I hope it's everyone is kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0150_217319.jpg",
+    "frame_hash": "81ae4088e7f34fe5eb8517c50f39e029"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 151,
+    "timestamp_ms": 219070,
+    "subtitle_text": "and I hope it's everyone is kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0151_219070.jpg",
+    "frame_hash": "da83a09295e69e1a3c0957834989ded0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 153,
+    "timestamp_ms": 220789,
+    "subtitle_text": "familiar with the dot products and all",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0153_220789.jpg",
+    "frame_hash": "95447d2e24eaa6bf9da408189b57eb08"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 155,
+    "timestamp_ms": 223670,
+    "subtitle_text": "these kind of uh discussion we had even",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0155_223670.jpg",
+    "frame_hash": "d39f0e898df7253054c4d658fa267d61"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 157,
+    "timestamp_ms": 225309,
+    "subtitle_text": "from kind of earlier kind of treatment",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0157_225309.jpg",
+    "frame_hash": "e4623f459ca2ade10ed54bee14147045"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 158,
+    "timestamp_ms": 225319,
+    "subtitle_text": "from kind of earlier kind of treatment so I'm not going to expand here uh what",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0158_225319.jpg",
+    "frame_hash": "dbea63e6206dfa4af9bcafcb2ba9b5f1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 159,
+    "timestamp_ms": 227830,
+    "subtitle_text": "so I'm not going to expand here uh what",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0159_227830.jpg",
+    "frame_hash": "b7a30716c9548b0fea10692053ea61d6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 161,
+    "timestamp_ms": 230550,
+    "subtitle_text": "I think we is worthwhile actually doing",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0161_230550.jpg",
+    "frame_hash": "a12250d1becc475cdeab3526fd2f380c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 163,
+    "timestamp_ms": 234350,
+    "subtitle_text": "however is to try to understand how",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0163_234350.jpg",
+    "frame_hash": "7c736584e1fc4661f93120079c5abb11"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 165,
+    "timestamp_ms": 236670,
+    "subtitle_text": "potentially a neuron uh with everything",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0165_236670.jpg",
+    "frame_hash": "4ad8e4c3cfe8f8b43db96768031ad63e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 167,
+    "timestamp_ms": 239550,
+    "subtitle_text": "we have seen uh can be trained and for",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0167_239550.jpg",
+    "frame_hash": "10b95f981e20924858a32b0d91969cae"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 169,
+    "timestamp_ms": 243110,
+    "subtitle_text": "that I'm going to go into web page",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0169_243110.jpg",
+    "frame_hash": "b600cab8813f5d3ba5f8580e5081e896"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 170,
+    "timestamp_ms": 243120,
+    "subtitle_text": "that I'm going to go into web page actually called tensorflow playground",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0170_243120.jpg",
+    "frame_hash": "75c2592d5669e8112fb716ce5a9553d2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 171,
+    "timestamp_ms": 245670,
+    "subtitle_text": "actually called tensorflow playground",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0171_245670.jpg",
+    "frame_hash": "45705a4f8b629232ab91dcfe209f7172"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 173,
+    "timestamp_ms": 247509,
+    "subtitle_text": "and in that tensorflow playground I'm",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0173_247509.jpg",
+    "frame_hash": "cff3f297f8fed8d78c0f9ed8bb1e914b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 174,
+    "timestamp_ms": 247519,
+    "subtitle_text": "and in that tensorflow playground I'm going to we're going to see now how we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0174_247519.jpg",
+    "frame_hash": "0676f544122af7f0e0851aaa83f750b4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 175,
+    "timestamp_ms": 249869,
+    "subtitle_text": "going to we're going to see now how we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0175_249869.jpg",
+    "frame_hash": "bf7db13780fbdc0d64aca73d2599d6dd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 177,
+    "timestamp_ms": 253190,
+    "subtitle_text": "can actually um take this kind of neuron",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0177_253190.jpg",
+    "frame_hash": "2c84f1f16d501803aae91edfb02b89d1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 179,
+    "timestamp_ms": 255149,
+    "subtitle_text": "this block diagram and hit it with some",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0179_255149.jpg",
+    "frame_hash": "6032b69d775fadaf519e77337d9a7e88"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 180,
+    "timestamp_ms": 255159,
+    "subtitle_text": "this block diagram and hit it with some kind of a data set and see what it is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0180_255159.jpg",
+    "frame_hash": "15a113395cbaa68bf0303e975d2b7986"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 181,
+    "timestamp_ms": 256870,
+    "subtitle_text": "kind of a data set and see what it is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0181_256870.jpg",
+    "frame_hash": "5320f451874ad9278d6be46018eeaf93"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 183,
+    "timestamp_ms": 260509,
+    "subtitle_text": "able to do and how it will uh probably",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0183_260509.jpg",
+    "frame_hash": "3d7f398b769c27e508970ab6ad984693"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 184,
+    "timestamp_ms": 260519,
+    "subtitle_text": "able to do and how it will uh probably not able to do certain things for us and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0184_260519.jpg",
+    "frame_hash": "c238ac61a297253a1352b6a12bcf74e6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 185,
+    "timestamp_ms": 263189,
+    "subtitle_text": "not able to do certain things for us and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0185_263189.jpg",
+    "frame_hash": "697248fd3237b02a2f67286720026c9a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 187,
+    "timestamp_ms": 264950,
+    "subtitle_text": "have some discussion about how we can",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0187_264950.jpg",
+    "frame_hash": "17be7a06f9d3568d513ec236cf70f535"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 189,
+    "timestamp_ms": 267150,
+    "subtitle_text": "actually create a network of these",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0189_267150.jpg",
+    "frame_hash": "a37bd9546c80d4563e10b1cba6132ddb"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 190,
+    "timestamp_ms": 267160,
+    "subtitle_text": "actually create a network of these neurons so when we actually go to the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0190_267160.jpg",
+    "frame_hash": "15dfc407ce2f65da20be10ad44c8bfa1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 191,
+    "timestamp_ms": 269350,
+    "subtitle_text": "neurons so when we actually go to the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0191_269350.jpg",
+    "frame_hash": "af4fab038783de091701ec0f3b5e31bc"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 193,
+    "timestamp_ms": 271270,
+    "subtitle_text": "site tensor flow play ground site will",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0193_271270.jpg",
+    "frame_hash": "76fabde8e03e1518f92ec600a7bb5e11"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 195,
+    "timestamp_ms": 272590,
+    "subtitle_text": "actually the first time you go into",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0195_272590.jpg",
+    "frame_hash": "a078730ef2031ffa8a4649153bf63203"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 197,
+    "timestamp_ms": 274790,
+    "subtitle_text": "there you'll actually see a picture such",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0197_274790.jpg",
+    "frame_hash": "c20d28fd5b88a0c873aaed491e740cc0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 199,
+    "timestamp_ms": 277350,
+    "subtitle_text": "as this and we would like to modify this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0199_277350.jpg",
+    "frame_hash": "e00b52b8a1a8720167eca73fbbc976d4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 201,
+    "timestamp_ms": 279510,
+    "subtitle_text": "picture to just basically bring a single",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0201_279510.jpg",
+    "frame_hash": "163e76b506c00c8ae5fa3254d1b3777b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 202,
+    "timestamp_ms": 279520,
+    "subtitle_text": "picture to just basically bring a single neuron into that so we will have here",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0202_279520.jpg",
+    "frame_hash": "37e6b32af58c53b85151104028ba20ec"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 203,
+    "timestamp_ms": 283029,
+    "subtitle_text": "neuron into that so we will have here",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0203_283029.jpg",
+    "frame_hash": "99bf83f7155d85dfdda432fea8e57c1c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 205,
+    "timestamp_ms": 285350,
+    "subtitle_text": "just uh press the minus button to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0205_285350.jpg",
+    "frame_hash": "0c7fce20f6c3079393ead20aa5348718"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 207,
+    "timestamp_ms": 287670,
+    "subtitle_text": "eliminate uh the uh what is called a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0207_287670.jpg",
+    "frame_hash": "d8e9581a9d66713526dca1b0ec1bbf45"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 209,
+    "timestamp_ms": 290629,
+    "subtitle_text": "layer which terat we'll see shortly and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0209_290629.jpg",
+    "frame_hash": "63d7893ee70d4c31ce8bd1b2348c10e8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 211,
+    "timestamp_ms": 293310,
+    "subtitle_text": "just leave a single neuron uh on that uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0211_293310.jpg",
+    "frame_hash": "ab506c74e8425303e3fbed19b89712df"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 212,
+    "timestamp_ms": 293320,
+    "subtitle_text": "just leave a single neuron uh on that uh sort of architecture have a single",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0212_293320.jpg",
+    "frame_hash": "f9333edb0458e4fc133d90cad5180ee3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 213,
+    "timestamp_ms": 295110,
+    "subtitle_text": "sort of architecture have a single",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0213_295110.jpg",
+    "frame_hash": "7e8fa9bd25642695031ce6772ae3e76e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 214,
+    "timestamp_ms": 295120,
+    "subtitle_text": "sort of architecture have a single neural architecture uh we are going to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0214_295120.jpg",
+    "frame_hash": "a010ff7d4e16856d41d829e47272acb2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 215,
+    "timestamp_ms": 297510,
+    "subtitle_text": "neural architecture uh we are going to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0215_297510.jpg",
+    "frame_hash": "e8347867b0cf11ea7c8848779f8c3f6e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 217,
+    "timestamp_ms": 300909,
+    "subtitle_text": "have a sigmoidal activation",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0217_300909.jpg",
+    "frame_hash": "77f3665763679f313d92836c33d9926b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 218,
+    "timestamp_ms": 300919,
+    "subtitle_text": "have a sigmoidal activation function and uh we are going to be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0218_300919.jpg",
+    "frame_hash": "f8f9d0155baf958a160715e659314e00"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 219,
+    "timestamp_ms": 304550,
+    "subtitle_text": "function and uh we are going to be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0219_304550.jpg",
+    "frame_hash": "ab30820e7b125588f84e6865c73070e8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 221,
+    "timestamp_ms": 306830,
+    "subtitle_text": "discussing uh the operation of this kind",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0221_306830.jpg",
+    "frame_hash": "e6bb8b7b61f0ffbcf701ded04768f84c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 223,
+    "timestamp_ms": 309590,
+    "subtitle_text": "of neuron in this uh small data set that",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0223_309590.jpg",
+    "frame_hash": "e7ae09d7b835cd62d4d5620a6d6b5ac9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 225,
+    "timestamp_ms": 311990,
+    "subtitle_text": "we see here it's a classification data",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0225_311990.jpg",
+    "frame_hash": "24dd67c630b15d93835bf3d0ed36342d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 227,
+    "timestamp_ms": 315830,
+    "subtitle_text": "set with just two classes and uh just",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0227_315830.jpg",
+    "frame_hash": "0a9373fa8cfcf874322a236c4f77c214"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 229,
+    "timestamp_ms": 317790,
+    "subtitle_text": "because we would like to make things a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0229_317790.jpg",
+    "frame_hash": "a4d91dcaa70cc0c28d976e65137ee877"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 231,
+    "timestamp_ms": 321070,
+    "subtitle_text": "bit more challenging if you can increase",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0231_321070.jpg",
+    "frame_hash": "fe09cdc8b1b74fa568bb79a835d1a6a1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 233,
+    "timestamp_ms": 323150,
+    "subtitle_text": "the noise to something like 25 you",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0233_323150.jpg",
+    "frame_hash": "3645422ec9fb978ac5b637e77c416f25"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 235,
+    "timestamp_ms": 326070,
+    "subtitle_text": "actually get a nonlinear non linear",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0235_326070.jpg",
+    "frame_hash": "66459d0fb1a8bba9cc4968d0bd44d69b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 237,
+    "timestamp_ms": 329469,
+    "subtitle_text": "separated data data set and uh that is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0237_329469.jpg",
+    "frame_hash": "45c102f92bfbcab6e708e8c58cfff152"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 239,
+    "timestamp_ms": 330230,
+    "subtitle_text": "uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0239_330230.jpg",
+    "frame_hash": "a3708b3d1ee34391ca3e38a7e5c142e1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 241,
+    "timestamp_ms": 334110,
+    "subtitle_text": "basically it uh we're going to have a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0241_334110.jpg",
+    "frame_hash": "f31a0805150637e91b3243f3025ead65"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 242,
+    "timestamp_ms": 334120,
+    "subtitle_text": "basically it uh we're going to have a potentially a bat size of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0242_334120.jpg",
+    "frame_hash": "893bda0b814f27f6301d679b4f3e8426"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 243,
+    "timestamp_ms": 337390,
+    "subtitle_text": "potentially a bat size of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0243_337390.jpg",
+    "frame_hash": "679a81020fae1737a41e3e735c8d6fcd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 245,
+    "timestamp_ms": 340350,
+    "subtitle_text": "10 okay let's leave it 10 or even we can",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0245_340350.jpg",
+    "frame_hash": "bf742dd1079f73e4fa4b071fbdb3bd43"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 247,
+    "timestamp_ms": 343029,
+    "subtitle_text": "make it one and we are going",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0247_343029.jpg",
+    "frame_hash": "0566eda7069c10f8c27dca48292e3aa2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 249,
+    "timestamp_ms": 346150,
+    "subtitle_text": "to avoid um introducing complication of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0249_346150.jpg",
+    "frame_hash": "cc8127b64754606b65a73c2b4cad1dc0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 251,
+    "timestamp_ms": 348830,
+    "subtitle_text": "regularization here learning rate as we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0251_348830.jpg",
+    "frame_hash": "b887577e095fcbdc1c79d0055f41f45f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 253,
+    "timestamp_ms": 350909,
+    "subtitle_text": "have seen earlier should be some small",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0253_350909.jpg",
+    "frame_hash": "93799a9b37a52f1f5cfce3b60b3fbb6e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 254,
+    "timestamp_ms": 350919,
+    "subtitle_text": "have seen earlier should be some small number let's say",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0254_350919.jpg",
+    "frame_hash": "f2489c293fac7d0ff463771a3528bd8f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 255,
+    "timestamp_ms": 352350,
+    "subtitle_text": "number let's say",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0255_352350.jpg",
+    "frame_hash": "eebaf8be63b1d3b8b83fe8d336e811b9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 257,
+    "timestamp_ms": 356070,
+    "subtitle_text": "0.01 and we just by pressing the play",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0257_356070.jpg",
+    "frame_hash": "0b123f5c6bb1aef537a4205a648ec7dc"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 259,
+    "timestamp_ms": 359070,
+    "subtitle_text": "button what you actually see you'll",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0259_359070.jpg",
+    "frame_hash": "7ff525bb69763a6ca485cdfeb241541c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 261,
+    "timestamp_ms": 362189,
+    "subtitle_text": "actually see see uh the output over here",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0261_362189.jpg",
+    "frame_hash": "8fc64b5f55c9c26b50f21202fa9355a6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 263,
+    "timestamp_ms": 365070,
+    "subtitle_text": "uh this is the loss function the two two",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0263_365070.jpg",
+    "frame_hash": "d887876a01b2c3227b1763f4e0deb251"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 265,
+    "timestamp_ms": 366990,
+    "subtitle_text": "loss functions uh the training loss and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0265_366990.jpg",
+    "frame_hash": "61c9a0f036fcafaebdc8a9987767c23a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 267,
+    "timestamp_ms": 369550,
+    "subtitle_text": "the test loss uh that are very very",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0267_369550.jpg",
+    "frame_hash": "e595d703b4d40418c4a51b5bfd26eb50"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 269,
+    "timestamp_ms": 372550,
+    "subtitle_text": "quickly uh converging and this is U the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0269_372550.jpg",
+    "frame_hash": "60d087bf6da931d5ffd706d903f198b8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 271,
+    "timestamp_ms": 375710,
+    "subtitle_text": "decision boundary that uh the single",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0271_375710.jpg",
+    "frame_hash": "fc9bf7941a85f823cc27692b73564515"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 272,
+    "timestamp_ms": 375720,
+    "subtitle_text": "decision boundary that uh the single neuron kind of produced uh very",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0272_375720.jpg",
+    "frame_hash": "5f7731d703cc28d4bde06a610af31e3c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 273,
+    "timestamp_ms": 377909,
+    "subtitle_text": "neuron kind of produced uh very",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0273_377909.jpg",
+    "frame_hash": "ac1b7f5b2ade4e5f1c99805be7b3f397"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 274,
+    "timestamp_ms": 377919,
+    "subtitle_text": "neuron kind of produced uh very straightforward uh very easy to come up",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0274_377919.jpg",
+    "frame_hash": "915b34ce875622eb9b699593827b334c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 275,
+    "timestamp_ms": 381070,
+    "subtitle_text": "straightforward uh very easy to come up",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0275_381070.jpg",
+    "frame_hash": "e5bc0d8100fc18b6d8092a31cb37e4c0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 277,
+    "timestamp_ms": 383309,
+    "subtitle_text": "with u if you like that decision",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0277_383309.jpg",
+    "frame_hash": "f3dfe2e8a080e192ca80a0ca8722fbd0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 278,
+    "timestamp_ms": 383319,
+    "subtitle_text": "with u if you like that decision boundary as you can see and of course",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0278_383319.jpg",
+    "frame_hash": "87c528c97ef0ecaf85cbe18f4b9ba80d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 279,
+    "timestamp_ms": 385550,
+    "subtitle_text": "boundary as you can see and of course",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0279_385550.jpg",
+    "frame_hash": "8fa00a8f8a71ca253ea1a28f9bea0514"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 281,
+    "timestamp_ms": 388510,
+    "subtitle_text": "everything that we have discussed before",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0281_388510.jpg",
+    "frame_hash": "406c8cb6057a3eddb6aede49cae6bef6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 282,
+    "timestamp_ms": 388520,
+    "subtitle_text": "everything that we have discussed before the stochastic grade descent is in",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0282_388520.jpg",
+    "frame_hash": "060d99a9e0cbc250d2622acc75e5f5b0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 283,
+    "timestamp_ms": 391309,
+    "subtitle_text": "the stochastic grade descent is in",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0283_391309.jpg",
+    "frame_hash": "316799d0b1154062f8f42c9d57f3a93e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 285,
+    "timestamp_ms": 394189,
+    "subtitle_text": "operation here uh so if we go back to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0285_394189.jpg",
+    "frame_hash": "7468e433d3cf639f69bb2e67fabc0677"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 287,
+    "timestamp_ms": 397909,
+    "subtitle_text": "that um drawing board you will uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0287_397909.jpg",
+    "frame_hash": "5b4a41810bb67e3d8e89f008b28bc427"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 288,
+    "timestamp_ms": 397919,
+    "subtitle_text": "that um drawing board you will uh definitely expect to see here a loss",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0288_397919.jpg",
+    "frame_hash": "112bc6d091feaae7ec07aaa9e3aa1928"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 289,
+    "timestamp_ms": 400670,
+    "subtitle_text": "definitely expect to see here a loss",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0289_400670.jpg",
+    "frame_hash": "aae5f66a0fe02a5c10518272360ed10c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 291,
+    "timestamp_ms": 402710,
+    "subtitle_text": "function which is nothing else as the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0291_402710.jpg",
+    "frame_hash": "93b5a22ca9e8637ee6eaf4d6a5aa5743"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 292,
+    "timestamp_ms": 402720,
+    "subtitle_text": "function which is nothing else as the binary cross entropy and uh that Banner",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0292_402720.jpg",
+    "frame_hash": "439bd0c083dbe59961fd8618a909f2fe"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 293,
+    "timestamp_ms": 406070,
+    "subtitle_text": "binary cross entropy and uh that Banner",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0293_406070.jpg",
+    "frame_hash": "f71b0a1a8b6d06a0379856fcd5bcb57b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 295,
+    "timestamp_ms": 408350,
+    "subtitle_text": "crossentropy being",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0295_408350.jpg",
+    "frame_hash": "4066c4ad55926b1cf01ba90ee7236e36"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 297,
+    "timestamp_ms": 412150,
+    "subtitle_text": "fed uh into the stochastic grated",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0297_412150.jpg",
+    "frame_hash": "97988182c522f00e1b5fd59a4e84e2ad"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 299,
+    "timestamp_ms": 416150,
+    "subtitle_text": "descent that it will uh adjust the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0299_416150.jpg",
+    "frame_hash": "c7d457b07b601e77b94b893fe47cff66"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 301,
+    "timestamp_ms": 420589,
+    "subtitle_text": "weights W from one iteration to the next",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0301_420589.jpg",
+    "frame_hash": "96425b543e4ce951f60802afc9149b05"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 303,
+    "timestamp_ms": 422469,
+    "subtitle_text": "and uh that is all straightforward we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0303_422469.jpg",
+    "frame_hash": "803374f8941ee2b94ca179bd39d2b655"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 305,
+    "timestamp_ms": 426309,
+    "subtitle_text": "have done that uh before as well and uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0305_426309.jpg",
+    "frame_hash": "65f25dcffc7a711e2d2bfc88d9eb0b5c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 306,
+    "timestamp_ms": 426319,
+    "subtitle_text": "have done that uh before as well and uh now let's go back to that uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0306_426319.jpg",
+    "frame_hash": "762fe19dfb4de0080646430659c4229f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 307,
+    "timestamp_ms": 428790,
+    "subtitle_text": "now let's go back to that uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0307_428790.jpg",
+    "frame_hash": "a968b2e57e72d46f64844315071185af"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 309,
+    "timestamp_ms": 431869,
+    "subtitle_text": "site and let's see what is uh going to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0309_431869.jpg",
+    "frame_hash": "8f21ee234c11411df003b9746f9147b0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 311,
+    "timestamp_ms": 435309,
+    "subtitle_text": "happen if we uh change a little bit the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0311_435309.jpg",
+    "frame_hash": "b0c8768677beff0540f81e1e76c59cd2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 312,
+    "timestamp_ms": 435319,
+    "subtitle_text": "happen if we uh change a little bit the data set we are facing and uh we have um",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0312_435319.jpg",
+    "frame_hash": "0f9f7955b78ec3ac7bb0d4d856db017c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 313,
+    "timestamp_ms": 439670,
+    "subtitle_text": "data set we are facing and uh we have um",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0313_439670.jpg",
+    "frame_hash": "c9979e221ed8177342c6d0345939b6e1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 315,
+    "timestamp_ms": 441909,
+    "subtitle_text": "another two dimensional data set I",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0315_441909.jpg",
+    "frame_hash": "f8ad51b3f6331b518775797ebeedd152"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 316,
+    "timestamp_ms": 441919,
+    "subtitle_text": "another two dimensional data set I forgot earlier to mention that here we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0316_441919.jpg",
+    "frame_hash": "dd84a09d6f9bb9ceedf13b0c491c7869"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 317,
+    "timestamp_ms": 443589,
+    "subtitle_text": "forgot earlier to mention that here we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0317_443589.jpg",
+    "frame_hash": "d479e4fe051c2f70140587361dbe3652"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 319,
+    "timestamp_ms": 446070,
+    "subtitle_text": "have effectively two features two",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0319_446070.jpg",
+    "frame_hash": "4035add0c2cae208cf1d613cb4b8ed8c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 321,
+    "timestamp_ms": 450189,
+    "subtitle_text": "dimensions in my X we have X1 and X2 uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0321_450189.jpg",
+    "frame_hash": "762f62b730c5b08f92d47d585dbe8c53"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 323,
+    "timestamp_ms": 452589,
+    "subtitle_text": "again in this new data set we have which",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0323_452589.jpg",
+    "frame_hash": "ff4024eb8a841a6354f93b7a3bddb561"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 325,
+    "timestamp_ms": 454390,
+    "subtitle_text": "is uh slightly more",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0325_454390.jpg",
+    "frame_hash": "93e62965b89186c99fe463079c0f7946"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 327,
+    "timestamp_ms": 456550,
+    "subtitle_text": "complicated uh let's first of all remove",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0327_456550.jpg",
+    "frame_hash": "70eadd7fa92dac0eb46f58e0d4f4a64b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 329,
+    "timestamp_ms": 459950,
+    "subtitle_text": "the noise just to see you know uh the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0329_459950.jpg",
+    "frame_hash": "185834633e01637032a303ab73b7f0d7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 331,
+    "timestamp_ms": 462430,
+    "subtitle_text": "data set a bit more clearly so we have",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0331_462430.jpg",
+    "frame_hash": "b6c1fdbae5f826be4073425a825a0294"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 333,
+    "timestamp_ms": 464189,
+    "subtitle_text": "the blue class kind of centered in the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0333_464189.jpg",
+    "frame_hash": "be94c00c0d354d0ec7806fb9f6f2d5de"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 335,
+    "timestamp_ms": 466110,
+    "subtitle_text": "middle and it is surrounded by the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0335_466110.jpg",
+    "frame_hash": "9fdb60caeb90e804cc401c42654fbc6a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 336,
+    "timestamp_ms": 466120,
+    "subtitle_text": "middle and it is surrounded by the orange",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0336_466120.jpg",
+    "frame_hash": "f8af6da412d46e17ee07a978702f3100"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 337,
+    "timestamp_ms": 467790,
+    "subtitle_text": "orange",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0337_467790.jpg",
+    "frame_hash": "3462b182ef385f07f32fa5b078ebfef3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 339,
+    "timestamp_ms": 471390,
+    "subtitle_text": "glass uh and as we expect to see the um",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0339_471390.jpg",
+    "frame_hash": "6ab4517002a82a121fad874d0a6912b8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 341,
+    "timestamp_ms": 473149,
+    "subtitle_text": "you know the decision boundary is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0341_473149.jpg",
+    "frame_hash": "8a035eb9aeb118971f18c675beb5496f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 342,
+    "timestamp_ms": 473159,
+    "subtitle_text": "you know the decision boundary is definitely heavily nonlinear it's",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0342_473159.jpg",
+    "frame_hash": "7fc2d654f9d7d5be9198b375309f90fa"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 343,
+    "timestamp_ms": 475309,
+    "subtitle_text": "definitely heavily nonlinear it's",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0343_475309.jpg",
+    "frame_hash": "0e61326be789b031714ed87754423fdf"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 344,
+    "timestamp_ms": 475319,
+    "subtitle_text": "definitely heavily nonlinear it's actually in fact circular and let's try",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0344_475319.jpg",
+    "frame_hash": "109d0e56ad44cee4e436d6925b056cb7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 345,
+    "timestamp_ms": 478350,
+    "subtitle_text": "actually in fact circular and let's try",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0345_478350.jpg",
+    "frame_hash": "b1c3e5da18fab018e2fd08eeacf1f661"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 347,
+    "timestamp_ms": 481149,
+    "subtitle_text": "to um do exactly the same thing um press",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0347_481149.jpg",
+    "frame_hash": "acd7ad984e995d65dba2e2513621a937"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 348,
+    "timestamp_ms": 481159,
+    "subtitle_text": "to um do exactly the same thing um press the play button and see exactly what is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0348_481159.jpg",
+    "frame_hash": "7133593ef79006c90cab869c9622eaec"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 349,
+    "timestamp_ms": 483710,
+    "subtitle_text": "the play button and see exactly what is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0349_483710.jpg",
+    "frame_hash": "3978baba2225b7a94e78c970a64e4a39"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 350,
+    "timestamp_ms": 483720,
+    "subtitle_text": "the play button and see exactly what is happening um so we observe now a kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0350_483720.jpg",
+    "frame_hash": "a2b701d06f52ec115ff134b0c85f3ee4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 351,
+    "timestamp_ms": 487749,
+    "subtitle_text": "happening um so we observe now a kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0351_487749.jpg",
+    "frame_hash": "4335847bb6c432ee9a73cec1e900f753"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 352,
+    "timestamp_ms": 487759,
+    "subtitle_text": "happening um so we observe now a kind of different Behavior we are going to start",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0352_487759.jpg",
+    "frame_hash": "4a1bf7a1ad529ab4f7e3bad908d97a6d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 353,
+    "timestamp_ms": 491270,
+    "subtitle_text": "different Behavior we are going to start",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0353_491270.jpg",
+    "frame_hash": "9e7c4d69e0da55d23dae460130cef1d1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 355,
+    "timestamp_ms": 494189,
+    "subtitle_text": "seeing some form of loss reduction so",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0355_494189.jpg",
+    "frame_hash": "4b53fcc69b1986bfa8c2a83c0c4617e5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 357,
+    "timestamp_ms": 498070,
+    "subtitle_text": "the neuron is actually trying its best",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0357_498070.jpg",
+    "frame_hash": "3a4fec996ce81cf9160796920d56f140"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 359,
+    "timestamp_ms": 502309,
+    "subtitle_text": "to uh minimize uh training and test",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0359_502309.jpg",
+    "frame_hash": "0e25d110b9c3fcf1d8740eca643c8e4b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 360,
+    "timestamp_ms": 502319,
+    "subtitle_text": "to uh minimize uh training and test losses and uh here we kind of see some",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0360_502319.jpg",
+    "frame_hash": "b8aa05dc48a5ac8c84a318ea6c36df12"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 361,
+    "timestamp_ms": 505830,
+    "subtitle_text": "losses and uh here we kind of see some",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0361_505830.jpg",
+    "frame_hash": "0d75e316813f697e2a19cfd6b0e65a08"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 363,
+    "timestamp_ms": 507230,
+    "subtitle_text": "kind of a decision",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0363_507230.jpg",
+    "frame_hash": "ecb79322a8c6e7d77d7f047944544532"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 365,
+    "timestamp_ms": 510430,
+    "subtitle_text": "boundary uh but uh I I hope we all",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0365_510430.jpg",
+    "frame_hash": "50d8fbdf694e0a030f15e0b6bbd9f45a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 367,
+    "timestamp_ms": 512190,
+    "subtitle_text": "recognize that that's not really the one",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0367_512190.jpg",
+    "frame_hash": "fb9344bedb3e1b45af792662d2c46a32"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 369,
+    "timestamp_ms": 514790,
+    "subtitle_text": "that we are uh probably going to uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0369_514790.jpg",
+    "frame_hash": "bd6ad94037333db2b01d51bcaf5134a3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 371,
+    "timestamp_ms": 516949,
+    "subtitle_text": "result into a very good prediction",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0371_516949.jpg",
+    "frame_hash": "a6c9df53c24f399ec5a4b9365cffd249"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 372,
+    "timestamp_ms": 516959,
+    "subtitle_text": "result into a very good prediction performance and uh very good",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0372_516959.jpg",
+    "frame_hash": "8fdb0bdc8367d2aab35ca0b2b35914c9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 373,
+    "timestamp_ms": 519350,
+    "subtitle_text": "performance and uh very good",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0373_519350.jpg",
+    "frame_hash": "1f4103c3b6f2461a62fafe734c8f148a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 375,
+    "timestamp_ms": 522709,
+    "subtitle_text": "generalization so um what is to blame",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0375_522709.jpg",
+    "frame_hash": "02eb1a21821a117f619b5f7fce4f12f7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 376,
+    "timestamp_ms": 522719,
+    "subtitle_text": "generalization so um what is to blame here uh and we have seen this kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0376_522719.jpg",
+    "frame_hash": "3ca1ec9712ea546f62f380b43a48cc05"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 377,
+    "timestamp_ms": 525110,
+    "subtitle_text": "here uh and we have seen this kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0377_525110.jpg",
+    "frame_hash": "f970064b3fe844768d6a756c2f77f409"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 378,
+    "timestamp_ms": 525120,
+    "subtitle_text": "here uh and we have seen this kind of behavior before even in the linear uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0378_525120.jpg",
+    "frame_hash": "927836724f0b7aa0b97bae538f1d5d25"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 379,
+    "timestamp_ms": 528470,
+    "subtitle_text": "behavior before even in the linear uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0379_528470.jpg",
+    "frame_hash": "73bd8672b53d72544eb8fc82834eb0d3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 381,
+    "timestamp_ms": 531710,
+    "subtitle_text": "models we have studied and uh this is uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0381_531710.jpg",
+    "frame_hash": "47f1b5b91affd5f6d5026c327bfcf4f9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 382,
+    "timestamp_ms": 531720,
+    "subtitle_text": "models we have studied and uh this is uh effectively what we see here is some",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0382_531720.jpg",
+    "frame_hash": "004cc76602d26be38b5d91f510b87ed6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 383,
+    "timestamp_ms": 533550,
+    "subtitle_text": "effectively what we see here is some",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0383_533550.jpg",
+    "frame_hash": "46a944f144b6ce0ff2e950457998b795"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 384,
+    "timestamp_ms": 533560,
+    "subtitle_text": "effectively what we see here is some form of an underfeeding effect in other",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0384_533560.jpg",
+    "frame_hash": "bb4e8e340e579bb8e853f4223afe5dba"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 385,
+    "timestamp_ms": 536430,
+    "subtitle_text": "form of an underfeeding effect in other",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0385_536430.jpg",
+    "frame_hash": "f386cfb4c8e6e69213a86d782c57efcc"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 387,
+    "timestamp_ms": 539230,
+    "subtitle_text": "words uh the single neuron in terms of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0387_539230.jpg",
+    "frame_hash": "bd43152054e5d9d7f894f98f38b15c2b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 389,
+    "timestamp_ms": 541190,
+    "subtitle_text": "the number of parameters we have just",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0389_541190.jpg",
+    "frame_hash": "a0d0534d7c93847da72b66d4831ee157"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 391,
+    "timestamp_ms": 544750,
+    "subtitle_text": "have U uh uh three parameters here two",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0391_544750.jpg",
+    "frame_hash": "6ffb9b01e2345c39978a1be60d20cc85"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 393,
+    "timestamp_ms": 547670,
+    "subtitle_text": "associated with the number of dimensions",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0393_547670.jpg",
+    "frame_hash": "0684ce1c44f1d99e07ef10cd1d962c7e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 395,
+    "timestamp_ms": 551350,
+    "subtitle_text": "of X plus the bias term uh is really not",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0395_551350.jpg",
+    "frame_hash": "4343b32fc402f7957f3743521715f3e7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 397,
+    "timestamp_ms": 554069,
+    "subtitle_text": "able to capture the complexity which is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0397_554069.jpg",
+    "frame_hash": "9b6f13e202284d0fda7d8cc52dd69235"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 399,
+    "timestamp_ms": 556750,
+    "subtitle_text": "required by the Target function and that",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0399_556750.jpg",
+    "frame_hash": "9f00b8105eedb96d0c23cee95963e024"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 401,
+    "timestamp_ms": 558949,
+    "subtitle_text": "underlying Target function that governs",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0401_558949.jpg",
+    "frame_hash": "8567521cdc3068c24c4ab6be1e1c2ca7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 402,
+    "timestamp_ms": 558959,
+    "subtitle_text": "underlying Target function that governs this kind of classification problem",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0402_558959.jpg",
+    "frame_hash": "696f253cd2dbe336f6c132de08edab83"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 403,
+    "timestamp_ms": 560990,
+    "subtitle_text": "this kind of classification problem",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0403_560990.jpg",
+    "frame_hash": "ec0db0e38e28508a40a7c4a1e165cce1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 405,
+    "timestamp_ms": 563069,
+    "subtitle_text": "requires probably a larger number of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0405_563069.jpg",
+    "frame_hash": "4646b396e7fdd567695942c65755ee41"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 407,
+    "timestamp_ms": 565190,
+    "subtitle_text": "parameters so that's a kind of a good",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0407_565190.jpg",
+    "frame_hash": "7779588fdf16fc42af5ecf1d5843372c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 409,
+    "timestamp_ms": 567990,
+    "subtitle_text": "pretext to start introducing neural",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0409_567990.jpg",
+    "frame_hash": "b30a680d485d440e17a4cc5cab64f8d9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 411,
+    "timestamp_ms": 569710,
+    "subtitle_text": "networks now we are going to start",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0411_569710.jpg",
+    "frame_hash": "190da71f10c27051db75554ff9358c37"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 412,
+    "timestamp_ms": 569720,
+    "subtitle_text": "networks now we are going to start interconnecting many neurons together in",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0412_569720.jpg",
+    "frame_hash": "d56c0b02439dea0ec22ad1c917101241"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 413,
+    "timestamp_ms": 572069,
+    "subtitle_text": "interconnecting many neurons together in",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0413_572069.jpg",
+    "frame_hash": "b9f1c440eb66d102bfec8181e373384f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 415,
+    "timestamp_ms": 574470,
+    "subtitle_text": "some architecture it will make uh sense",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0415_574470.jpg",
+    "frame_hash": "58098ff01a64a8016dc44d29fb19ba16"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 417,
+    "timestamp_ms": 575670,
+    "subtitle_text": "to all of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0417_575670.jpg",
+    "frame_hash": "923743ac2340ff75efa47041e121268d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 419,
+    "timestamp_ms": 580790,
+    "subtitle_text": "us all right so let's see we will now uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0419_580790.jpg",
+    "frame_hash": "5b4acba20adadf8bc332c8cd751f3d75"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 421,
+    "timestamp_ms": 583990,
+    "subtitle_text": "use the single neuron that we have",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0421_583990.jpg",
+    "frame_hash": "7d8947072207583e6ab35d85d2e827fb"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 423,
+    "timestamp_ms": 588710,
+    "subtitle_text": "seen as a unit so I'm drawing if you",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0423_588710.jpg",
+    "frame_hash": "04a424c5838cf2a2b69ac468f664c70d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 424,
+    "timestamp_ms": 588720,
+    "subtitle_text": "seen as a unit so I'm drawing if you like a single box over here I'm putting",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0424_588720.jpg",
+    "frame_hash": "dcab830f3eb5307d3557197fe79cc81e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 425,
+    "timestamp_ms": 590550,
+    "subtitle_text": "like a single box over here I'm putting",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0425_590550.jpg",
+    "frame_hash": "c255523e1263598c44ef62a821f0ebf3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 427,
+    "timestamp_ms": 593350,
+    "subtitle_text": "the number one and inside that single",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0427_593350.jpg",
+    "frame_hash": "99d6ce5579fececc582c704de5c997f6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 429,
+    "timestamp_ms": 596110,
+    "subtitle_text": "boxes everything that you see here",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0429_596110.jpg",
+    "frame_hash": "a743f56f19cd57c0c889fd48d9961b90"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 430,
+    "timestamp_ms": 596120,
+    "subtitle_text": "boxes everything that you see here above all of this blocks are inside this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0430_596120.jpg",
+    "frame_hash": "7a47728d7ce282905d024e03eebb3dda"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 431,
+    "timestamp_ms": 599389,
+    "subtitle_text": "above all of this blocks are inside this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0431_599389.jpg",
+    "frame_hash": "8c003e9a35e469a8fbbb52425fbd4edf"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 433,
+    "timestamp_ms": 602470,
+    "subtitle_text": "kind of single block uh we are going to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0433_602470.jpg",
+    "frame_hash": "861052e3e6323cb9d9eb2935dc201d2d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 435,
+    "timestamp_ms": 604430,
+    "subtitle_text": "feed to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0435_604430.jpg",
+    "frame_hash": "c6d110956b383ac1b7ba790031ac9c43"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 437,
+    "timestamp_ms": 608630,
+    "subtitle_text": "it the x that we've seen in this tensor",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0437_608630.jpg",
+    "frame_hash": "3d917bf027f97e46c08a3248560ad2de"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 439,
+    "timestamp_ms": 615590,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0439_615590.jpg",
+    "frame_hash": "fcaa149764446777208787a40a869d7f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 441,
+    "timestamp_ms": 621230,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0441_621230.jpg",
+    "frame_hash": "2478199d6948f2cc11af2fe69212920e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 443,
+    "timestamp_ms": 624310,
+    "subtitle_text": "neuron uh let me just draw it a a bit",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0443_624310.jpg",
+    "frame_hash": "9a4b2b63f7ee5c75312cedbf416b2550"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 444,
+    "timestamp_ms": 624320,
+    "subtitle_text": "neuron uh let me just draw it a a bit kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0444_624320.jpg",
+    "frame_hash": "05c991c4ceb0219f9264d4d1c0a9933e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 445,
+    "timestamp_ms": 625470,
+    "subtitle_text": "kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0445_625470.jpg",
+    "frame_hash": "056ddef39ce44e0b295dbb91e7d18264"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 447,
+    "timestamp_ms": 636430,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0447_636430.jpg",
+    "frame_hash": "987e11f03556c668b05842096130ea72"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 449,
+    "timestamp_ms": 639629,
+    "subtitle_text": "and this is the second neuron the first",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0449_639629.jpg",
+    "frame_hash": "e7ba13311844bd74ee8c5a07fa3b597b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 451,
+    "timestamp_ms": 641350,
+    "subtitle_text": "neuron",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0451_641350.jpg",
+    "frame_hash": "f699d7c3e683a3d7208d815e3cf113d7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 453,
+    "timestamp_ms": 647670,
+    "subtitle_text": "is has parameters that are inside it are",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0453_647670.jpg",
+    "frame_hash": "96d31730f83529fa7858e3a4fc36f35f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 455,
+    "timestamp_ms": 650430,
+    "subtitle_text": "W1 and the associated kind of bias now",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0455_650430.jpg",
+    "frame_hash": "e261d2ffba3d79cf9f13c798dbb1dedc"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 457,
+    "timestamp_ms": 652829,
+    "subtitle_text": "to make the little bit the math a bit",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0457_652829.jpg",
+    "frame_hash": "d4ad35895c1d0188fde4c875bf1a3a4b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 459,
+    "timestamp_ms": 654310,
+    "subtitle_text": "easier I'm not going to be dealing with",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0459_654310.jpg",
+    "frame_hash": "e0aa5345fafb93fae6d5d2fa86b72099"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 460,
+    "timestamp_ms": 654320,
+    "subtitle_text": "easier I'm not going to be dealing with a bias term explicitly at least in this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0460_654320.jpg",
+    "frame_hash": "26f478d45c3b7cd15d5bae556f7e36d4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 461,
+    "timestamp_ms": 656629,
+    "subtitle_text": "a bias term explicitly at least in this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0461_656629.jpg",
+    "frame_hash": "4eabefd3428e9e3ce4deef76aa28c7ae"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 463,
+    "timestamp_ms": 658829,
+    "subtitle_text": "discussion so I'm just going to show you",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0463_658829.jpg",
+    "frame_hash": "48cb561f96a989f53c36f495141ac717"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 465,
+    "timestamp_ms": 660310,
+    "subtitle_text": "only",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0465_660310.jpg",
+    "frame_hash": "ed3633ab7d8e1a7671a1e01c5ce0067d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 466,
+    "timestamp_ms": 660320,
+    "subtitle_text": "only the weight w the parameter W",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0466_660320.jpg",
+    "frame_hash": "4e165b0a3a14741ae31b22421dc32c00"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 467,
+    "timestamp_ms": 663990,
+    "subtitle_text": "the weight w the parameter W",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0467_663990.jpg",
+    "frame_hash": "a0e438a083841e9b28b89e34edc408f4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 469,
+    "timestamp_ms": 667430,
+    "subtitle_text": "Vector which is uh two the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0469_667430.jpg",
+    "frame_hash": "880ed1e46895398fd50be7f416db5e08"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 471,
+    "timestamp_ms": 669350,
+    "subtitle_text": "dimensionality of that is two just like",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0471_669350.jpg",
+    "frame_hash": "2b00f852fd2de62a3e7960c09ff78485"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 473,
+    "timestamp_ms": 671750,
+    "subtitle_text": "the dimensionality of X is two so the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0473_671750.jpg",
+    "frame_hash": "4c956c782a1a8ebc47ef5b8a2733b92f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 475,
+    "timestamp_ms": 675629,
+    "subtitle_text": "first neuron will produce an output of I",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0475_675629.jpg",
+    "frame_hash": "4924fdb641843cc77bc8641079ade634"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 477,
+    "timestamp_ms": 679350,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0477_679350.jpg",
+    "frame_hash": "f195a7fbc3c8bdcb1d07ce5e8cfa2900"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 479,
+    "timestamp_ms": 682430,
+    "subtitle_text": "y1 and uh the second neuron will produce",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0479_682430.jpg",
+    "frame_hash": "8af0ae40d3d5432fc21adc28fb33176f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 481,
+    "timestamp_ms": 685430,
+    "subtitle_text": "an output which will call Y2 hat these",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0481_685430.jpg",
+    "frame_hash": "88911a20b85372158495a002bd7065d0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 483,
+    "timestamp_ms": 686829,
+    "subtitle_text": "are the two",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0483_686829.jpg",
+    "frame_hash": "3ee3f30df7349dd7b3e698551bd92503"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 485,
+    "timestamp_ms": 689030,
+    "subtitle_text": "predictions however now these outputs",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0485_689030.jpg",
+    "frame_hash": "6f9aec84fcba5aeabc0e561eaa57d412"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 487,
+    "timestamp_ms": 690949,
+    "subtitle_text": "will will be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0487_690949.jpg",
+    "frame_hash": "bb8f15b096713f77aded7f1850491055"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 488,
+    "timestamp_ms": 690959,
+    "subtitle_text": "will will be combined with the help of a third",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0488_690959.jpg",
+    "frame_hash": "48626fe632f0f9a7951803d2ad1e3d6f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 489,
+    "timestamp_ms": 694509,
+    "subtitle_text": "combined with the help of a third",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0489_694509.jpg",
+    "frame_hash": "cc63c3fe93f13b3c951b763cd478f229"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 490,
+    "timestamp_ms": 694519,
+    "subtitle_text": "combined with the help of a third neuron neuron number",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0490_694519.jpg",
+    "frame_hash": "be395fc271c53fcd6a36e4fbc83f82d5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 491,
+    "timestamp_ms": 697509,
+    "subtitle_text": "neuron neuron number",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0491_697509.jpg",
+    "frame_hash": "3e9db12ef88cb5d3d100412080988b25"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 492,
+    "timestamp_ms": 697519,
+    "subtitle_text": "neuron neuron number three to produce the final output which",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0492_697519.jpg",
+    "frame_hash": "080a5251d871e1735bfdc0c96db37047"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 493,
+    "timestamp_ms": 700389,
+    "subtitle_text": "three to produce the final output which",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0493_700389.jpg",
+    "frame_hash": "28213865b2bf1871f09a616df0146b7c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 495,
+    "timestamp_ms": 701230,
+    "subtitle_text": "we'll",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0495_701230.jpg",
+    "frame_hash": "235a087473428d36291b6a19f634f77e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 497,
+    "timestamp_ms": 705910,
+    "subtitle_text": "call Y3 hatut and this neuron has its",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0497_705910.jpg",
+    "frame_hash": "7aa56e0aa32db6b7b2f8448f14f02067"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 498,
+    "timestamp_ms": 705920,
+    "subtitle_text": "call Y3 hatut and this neuron has its own kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0498_705920.jpg",
+    "frame_hash": "52fe16ec85f6ba860babeb749065806c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 499,
+    "timestamp_ms": 707629,
+    "subtitle_text": "own kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0499_707629.jpg",
+    "frame_hash": "5d10b47b53ecc1f9fc2a0330a549076f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 501,
+    "timestamp_ms": 709829,
+    "subtitle_text": "parameters uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0501_709829.jpg",
+    "frame_hash": "3c8f968f940ef212461ccf7b3c6383ef"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 503,
+    "timestamp_ms": 713110,
+    "subtitle_text": "W3 okay so that's uh basically the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0503_713110.jpg",
+    "frame_hash": "12551373d76d2fbd40905396459a978e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 504,
+    "timestamp_ms": 713120,
+    "subtitle_text": "W3 okay so that's uh basically the architecture we are going to uh to to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0504_713120.jpg",
+    "frame_hash": "0e05dc67360b97d7ce371b957cefad72"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 505,
+    "timestamp_ms": 715470,
+    "subtitle_text": "architecture we are going to uh to to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0505_715470.jpg",
+    "frame_hash": "b37839836f351f1efaf996729f372213"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 507,
+    "timestamp_ms": 718910,
+    "subtitle_text": "study a little bit and uh okay so that I",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0507_718910.jpg",
+    "frame_hash": "2381d00f0d0fa9f83cbaff57a952d24a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 508,
+    "timestamp_ms": 718920,
+    "subtitle_text": "study a little bit and uh okay so that I think architecture this actually make",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0508_718920.jpg",
+    "frame_hash": "207e0bbc52ba07d8f3ea3ce35475d68a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 509,
+    "timestamp_ms": 720629,
+    "subtitle_text": "think architecture this actually make",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0509_720629.jpg",
+    "frame_hash": "60cfdd3894a75e5a6d9194c24c8ca842"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 511,
+    "timestamp_ms": 723350,
+    "subtitle_text": "sense we are going to definitely have a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0511_723350.jpg",
+    "frame_hash": "c393640d0579c1246aa40c5b1b8bc960"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 513,
+    "timestamp_ms": 725590,
+    "subtitle_text": "scalar at the end this is a scalar this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0513_725590.jpg",
+    "frame_hash": "1eeec4be22480fe2403f8223c2022602"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 515,
+    "timestamp_ms": 728389,
+    "subtitle_text": "is a scaler two scalers in the form of a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0515_728389.jpg",
+    "frame_hash": "0d6c50aac2d2ffcbd09176cb9969b41c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 517,
+    "timestamp_ms": 730870,
+    "subtitle_text": "vector so at the input over",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0517_730870.jpg",
+    "frame_hash": "9095cbaa9735b19ee8903db70bca9394"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 519,
+    "timestamp_ms": 734790,
+    "subtitle_text": "here we see a vector this Vector will",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0519_734790.jpg",
+    "frame_hash": "8599de3a97ad57c5753a4cf3e384c094"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 521,
+    "timestamp_ms": 740150,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0521_740150.jpg",
+    "frame_hash": "76d18fd8dce195ce19cda12b77fb992d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 523,
+    "timestamp_ms": 745269,
+    "subtitle_text": "H uh this Vector H is consist of y1",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0523_745269.jpg",
+    "frame_hash": "b18e15eaeb15d60aff44f57cd23c4fe9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 525,
+    "timestamp_ms": 750629,
+    "subtitle_text": "hat and Y2 hat this vector will we dot",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0525_750629.jpg",
+    "frame_hash": "678ab6b88f0ccbe0943b2e81a7997fa3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 527,
+    "timestamp_ms": 753550,
+    "subtitle_text": "product we form the dot product of H uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0527_753550.jpg",
+    "frame_hash": "4e96b58fc84eaa4b9ebff1b34b723340"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 529,
+    "timestamp_ms": 756310,
+    "subtitle_text": "with the W3 over here and follow with",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0529_756310.jpg",
+    "frame_hash": "a30e38b25ddf117a04e1035cdb918e6d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 530,
+    "timestamp_ms": 756320,
+    "subtitle_text": "with the W3 over here and follow with the sigmoidal unit so the output of this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0530_756320.jpg",
+    "frame_hash": "a1f7112185c6b36a70f18db46ccf98e4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 531,
+    "timestamp_ms": 758509,
+    "subtitle_text": "the sigmoidal unit so the output of this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0531_758509.jpg",
+    "frame_hash": "310c43ef9db66f5fdaf7b5f031c4b796"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 532,
+    "timestamp_ms": 758519,
+    "subtitle_text": "the sigmoidal unit so the output of this uh architecture is going to be this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0532_758519.jpg",
+    "frame_hash": "dde94d1e156bab1ee9711508870b5403"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 533,
+    "timestamp_ms": 761069,
+    "subtitle_text": "uh architecture is going to be this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0533_761069.jpg",
+    "frame_hash": "eb701b80244a756582b18eb05ab63e28"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 535,
+    "timestamp_ms": 762710,
+    "subtitle_text": "three neural architecture is going to be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0535_762710.jpg",
+    "frame_hash": "4c2ca984222a3a90d9fc108ec564cf20"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 536,
+    "timestamp_ms": 762720,
+    "subtitle_text": "three neural architecture is going to be a scalar which of course is exactly what",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0536_762720.jpg",
+    "frame_hash": "3ed766cc7da5fc5b1b6fd567e27b6783"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 537,
+    "timestamp_ms": 765189,
+    "subtitle_text": "a scalar which of course is exactly what",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0537_765189.jpg",
+    "frame_hash": "c81ee939f0ac21285429b3bea0c91cac"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 539,
+    "timestamp_ms": 768389,
+    "subtitle_text": "we need uh for binary classification and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0539_768389.jpg",
+    "frame_hash": "30a07d6cc68628a8f091d4042765421f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 541,
+    "timestamp_ms": 771829,
+    "subtitle_text": "scalar between 0 and one all right so uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0541_771829.jpg",
+    "frame_hash": "9a3fe28d2b085ce31d4fc9c102cd9dc9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 543,
+    "timestamp_ms": 774389,
+    "subtitle_text": "in terms of uh terminology will be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0543_774389.jpg",
+    "frame_hash": "be3cd3b5c3bbf88fddd0cbd918da5f53"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 545,
+    "timestamp_ms": 779430,
+    "subtitle_text": "calling this stacking of neurons",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0545_779430.jpg",
+    "frame_hash": "7d0514320afc12d05ee71e67495fe63b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 547,
+    "timestamp_ms": 783230,
+    "subtitle_text": "let me draw it like this we'll be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0547_783230.jpg",
+    "frame_hash": "c8c63dfb7c388591fc937d11976ab8ef"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 549,
+    "timestamp_ms": 788310,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0549_788310.jpg",
+    "frame_hash": "8cc5b29002b6d5264766e8c69685bf7a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 550,
+    "timestamp_ms": 788320,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0550_788320.jpg",
+    "frame_hash": "902ac8e556f32156c37dd44fdffebfb8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 551,
+    "timestamp_ms": 792269,
+    "subtitle_text": "layer so we effectively here we have two",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0551_792269.jpg",
+    "frame_hash": "993aa5aa5fc304082447b63d40664b53"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 553,
+    "timestamp_ms": 796350,
+    "subtitle_text": "layers and uh more specifically this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0553_796350.jpg",
+    "frame_hash": "f7c187627858c2b526e83a16a8f63de3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 555,
+    "timestamp_ms": 800470,
+    "subtitle_text": "layer um which is uh just before the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0555_800470.jpg",
+    "frame_hash": "6d1afc59ce1c93db4479b2e7a0940c6f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 557,
+    "timestamp_ms": 803629,
+    "subtitle_text": "final stage uh we are going to also be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0557_803629.jpg",
+    "frame_hash": "3a8e02fe6648a3e7106ef157ea2b4033"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 559,
+    "timestamp_ms": 806470,
+    "subtitle_text": "calling it body sometimes because it",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0559_806470.jpg",
+    "frame_hash": "2d72a41777dda05ffc96c9739c33ea90"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 561,
+    "timestamp_ms": 810430,
+    "subtitle_text": "this body will consist of more than than",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0561_810430.jpg",
+    "frame_hash": "9843e7b75ec3e53784a825df1ffc4939"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 563,
+    "timestamp_ms": 812430,
+    "subtitle_text": "uh one layers typically here we just",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0563_812430.jpg",
+    "frame_hash": "71f0ba353bb4fe4590966661103b0833"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 565,
+    "timestamp_ms": 815230,
+    "subtitle_text": "have only one and this part over here",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0565_815230.jpg",
+    "frame_hash": "3f2c59ccaf88be7825cb1d01b4333bec"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 567,
+    "timestamp_ms": 817910,
+    "subtitle_text": "will be calling it a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0567_817910.jpg",
+    "frame_hash": "3db741e0bd332afb6008e523d22bbb80"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 568,
+    "timestamp_ms": 817920,
+    "subtitle_text": "will be calling it a head and more specifically this head is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0568_817920.jpg",
+    "frame_hash": "1e81a5e0fd554bffd5371d80fb38b2eb"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 569,
+    "timestamp_ms": 821590,
+    "subtitle_text": "head and more specifically this head is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0569_821590.jpg",
+    "frame_hash": "6eb9b5827e4fc9bf6288b53f69f9f96d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 571,
+    "timestamp_ms": 823710,
+    "subtitle_text": "a sigmoidal neuron which is doing",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0571_823710.jpg",
+    "frame_hash": "9fa151dec753f4edc0ff077b3222577d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 572,
+    "timestamp_ms": 823720,
+    "subtitle_text": "a sigmoidal neuron which is doing classification or we call it",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0572_823720.jpg",
+    "frame_hash": "e2d197c764ff39801a6017f24d3bf9bd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 573,
+    "timestamp_ms": 825069,
+    "subtitle_text": "classification or we call it",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0573_825069.jpg",
+    "frame_hash": "45d3d6939a2bb74d171416a02e75b4ab"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 575,
+    "timestamp_ms": 828230,
+    "subtitle_text": "classification here uh at this moment",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0575_828230.jpg",
+    "frame_hash": "76288e846fefd69242fbcd3e9976a937"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 577,
+    "timestamp_ms": 830430,
+    "subtitle_text": "okay so if we are to write down the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0577_830430.jpg",
+    "frame_hash": "c91ff065f1e3dc1f04e1e78b62125eac"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 579,
+    "timestamp_ms": 833710,
+    "subtitle_text": "equation the equation of the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0579_833710.jpg",
+    "frame_hash": "f760551158995bd52c12559598cd2444"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 580,
+    "timestamp_ms": 833720,
+    "subtitle_text": "equation the equation of the Y3 this is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0580_833720.jpg",
+    "frame_hash": "05ecd80a7831dcedfbcee397bee8db57"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 581,
+    "timestamp_ms": 836629,
+    "subtitle_text": "Y3 this is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0581_836629.jpg",
+    "frame_hash": "ac913d576bd38a1a6ba8103edae2f7ef"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 583,
+    "timestamp_ms": 839829,
+    "subtitle_text": "Sigma of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0583_839829.jpg",
+    "frame_hash": "4be791ca9879cbb5e513fd6451207af8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 585,
+    "timestamp_ms": 842189,
+    "subtitle_text": "W3",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0585_842189.jpg",
+    "frame_hash": "1ec5f140ce0be5ee4cd1eb8ff48686c3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 587,
+    "timestamp_ms": 843829,
+    "subtitle_text": "transpose",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0587_843829.jpg",
+    "frame_hash": "c457a0c5087f22a7ec030adfbf08f4fd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 589,
+    "timestamp_ms": 848790,
+    "subtitle_text": "H that's the equation of uh the uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0589_848790.jpg",
+    "frame_hash": "19317870efd5e2924aba6cabda602deb"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 591,
+    "timestamp_ms": 851870,
+    "subtitle_text": "neuron number three uh that is exactly",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0591_851870.jpg",
+    "frame_hash": "93152c6ef8e756c2058731b21e19ef8c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 593,
+    "timestamp_ms": 854230,
+    "subtitle_text": "the functional form of what the neuron 3",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0593_854230.jpg",
+    "frame_hash": "d7c521d6cb6801c27dd30fd13709aff7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 595,
+    "timestamp_ms": 857629,
+    "subtitle_text": "is actually doing so here we have Sigma",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0595_857629.jpg",
+    "frame_hash": "5232718560c02f0ace14a5827faafe29"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 597,
+    "timestamp_ms": 859749,
+    "subtitle_text": "and open parenthesis we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0597_859749.jpg",
+    "frame_hash": "75ca554f9e8e9630455cdd6ed9b0c896"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 598,
+    "timestamp_ms": 859759,
+    "subtitle_text": "and open parenthesis we have",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0598_859759.jpg",
+    "frame_hash": "898b97df83623d50c2a3ab756682d056"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 599,
+    "timestamp_ms": 862870,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0599_862870.jpg",
+    "frame_hash": "6faf0265243d76bff8d64730335b6279"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 601,
+    "timestamp_ms": 864389,
+    "subtitle_text": "W13",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0601_864389.jpg",
+    "frame_hash": "45482c422127f7291f5c64e650eb824c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 603,
+    "timestamp_ms": 871590,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0603_871590.jpg",
+    "frame_hash": "280dc4fed4902e850f28f2ef23567c01"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 605,
+    "timestamp_ms": 876509,
+    "subtitle_text": "transpose uh times the H1 and H2 the two",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0605_876509.jpg",
+    "frame_hash": "5968b9627b5852ac5b6e9bf5be0e807a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 606,
+    "timestamp_ms": 876519,
+    "subtitle_text": "transpose uh times the H1 and H2 the two components of the H Vector which is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0606_876519.jpg",
+    "frame_hash": "5ef606cdd60ef466396d3d35d738e6b0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 607,
+    "timestamp_ms": 879670,
+    "subtitle_text": "components of the H Vector which is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0607_879670.jpg",
+    "frame_hash": "2d246ce57b764ee022b47e19e1dc05bc"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 609,
+    "timestamp_ms": 882870,
+    "subtitle_text": "nothing else and then let me write it",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0609_882870.jpg",
+    "frame_hash": "a77d3cdaf28b13c796355ba9960f80a6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 611,
+    "timestamp_ms": 888110,
+    "subtitle_text": "the way I wrote it over here y1 hat and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0611_888110.jpg",
+    "frame_hash": "ef41e8190db0963069aa9e09fb80c2b1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 612,
+    "timestamp_ms": 888120,
+    "subtitle_text": "the way I wrote it over here y1 hat and Y2 and this is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0612_888120.jpg",
+    "frame_hash": "a3e14c9ae85db6613a9a80c437f47536"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 613,
+    "timestamp_ms": 891189,
+    "subtitle_text": "Y2 and this is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0613_891189.jpg",
+    "frame_hash": "2c0da89c8c836c34f9be8f12c512dc57"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 615,
+    "timestamp_ms": 892710,
+    "subtitle_text": "now",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0615_892710.jpg",
+    "frame_hash": "e1c902a3daed723a6effc431bd9e76c5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 616,
+    "timestamp_ms": 892720,
+    "subtitle_text": "now Sigma of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0616_892720.jpg",
+    "frame_hash": "12810e08d4d63e433eea07995dc76ba6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 617,
+    "timestamp_ms": 895670,
+    "subtitle_text": "Sigma of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0617_895670.jpg",
+    "frame_hash": "f0fad8309d26b9150775e9cabacca200"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 619,
+    "timestamp_ms": 900150,
+    "subtitle_text": "W13 y1 hat Plus",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0619_900150.jpg",
+    "frame_hash": "5459b47385a55d3ef86b496974dacb8c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 621,
+    "timestamp_ms": 903110,
+    "subtitle_text": "w23",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0621_903110.jpg",
+    "frame_hash": "9041ee2845e1da72308e32a6ae0d8c90"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 622,
+    "timestamp_ms": 903120,
+    "subtitle_text": "w23 Y2 and this is nothing else now as",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0622_903120.jpg",
+    "frame_hash": "f38e9da6e1412431f9546a18bf58de6a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 623,
+    "timestamp_ms": 907110,
+    "subtitle_text": "Y2 and this is nothing else now as",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0623_907110.jpg",
+    "frame_hash": "0572a6e99155a7aa02c6a5ddcb3ed6e6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 624,
+    "timestamp_ms": 907120,
+    "subtitle_text": "Y2 and this is nothing else now as Sigma",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0624_907120.jpg",
+    "frame_hash": "6dfcb888a1194f12c6c09c63251f3890"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 625,
+    "timestamp_ms": 908629,
+    "subtitle_text": "Sigma",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0625_908629.jpg",
+    "frame_hash": "3272893ad72f01369915b7e2777fcfca"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 627,
+    "timestamp_ms": 914110,
+    "subtitle_text": "W13 Well the y1 hat itself is another",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0627_914110.jpg",
+    "frame_hash": "c4fb8d6dca661549b2ce38dbb2c2cf16"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 628,
+    "timestamp_ms": 914120,
+    "subtitle_text": "W13 Well the y1 hat itself is another sigmoid function acting on the dot",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0628_914120.jpg",
+    "frame_hash": "d34170e89b5b5961ce89ba2a674e0bed"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 629,
+    "timestamp_ms": 917230,
+    "subtitle_text": "sigmoid function acting on the dot",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0629_917230.jpg",
+    "frame_hash": "1a877bc800da7e64f200acaaa7a8a208"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 631,
+    "timestamp_ms": 921550,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0631_921550.jpg",
+    "frame_hash": "072b3f8120e7386f2275dabf4aeef6c3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 633,
+    "timestamp_ms": 927629,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0633_927629.jpg",
+    "frame_hash": "9fbeb170850f73e152ce096662749139"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 635,
+    "timestamp_ms": 934949,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0635_934949.jpg",
+    "frame_hash": "dea2c833f90e018ecd37bc9a625b4905"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 636,
+    "timestamp_ms": 934959,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0636_934959.jpg",
+    "frame_hash": "7471a71d3e7275e52d257ab16b541e36"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 637,
+    "timestamp_ms": 938870,
+    "subtitle_text": "this parenthesis should not be there",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0637_938870.jpg",
+    "frame_hash": "482a323952dd7cc012defbdb01fee930"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 639,
+    "timestamp_ms": 940990,
+    "subtitle_text": "plus",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0639_940990.jpg",
+    "frame_hash": "8728afef7ee6f00a82ee2eff950cc1fb"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 641,
+    "timestamp_ms": 944470,
+    "subtitle_text": "w23 sigmoid of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0641_944470.jpg",
+    "frame_hash": "36c5fe3386bcb4d3b812f3519643016c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 643,
+    "timestamp_ms": 948990,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0643_948990.jpg",
+    "frame_hash": "23cd03599185b308a006e943e9bb7d2c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 645,
+    "timestamp_ms": 953069,
+    "subtitle_text": "X that is actually uh the expression of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0645_953069.jpg",
+    "frame_hash": "55d10b35bdab7e31b9be51408f7aa27c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 647,
+    "timestamp_ms": 955030,
+    "subtitle_text": "of the output of this kind of network of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0647_955030.jpg",
+    "frame_hash": "aa7bf2bc9cb9085c9b9ea92163389393"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 649,
+    "timestamp_ms": 957550,
+    "subtitle_text": "this three neuron Network and there are",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0649_957550.jpg",
+    "frame_hash": "c83fe3ecb70f8c538ee82fe859661c64"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 651,
+    "timestamp_ms": 959509,
+    "subtitle_text": "some kind of interesting observ ation",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0651_959509.jpg",
+    "frame_hash": "28d032109cca791665093344c32ee3b5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 652,
+    "timestamp_ms": 959519,
+    "subtitle_text": "some kind of interesting observ ation just from this kind of simple",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0652_959519.jpg",
+    "frame_hash": "be1aa3d6d5e1093b881f7a8814547cf2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 653,
+    "timestamp_ms": 961069,
+    "subtitle_text": "just from this kind of simple",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0653_961069.jpg",
+    "frame_hash": "3ab4b0d39e8aa8884ee301a45caabd4e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 655,
+    "timestamp_ms": 963710,
+    "subtitle_text": "architecture that I would like to point",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0655_963710.jpg",
+    "frame_hash": "4de6d2f118597a6ac8afa118a8671cf5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 656,
+    "timestamp_ms": 963720,
+    "subtitle_text": "architecture that I would like to point out the first uh is that we definitely",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0656_963720.jpg",
+    "frame_hash": "da0e25b8696acaa5f710c0fb3e3724b2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 657,
+    "timestamp_ms": 967509,
+    "subtitle_text": "out the first uh is that we definitely",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0657_967509.jpg",
+    "frame_hash": "6e97b322ab84b514b8ad613a6808b341"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 658,
+    "timestamp_ms": 967519,
+    "subtitle_text": "out the first uh is that we definitely see some form of nesting uh going on so",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0658_967519.jpg",
+    "frame_hash": "6a2d8828d482ea8da20a27f9d873e3e4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 659,
+    "timestamp_ms": 971870,
+    "subtitle_text": "see some form of nesting uh going on so",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0659_971870.jpg",
+    "frame_hash": "ec199f32290074dec5e2fdce3cdf23de"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 661,
+    "timestamp_ms": 973990,
+    "subtitle_text": "we have some kind of a nested function",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0661_973990.jpg",
+    "frame_hash": "6e995cfcc27140fd6b1fe24c5985c4c1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 663,
+    "timestamp_ms": 975990,
+    "subtitle_text": "we have sigmoid of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0663_975990.jpg",
+    "frame_hash": "9aaa71acec9228b21d25b9f88f881a61"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 665,
+    "timestamp_ms": 978749,
+    "subtitle_text": "sigmoids have sigmoids of some linear",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0665_978749.jpg",
+    "frame_hash": "05f3f8ed65dcc2a8661db1f15f115f2e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 666,
+    "timestamp_ms": 978759,
+    "subtitle_text": "sigmoids have sigmoids of some linear combination of other",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0666_978759.jpg",
+    "frame_hash": "d9a588c06783da4d70fadd376c8f9996"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 667,
+    "timestamp_ms": 980910,
+    "subtitle_text": "combination of other",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0667_980910.jpg",
+    "frame_hash": "9cabee3115b895109f2a1230ae47be4f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 668,
+    "timestamp_ms": 980920,
+    "subtitle_text": "combination of other sigmoids uh which are evidently",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0668_980920.jpg",
+    "frame_hash": "d2ad7996d203598a187c754eb63f029c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 669,
+    "timestamp_ms": 983030,
+    "subtitle_text": "sigmoids uh which are evidently",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0669_983030.jpg",
+    "frame_hash": "faea222a744b8d8798d0e3f2421763bd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 671,
+    "timestamp_ms": 987430,
+    "subtitle_text": "nonlinear functions and uh if you recall",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0671_987430.jpg",
+    "frame_hash": "5e92472d58f3c8dba58db149eeb31801"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 673,
+    "timestamp_ms": 990389,
+    "subtitle_text": "from all our uh earlier kind of work on",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0673_990389.jpg",
+    "frame_hash": "501cbf7e6b649bb610d33cf3404a1b88"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 675,
+    "timestamp_ms": 993350,
+    "subtitle_text": "generalized linear models we always had",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0675_993350.jpg",
+    "frame_hash": "cd7e41ad418aa1cdd6e201a512f620e1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 677,
+    "timestamp_ms": 997710,
+    "subtitle_text": "this kind of form of w transpose f of x",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0677_997710.jpg",
+    "frame_hash": "5d5a8d07e23838bdb25cccc3bfd62611"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 678,
+    "timestamp_ms": 997720,
+    "subtitle_text": "this kind of form of w transpose f of x now these five of x's at that time came",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0678_997720.jpg",
+    "frame_hash": "20128b423416b006ac9427e607987c75"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 679,
+    "timestamp_ms": 1000430,
+    "subtitle_text": "now these five of x's at that time came",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0679_1000430.jpg",
+    "frame_hash": "31559e4c0565a483060a66d5f046151c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 681,
+    "timestamp_ms": 1003629,
+    "subtitle_text": "from the sort of wellestablished basis",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0681_1003629.jpg",
+    "frame_hash": "fe012708cc46a750d9657b3a38343c02"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 683,
+    "timestamp_ms": 1006269,
+    "subtitle_text": "function such as polinomial and so on",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0683_1006269.jpg",
+    "frame_hash": "7ee20fa2e04ce1877587db97471e9684"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 685,
+    "timestamp_ms": 1009710,
+    "subtitle_text": "over here what we see is that these",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0685_1009710.jpg",
+    "frame_hash": "5714676c65c3f332ea3da939e3e2d14f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 686,
+    "timestamp_ms": 1009720,
+    "subtitle_text": "over here what we see is that these effectively are the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0686_1009720.jpg",
+    "frame_hash": "d67ffc3bcef86bc5bebacb9037e680c2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 687,
+    "timestamp_ms": 1016710,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0687_1016710.jpg",
+    "frame_hash": "066897b3e5f4425ebda242c8670c9bf6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 688,
+    "timestamp_ms": 1016720,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0688_1016720.jpg",
+    "frame_hash": "ef9c5a3d84a16c36da2a96fd33eedc18"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 689,
+    "timestamp_ms": 1020110,
+    "subtitle_text": "features taking the place of these five",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0689_1020110.jpg",
+    "frame_hash": "f5ccc0e83f9e29586f78790526da08ac"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 690,
+    "timestamp_ms": 1020120,
+    "subtitle_text": "features taking the place of these five functions we have seen earlier so we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0690_1020120.jpg",
+    "frame_hash": "29e908ddb0022808126c0325b3223e24"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 691,
+    "timestamp_ms": 1022069,
+    "subtitle_text": "functions we have seen earlier so we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0691_1022069.jpg",
+    "frame_hash": "a1f9e0247bbb90c26ab86ee65f2f7d53"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 693,
+    "timestamp_ms": 1027429,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0693_1027429.jpg",
+    "frame_hash": "0525971fc054163809211006b5a71a1c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 695,
+    "timestamp_ms": 1031230,
+    "subtitle_text": "linearly so feature U one and feature",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0695_1031230.jpg",
+    "frame_hash": "56cf9531ec9bd765f4014bef1ee0606a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 697,
+    "timestamp_ms": 1033630,
+    "subtitle_text": "two and perhaps more",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0697_1033630.jpg",
+    "frame_hash": "8b10830772dedff827bde94369ce4776"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 699,
+    "timestamp_ms": 1036029,
+    "subtitle_text": "importantly this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0699_1036029.jpg",
+    "frame_hash": "41a3c89e57ae69a278ad22240717cbf1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 701,
+    "timestamp_ms": 1040309,
+    "subtitle_text": "um uh head this is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0701_1040309.jpg",
+    "frame_hash": "99f6f18c0069b31f39269170df18c551"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 702,
+    "timestamp_ms": 1040319,
+    "subtitle_text": "um uh head this is accepting uh and combining features and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0702_1040319.jpg",
+    "frame_hash": "0622e673ec11fe1a05ac2ff4564cf4b8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 703,
+    "timestamp_ms": 1043909,
+    "subtitle_text": "accepting uh and combining features and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0703_1043909.jpg",
+    "frame_hash": "0fd3c591787839f15bc91c39462d340d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 704,
+    "timestamp_ms": 1043919,
+    "subtitle_text": "accepting uh and combining features and these features have been generated from",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0704_1043919.jpg",
+    "frame_hash": "692369747684adfc05f6f91ef9c44cfc"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 705,
+    "timestamp_ms": 1046470,
+    "subtitle_text": "these features have been generated from",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0705_1046470.jpg",
+    "frame_hash": "49e46219172485070e50489a1b95da12"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 707,
+    "timestamp_ms": 1049350,
+    "subtitle_text": "within the network itself",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0707_1049350.jpg",
+    "frame_hash": "20fb0541ad331558e7fa2337338eb3b3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 708,
+    "timestamp_ms": 1049360,
+    "subtitle_text": "within the network itself so uh the network is effectively",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0708_1049360.jpg",
+    "frame_hash": "30b637c094d5a6943138f079bf967076"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 709,
+    "timestamp_ms": 1051950,
+    "subtitle_text": "so uh the network is effectively",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0709_1051950.jpg",
+    "frame_hash": "3248f6683e9befca6eafebf22b71f582"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 711,
+    "timestamp_ms": 1054549,
+    "subtitle_text": "constructing the right features such",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0711_1054549.jpg",
+    "frame_hash": "edcf54643cb774e2b4b443a2396a2083"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 712,
+    "timestamp_ms": 1054559,
+    "subtitle_text": "constructing the right features such that the classification head at the very",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0712_1054559.jpg",
+    "frame_hash": "7344aa389f4fa860832ba52f2a425184"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 713,
+    "timestamp_ms": 1057630,
+    "subtitle_text": "that the classification head at the very",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0713_1057630.jpg",
+    "frame_hash": "6a9cc944144632a2fe4cfb9449aded60"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 715,
+    "timestamp_ms": 1060590,
+    "subtitle_text": "end uh is able to actually do this job",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0715_1060590.jpg",
+    "frame_hash": "864a37716d3cd0354d3fff1713584bae"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 717,
+    "timestamp_ms": 1062789,
+    "subtitle_text": "properly so that's actually a kind of a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0717_1062789.jpg",
+    "frame_hash": "5a6393bfc59b5c0d457c7fd47f456e5c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 719,
+    "timestamp_ms": 1065590,
+    "subtitle_text": "fairly important observation of of uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0719_1065590.jpg",
+    "frame_hash": "bdd37d7f3f08bc6e54ea51b9d028c56a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 721,
+    "timestamp_ms": 1068190,
+    "subtitle_text": "what we SE seen earlier and comparison",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0721_1068190.jpg",
+    "frame_hash": "0434ded1432b666a1e1bd3f7ab2dd7a8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 723,
+    "timestamp_ms": 1069430,
+    "subtitle_text": "what we have seen earlier and what we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0723_1069430.jpg",
+    "frame_hash": "999a350fa47f6a18a28e9c7975a40003"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 725,
+    "timestamp_ms": 1072510,
+    "subtitle_text": "actually have right now uh the second",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0725_1072510.jpg",
+    "frame_hash": "326f9048acfb33c03853517ab44417e9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 726,
+    "timestamp_ms": 1072520,
+    "subtitle_text": "actually have right now uh the second point so the the first one is uh nesting",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0726_1072520.jpg",
+    "frame_hash": "e506155c256ed782661920393206ac51"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 727,
+    "timestamp_ms": 1079350,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0727_1079350.jpg",
+    "frame_hash": "92f6c64fccc9bf26cd5c890c31eb5d5c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 728,
+    "timestamp_ms": 1079360,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0728_1079360.jpg",
+    "frame_hash": "983bdee6d7880853c7601cf1f93ff50f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 729,
+    "timestamp_ms": 1081470,
+    "subtitle_text": "the second one",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0729_1081470.jpg",
+    "frame_hash": "e196714df576bb0e217631ba92e033b5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 731,
+    "timestamp_ms": 1087190,
+    "subtitle_text": "is uh sort of uh I will call it",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0731_1087190.jpg",
+    "frame_hash": "b7ae2a6debe087b5b68293550473c72c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 733,
+    "timestamp_ms": 1091110,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0733_1091110.jpg",
+    "frame_hash": "c5f1c5e2502f78831ef6e8641cfffdc1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 734,
+    "timestamp_ms": 1091120,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0734_1091120.jpg",
+    "frame_hash": "157420c17bdaeef90d4285cc1a70da2c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 735,
+    "timestamp_ms": 1095230,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0735_1095230.jpg",
+    "frame_hash": "53fffc559759ae2972761a3a397893e4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 737,
+    "timestamp_ms": 1098070,
+    "subtitle_text": "generation and the third one which I",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0737_1098070.jpg",
+    "frame_hash": "668aadd8c86c93c1d2c3512cdf60cac9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 739,
+    "timestamp_ms": 1101350,
+    "subtitle_text": "wanted to mention is that now we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0739_1101350.jpg",
+    "frame_hash": "c5f2bd61d652319eb7f19be031b72928"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 741,
+    "timestamp_ms": 1104909,
+    "subtitle_text": "have uh going to have the exactly the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0741_1104909.jpg",
+    "frame_hash": "05e06bdff82cd96c8527b41fce9a921d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 742,
+    "timestamp_ms": 1104919,
+    "subtitle_text": "have uh going to have the exactly the same environment which we have seen",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0742_1104919.jpg",
+    "frame_hash": "0bb081300f5eff74fc217c0ed436c78d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 743,
+    "timestamp_ms": 1106669,
+    "subtitle_text": "same environment which we have seen",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0743_1106669.jpg",
+    "frame_hash": "90c1d4823e0e0615892643350ec51b1b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 745,
+    "timestamp_ms": 1110549,
+    "subtitle_text": "earlier in uh our where",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0745_1110549.jpg",
+    "frame_hash": "bf1d3bb6d1346d2437fa321c72dc6163"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 746,
+    "timestamp_ms": 1110559,
+    "subtitle_text": "earlier in uh our where parameters um parameter optimization so",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0746_1110559.jpg",
+    "frame_hash": "1cd1d3531ab638e11ee5cf08999d6211"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 747,
+    "timestamp_ms": 1113470,
+    "subtitle_text": "parameters um parameter optimization so",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0747_1113470.jpg",
+    "frame_hash": "1c00c6b85ad8e66135798e2e3c5ededd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 749,
+    "timestamp_ms": 1116630,
+    "subtitle_text": "we have evidently a binary cross entropy",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0749_1116630.jpg",
+    "frame_hash": "10a1f51d59fb91868209ee36e118ac9b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 751,
+    "timestamp_ms": 1119710,
+    "subtitle_text": "uh and a stochastic grad descent but now",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0751_1119710.jpg",
+    "frame_hash": "4ba662e53324e1f386d43fea974d238f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 752,
+    "timestamp_ms": 1119720,
+    "subtitle_text": "uh and a stochastic grad descent but now everything is jointly optimized so I am",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0752_1119720.jpg",
+    "frame_hash": "5011937d712a5fea1e1b9396a46e3afe"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 753,
+    "timestamp_ms": 1122070,
+    "subtitle_text": "everything is jointly optimized so I am",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0753_1122070.jpg",
+    "frame_hash": "203285b8f57ea09f3332f6f6f7b511ab"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 755,
+    "timestamp_ms": 1124510,
+    "subtitle_text": "going to be writing here the Theta",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0755_1124510.jpg",
+    "frame_hash": "2eb3d776d212d24f832a7fe6c9dc377d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 756,
+    "timestamp_ms": 1124520,
+    "subtitle_text": "going to be writing here the Theta Vector which is consist of three other",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0756_1124520.jpg",
+    "frame_hash": "56cc097e96249f38d8103e49366fe7bd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 757,
+    "timestamp_ms": 1127750,
+    "subtitle_text": "Vector which is consist of three other",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0757_1127750.jpg",
+    "frame_hash": "a14856cf366b21c443d3891859186bff"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 759,
+    "timestamp_ms": 1132870,
+    "subtitle_text": "vectors W1 W2 and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0759_1132870.jpg",
+    "frame_hash": "2501c08a4e997dd3c31956f6cde2f62a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 761,
+    "timestamp_ms": 1136310,
+    "subtitle_text": "W3 of these three neurons and the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0761_1136310.jpg",
+    "frame_hash": "02810c6bb6830766a5eb1ac84f7e0eb7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 762,
+    "timestamp_ms": 1136320,
+    "subtitle_text": "W3 of these three neurons and the optimizer is going to be jointly",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0762_1136320.jpg",
+    "frame_hash": "c15c2d67313144e84d9636a956e531be"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 763,
+    "timestamp_ms": 1137870,
+    "subtitle_text": "optimizer is going to be jointly",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0763_1137870.jpg",
+    "frame_hash": "5ad3840032f954b300feb69257321fb6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 765,
+    "timestamp_ms": 1141390,
+    "subtitle_text": "optimizing the parameters just like we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0765_1141390.jpg",
+    "frame_hash": "1de8c0fab8d50418931f97171bd53fc5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 767,
+    "timestamp_ms": 1143070,
+    "subtitle_text": "have seen earlier from just a single",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0767_1143070.jpg",
+    "frame_hash": "46b3c6906bf4d356aafdd26223482465"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 769,
+    "timestamp_ms": 1146350,
+    "subtitle_text": "neuron and uh therefore it will be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0769_1146350.jpg",
+    "frame_hash": "1d7e301bafe4ea5a7559822ecfe58bf3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 771,
+    "timestamp_ms": 1149870,
+    "subtitle_text": "implementing uh the well known to us",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0771_1149870.jpg",
+    "frame_hash": "a05024bbafe51230512722cfe64dfc7c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 773,
+    "timestamp_ms": 1153190,
+    "subtitle_text": "equation uh of stochastic radi that we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0773_1153190.jpg",
+    "frame_hash": "f6512fbe4754f3cb6a6784cbea015313"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 775,
+    "timestamp_ms": 1154230,
+    "subtitle_text": "have seen",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0775_1154230.jpg",
+    "frame_hash": "da72080f883dd57cf339ff4dc4ea4706"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 777,
+    "timestamp_ms": 1158070,
+    "subtitle_text": "earlier so I'm mentioning that because",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0777_1158070.jpg",
+    "frame_hash": "c8307ee829648b6859fb69dc7488b3ba"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 779,
+    "timestamp_ms": 1161190,
+    "subtitle_text": "very quickly uh the number of parameters",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0779_1161190.jpg",
+    "frame_hash": "583d73cd363a3bf84209557d3f489b35"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 781,
+    "timestamp_ms": 1162950,
+    "subtitle_text": "that we have here will",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0781_1162950.jpg",
+    "frame_hash": "44d349cd466280bba0ad2f380077e793"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 783,
+    "timestamp_ms": 1165909,
+    "subtitle_text": "explode so here we have uh how many we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0783_1165909.jpg",
+    "frame_hash": "47dddbdde8387fca3ba7f86e49d73a84"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 784,
+    "timestamp_ms": 1165919,
+    "subtitle_text": "explode so here we have uh how many we have just basically six parameters here",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0784_1165919.jpg",
+    "frame_hash": "e2992987e756c91c5e691834f47d5620"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 785,
+    "timestamp_ms": 1168230,
+    "subtitle_text": "have just basically six parameters here",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0785_1168230.jpg",
+    "frame_hash": "f5739af7ca523c44157f38b5cc266b58"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 787,
+    "timestamp_ms": 1169990,
+    "subtitle_text": "plus the three bias terms which I didn't",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0787_1169990.jpg",
+    "frame_hash": "89580078a8d5e8f56e97774d66abc180"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 789,
+    "timestamp_ms": 1172870,
+    "subtitle_text": "write explicitly let's say nine so this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0789_1172870.jpg",
+    "frame_hash": "3d49a60a0b3eb98abdc95d2317f1facd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 791,
+    "timestamp_ms": 1174750,
+    "subtitle_text": "stochastic radius n will actually be",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0791_1174750.jpg",
+    "frame_hash": "8faa3990f926379868b0ddf2021f0692"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 793,
+    "timestamp_ms": 1177110,
+    "subtitle_text": "searching in this nine dimensional kind",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0793_1177110.jpg",
+    "frame_hash": "c37028eea8659eaabab32203a54540fd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 794,
+    "timestamp_ms": 1177120,
+    "subtitle_text": "searching in this nine dimensional kind of space to find this optimal uh Theta",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0794_1177120.jpg",
+    "frame_hash": "53ada7324dfcc3e2b4f043ad4fc9e8ed"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 795,
+    "timestamp_ms": 1181350,
+    "subtitle_text": "of space to find this optimal uh Theta",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0795_1181350.jpg",
+    "frame_hash": "2041bffa79075a07bc491daf068b6bfe"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 797,
+    "timestamp_ms": 1183710,
+    "subtitle_text": "star gradually as we have discussed",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0797_1183710.jpg",
+    "frame_hash": "6ff452279cbabf2ebb48422eacb09b2e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 798,
+    "timestamp_ms": 1183720,
+    "subtitle_text": "star gradually as we have discussed before so the uh important",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0798_1183720.jpg",
+    "frame_hash": "f17e7b7523827e3e0928c1f979c670b2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 799,
+    "timestamp_ms": 1187110,
+    "subtitle_text": "before so the uh important",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0799_1187110.jpg",
+    "frame_hash": "c6e9bfbbd27dad6f31f3c9b83b5b7eb3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 800,
+    "timestamp_ms": 1187120,
+    "subtitle_text": "before so the uh important thing is the uh I think number two uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0800_1187120.jpg",
+    "frame_hash": "7684c9c6fea3a25903d09c8e0a647c9d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 801,
+    "timestamp_ms": 1191909,
+    "subtitle_text": "thing is the uh I think number two uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0801_1191909.jpg",
+    "frame_hash": "f1fc3c236e6161c7813e2f9695c8ce5b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 802,
+    "timestamp_ms": 1191919,
+    "subtitle_text": "thing is the uh I think number two uh the automatic feature generation or the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0802_1191919.jpg",
+    "frame_hash": "edeb275457b1dcf9a70f3421cc076c2f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 803,
+    "timestamp_ms": 1194590,
+    "subtitle_text": "the automatic feature generation or the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0803_1194590.jpg",
+    "frame_hash": "47e3e6af2ce60655b965686593c708df"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 805,
+    "timestamp_ms": 1205470,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0805_1205470.jpg",
+    "frame_hash": "48fd975843324c702696f22e706422be"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 807,
+    "timestamp_ms": 1215350,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0807_1215350.jpg",
+    "frame_hash": "e780b1c6f86d8b9c034abfd74746b311"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 809,
+    "timestamp_ms": 1219630,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0809_1219630.jpg",
+    "frame_hash": "94a30f00c1575226a6da91fc103768fa"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 811,
+    "timestamp_ms": 1223110,
+    "subtitle_text": "for for the head or whatever the head is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0811_1223110.jpg",
+    "frame_hash": "d634de24fd25f3fad340cd340161f3fc"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 812,
+    "timestamp_ms": 1223120,
+    "subtitle_text": "for for the head or whatever the head is doing the head in this case is doing",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0812_1223120.jpg",
+    "frame_hash": "435ef443ee3c3598404db7b60766a892"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 813,
+    "timestamp_ms": 1224710,
+    "subtitle_text": "doing the head in this case is doing",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0813_1224710.jpg",
+    "frame_hash": "08d90aa38b2dd6a6b776b00853d2d56b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 814,
+    "timestamp_ms": 1224720,
+    "subtitle_text": "doing the head in this case is doing classification but we'll see other",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0814_1224720.jpg",
+    "frame_hash": "e24ae1eae77947c3daffe2ec7b2899be"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 815,
+    "timestamp_ms": 1226549,
+    "subtitle_text": "classification but we'll see other",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0815_1226549.jpg",
+    "frame_hash": "103d391df53d7e795540424d0cf680d7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 816,
+    "timestamp_ms": 1226559,
+    "subtitle_text": "classification but we'll see other examples where the head is actually",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0816_1226559.jpg",
+    "frame_hash": "c3b3a1330e9e091e75c5401e5893fa8f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 817,
+    "timestamp_ms": 1227830,
+    "subtitle_text": "examples where the head is actually",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0817_1227830.jpg",
+    "frame_hash": "ddabac63d0249052058d89d0d8eb4d2e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 819,
+    "timestamp_ms": 1230950,
+    "subtitle_text": "",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0819_1230950.jpg",
+    "frame_hash": "f1fa3dcbabc8394956e97ee2e85f43e2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 821,
+    "timestamp_ms": 1233750,
+    "subtitle_text": "for the right task the task is the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0821_1233750.jpg",
+    "frame_hash": "674fdd782e58c07b65989e02f9c740a5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 823,
+    "timestamp_ms": 1235510,
+    "subtitle_text": "responsibility of the head to implement",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0823_1235510.jpg",
+    "frame_hash": "02d23c823a96c3193f80c9d5c62a14f5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 824,
+    "timestamp_ms": 1235520,
+    "subtitle_text": "responsibility of the head to implement it um and and definitely we see here a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0824_1235520.jpg",
+    "frame_hash": "1f9c4e9bf032b0c92e33bd088123176b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 825,
+    "timestamp_ms": 1239990,
+    "subtitle_text": "it um and and definitely we see here a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0825_1239990.jpg",
+    "frame_hash": "a2ffcfb396c4db224e42042b0414dc95"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 827,
+    "timestamp_ms": 1241789,
+    "subtitle_text": "good small example but it actually",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0827_1241789.jpg",
+    "frame_hash": "6299255ac86cbd414d9ccc299f1cf989"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 829,
+    "timestamp_ms": 1244230,
+    "subtitle_text": "taught us a couple of things we have not",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0829_1244230.jpg",
+    "frame_hash": "c9f4d0215cad961c2e199953cf800193"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 831,
+    "timestamp_ms": 1247149,
+    "subtitle_text": "seen before to close the discussion",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0831_1247149.jpg",
+    "frame_hash": "9276357726ab592f6d45375c815e6b85"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 832,
+    "timestamp_ms": 1247159,
+    "subtitle_text": "seen before to close the discussion we'll go back to that uh site tensorflow",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0832_1247159.jpg",
+    "frame_hash": "e6be66199be10e307769b9cd4eabb400"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 833,
+    "timestamp_ms": 1250549,
+    "subtitle_text": "we'll go back to that uh site tensorflow",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0833_1250549.jpg",
+    "frame_hash": "51212d283283c7a464e9a2900a78a2f0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 834,
+    "timestamp_ms": 1250559,
+    "subtitle_text": "we'll go back to that uh site tensorflow playground and recreate the architecture",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0834_1250559.jpg",
+    "frame_hash": "8f7d2f5fb8f7d451188c6ff6a60df97a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 835,
+    "timestamp_ms": 1253190,
+    "subtitle_text": "playground and recreate the architecture",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0835_1253190.jpg",
+    "frame_hash": "d7cf61f76de3ca8d88e32d3726a5c36c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 837,
+    "timestamp_ms": 1256070,
+    "subtitle_text": "we had put together so we were going to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0837_1256070.jpg",
+    "frame_hash": "33d16cf27fe85023d94a9ab12567f9c1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 839,
+    "timestamp_ms": 1259230,
+    "subtitle_text": "have two layers",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0839_1259230.jpg",
+    "frame_hash": "6c4e205d742e60bb0a0a1a8f38e2fd53"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 841,
+    "timestamp_ms": 1261710,
+    "subtitle_text": "uh and in the first layer is going cons",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0841_1261710.jpg",
+    "frame_hash": "03ba71ccb85c64333d43efe2b77f0fcb"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 842,
+    "timestamp_ms": 1261720,
+    "subtitle_text": "uh and in the first layer is going cons consist of two neurons both neurons",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0842_1261720.jpg",
+    "frame_hash": "01749cf3732843f667ecfdf58e585b30"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 843,
+    "timestamp_ms": 1264190,
+    "subtitle_text": "consist of two neurons both neurons",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0843_1264190.jpg",
+    "frame_hash": "e779a4264c205e317410741176441371"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 845,
+    "timestamp_ms": 1266149,
+    "subtitle_text": "accept exactly the same X as it's",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0845_1266149.jpg",
+    "frame_hash": "d41aa7c91f9d69dc4a82004dfc2573ec"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 846,
+    "timestamp_ms": 1266159,
+    "subtitle_text": "accept exactly the same X as it's actually shown over here and the output",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0846_1266159.jpg",
+    "frame_hash": "2d3c9d37c76a104ffa4e6dec4c9de218"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 847,
+    "timestamp_ms": 1268510,
+    "subtitle_text": "actually shown over here and the output",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0847_1268510.jpg",
+    "frame_hash": "6d2ae1559661647352a5a7ed860de3e0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 848,
+    "timestamp_ms": 1268520,
+    "subtitle_text": "actually shown over here and the output of this uh each neuron is being combined",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0848_1268520.jpg",
+    "frame_hash": "f16f97cea959d31592cf6cd4a5424961"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 849,
+    "timestamp_ms": 1271430,
+    "subtitle_text": "of this uh each neuron is being combined",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0849_1271430.jpg",
+    "frame_hash": "4315687a24cdffb30f2b2af018cff5b9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 851,
+    "timestamp_ms": 1274950,
+    "subtitle_text": "by the head that's the last neuron at",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0851_1274950.jpg",
+    "frame_hash": "e2da6cb5be227d0a3309e48ee6a2d472"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 853,
+    "timestamp_ms": 1278070,
+    "subtitle_text": "the top of the layer if you like okay",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0853_1278070.jpg",
+    "frame_hash": "6dde799b5d566fa3780eb66b0930531f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 855,
+    "timestamp_ms": 1280909,
+    "subtitle_text": "and uh now we are going",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0855_1280909.jpg",
+    "frame_hash": "0ceaa6ba4dffa18ff02dc4735493c51c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 856,
+    "timestamp_ms": 1280919,
+    "subtitle_text": "and uh now we are going to uh sort of play again with this uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0856_1280919.jpg",
+    "frame_hash": "400e44e157a47e5147594aaaaf130b8e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 857,
+    "timestamp_ms": 1286510,
+    "subtitle_text": "to uh sort of play again with this uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0857_1286510.jpg",
+    "frame_hash": "ad061e42a553d2e721ba78e3e9c5fee9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 858,
+    "timestamp_ms": 1286520,
+    "subtitle_text": "to uh sort of play again with this uh experiment in this kind of more",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0858_1286520.jpg",
+    "frame_hash": "0e7a1b160870340e0eaf87de188b1007"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 859,
+    "timestamp_ms": 1288070,
+    "subtitle_text": "experiment in this kind of more",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0859_1288070.jpg",
+    "frame_hash": "4fe7e654c25eb5c724fbfdfadf9ce2c1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 861,
+    "timestamp_ms": 1290950,
+    "subtitle_text": "complicated ated uh experiment uh data",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0861_1290950.jpg",
+    "frame_hash": "b20e69303f97594aa76f1a011a6ebeed"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 863,
+    "timestamp_ms": 1293510,
+    "subtitle_text": "set that we have uh seen earlier that a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0863_1293510.jpg",
+    "frame_hash": "0ca442bc60a02596aef8c13ea4bdd412"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 864,
+    "timestamp_ms": 1293520,
+    "subtitle_text": "set that we have uh seen earlier that a single neuron was not really able to do",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0864_1293520.jpg",
+    "frame_hash": "1201ddcbef978335b08f208681183bdb"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 865,
+    "timestamp_ms": 1295390,
+    "subtitle_text": "single neuron was not really able to do",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0865_1295390.jpg",
+    "frame_hash": "3f5a02f32a9c064671ef3fe50980f98f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 867,
+    "timestamp_ms": 1299390,
+    "subtitle_text": "much and we are going to just press the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0867_1299390.jpg",
+    "frame_hash": "d40768931fed675a42ecf3d9e06124f0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 869,
+    "timestamp_ms": 1301430,
+    "subtitle_text": "play button and see what",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0869_1301430.jpg",
+    "frame_hash": "1dd05d186dceddc3fdc437a2fd2f9fd4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 871,
+    "timestamp_ms": 1304070,
+    "subtitle_text": "happens so again the stochastic grade",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0871_1304070.jpg",
+    "frame_hash": "2d4ea3f072fd964066b066becd8cc06d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 873,
+    "timestamp_ms": 1306750,
+    "subtitle_text": "descent is now looking at this kind of a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0873_1306750.jpg",
+    "frame_hash": "2e4f133d60339217ce9e49899ba600b7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 875,
+    "timestamp_ms": 1308149,
+    "subtitle_text": "nine-dimensional",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0875_1308149.jpg",
+    "frame_hash": "c9824944400114c6f48a4d1264243a8e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 876,
+    "timestamp_ms": 1308159,
+    "subtitle_text": "nine-dimensional space and um it's continues to look we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0876_1308159.jpg",
+    "frame_hash": "cc638b053c980cd0593c37a6dd11816b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 877,
+    "timestamp_ms": 1312710,
+    "subtitle_text": "space and um it's continues to look we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0877_1312710.jpg",
+    "frame_hash": "4d5b444e61627586ba8230dd41563f3e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 878,
+    "timestamp_ms": 1312720,
+    "subtitle_text": "space and um it's continues to look we are evidently going through many many",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0878_1312720.jpg",
+    "frame_hash": "cdbf70d7aeb8e2f09f2144f1d76d9311"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 879,
+    "timestamp_ms": 1315909,
+    "subtitle_text": "are evidently going through many many",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0879_1315909.jpg",
+    "frame_hash": "0124c265f2d4432005f86f4dbbf27242"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 880,
+    "timestamp_ms": 1315919,
+    "subtitle_text": "are evidently going through many many epochs our uh training loss and test",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0880_1315919.jpg",
+    "frame_hash": "295759927c9dcd61d61a0a6c15742119"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 881,
+    "timestamp_ms": 1319390,
+    "subtitle_text": "epochs our uh training loss and test",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0881_1319390.jpg",
+    "frame_hash": "4e6d917425e6f7c5ae0b1ba932281611"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 883,
+    "timestamp_ms": 1324390,
+    "subtitle_text": "loss um seem to have been stuck uh at",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0883_1324390.jpg",
+    "frame_hash": "c7b19f63b56aa32db32a747e64ec917a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 885,
+    "timestamp_ms": 1326950,
+    "subtitle_text": "around uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0885_1326950.jpg",
+    "frame_hash": "7c5e661475f03ae5c2886929cd7fd062"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 887,
+    "timestamp_ms": 1331870,
+    "subtitle_text": "0.5 so not really uh a very good um sort",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0887_1331870.jpg",
+    "frame_hash": "1c505f1c8a764e73e8a8a8d7e5cee175"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 889,
+    "timestamp_ms": 1334029,
+    "subtitle_text": "of uh Behavior",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0889_1334029.jpg",
+    "frame_hash": "127bcd70e5224d71ec2a51edcda8178a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 891,
+    "timestamp_ms": 1336710,
+    "subtitle_text": "yet but we should also be patient",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0891_1336710.jpg",
+    "frame_hash": "ea17af0e874361aa40f2264867298799"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 892,
+    "timestamp_ms": 1336720,
+    "subtitle_text": "yet but we should also be patient because you know we never I mean this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0892_1336720.jpg",
+    "frame_hash": "ac8e1cd51e882a69a4eafd1ed8050eef"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 893,
+    "timestamp_ms": 1338350,
+    "subtitle_text": "because you know we never I mean this",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0893_1338350.jpg",
+    "frame_hash": "ea82c6939dd46ce248dc339c9379c229"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 895,
+    "timestamp_ms": 1340230,
+    "subtitle_text": "thing is actually running in the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0895_1340230.jpg",
+    "frame_hash": "0a9bde5ea03ad53f0ef4b883594c0b77"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 897,
+    "timestamp_ms": 1344430,
+    "subtitle_text": "browser um it is using yeah you know the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0897_1344430.jpg",
+    "frame_hash": "55f29fdc4f8d1bb1006e4a57a2a7241a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 899,
+    "timestamp_ms": 1346750,
+    "subtitle_text": "kind of V8 engine which is behind the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0899_1346750.jpg",
+    "frame_hash": "8734bab9ac1bd29fce3abaf47b93ddd7"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 901,
+    "timestamp_ms": 1348789,
+    "subtitle_text": "these browser to do the calculations in",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0901_1348789.jpg",
+    "frame_hash": "d97b7af59830d48efd4f91b86ef5e6f8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 903,
+    "timestamp_ms": 1350549,
+    "subtitle_text": "kind of a JavaScript so it's not really",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0903_1350549.jpg",
+    "frame_hash": "089a3cc58dc151c1452fa29464161d95"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 904,
+    "timestamp_ms": 1350559,
+    "subtitle_text": "kind of a JavaScript so it's not really really the fastest",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0904_1350559.jpg",
+    "frame_hash": "479a126a7a52e6f511c1e842933cdc4a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 905,
+    "timestamp_ms": 1352590,
+    "subtitle_text": "really the fastest",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0905_1352590.jpg",
+    "frame_hash": "03e6ff701d0baa265a56a14ba8e84b41"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 907,
+    "timestamp_ms": 1354789,
+    "subtitle_text": "implementation and uh since we are",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0907_1354789.jpg",
+    "frame_hash": "5f3213bd2a82e1181f9d15646b952ba2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 909,
+    "timestamp_ms": 1356630,
+    "subtitle_text": "looking in this n-dimensional space now",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0909_1356630.jpg",
+    "frame_hash": "0126389ee199b938a9bb9ecd98320bcd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 911,
+    "timestamp_ms": 1358870,
+    "subtitle_text": "I think we should give it some time yes",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0911_1358870.jpg",
+    "frame_hash": "71a8d41fb10d09f775fd347e04fc6f13"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 913,
+    "timestamp_ms": 1362110,
+    "subtitle_text": "surely enough some local Minima seems to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0913_1362110.jpg",
+    "frame_hash": "16152af47b381785072307bc6f305c62"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 914,
+    "timestamp_ms": 1362120,
+    "subtitle_text": "surely enough some local Minima seems to have been",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0914_1362120.jpg",
+    "frame_hash": "43e26e2a1f2b4b6278c699612b615b5d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 915,
+    "timestamp_ms": 1363350,
+    "subtitle_text": "have been",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0915_1363350.jpg",
+    "frame_hash": "b9fca092a1f5386551583a2447c06f2c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 917,
+    "timestamp_ms": 1366029,
+    "subtitle_text": "found at this moment so the loss kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0917_1366029.jpg",
+    "frame_hash": "cec170950c09e49a03630de236a4d01d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 919,
+    "timestamp_ms": 1369870,
+    "subtitle_text": "dropped we start seeing some elements of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0919_1369870.jpg",
+    "frame_hash": "589053f5263a57fa39cc6bb585701c9d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 921,
+    "timestamp_ms": 1372870,
+    "subtitle_text": "a loss function uh being significantly",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0921_1372870.jpg",
+    "frame_hash": "cd1838c61feac9bea280ccbc96de8668"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 923,
+    "timestamp_ms": 1374669,
+    "subtitle_text": "now dropped and look what happens now",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0923_1374669.jpg",
+    "frame_hash": "9d12f6504f2fb92a10a876db4cc477d3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 925,
+    "timestamp_ms": 1375990,
+    "subtitle_text": "with a decision",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0925_1375990.jpg",
+    "frame_hash": "89813d3c329f19430bb655891429129e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 927,
+    "timestamp_ms": 1379230,
+    "subtitle_text": "boundary um the decision boundary",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0927_1379230.jpg",
+    "frame_hash": "1db64b36ec4cebb384edf5fd38dc2634"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 929,
+    "timestamp_ms": 1381950,
+    "subtitle_text": "uh Without Really us doing that much and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0929_1381950.jpg",
+    "frame_hash": "793fbfac1e1a37822a389be688b7869a"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 931,
+    "timestamp_ms": 1384230,
+    "subtitle_text": "then really adding these neurons became",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0931_1384230.jpg",
+    "frame_hash": "2d72e99e28fb96d8171c083c36ca159c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 933,
+    "timestamp_ms": 1385350,
+    "subtitle_text": "kind of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0933_1385350.jpg",
+    "frame_hash": "8cdebcd6917fb500a6cb0898eb990161"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 935,
+    "timestamp_ms": 1388830,
+    "subtitle_text": "quadratic and it's kind of almost there",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0935_1388830.jpg",
+    "frame_hash": "d417a08ab281daa7f98f1bb0a3c93fe8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 937,
+    "timestamp_ms": 1392029,
+    "subtitle_text": "in a sense that it is uh all we need to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0937_1392029.jpg",
+    "frame_hash": "304771a0add66a78a98097009e35e668"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 939,
+    "timestamp_ms": 1393630,
+    "subtitle_text": "understand is whether if I if we can",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0939_1393630.jpg",
+    "frame_hash": "d955f991963a1c9dc46732bc56fab6d6"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 941,
+    "timestamp_ms": 1395549,
+    "subtitle_text": "give it some more time perhaps another",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0941_1395549.jpg",
+    "frame_hash": "7d1bb91d026a6ecc232787811c4dbbf9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 942,
+    "timestamp_ms": 1395559,
+    "subtitle_text": "give it some more time perhaps another local Minima which is even better than",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0942_1395559.jpg",
+    "frame_hash": "649ab4d9e32beef8c50fa1e5018e311e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 943,
+    "timestamp_ms": 1398110,
+    "subtitle_text": "local Minima which is even better than",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0943_1398110.jpg",
+    "frame_hash": "b1529c2b14a78b5a18927f7a6aa44aa4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 944,
+    "timestamp_ms": 1398120,
+    "subtitle_text": "local Minima which is even better than the one that we have just experienced",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0944_1398120.jpg",
+    "frame_hash": "3c1275851e034da5614eed4540d9f949"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 945,
+    "timestamp_ms": 1400149,
+    "subtitle_text": "the one that we have just experienced",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0945_1400149.jpg",
+    "frame_hash": "fbc6b6e4c7fb413e30d1b71cd3e720f0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 946,
+    "timestamp_ms": 1400159,
+    "subtitle_text": "the one that we have just experienced will be found and uh we are going to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0946_1400159.jpg",
+    "frame_hash": "d1de5e1b764d21f01a58cb45b1e745d4"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 947,
+    "timestamp_ms": 1403510,
+    "subtitle_text": "will be found and uh we are going to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0947_1403510.jpg",
+    "frame_hash": "297b3c6ce0907cab82a7b405f264480c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 948,
+    "timestamp_ms": 1403520,
+    "subtitle_text": "will be found and uh we are going to just let it run and um uh however we we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0948_1403520.jpg",
+    "frame_hash": "697d1041bde95a928befc8bd784054ac"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 949,
+    "timestamp_ms": 1408470,
+    "subtitle_text": "just let it run and um uh however we we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0949_1408470.jpg",
+    "frame_hash": "06859ccde1f3a7206ceb6ac48ce8a3a8"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 951,
+    "timestamp_ms": 1410870,
+    "subtitle_text": "we can actually show some kind of a",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0951_1410870.jpg",
+    "frame_hash": "3bb1dd5bebf604b46f239990f2844d2d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 953,
+    "timestamp_ms": 1413310,
+    "subtitle_text": "useful trajectory now in front of us we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0953_1413310.jpg",
+    "frame_hash": "bc4fb56df8e30395d9e17abf8774a02e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 954,
+    "timestamp_ms": 1413320,
+    "subtitle_text": "useful trajectory now in front of us we have seen as we are adding more",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0954_1413320.jpg",
+    "frame_hash": "0281eeb2fb7c10f0d00ef9cc3ef95775"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 955,
+    "timestamp_ms": 1415830,
+    "subtitle_text": "have seen as we are adding more",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0955_1415830.jpg",
+    "frame_hash": "9050d7634d0c3d312891d405b5af2970"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 957,
+    "timestamp_ms": 1420070,
+    "subtitle_text": "neurons uh then uh effectively we are",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0957_1420070.jpg",
+    "frame_hash": "543bc4bf8af6de5da170467bdeeba8d2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 959,
+    "timestamp_ms": 1422430,
+    "subtitle_text": "enhancing the modeling capabilities of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0959_1422430.jpg",
+    "frame_hash": "fa7721beabd158bbc69a96fa1a04b099"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 961,
+    "timestamp_ms": 1425470,
+    "subtitle_text": "our hypothesis set so we should have now",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0961_1425470.jpg",
+    "frame_hash": "d4a692988d4ee6aa7d80dc8b3a687970"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 963,
+    "timestamp_ms": 1427789,
+    "subtitle_text": "some analogy in our mind what we have",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0963_1427789.jpg",
+    "frame_hash": "ac4d611d60b305dadaea8c51a6e67dd3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 965,
+    "timestamp_ms": 1431070,
+    "subtitle_text": "seen in the earlier as a hypothesis set",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0965_1431070.jpg",
+    "frame_hash": "46b14727a85050dc6698464cda0e7e13"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 967,
+    "timestamp_ms": 1434549,
+    "subtitle_text": "and the um the the set of functions G",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0967_1434549.jpg",
+    "frame_hash": "30cf3b37db0c7ff3ac184c413f2bd685"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 968,
+    "timestamp_ms": 1434559,
+    "subtitle_text": "and the um the the set of functions G that we have discussed um are is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0968_1434559.jpg",
+    "frame_hash": "c0cfe7fac516bf213bfab10f919460c1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 969,
+    "timestamp_ms": 1437750,
+    "subtitle_text": "that we have discussed um are is",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0969_1437750.jpg",
+    "frame_hash": "c09ce88b6ec32426102b056d7dde38d1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 971,
+    "timestamp_ms": 1440830,
+    "subtitle_text": "actually translate into an architecture",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0971_1440830.jpg",
+    "frame_hash": "438449f0120d1a6c02d6d5bf9a8562a2"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 973,
+    "timestamp_ms": 1443350,
+    "subtitle_text": "so the more complicated the architecture",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0973_1443350.jpg",
+    "frame_hash": "1f607d640cd0fda39929d5297988b3c1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 975,
+    "timestamp_ms": 1446630,
+    "subtitle_text": "uh becomes perhaps the more uh we",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0975_1446630.jpg",
+    "frame_hash": "287dbd6fe30ce5dc28add8cd064cefd9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 977,
+    "timestamp_ms": 1449789,
+    "subtitle_text": "increase uh the number of hidden layers",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0977_1449789.jpg",
+    "frame_hash": "ba8443c840164e15023090e70a0fff13"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 979,
+    "timestamp_ms": 1452990,
+    "subtitle_text": "or even the number of neurons which are",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0979_1452990.jpg",
+    "frame_hash": "e1b1ec0ccb25f9c2d9804d9e55af3fad"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 981,
+    "timestamp_ms": 1455909,
+    "subtitle_text": "uh in each layer then we would expect to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0981_1455909.jpg",
+    "frame_hash": "9e054a5feaf77bfed2c9cc48287ad62d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 982,
+    "timestamp_ms": 1455919,
+    "subtitle_text": "uh in each layer then we would expect to see uh an ability to sort of fit more",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0982_1455919.jpg",
+    "frame_hash": "3d6cb3fd0e7fb2cea056d1b8266bcaf1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 983,
+    "timestamp_ms": 1460549,
+    "subtitle_text": "see uh an ability to sort of fit more",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0983_1460549.jpg",
+    "frame_hash": "b10d758e09bffd795fc2220912eddef5"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 984,
+    "timestamp_ms": 1460559,
+    "subtitle_text": "see uh an ability to sort of fit more challenging Target functions so let's",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0984_1460559.jpg",
+    "frame_hash": "67074cf8fa52bba3a8cde867468a11bd"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 985,
+    "timestamp_ms": 1463830,
+    "subtitle_text": "challenging Target functions so let's",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0985_1463830.jpg",
+    "frame_hash": "535380377ab2afe55afee18bab22845f"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 987,
+    "timestamp_ms": 1466470,
+    "subtitle_text": "play this with uh for for a while let's",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0987_1466470.jpg",
+    "frame_hash": "56c4beade5e46332990631baac47d3a9"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 989,
+    "timestamp_ms": 1468149,
+    "subtitle_text": "leave it leave it running over there and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0989_1468149.jpg",
+    "frame_hash": "e558502c495b5292123a48ff7605fc6b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 990,
+    "timestamp_ms": 1468159,
+    "subtitle_text": "leave it leave it running over there and then",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0990_1468159.jpg",
+    "frame_hash": "9057576527c67414c74a906c6594adb0"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 991,
+    "timestamp_ms": 1468909,
+    "subtitle_text": "then",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0991_1468909.jpg",
+    "frame_hash": "953f8cd1820b3672132dfc21d67c062b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 992,
+    "timestamp_ms": 1468919,
+    "subtitle_text": "then if it founds a good um local Minima and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0992_1468919.jpg",
+    "frame_hash": "3df2eccc2805a698275d1db772c726c1"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 993,
+    "timestamp_ms": 1473029,
+    "subtitle_text": "if it founds a good um local Minima and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0993_1473029.jpg",
+    "frame_hash": "e3f61859c2db80d00eeae4b2856f2965"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 995,
+    "timestamp_ms": 1475950,
+    "subtitle_text": "we can actually stop the iterations and",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0995_1475950.jpg",
+    "frame_hash": "0f4350bb65ec7fbe5a687cb19bc3889e"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 997,
+    "timestamp_ms": 1479510,
+    "subtitle_text": "present it to you all right now from uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0997_1479510.jpg",
+    "frame_hash": "b5c2cd282dce4018b09fb18a89c7d63b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 998,
+    "timestamp_ms": 1479520,
+    "subtitle_text": "present it to you all right now from uh actually let it run and then from uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0998_1479520.jpg",
+    "frame_hash": "25c07ac3eebb487f916bd46bed8eb97d"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 999,
+    "timestamp_ms": 1481909,
+    "subtitle_text": "actually let it run and then from uh",
+    "frame_path": "data/processed/M-bIqxvF984/frame_0999_1481909.jpg",
+    "frame_hash": "ca1e65d6d99c45396ee0d33b7e017f37"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 1000,
+    "timestamp_ms": 1481919,
+    "subtitle_text": "actually let it run and then from uh that kind of perspective I think the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_1000_1481919.jpg",
+    "frame_hash": "a846be21a7bb91be1abdb8fb177429a3"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 1001,
+    "timestamp_ms": 1483310,
+    "subtitle_text": "that kind of perspective I think the",
+    "frame_path": "data/processed/M-bIqxvF984/frame_1001_1483310.jpg",
+    "frame_hash": "69155fd24231e53d9d14b2656327883b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 1002,
+    "timestamp_ms": 1483320,
+    "subtitle_text": "that kind of perspective I think the next discussion would actually be to try",
+    "frame_path": "data/processed/M-bIqxvF984/frame_1002_1483320.jpg",
+    "frame_hash": "4bdc4f9de4a71d2389884391f8d7b904"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 1003,
+    "timestamp_ms": 1485870,
+    "subtitle_text": "next discussion would actually be to try",
+    "frame_path": "data/processed/M-bIqxvF984/frame_1003_1485870.jpg",
+    "frame_hash": "2c0365f28f9061a8d69e31c3aaef7a10"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 1005,
+    "timestamp_ms": 1488789,
+    "subtitle_text": "to create a mathematical abstraction of",
+    "frame_path": "data/processed/M-bIqxvF984/frame_1005_1488789.jpg",
+    "frame_hash": "fd72852fa3491ec67dddda113611845c"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 1007,
+    "timestamp_ms": 1491950,
+    "subtitle_text": "these um networks that we'll be calling",
+    "frame_path": "data/processed/M-bIqxvF984/frame_1007_1491950.jpg",
+    "frame_hash": "f9fcced5b627a5cc8410164a2d3cc745"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 1009,
+    "timestamp_ms": 1494029,
+    "subtitle_text": "fully connected Network so we need to",
+    "frame_path": "data/processed/M-bIqxvF984/frame_1009_1494029.jpg",
+    "frame_hash": "bbb516947f13d25c13a6b44b659db59b"
+  },
+  {
+    "video_id": "M-bIqxvF984",
+    "frame_index": 1011,
+    "timestamp_ms": 1495430,
+    "subtitle_text": "understand why we call them fully",
+    "frame_path": "data/processed/M-bIqxvF984/frame_1011_1495430.jpg",
+    "frame_hash": "432ed8a6f69fdf49e9641cde80cca516"
+  }
+]

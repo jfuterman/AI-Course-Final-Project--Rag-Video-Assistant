@@ -1,0 +1,2698 @@
+[
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 0,
+    "timestamp_ms": 6560,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0000_6560.jpg",
+    "frame_hash": "db4b0cd1114c903624ea2ac3002175ef"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 1,
+    "timestamp_ms": 9709,
+    "subtitle_text": "now we now introduce the core algorith",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0001_9709.jpg",
+    "frame_hash": "152825b57bb61de0f3d55a64e9312aa9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 2,
+    "timestamp_ms": 9719,
+    "subtitle_text": "now we now introduce the core algorith for this uh section this lecture which",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0002_9719.jpg",
+    "frame_hash": "ce3baea772685685ad89f9b20215bd87"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 3,
+    "timestamp_ms": 13509,
+    "subtitle_text": "for this uh section this lecture which",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0003_13509.jpg",
+    "frame_hash": "7af5dd6ad08561f06ed55f78b4090723"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 4,
+    "timestamp_ms": 13519,
+    "subtitle_text": "for this uh section this lecture which is uh the base filter and I'm going to",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0004_13519.jpg",
+    "frame_hash": "448f262b61f6273304e78c451c4b5dd2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 5,
+    "timestamp_ms": 16390,
+    "subtitle_text": "is uh the base filter and I'm going to",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0005_16390.jpg",
+    "frame_hash": "48f6e4e450efc30fc21e7678f2cd693c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 7,
+    "timestamp_ms": 18390,
+    "subtitle_text": "write the algorith in a form of a kind",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0007_18390.jpg",
+    "frame_hash": "d2ed4715c89a2c453d6c41ab1282e5d7"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 9,
+    "timestamp_ms": 22070,
+    "subtitle_text": "of a python function um the uh algorith",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0009_22070.jpg",
+    "frame_hash": "153b07e00dcd54ba909736b731e1c6cc"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 11,
+    "timestamp_ms": 26950,
+    "subtitle_text": "is um going is um this the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0011_26950.jpg",
+    "frame_hash": "3720afb54b36b5732a711dcc7bb9f222"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 13,
+    "timestamp_ms": 30790,
+    "subtitle_text": "base let's say underscore filter it has",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0013_30790.jpg",
+    "frame_hash": "9f14cfdb379d738796240a168cbcb36b"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 15,
+    "timestamp_ms": 34310,
+    "subtitle_text": "uh three arguments the first argument is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0015_34310.jpg",
+    "frame_hash": "ed19189acd8f44c177612c23b88fdb5d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 16,
+    "timestamp_ms": 34320,
+    "subtitle_text": "uh three arguments the first argument is the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0016_34320.jpg",
+    "frame_hash": "6bfa3b4c355fa6b355356d775cb31554"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 17,
+    "timestamp_ms": 35790,
+    "subtitle_text": "the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0017_35790.jpg",
+    "frame_hash": "21c1d4f0d7998dc1cf24a145dd366684"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 19,
+    "timestamp_ms": 38910,
+    "subtitle_text": "belief of where we are we in the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0019_38910.jpg",
+    "frame_hash": "f6143806c32c266015ac0b92e4ae0ea2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 20,
+    "timestamp_ms": 38920,
+    "subtitle_text": "belief of where we are we in the previous time instance St minus one and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0020_38920.jpg",
+    "frame_hash": "1926e1de45236c1d3a399b1af6ddd733"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 21,
+    "timestamp_ms": 42750,
+    "subtitle_text": "previous time instance St minus one and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0021_42750.jpg",
+    "frame_hash": "f7b5bef35e841067f0839274742b0292"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 23,
+    "timestamp_ms": 46110,
+    "subtitle_text": "this is EV you know evidently the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0023_46110.jpg",
+    "frame_hash": "a7701ba5dcaa0bd0375f2c3dd148a028"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 24,
+    "timestamp_ms": 46120,
+    "subtitle_text": "this is EV you know evidently the posterior uh belief or posterior",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0024_46120.jpg",
+    "frame_hash": "1840365d283986015ac7689a1be46ee9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 25,
+    "timestamp_ms": 48709,
+    "subtitle_text": "posterior uh belief or posterior",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0025_48709.jpg",
+    "frame_hash": "bdd7248f76b6f432eb03d45a4a39af07"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 26,
+    "timestamp_ms": 48719,
+    "subtitle_text": "posterior uh belief or posterior probability of what we are in the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0026_48719.jpg",
+    "frame_hash": "df18b8d98f8fa7439089186f4db7fdbc"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 27,
+    "timestamp_ms": 50790,
+    "subtitle_text": "probability of what we are in the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0027_50790.jpg",
+    "frame_hash": "1157d7262cc9699c0bb05f96739c1a2d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 29,
+    "timestamp_ms": 54590,
+    "subtitle_text": "previous state um so what what was our",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0029_54590.jpg",
+    "frame_hash": "b6ce903bd9d9ca5a18a7f4b14a51854c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 31,
+    "timestamp_ms": 56869,
+    "subtitle_text": "previous state was and then the other",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0031_56869.jpg",
+    "frame_hash": "97bb78826553c1fa48b0f0598d106504"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 33,
+    "timestamp_ms": 59229,
+    "subtitle_text": "one argument is this action that we take",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0033_59229.jpg",
+    "frame_hash": "9e944ad10b4b28bd7a909214873ed044"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 35,
+    "timestamp_ms": 61709,
+    "subtitle_text": "at this point in time T and the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0035_61709.jpg",
+    "frame_hash": "86fae764f3859cdf0844f56289b84dc8"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 36,
+    "timestamp_ms": 61719,
+    "subtitle_text": "at this point in time T and the measurement ZT okay so these are the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0036_61719.jpg",
+    "frame_hash": "08ed2e15cff8e5245408c6689cca5ee4"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 37,
+    "timestamp_ms": 64189,
+    "subtitle_text": "measurement ZT okay so these are the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0037_64189.jpg",
+    "frame_hash": "34dbca8afb9b32a1243e7f9d93aa5361"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 39,
+    "timestamp_ms": 64990,
+    "subtitle_text": "three",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0039_64990.jpg",
+    "frame_hash": "53bed61613e5da3bfca2a4f7fd5ce8b4"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 41,
+    "timestamp_ms": 67310,
+    "subtitle_text": "arguments and uh there is a kind of a",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0041_67310.jpg",
+    "frame_hash": "160149a4e2bf11a5dca389515d86733e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 42,
+    "timestamp_ms": 67320,
+    "subtitle_text": "arguments and uh there is a kind of a for Loop uh we expect to see a for Loop",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0042_67320.jpg",
+    "frame_hash": "28386e5cffdc08e6cabd1c35b1d1e4e6"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 43,
+    "timestamp_ms": 70590,
+    "subtitle_text": "for Loop uh we expect to see a for Loop",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0043_70590.jpg",
+    "frame_hash": "9dab3d73ea7a46c453d1495d440560b7"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 45,
+    "timestamp_ms": 73310,
+    "subtitle_text": "because as we said the discussion the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0045_73310.jpg",
+    "frame_hash": "4374ba3c4ba4e495f9322cb0e0ed92ba"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 46,
+    "timestamp_ms": 73320,
+    "subtitle_text": "because as we said the discussion the the algorith is um going to be",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0046_73320.jpg",
+    "frame_hash": "91c24d4435540f9910e6afd4028256ae"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 47,
+    "timestamp_ms": 76910,
+    "subtitle_text": "the algorith is um going to be",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0047_76910.jpg",
+    "frame_hash": "e47d5e0492bf9e732e333a8fb6eb3a89"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 48,
+    "timestamp_ms": 76920,
+    "subtitle_text": "the algorith is um going to be recursive so for all STS for all the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0048_76920.jpg",
+    "frame_hash": "69a8b25727934533fff00dea188a851f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 49,
+    "timestamp_ms": 80990,
+    "subtitle_text": "recursive so for all STS for all the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0049_80990.jpg",
+    "frame_hash": "f46b16f3c4549b4c2d51c25cccc13efa"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 51,
+    "timestamp_ms": 81950,
+    "subtitle_text": "states",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0051_81950.jpg",
+    "frame_hash": "93a68cac3a744a6ee66e7e3b7a806783"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 53,
+    "timestamp_ms": 84870,
+    "subtitle_text": "STS uh first we are",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0053_84870.jpg",
+    "frame_hash": "2f14eb5c3298f9091af7af7d7abbba87"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 55,
+    "timestamp_ms": 88630,
+    "subtitle_text": "estimating the belief hatut of that",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0055_88630.jpg",
+    "frame_hash": "c7198cc4c58512bb00187338cbecd79d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 57,
+    "timestamp_ms": 90390,
+    "subtitle_text": "state",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0057_90390.jpg",
+    "frame_hash": "1b6cc0a76686247c51242bc6c2e6a6bf"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 59,
+    "timestamp_ms": 92749,
+    "subtitle_text": "uh because we are going",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0059_92749.jpg",
+    "frame_hash": "aa64a795ab85eca0e9fa73fbb1d15961"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 60,
+    "timestamp_ms": 92759,
+    "subtitle_text": "uh because we are going to uh execute an",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0060_92759.jpg",
+    "frame_hash": "29de535e11542b40ccfee10e92fe17c0"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 61,
+    "timestamp_ms": 95590,
+    "subtitle_text": "to uh execute an",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0061_95590.jpg",
+    "frame_hash": "453221c020eb84173d59b69887e5f333"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 63,
+    "timestamp_ms": 98069,
+    "subtitle_text": "action and uh for that action that we",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0063_98069.jpg",
+    "frame_hash": "8336a709adfc3298d905c04c009e9346"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 65,
+    "timestamp_ms": 98789,
+    "subtitle_text": "are",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0065_98789.jpg",
+    "frame_hash": "7fa918f72b749e066d39787ddc1c5732"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 67,
+    "timestamp_ms": 103469,
+    "subtitle_text": "executing we are uh effectively going to",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0067_103469.jpg",
+    "frame_hash": "fc11bd51f214ff29c3f2c5ba4e1cbeed"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 69,
+    "timestamp_ms": 105590,
+    "subtitle_text": "uh create a posterior that we will",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0069_105590.jpg",
+    "frame_hash": "d16e8133ad8387d9eb46a08d0fb82253"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 71,
+    "timestamp_ms": 107109,
+    "subtitle_text": "effectively",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0071_107109.jpg",
+    "frame_hash": "bf49b71fd78b59e867d230a333f9be44"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 72,
+    "timestamp_ms": 107119,
+    "subtitle_text": "effectively integrate uh the um all the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0072_107119.jpg",
+    "frame_hash": "15eaf9fe52848132cc64aa6c3467b640"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 73,
+    "timestamp_ms": 110670,
+    "subtitle_text": "integrate uh the um all the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0073_110670.jpg",
+    "frame_hash": "aebd3e79370ac7f8d702f53bc8496dc1"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 75,
+    "timestamp_ms": 113230,
+    "subtitle_text": "possibilities almost like the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0075_113230.jpg",
+    "frame_hash": "510f7cdf68460262a3127e77e5e0d33f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 77,
+    "timestamp_ms": 116709,
+    "subtitle_text": "convolution or some",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0077_116709.jpg",
+    "frame_hash": "1674b36deaaf09a10c76e253af144f38"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 78,
+    "timestamp_ms": 116719,
+    "subtitle_text": "convolution or some rule okay so let's let me write it down",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0078_116719.jpg",
+    "frame_hash": "60ef54952e478c07ed686492110b73b0"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 79,
+    "timestamp_ms": 122469,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0079_122469.jpg",
+    "frame_hash": "51d87b5c4b9e82496a5437bd0e9dbcf2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 81,
+    "timestamp_ms": 127749,
+    "subtitle_text": "this is St given St minus one this is my",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0081_127749.jpg",
+    "frame_hash": "f264349c53db7622a6128f7993d76efe"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 82,
+    "timestamp_ms": 127759,
+    "subtitle_text": "this is St given St minus one this is my uh transitional model if you remember",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0082_127759.jpg",
+    "frame_hash": "c612529ded0fbde41f38385eff5633f5"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 83,
+    "timestamp_ms": 129830,
+    "subtitle_text": "uh transitional model if you remember",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0083_129830.jpg",
+    "frame_hash": "19f1da44f4a1154dec43fdcaf212125b"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 85,
+    "timestamp_ms": 131030,
+    "subtitle_text": "from",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0085_131030.jpg",
+    "frame_hash": "2d30d582111c1e463d5157dce13f8bbd"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 87,
+    "timestamp_ms": 135309,
+    "subtitle_text": "earlier and uh this is the belief of St",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0087_135309.jpg",
+    "frame_hash": "a54f3627f7bc10c35980ed24d1a27caf"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 88,
+    "timestamp_ms": 135319,
+    "subtitle_text": "earlier and uh this is the belief of St minus one this is the incoming",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0088_135319.jpg",
+    "frame_hash": "7f7bae103d2b8f4df5af4b895b110e10"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 89,
+    "timestamp_ms": 138990,
+    "subtitle_text": "minus one this is the incoming",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0089_138990.jpg",
+    "frame_hash": "255e65c72ec7c000b876ee1a08299cde"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 91,
+    "timestamp_ms": 142910,
+    "subtitle_text": "belief where I believe I was uh before",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0091_142910.jpg",
+    "frame_hash": "2c5003ab6aca62e66d47e9a2aa82dc41"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 92,
+    "timestamp_ms": 142920,
+    "subtitle_text": "belief where I believe I was uh before and I use where sometimes in this",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0092_142920.jpg",
+    "frame_hash": "b81aa5034fe3183192a22582583853bf"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 93,
+    "timestamp_ms": 144470,
+    "subtitle_text": "and I use where sometimes in this",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0093_144470.jpg",
+    "frame_hash": "007475ad5e82f22ec7878725126b19d7"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 95,
+    "timestamp_ms": 145830,
+    "subtitle_text": "discussion because in the back of my",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0095_145830.jpg",
+    "frame_hash": "8eda0647ab11a7264582c86277aa7362"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 97,
+    "timestamp_ms": 147869,
+    "subtitle_text": "mind sometimes I have this simple",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0097_147869.jpg",
+    "frame_hash": "bed027bb11537fe2c3afea157f09e200"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 99,
+    "timestamp_ms": 150550,
+    "subtitle_text": "localization kind of uh uh sort of use",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0099_150550.jpg",
+    "frame_hash": "f971d8e8dd1beb869426a771c1cc4285"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 101,
+    "timestamp_ms": 154190,
+    "subtitle_text": "case but please replace the wear with uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0101_154190.jpg",
+    "frame_hash": "023ac361b17e3b86013015dc121c5c19"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 103,
+    "timestamp_ms": 158990,
+    "subtitle_text": "what was my previous state and okay so",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0103_158990.jpg",
+    "frame_hash": "04618d3aa6490cd41bae3a818e97940c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 105,
+    "timestamp_ms": 161190,
+    "subtitle_text": "uh that is uh uh basically the first",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0105_161190.jpg",
+    "frame_hash": "6f243f50b2b654497cecb103ad542fc9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 107,
+    "timestamp_ms": 163110,
+    "subtitle_text": "Formula we'll actually draw it a little",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0107_163110.jpg",
+    "frame_hash": "1b7b3c3f5449fc85005cd172584a7428"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 108,
+    "timestamp_ms": 163120,
+    "subtitle_text": "Formula we'll actually draw it a little bit to see exactly what is what is going",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0108_163120.jpg",
+    "frame_hash": "bb668db632c11cb00ee9c4bde4f862ca"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 109,
+    "timestamp_ms": 165190,
+    "subtitle_text": "bit to see exactly what is what is going",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0109_165190.jpg",
+    "frame_hash": "da205aaf82c761bb18d876d257ffdb59"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 111,
+    "timestamp_ms": 168270,
+    "subtitle_text": "going on a bit later and then the second",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0111_168270.jpg",
+    "frame_hash": "8ff1af6f2daade37624c11765759355b"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 113,
+    "timestamp_ms": 171070,
+    "subtitle_text": "part the second part of the algorith is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0113_171070.jpg",
+    "frame_hash": "a418e2b18d7dbc12de266d7e892b3d06"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 115,
+    "timestamp_ms": 173949,
+    "subtitle_text": "now that I have the belief had I will do",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0115_173949.jpg",
+    "frame_hash": "03ff2b922e1dd47be948fe931a370cfe"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 116,
+    "timestamp_ms": 173959,
+    "subtitle_text": "now that I have the belief had I will do the so-called uh measurement",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0116_173959.jpg",
+    "frame_hash": "36e0a27b35615cf895c3d5a7d63bc9be"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 117,
+    "timestamp_ms": 176350,
+    "subtitle_text": "the so-called uh measurement",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0117_176350.jpg",
+    "frame_hash": "616d240717f8b78a158e83c45cef0fa1"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 119,
+    "timestamp_ms": 182509,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0119_182509.jpg",
+    "frame_hash": "a472ceeec6a4b050850befd00f84d8d5"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 120,
+    "timestamp_ms": 182519,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0120_182519.jpg",
+    "frame_hash": "1d5ffd02224b8b80925df40e6f718203"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 121,
+    "timestamp_ms": 184710,
+    "subtitle_text": "prediction prediction",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0121_184710.jpg",
+    "frame_hash": "e448e65b2619fbd6e533e6e46bc8db97"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 122,
+    "timestamp_ms": 184720,
+    "subtitle_text": "prediction prediction step and this is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0122_184720.jpg",
+    "frame_hash": "a4961534528117d0e2ce2f1464579374"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 123,
+    "timestamp_ms": 186990,
+    "subtitle_text": "step and this is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0123_186990.jpg",
+    "frame_hash": "2bfbe83125abbda2aedd15e2b31e1d59"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 125,
+    "timestamp_ms": 192550,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0125_192550.jpg",
+    "frame_hash": "652b26208516a718e2856792484c6429"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 127,
+    "timestamp_ms": 195630,
+    "subtitle_text": "measurement update step the prediction",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0127_195630.jpg",
+    "frame_hash": "7d507c248b2b556e03d9435019bee9ab"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 129,
+    "timestamp_ms": 198430,
+    "subtitle_text": "step is kind of blind we are not",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0129_198430.jpg",
+    "frame_hash": "83bdf5ebbc78bcca5702291badbd9307"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 131,
+    "timestamp_ms": 201190,
+    "subtitle_text": "considering any measurement and uh as we",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0131_201190.jpg",
+    "frame_hash": "123df3bc0453d84e1bf864443b49186b"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 133,
+    "timestamp_ms": 203949,
+    "subtitle_text": "are just taking the action and then the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0133_203949.jpg",
+    "frame_hash": "2900a68a1e727a9874841422a6609048"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 134,
+    "timestamp_ms": 203959,
+    "subtitle_text": "are just taking the action and then the second step involves the measurement",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0134_203959.jpg",
+    "frame_hash": "d52f332bf0657853202baf924e149183"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 135,
+    "timestamp_ms": 205589,
+    "subtitle_text": "second step involves the measurement",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0135_205589.jpg",
+    "frame_hash": "9fb9bc6eff9475d9e79ffb1634666786"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 137,
+    "timestamp_ms": 208509,
+    "subtitle_text": "update so it's a normalizing constant",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0137_208509.jpg",
+    "frame_hash": "e40171c00b628a03c4c859b6aeaefb45"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 138,
+    "timestamp_ms": 208519,
+    "subtitle_text": "update so it's a normalizing constant times p",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0138_208519.jpg",
+    "frame_hash": "6f9623b9fe4447109be17e4584f7897d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 139,
+    "timestamp_ms": 210990,
+    "subtitle_text": "times p",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0139_210990.jpg",
+    "frame_hash": "19f4c1fe220a0eaff235ea52a8710571"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 141,
+    "timestamp_ms": 213509,
+    "subtitle_text": "of ZT given",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0141_213509.jpg",
+    "frame_hash": "8d1ab3034100dccfc13ab1ecd4551540"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 142,
+    "timestamp_ms": 213519,
+    "subtitle_text": "of ZT given St times the belief",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0142_213519.jpg",
+    "frame_hash": "86b2059185a3898bb85063b151a3cd6d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 143,
+    "timestamp_ms": 215949,
+    "subtitle_text": "St times the belief",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0143_215949.jpg",
+    "frame_hash": "4089ddf2e2b60b2e54d0f9f42da419e8"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 144,
+    "timestamp_ms": 215959,
+    "subtitle_text": "St times the belief cut of St which we calculated over here",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0144_215959.jpg",
+    "frame_hash": "1068f6fa2a02edb1e532181b5446072a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 145,
+    "timestamp_ms": 220509,
+    "subtitle_text": "cut of St which we calculated over here",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0145_220509.jpg",
+    "frame_hash": "0dbbb1a905749ba5f7f52d3068a61acf"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 146,
+    "timestamp_ms": 220519,
+    "subtitle_text": "cut of St which we calculated over here and then after we ex exceed this kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0146_220519.jpg",
+    "frame_hash": "27b73f219dddbbcd08592acabe2e2162"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 147,
+    "timestamp_ms": 223750,
+    "subtitle_text": "and then after we ex exceed this kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0147_223750.jpg",
+    "frame_hash": "e12bee79abd6941e4ef6d82396e0fc7f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 149,
+    "timestamp_ms": 224630,
+    "subtitle_text": "for",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0149_224630.jpg",
+    "frame_hash": "8b8e46c049d6fd0d58d3425dc96d959c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 151,
+    "timestamp_ms": 229270,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0151_229270.jpg",
+    "frame_hash": "b58083319f4eaeffbb06823e8d9c0acd"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 153,
+    "timestamp_ms": 233589,
+    "subtitle_text": "returning the belief uh of uh let me",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0153_233589.jpg",
+    "frame_hash": "68d1b8dfa1dc7b5116dfd72a8a2c70b8"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 155,
+    "timestamp_ms": 243069,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0155_243069.jpg",
+    "frame_hash": "6df14415fe9dac16aa4a6965570ac1f2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 157,
+    "timestamp_ms": 246229,
+    "subtitle_text": "the belief of STD which also worth",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0157_246229.jpg",
+    "frame_hash": "dba7b0e60c21a6a05ff2f7890811f888"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 159,
+    "timestamp_ms": 249309,
+    "subtitle_text": "mentioning how similar uh because it's",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0159_249309.jpg",
+    "frame_hash": "46f43ab08172918b69336c653ec30103"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 160,
+    "timestamp_ms": 249319,
+    "subtitle_text": "mentioning how similar uh because it's exactly what what's happening this uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0160_249319.jpg",
+    "frame_hash": "40427478aecc6fa4114feccb1c1cb2e3"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 161,
+    "timestamp_ms": 252390,
+    "subtitle_text": "exactly what what's happening this uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0161_252390.jpg",
+    "frame_hash": "1e272f1e79bcd986e3a8060ad22608ba"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 163,
+    "timestamp_ms": 254589,
+    "subtitle_text": "line two line is to with the two",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0163_254589.jpg",
+    "frame_hash": "2e2465ea572062ea90e976e6f504fb34"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 165,
+    "timestamp_ms": 257030,
+    "subtitle_text": "probability rules that we have looked at",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0165_257030.jpg",
+    "frame_hash": "0c9d5acdb2726eee20e81c31181ceeb9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 167,
+    "timestamp_ms": 259749,
+    "subtitle_text": "the probability review uh video so this",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0167_259749.jpg",
+    "frame_hash": "fc27f1d7a04c975d626a105b2e96029b"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 168,
+    "timestamp_ms": 259759,
+    "subtitle_text": "the probability review uh video so this one is um very uh similar to the sum",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0168_259759.jpg",
+    "frame_hash": "916feb229c61c5b254ac203bc1281db1"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 169,
+    "timestamp_ms": 266110,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0169_266110.jpg",
+    "frame_hash": "8ba7929805b18c68df4f0ed4ac4d735a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 170,
+    "timestamp_ms": 266120,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0170_266120.jpg",
+    "frame_hash": "0d7a5e2d43478212b09a37110723b943"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 171,
+    "timestamp_ms": 268830,
+    "subtitle_text": "Rule and I'll write the sum rule in a",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0171_268830.jpg",
+    "frame_hash": "28ba12644e6830682f99759f507b2154"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 173,
+    "timestamp_ms": 270990,
+    "subtitle_text": "moment and the this one is similar to",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0173_270990.jpg",
+    "frame_hash": "ddcf290913bfb8f082e142f8dd9d2d22"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 175,
+    "timestamp_ms": 274550,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0175_274550.jpg",
+    "frame_hash": "c2824be9f9cba13c4e6e61f999197686"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 177,
+    "timestamp_ms": 278070,
+    "subtitle_text": "rule and we'll see how this is also uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0177_278070.jpg",
+    "frame_hash": "4ac5b3f7e684eb8a4243f769091e63f3"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 179,
+    "timestamp_ms": 279270,
+    "subtitle_text": "obviously the product rule is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0179_279270.jpg",
+    "frame_hash": "db8d9eb66a5ab13d44a5c6f6a5de38f9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 181,
+    "timestamp_ms": 281710,
+    "subtitle_text": "associating itself with the very",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0181_281710.jpg",
+    "frame_hash": "6d1d5000e9dd575ddcf5a7b19d6f729e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 182,
+    "timestamp_ms": 281720,
+    "subtitle_text": "associating itself with the very definition of the base Rule and that's",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0182_281720.jpg",
+    "frame_hash": "cb10facdc39c8dd73d2687a160c690ef"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 183,
+    "timestamp_ms": 284189,
+    "subtitle_text": "definition of the base Rule and that's",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0183_284189.jpg",
+    "frame_hash": "6d032eee156810588e2ee85c8493fc84"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 185,
+    "timestamp_ms": 287909,
+    "subtitle_text": "why we took the name of base filter and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0185_287909.jpg",
+    "frame_hash": "7de618f8c9f637f9d5f69225c273df0a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 186,
+    "timestamp_ms": 287919,
+    "subtitle_text": "why we took the name of base filter and filter is a kind of a term that we have",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0186_287919.jpg",
+    "frame_hash": "4819271878c62a4471d9f83091afae3e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 187,
+    "timestamp_ms": 290390,
+    "subtitle_text": "filter is a kind of a term that we have",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0187_290390.jpg",
+    "frame_hash": "9bda48ce47a2c93fdb2fd1ad65ad0d78"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 189,
+    "timestamp_ms": 292150,
+    "subtitle_text": "used extensively in electrical",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0189_292150.jpg",
+    "frame_hash": "b4bc5d273daac3de81357760fabde660"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 191,
+    "timestamp_ms": 295350,
+    "subtitle_text": "engineering to denote um to to to",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0191_295350.jpg",
+    "frame_hash": "aa0bebd4c151e125db680d48140c8dca"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 193,
+    "timestamp_ms": 297270,
+    "subtitle_text": "actually call functions that are going",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0193_297270.jpg",
+    "frame_hash": "97dc5b58bd7213f4ac1f20fd756f2bcc"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 195,
+    "timestamp_ms": 300550,
+    "subtitle_text": "to be receiving if you like a stream and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0195_300550.jpg",
+    "frame_hash": "900ea863ea61d32081d7b8d34ab9d2f6"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 197,
+    "timestamp_ms": 303110,
+    "subtitle_text": "uh are are doing exactly the same job",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0197_303110.jpg",
+    "frame_hash": "8dab404037c2b709f09e736e41601651"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 198,
+    "timestamp_ms": 303120,
+    "subtitle_text": "uh are are doing exactly the same job over and over again okay so this is uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0198_303120.jpg",
+    "frame_hash": "8430168b83fe6ed5c75b3ae7c377a807"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 199,
+    "timestamp_ms": 305430,
+    "subtitle_text": "over and over again okay so this is uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0199_305430.jpg",
+    "frame_hash": "5cfbd54bbcdb6b4c08bf49c3cd5b886f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 201,
+    "timestamp_ms": 307870,
+    "subtitle_text": "basically what's happening over there uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0201_307870.jpg",
+    "frame_hash": "5fc6ac94d583b9e2f82df72774fde05f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 203,
+    "timestamp_ms": 310749,
+    "subtitle_text": "so this function will be called now now",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0203_310749.jpg",
+    "frame_hash": "9994814c00545e9d3bcf180896c6ec80"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 204,
+    "timestamp_ms": 310759,
+    "subtitle_text": "so this function will be called now now that we have the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0204_310759.jpg",
+    "frame_hash": "336e3d712023d21ec92e622c4637f0d7"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 205,
+    "timestamp_ms": 312029,
+    "subtitle_text": "that we have the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0205_312029.jpg",
+    "frame_hash": "a49f247de7ae1642addeac5e6cbf2911"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 207,
+    "timestamp_ms": 315749,
+    "subtitle_text": "belief s of T in the next iteration uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0207_315749.jpg",
+    "frame_hash": "a9647dd9cb51b6d45c683fc419879e7e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 208,
+    "timestamp_ms": 315759,
+    "subtitle_text": "belief s of T in the next iteration uh this belief of s will actually go here",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0208_315759.jpg",
+    "frame_hash": "31c4ac418a56df817780a6e2190c9e67"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 209,
+    "timestamp_ms": 318230,
+    "subtitle_text": "this belief of s will actually go here",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0209_318230.jpg",
+    "frame_hash": "d65eb45545b110a85ffee21c0e173791"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 211,
+    "timestamp_ms": 320830,
+    "subtitle_text": "another action will be taken and and a",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0211_320830.jpg",
+    "frame_hash": "8dd45b66a2b4376526f84db307feef8c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 213,
+    "timestamp_ms": 322629,
+    "subtitle_text": "measurement will be received and then",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0213_322629.jpg",
+    "frame_hash": "06e6532057b074747cae3d96909a3d97"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 215,
+    "timestamp_ms": 324070,
+    "subtitle_text": "the whole thing will repeat over and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0215_324070.jpg",
+    "frame_hash": "cc8151d8a89f8bea423bf4189ad0c2d1"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 217,
+    "timestamp_ms": 325990,
+    "subtitle_text": "over again that's the kind of recursive",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0217_325990.jpg",
+    "frame_hash": "cfe252408c3e782f525f1f71bb77c573"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 219,
+    "timestamp_ms": 328029,
+    "subtitle_text": "step but coming back to these kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0219_328029.jpg",
+    "frame_hash": "c36a06b4ce35a11aff7dec5bda4fd926"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 221,
+    "timestamp_ms": 329830,
+    "subtitle_text": "two lines",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0221_329830.jpg",
+    "frame_hash": "45fa3ca7e4cef652b78f82fac899e3ed"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 223,
+    "timestamp_ms": 331710,
+    "subtitle_text": "uh the one and let's me call it one and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0223_331710.jpg",
+    "frame_hash": "6bbb16726655d70c63092756e68cef76"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 224,
+    "timestamp_ms": 331720,
+    "subtitle_text": "uh the one and let's me call it one and two uh the line one the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0224_331720.jpg",
+    "frame_hash": "65cfb5a6d463739036fdd34f6e670733"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 225,
+    "timestamp_ms": 338430,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0225_338430.jpg",
+    "frame_hash": "b4d884286ba0ab857ad307cc7a55f1c7"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 227,
+    "timestamp_ms": 341270,
+    "subtitle_text": "prediction uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0227_341270.jpg",
+    "frame_hash": "f7a2e0e92747a7b8e55b62f30a7e47a4"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 229,
+    "timestamp_ms": 344670,
+    "subtitle_text": "step is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0229_344670.jpg",
+    "frame_hash": "1db46e440fb3ee468e011dbbcd20c671"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 231,
+    "timestamp_ms": 350189,
+    "subtitle_text": "related to uh the sum rule or the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0231_350189.jpg",
+    "frame_hash": "ad2384a0a7d8188cd5999ea972e062e9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 233,
+    "timestamp_ms": 352469,
+    "subtitle_text": "marginalization if you like Rule and if",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0233_352469.jpg",
+    "frame_hash": "37f4150a1cacac8acaab0f9a7c79151b"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 235,
+    "timestamp_ms": 354430,
+    "subtitle_text": "you remember the marginalization rule",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0235_354430.jpg",
+    "frame_hash": "7e60a121f0c050207fb22c73b13207cf"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 237,
+    "timestamp_ms": 360350,
+    "subtitle_text": "was uh uh P of x uh let let me call this",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0237_360350.jpg",
+    "frame_hash": "83f74e1057de751fcb55b412f9819914"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 239,
+    "timestamp_ms": 363590,
+    "subtitle_text": "P of X I think I used I think X and Y",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0239_363590.jpg",
+    "frame_hash": "8585c2b0bb650675e695851728fe7e62"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 241,
+    "timestamp_ms": 366029,
+    "subtitle_text": "variables when I was discussing these",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0241_366029.jpg",
+    "frame_hash": "50b6f4e7bc60d728fb86a35cd55000e1"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 243,
+    "timestamp_ms": 368550,
+    "subtitle_text": "two uh probability foundational",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0243_368550.jpg",
+    "frame_hash": "621126ebd09b510dd122b9db613d2aa3"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 245,
+    "timestamp_ms": 372110,
+    "subtitle_text": "probability rules so I said P of X is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0245_372110.jpg",
+    "frame_hash": "3288f360da0455a2cd9b9cfbc1a7b132"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 246,
+    "timestamp_ms": 372120,
+    "subtitle_text": "probability rules so I said P of X is the sum over all y's of P of X comma",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0246_372120.jpg",
+    "frame_hash": "1163a4af71d866df50457129f014595c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 247,
+    "timestamp_ms": 377950,
+    "subtitle_text": "the sum over all y's of P of X comma",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0247_377950.jpg",
+    "frame_hash": "94e272e04e73b32b76041bc4d0941a3e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 249,
+    "timestamp_ms": 381830,
+    "subtitle_text": "y or now that I can use also the product",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0249_381830.jpg",
+    "frame_hash": "207f3c7e42d29605def7b63093d16bfe"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 251,
+    "timestamp_ms": 385029,
+    "subtitle_text": "rule over there to expand this joint is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0251_385029.jpg",
+    "frame_hash": "c14ef680122b94d1a2630da3e67dd4f2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 253,
+    "timestamp_ms": 387830,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0253_387830.jpg",
+    "frame_hash": "559ec36e610de699a31e0a12e22ad897"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 255,
+    "timestamp_ms": 390710,
+    "subtitle_text": "p of um",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0255_390710.jpg",
+    "frame_hash": "efec6716d61c2d25c0fa161643b54275"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 256,
+    "timestamp_ms": 390720,
+    "subtitle_text": "p of um x given y * P of Y so replace the Y with",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0256_390720.jpg",
+    "frame_hash": "4a55730913b10c88fd9b9280d8901f5a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 257,
+    "timestamp_ms": 396670,
+    "subtitle_text": "x given y * P of Y so replace the Y with",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0257_396670.jpg",
+    "frame_hash": "515933a20995d06efd2ba5b780523f98"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 259,
+    "timestamp_ms": 397469,
+    "subtitle_text": "the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0259_397469.jpg",
+    "frame_hash": "d7276d171aae6c21602a980c61032b09"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 261,
+    "timestamp_ms": 401550,
+    "subtitle_text": "state no matter the index and replace uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0261_401550.jpg",
+    "frame_hash": "a79d3258b00eb1968b70f8f432ad3c11"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 263,
+    "timestamp_ms": 403749,
+    "subtitle_text": "the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0263_403749.jpg",
+    "frame_hash": "4d7a657554cac833229038729a37b103"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 264,
+    "timestamp_ms": 403759,
+    "subtitle_text": "the X uh with the I think you can replace a",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0264_403759.jpg",
+    "frame_hash": "df73b89a8b7ab94c371b5e0e850af5d9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 265,
+    "timestamp_ms": 407790,
+    "subtitle_text": "X uh with the I think you can replace a",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0265_407790.jpg",
+    "frame_hash": "10361dbb96bae976c57ddab8af48f290"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 267,
+    "timestamp_ms": 410469,
+    "subtitle_text": "state with a",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0267_410469.jpg",
+    "frame_hash": "2c9e463cad8c888a068fd7b058fba12a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 269,
+    "timestamp_ms": 415070,
+    "subtitle_text": "belief uh on T minus one and this one",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0269_415070.jpg",
+    "frame_hash": "cf6cba9b4da77c3b929514262b2ce775"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 271,
+    "timestamp_ms": 422510,
+    "subtitle_text": "with the uh State St okay so uh then",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0271_422510.jpg",
+    "frame_hash": "6dedf5bc6a631c3e7079f5755b8707c0"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 272,
+    "timestamp_ms": 422520,
+    "subtitle_text": "with the uh State St okay so uh then effectively you have what we have in uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0272_422520.jpg",
+    "frame_hash": "e89e30745d545e4d7d812ef3527acbc9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 273,
+    "timestamp_ms": 424909,
+    "subtitle_text": "effectively you have what we have in uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0273_424909.jpg",
+    "frame_hash": "168afaab8e7dde6b934133698b2a28ed"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 274,
+    "timestamp_ms": 424919,
+    "subtitle_text": "effectively you have what we have in uh in equation one over here okay so this",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0274_424919.jpg",
+    "frame_hash": "b9fdb981e5313a59dc398f75b74a91c2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 275,
+    "timestamp_ms": 427670,
+    "subtitle_text": "in equation one over here okay so this",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0275_427670.jpg",
+    "frame_hash": "febeed7f8ac8bc5fc23c8917aa0096be"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 277,
+    "timestamp_ms": 430790,
+    "subtitle_text": "is the prediction step um is related is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0277_430790.jpg",
+    "frame_hash": "50343c7632c3e2e2a00d5b82a554a741"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 279,
+    "timestamp_ms": 434070,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0279_434070.jpg",
+    "frame_hash": "0a05dbd0dba9af7ed349a40895bfa37d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 281,
+    "timestamp_ms": 437550,
+    "subtitle_text": "rule okay and then the other uh comment",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0281_437550.jpg",
+    "frame_hash": "caa7a7d6ac17922302b4bda18eaf4919"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 283,
+    "timestamp_ms": 450790,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0283_450790.jpg",
+    "frame_hash": "ad7405df639c75e173f855a747ca6227"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 285,
+    "timestamp_ms": 456189,
+    "subtitle_text": "uh is um related to the product rule uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0285_456189.jpg",
+    "frame_hash": "85d22d630fae75c65e15b31497f5edcf"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 287,
+    "timestamp_ms": 459070,
+    "subtitle_text": "and to the base rule as follows we know",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0287_459070.jpg",
+    "frame_hash": "103f9af22a098db9ec3118ceb60371e6"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 289,
+    "timestamp_ms": 464710,
+    "subtitle_text": "that the U product rule was uh the very",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0289_464710.jpg",
+    "frame_hash": "9fd556bb7d3ba116cde375b81dbd422c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 290,
+    "timestamp_ms": 464720,
+    "subtitle_text": "that the U product rule was uh the very much the uh P of X comma Y is equal to P",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0290_464720.jpg",
+    "frame_hash": "f9f53505ac74dbe8821f2c86aa1660c3"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 291,
+    "timestamp_ms": 469469,
+    "subtitle_text": "much the uh P of X comma Y is equal to P",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0291_469469.jpg",
+    "frame_hash": "fa10b57b23b3d90bd78cfbed36ded741"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 293,
+    "timestamp_ms": 475390,
+    "subtitle_text": "of x given y * P of Y we also know that",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0293_475390.jpg",
+    "frame_hash": "f20146f58dc045a4a5ed1c8b0c7a52b2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 295,
+    "timestamp_ms": 479510,
+    "subtitle_text": "P of Y given comma X is equal to P of Y",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0295_479510.jpg",
+    "frame_hash": "b2f66e4298f6cf465ccf849227fe83d6"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 296,
+    "timestamp_ms": 479520,
+    "subtitle_text": "P of Y given comma X is equal to P of Y given x uh time P of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0296_479520.jpg",
+    "frame_hash": "a33e1fbc12a81998d6b8ff64bd18965f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 297,
+    "timestamp_ms": 482749,
+    "subtitle_text": "given x uh time P of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0297_482749.jpg",
+    "frame_hash": "80bb773b8dc3fc36f816c71352f35d90"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 298,
+    "timestamp_ms": 482759,
+    "subtitle_text": "given x uh time P of X and so from these two given the fact",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0298_482759.jpg",
+    "frame_hash": "59958b1b8628e06d3f35a94b59b3f1db"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 299,
+    "timestamp_ms": 485670,
+    "subtitle_text": "X and so from these two given the fact",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0299_485670.jpg",
+    "frame_hash": "7b93049af26f1b34fff8656a56bb94a6"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 301,
+    "timestamp_ms": 490070,
+    "subtitle_text": "that P of X comma Y is equal to P of Y",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0301_490070.jpg",
+    "frame_hash": "ea9327474694ab3744c1ff5dd92badcf"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 303,
+    "timestamp_ms": 501390,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0303_501390.jpg",
+    "frame_hash": "bcb8a62a5e4e70740ceb10356d6c5edf"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 305,
+    "timestamp_ms": 504830,
+    "subtitle_text": "x uh we can actually",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0305_504830.jpg",
+    "frame_hash": "5330da07c510209ac1326f77fe7d5991"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 307,
+    "timestamp_ms": 507749,
+    "subtitle_text": "conclude the very important kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0307_507749.jpg",
+    "frame_hash": "98c9827a6f25d20c829adc6c5de478db"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 308,
+    "timestamp_ms": 507759,
+    "subtitle_text": "conclude the very important kind of relationship that gives us",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0308_507759.jpg",
+    "frame_hash": "53676a2afd9da3403a44a980562dcb44"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 309,
+    "timestamp_ms": 510350,
+    "subtitle_text": "relationship that gives us",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0309_510350.jpg",
+    "frame_hash": "0335a97fa7d638e429ad3f5c6940e3ed"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 311,
+    "timestamp_ms": 513149,
+    "subtitle_text": "the so-called posterior probability P of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0311_513149.jpg",
+    "frame_hash": "b19594569d3bc350cd624d5bfab48b9d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 312,
+    "timestamp_ms": 513159,
+    "subtitle_text": "the so-called posterior probability P of Y given",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0312_513159.jpg",
+    "frame_hash": "ee60ed654b8495f8161aab75f7b18908"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 313,
+    "timestamp_ms": 514389,
+    "subtitle_text": "Y given",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0313_514389.jpg",
+    "frame_hash": "a9998ea9643efcc851368ec31f391ef0"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 315,
+    "timestamp_ms": 519630,
+    "subtitle_text": "x uh is equal to P of x given y times",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0315_519630.jpg",
+    "frame_hash": "77ff41bfe76a58b90f4b002e4f8558b5"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 317,
+    "timestamp_ms": 521269,
+    "subtitle_text": "the probability of Y which is called",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0317_521269.jpg",
+    "frame_hash": "5f7a2626967c409102e5ba97d15f0c8c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 319,
+    "timestamp_ms": 526230,
+    "subtitle_text": "likelihood times the prior / P of X and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0319_526230.jpg",
+    "frame_hash": "1d87d41dabf2133e753f466af70bba06"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 321,
+    "timestamp_ms": 528710,
+    "subtitle_text": "actually we can write that as",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0321_528710.jpg",
+    "frame_hash": "2b653d64f76f7c5b04382a5e3323bbfc"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 322,
+    "timestamp_ms": 528720,
+    "subtitle_text": "actually we can write that as EA where ITA is associated with the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0322_528720.jpg",
+    "frame_hash": "9c6952629af743c675939e81bcec9f23"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 323,
+    "timestamp_ms": 532750,
+    "subtitle_text": "EA where ITA is associated with the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0323_532750.jpg",
+    "frame_hash": "f213ebfd775d7115213eb1261242d8bd"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 325,
+    "timestamp_ms": 538150,
+    "subtitle_text": "normalizing a factor 1 / P of X which is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0325_538150.jpg",
+    "frame_hash": "6062ae5fe00e8f3630d98289367d7f4d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 327,
+    "timestamp_ms": 540150,
+    "subtitle_text": "sometimes very difficult to to estimate",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0327_540150.jpg",
+    "frame_hash": "d8c05c0542c83980ce83d4180c8185ab"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 329,
+    "timestamp_ms": 542110,
+    "subtitle_text": "and but in this case we will see that",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0329_542110.jpg",
+    "frame_hash": "f454baeb58d61cdd0abf284b94e9f88c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 330,
+    "timestamp_ms": 542120,
+    "subtitle_text": "and but in this case we will see that it's kind of a straightforward for the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0330_542120.jpg",
+    "frame_hash": "250791942cfd1602a4f009581c9b7c85"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 331,
+    "timestamp_ms": 545190,
+    "subtitle_text": "it's kind of a straightforward for the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0331_545190.jpg",
+    "frame_hash": "f69f8752abaf1dd2b980187be5510a1f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 333,
+    "timestamp_ms": 549389,
+    "subtitle_text": "case of uh the case of we will do in um",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0333_549389.jpg",
+    "frame_hash": "4671d10599973d17633fc72c1834f41f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 335,
+    "timestamp_ms": 551710,
+    "subtitle_text": "it has to do with a discrete version of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0335_551710.jpg",
+    "frame_hash": "7b4f4ae63826a30a33aab096cf5a83a6"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 336,
+    "timestamp_ms": 551720,
+    "subtitle_text": "it has to do with a discrete version of this base filter which is the first",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0336_551720.jpg",
+    "frame_hash": "912c69e441a73a924f56484fe79dba6a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 337,
+    "timestamp_ms": 554310,
+    "subtitle_text": "this base filter which is the first",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0337_554310.jpg",
+    "frame_hash": "9c931b52682915395fb5c60c01c584a3"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 338,
+    "timestamp_ms": 554320,
+    "subtitle_text": "this base filter which is the first implementation we'll see in a moment",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0338_554320.jpg",
+    "frame_hash": "fe0dc0e465a6329006d5203aa8a17ba2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 339,
+    "timestamp_ms": 556389,
+    "subtitle_text": "implementation we'll see in a moment",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0339_556389.jpg",
+    "frame_hash": "2e56dcaa8640551d3535f925b8b774f3"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 341,
+    "timestamp_ms": 561949,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0341_561949.jpg",
+    "frame_hash": "dcfa8d97c82ba09806f4d0713f7088ff"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 342,
+    "timestamp_ms": 561959,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0342_561959.jpg",
+    "frame_hash": "20c4fcdb703a32f73621a19cd21a0a7e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 343,
+    "timestamp_ms": 565630,
+    "subtitle_text": "y time P of Y so here you actually can",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0343_565630.jpg",
+    "frame_hash": "3579684b3b0864062f7888ea69f82695"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 345,
+    "timestamp_ms": 568870,
+    "subtitle_text": "see that instead of X in this case we",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0345_568870.jpg",
+    "frame_hash": "af4ba9a8d689066db248e14a47e1cf0f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 347,
+    "timestamp_ms": 571790,
+    "subtitle_text": "have the me measurement z uh let me",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0347_571790.jpg",
+    "frame_hash": "4c97e617728acffa733b1e26d026f896"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 349,
+    "timestamp_ms": 577030,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0349_577030.jpg",
+    "frame_hash": "2444af2b48f86af3deed75b181d00157"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 351,
+    "timestamp_ms": 579590,
+    "subtitle_text": "measurement and instead of why we have",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0351_579590.jpg",
+    "frame_hash": "2d84944b95acc54257a7cfc35afdf893"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 353,
+    "timestamp_ms": 584030,
+    "subtitle_text": "",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0353_584030.jpg",
+    "frame_hash": "ea51d836464db1c1d88bfa07114bdaa2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 355,
+    "timestamp_ms": 588350,
+    "subtitle_text": "state um and uh so this is basically",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0355_588350.jpg",
+    "frame_hash": "aee6dc3a1443d1faec83393eb08f7369"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 357,
+    "timestamp_ms": 590990,
+    "subtitle_text": "what we have um in this U kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0357_590990.jpg",
+    "frame_hash": "c8dd6223e200f4806fbc8d4d60406a40"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 359,
+    "timestamp_ms": 595230,
+    "subtitle_text": "association between uh going uh from uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0359_595230.jpg",
+    "frame_hash": "6fddb2eb793ce889796f2890eb417605"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 361,
+    "timestamp_ms": 597389,
+    "subtitle_text": "the first step and the second step to",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0361_597389.jpg",
+    "frame_hash": "592002b2e7b20965bb8b36fee596a938"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 363,
+    "timestamp_ms": 600230,
+    "subtitle_text": "another recursion to to update",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0363_600230.jpg",
+    "frame_hash": "d85e76fc7b769e732a2a234d10d94bc6"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 365,
+    "timestamp_ms": 602269,
+    "subtitle_text": "and find the next uh version of the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0365_602269.jpg",
+    "frame_hash": "958b30484c02695a940b498ef4f882fd"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 367,
+    "timestamp_ms": 604750,
+    "subtitle_text": "state in the next time instant now",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0367_604750.jpg",
+    "frame_hash": "2f287d1e013c0312d389faf743e3d64e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 369,
+    "timestamp_ms": 606230,
+    "subtitle_text": "obviously we need to see some kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0369_606230.jpg",
+    "frame_hash": "ab4ba19f84281a04a7aa2fb244b0ce04"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 371,
+    "timestamp_ms": 607949,
+    "subtitle_text": "visualization of what's really happen to",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0371_607949.jpg",
+    "frame_hash": "90c5fae3e5dc35bf6fa252eed7d383f3"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 372,
+    "timestamp_ms": 607959,
+    "subtitle_text": "visualization of what's really happen to see why this kind of makes sense and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0372_607959.jpg",
+    "frame_hash": "95ef15f25e858ff7547564b1214f0fb4"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 373,
+    "timestamp_ms": 610470,
+    "subtitle_text": "see why this kind of makes sense and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0373_610470.jpg",
+    "frame_hash": "7b8419d0fd645ed062efc6a9ff342ddb"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 375,
+    "timestamp_ms": 612550,
+    "subtitle_text": "we'll have plenty of those and some kind",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0375_612550.jpg",
+    "frame_hash": "3849ae72e10c6915a80bbe230ea71600"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 377,
+    "timestamp_ms": 614990,
+    "subtitle_text": "of a python notebooks in the simple",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0377_614990.jpg",
+    "frame_hash": "76abe110b510ecf68239880aaab17636"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 379,
+    "timestamp_ms": 617269,
+    "subtitle_text": "single dimensional case to see what is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0379_617269.jpg",
+    "frame_hash": "2f152e8f9d02705085b81ed334560662"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 381,
+    "timestamp_ms": 621430,
+    "subtitle_text": "happening uh but in the broad uh broad",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0381_621430.jpg",
+    "frame_hash": "451b856a93d86fbf020c78158d03dc4c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 383,
+    "timestamp_ms": 625350,
+    "subtitle_text": "terms uh let's say that I am uh in a",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0383_625350.jpg",
+    "frame_hash": "478e77fe2600e2057d9e0f51e8a8fe09"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 385,
+    "timestamp_ms": 628069,
+    "subtitle_text": "room and I'm using now the localization",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0385_628069.jpg",
+    "frame_hash": "f2025611cf59e663a89d206d643f59d2"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 387,
+    "timestamp_ms": 630829,
+    "subtitle_text": "kind of use case",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0387_630829.jpg",
+    "frame_hash": "268892cde5389303f86b40c0cca26f47"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 389,
+    "timestamp_ms": 633710,
+    "subtitle_text": "let's assume that I have some kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0389_633710.jpg",
+    "frame_hash": "631badab0bc91b79e6c55db9db251525"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 390,
+    "timestamp_ms": 633720,
+    "subtitle_text": "let's assume that I have some kind of um uh furniture furniture which I'm kind",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0390_633720.jpg",
+    "frame_hash": "77523a3cf474db75b293f519bfaa1678"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 391,
+    "timestamp_ms": 637470,
+    "subtitle_text": "um uh furniture furniture which I'm kind",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0391_637470.jpg",
+    "frame_hash": "6ec6fa53372a7e633d7e011cb252ee06"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 393,
+    "timestamp_ms": 642509,
+    "subtitle_text": "of aware of U it's uh coordinates and I",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0393_642509.jpg",
+    "frame_hash": "fb2bc7761f014115d5af1fefd964ad7c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 394,
+    "timestamp_ms": 642519,
+    "subtitle_text": "of aware of U it's uh coordinates and I have if you like a robot and let's say",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0394_642519.jpg",
+    "frame_hash": "91a01a7c21d6c7858b1f2805e36781fc"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 395,
+    "timestamp_ms": 645910,
+    "subtitle_text": "have if you like a robot and let's say",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0395_645910.jpg",
+    "frame_hash": "0b6f96a9ba1dc199a3c2bad3201430ef"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 396,
+    "timestamp_ms": 645920,
+    "subtitle_text": "have if you like a robot and let's say that is located right here in this in",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0396_645920.jpg",
+    "frame_hash": "2dc9fd29e983644f4f4d925f9cbbe257"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 397,
+    "timestamp_ms": 648670,
+    "subtitle_text": "that is located right here in this in",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0397_648670.jpg",
+    "frame_hash": "20b673f490b67e1cde4f2b8bec5daea6"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 399,
+    "timestamp_ms": 651870,
+    "subtitle_text": "this cell and makes a",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0399_651870.jpg",
+    "frame_hash": "5e7eb9c01a7ac1b8cd89ba06be2336ce"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 401,
+    "timestamp_ms": 654590,
+    "subtitle_text": "move",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0401_654590.jpg",
+    "frame_hash": "3f2b133521ea381af9a06174c591fa79"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 403,
+    "timestamp_ms": 656990,
+    "subtitle_text": "um the moment that the robot makes a",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0403_656990.jpg",
+    "frame_hash": "44bf067d300b6f0cb06e43bc3b152b1a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 405,
+    "timestamp_ms": 660230,
+    "subtitle_text": "move its location without any",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0405_660230.jpg",
+    "frame_hash": "8e98d16602068eeb0cbc26762b15ee64"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 407,
+    "timestamp_ms": 661310,
+    "subtitle_text": "measurement",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0407_661310.jpg",
+    "frame_hash": "5c2ebea6a43750dadc4c6bf44cb044be"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 408,
+    "timestamp_ms": 661320,
+    "subtitle_text": "measurement information uh can be",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0408_661320.jpg",
+    "frame_hash": "68d82204a46ffe1cda24162712a3847c"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 409,
+    "timestamp_ms": 663470,
+    "subtitle_text": "information uh can be",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0409_663470.jpg",
+    "frame_hash": "4a0787f06fa448467e411ed6e4fe6653"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 411,
+    "timestamp_ms": 666030,
+    "subtitle_text": "represented by some kind of probability",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0411_666030.jpg",
+    "frame_hash": "e171eaa0b89f773cbb8b76569bd60904"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 413,
+    "timestamp_ms": 668030,
+    "subtitle_text": "distribution okay which is the posterior",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0413_668030.jpg",
+    "frame_hash": "26401055661d1a56408d22385c6cebd3"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 415,
+    "timestamp_ms": 671030,
+    "subtitle_text": "probability distribution that is my uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0415_671030.jpg",
+    "frame_hash": "ef31d5d7491a8dff823df88d50fa7172"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 417,
+    "timestamp_ms": 672069,
+    "subtitle_text": "belief",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0417_672069.jpg",
+    "frame_hash": "fccbfbd9a0e989ee462d0aa375a081bc"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 419,
+    "timestamp_ms": 675990,
+    "subtitle_text": "C the moment I I take an action uh so",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0419_675990.jpg",
+    "frame_hash": "17d033d8a49781d373ccf6281708c777"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 421,
+    "timestamp_ms": 677590,
+    "subtitle_text": "this thing is was induced this",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0421_677590.jpg",
+    "frame_hash": "8cea2f8cde01d230766dddae75927f3f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 423,
+    "timestamp_ms": 679949,
+    "subtitle_text": "transition was induced by this kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0423_679949.jpg",
+    "frame_hash": "2306e319f25c82ef956a9b712ec0f063"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 424,
+    "timestamp_ms": 679959,
+    "subtitle_text": "transition was induced by this kind of action uh and that gave raise to the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0424_679959.jpg",
+    "frame_hash": "f542a380fcf45f68978d4c16700a234a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 425,
+    "timestamp_ms": 682870,
+    "subtitle_text": "action uh and that gave raise to the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0425_682870.jpg",
+    "frame_hash": "103bb08eec18d16a855e6961d4742933"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 427,
+    "timestamp_ms": 685550,
+    "subtitle_text": "belief C obviously I have some kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0427_685550.jpg",
+    "frame_hash": "7703845faf0153a07ad6af1c9160c844"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 429,
+    "timestamp_ms": 690269,
+    "subtitle_text": "estimate uh of some belief",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0429_690269.jpg",
+    "frame_hash": "dcc8040d7862c42472b18ab97483620f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 431,
+    "timestamp_ms": 692670,
+    "subtitle_text": "uh for uh let's say the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0431_692670.jpg",
+    "frame_hash": "7fb0f6d67b4485de8d1a7ab41baa25e4"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 433,
+    "timestamp_ms": 698269,
+    "subtitle_text": "St uh minus one I have um this is my",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0433_698269.jpg",
+    "frame_hash": "4447c2b948b750c50e8152db180b2fa3"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 435,
+    "timestamp_ms": 699310,
+    "subtitle_text": "belief of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0435_699310.jpg",
+    "frame_hash": "5037f7f918d1db003254e1bca5bd3903"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 436,
+    "timestamp_ms": 699320,
+    "subtitle_text": "belief of St uh so a transition from St minus one",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0436_699320.jpg",
+    "frame_hash": "512e475fcb2adbdfba40316d87b98ae7"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 437,
+    "timestamp_ms": 702389,
+    "subtitle_text": "St uh so a transition from St minus one",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0437_702389.jpg",
+    "frame_hash": "5e5e82a6bdeecb5ca230e8a5c1d0ff72"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 439,
+    "timestamp_ms": 705430,
+    "subtitle_text": "to St and as we will see the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0439_705430.jpg",
+    "frame_hash": "a5071ec2225b70c464d154c03a84f0df"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 441,
+    "timestamp_ms": 709710,
+    "subtitle_text": "uncertainty um about the uh New State uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0441_709710.jpg",
+    "frame_hash": "8bfc6ae722961c7be17250af3bb88f3b"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 442,
+    "timestamp_ms": 709720,
+    "subtitle_text": "uncertainty um about the uh New State uh is um growing uh in the absence of any",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0442_709720.jpg",
+    "frame_hash": "f904286595ce89a06f673dd9e030a578"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 443,
+    "timestamp_ms": 713230,
+    "subtitle_text": "is um growing uh in the absence of any",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0443_713230.jpg",
+    "frame_hash": "55ddc833a24da32e0e2d75ec9e3bfe38"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 445,
+    "timestamp_ms": 717150,
+    "subtitle_text": "measurement and then uh what I do is",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0445_717150.jpg",
+    "frame_hash": "d4a05b138704a178edeac9b0689ebfd4"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 447,
+    "timestamp_ms": 719750,
+    "subtitle_text": "um uh the measurement is actually coming",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0447_719750.jpg",
+    "frame_hash": "d138bc274fa342bd13363e2dbd1947f7"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 449,
+    "timestamp_ms": 722829,
+    "subtitle_text": "in uh indicating let's say some",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0449_722829.jpg",
+    "frame_hash": "e5789418a57e694012d2ffc8c8730fb9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 451,
+    "timestamp_ms": 725350,
+    "subtitle_text": "measurement that kind of indicates how",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0451_725350.jpg",
+    "frame_hash": "b37de2d9cc6b044c49990766d4997280"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 453,
+    "timestamp_ms": 728550,
+    "subtitle_text": "in a proximity kind of sensor how close",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0453_728550.jpg",
+    "frame_hash": "e9851454042cb37343354ea5237e6a3e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 455,
+    "timestamp_ms": 730750,
+    "subtitle_text": "is this kind of new uh location with",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0455_730750.jpg",
+    "frame_hash": "6b1504908f960545fb7c3aaa17a72a24"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 457,
+    "timestamp_ms": 733710,
+    "subtitle_text": "respect to this uh object and what will",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0457_733710.jpg",
+    "frame_hash": "387da4b3c06a3ece90ad38b144be4b55"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 458,
+    "timestamp_ms": 733720,
+    "subtitle_text": "respect to this uh object and what will actually happen in the second kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0458_733720.jpg",
+    "frame_hash": "b06c7eb32141e522c0bde95fa9c5a789"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 459,
+    "timestamp_ms": 735629,
+    "subtitle_text": "actually happen in the second kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0459_735629.jpg",
+    "frame_hash": "1c6f605d8948a46ef3ea6c0919348359"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 461,
+    "timestamp_ms": 738790,
+    "subtitle_text": "Step the uncertainty uh there will be",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0461_738790.jpg",
+    "frame_hash": "477df4d2ee97d57fbd8625764d0298e9"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 463,
+    "timestamp_ms": 740269,
+    "subtitle_text": "some",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0463_740269.jpg",
+    "frame_hash": "6e1ebbec3fadcf28483098b5e9ce5c25"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 465,
+    "timestamp_ms": 745189,
+    "subtitle_text": "correction and uh maybe that correction",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0465_745189.jpg",
+    "frame_hash": "3246c82e619a2ab22783efed8f42e49e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 467,
+    "timestamp_ms": 748710,
+    "subtitle_text": "will uh uh you know be like this so this",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0467_748710.jpg",
+    "frame_hash": "9d4cd7a943c0d2ceab4cf3f8eba9e519"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 468,
+    "timestamp_ms": 748720,
+    "subtitle_text": "will uh uh you know be like this so this will be my my belief of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0468_748720.jpg",
+    "frame_hash": "c3f64d089f4db4a1ffd9dc94dda78a4a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 469,
+    "timestamp_ms": 751310,
+    "subtitle_text": "will be my my belief of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0469_751310.jpg",
+    "frame_hash": "5498ef02f7a5fee870aa98a70a655c30"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 470,
+    "timestamp_ms": 751320,
+    "subtitle_text": "will be my my belief of St and this correction as we will see",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0470_751320.jpg",
+    "frame_hash": "12086c271d4284c26573a224025adb1e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 471,
+    "timestamp_ms": 754710,
+    "subtitle_text": "St and this correction as we will see",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0471_754710.jpg",
+    "frame_hash": "c2e29a1edb84aa6813474ec8c2090940"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 472,
+    "timestamp_ms": 754720,
+    "subtitle_text": "St and this correction as we will see reduces the uncertainty uh associated",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0472_754720.jpg",
+    "frame_hash": "26ddceb8b39ae9df965e9c3fa721415e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 473,
+    "timestamp_ms": 757750,
+    "subtitle_text": "reduces the uncertainty uh associated",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0473_757750.jpg",
+    "frame_hash": "dc7021cd47fdb0b7b5be7b309d25082e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 475,
+    "timestamp_ms": 761230,
+    "subtitle_text": "with the new state so we are uh every",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0475_761230.jpg",
+    "frame_hash": "5a60373fa9da7427cb46c6c231da654f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 477,
+    "timestamp_ms": 763350,
+    "subtitle_text": "time we are moving blind as you can",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0477_763350.jpg",
+    "frame_hash": "1e43b14e2dcb5ee29b8101a658fea7a4"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 479,
+    "timestamp_ms": 766069,
+    "subtitle_text": "intuitively understand in an environment",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0479_766069.jpg",
+    "frame_hash": "ec1a3d46670b5711b43a1d9dc0d2a455"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 481,
+    "timestamp_ms": 767870,
+    "subtitle_text": "we are expanding in terms of my",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0481_767870.jpg",
+    "frame_hash": "832c971f74ca5c593a86ad1c274c137f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 483,
+    "timestamp_ms": 771030,
+    "subtitle_text": "covariance of error uh that I see about",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0483_771030.jpg",
+    "frame_hash": "d3f1e10e456b24b36f2ff50a9f5d5b85"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 485,
+    "timestamp_ms": 773389,
+    "subtitle_text": "my state represented by this kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0485_773389.jpg",
+    "frame_hash": "6fad011b602ab896993c86109bc75a9a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 487,
+    "timestamp_ms": 775750,
+    "subtitle_text": "byar Contour diagram of this byar let's",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0487_775750.jpg",
+    "frame_hash": "f9e2f6aaef54e4780446bbf75f50ad3a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 489,
+    "timestamp_ms": 778790,
+    "subtitle_text": "say gausian um and then every time that",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0489_778790.jpg",
+    "frame_hash": "b242be5a44ae9ccd5d94712016616646"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 491,
+    "timestamp_ms": 781990,
+    "subtitle_text": "I have have a measurement uh which I now",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0491_781990.jpg",
+    "frame_hash": "fae0d8c1f961dc1eb7a84af897b5656a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 493,
+    "timestamp_ms": 783590,
+    "subtitle_text": "do the correction step the measurement",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0493_783590.jpg",
+    "frame_hash": "80b33fc46eca368e5eb13c6108254087"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 495,
+    "timestamp_ms": 786629,
+    "subtitle_text": "update kind of Step that conv variance",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0495_786629.jpg",
+    "frame_hash": "a7967bff8088827c393ff8463e2aa643"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 497,
+    "timestamp_ms": 789069,
+    "subtitle_text": "uh sort of reduces and the intuition",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0497_789069.jpg",
+    "frame_hash": "f36657d8c1906bbdaace3acf317f829f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 499,
+    "timestamp_ms": 793350,
+    "subtitle_text": "behind it is that now that I have um",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0499_793350.jpg",
+    "frame_hash": "28a1302097d372f625797dac4ffcd7da"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 501,
+    "timestamp_ms": 795829,
+    "subtitle_text": "that additional kind of variable uh what",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0501_795829.jpg",
+    "frame_hash": "4cb77461d1cd45fbfa8ddafa27d3650d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 503,
+    "timestamp_ms": 799110,
+    "subtitle_text": "can I say uh more about that kind of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0503_799110.jpg",
+    "frame_hash": "8618f64965401be23163262498d6460a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 504,
+    "timestamp_ms": 799120,
+    "subtitle_text": "can I say uh more about that kind of posterior okay and definitely that kind",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0504_799120.jpg",
+    "frame_hash": "6b0831eb9d77b6e8405c518fce64bdc7"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 505,
+    "timestamp_ms": 802829,
+    "subtitle_text": "posterior okay and definitely that kind",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0505_802829.jpg",
+    "frame_hash": "89be02ee93eb0a87335dab459c226e2d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 507,
+    "timestamp_ms": 805590,
+    "subtitle_text": "of will reduce uh the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0507_805590.jpg",
+    "frame_hash": "c761f1be1687063e038962453cdb693e"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 509,
+    "timestamp_ms": 809470,
+    "subtitle_text": "um the uncertainty about my state which",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0509_809470.jpg",
+    "frame_hash": "1827db96a24352acd40f2209ca4eadbe"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 511,
+    "timestamp_ms": 811870,
+    "subtitle_text": "in this case is a localization use case",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0511_811870.jpg",
+    "frame_hash": "09cf983a3b247b88405a7b7f7d0550aa"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 513,
+    "timestamp_ms": 814790,
+    "subtitle_text": "so that is the you know whole story of",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0513_814790.jpg",
+    "frame_hash": "8bfb4e2ca3ffb000a4eecdf6c940307d"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 515,
+    "timestamp_ms": 816870,
+    "subtitle_text": "what we will see how this kind of filter",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0515_816870.jpg",
+    "frame_hash": "23b6bfbca888800fb3df6df85001fd14"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 517,
+    "timestamp_ms": 820110,
+    "subtitle_text": "operates and uh we will see now that uh",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0517_820110.jpg",
+    "frame_hash": "b51939456639522bcf6b1b8465fe33ad"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 518,
+    "timestamp_ms": 820120,
+    "subtitle_text": "operates and uh we will see now that uh very clearly in the single dimensional",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0518_820120.jpg",
+    "frame_hash": "d11f963e430e36446369e88f28b1d801"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 519,
+    "timestamp_ms": 822269,
+    "subtitle_text": "very clearly in the single dimensional",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0519_822269.jpg",
+    "frame_hash": "c08c239bc86110c845265adc93209c1f"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 521,
+    "timestamp_ms": 825069,
+    "subtitle_text": "case so what we will do now next we will",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0521_825069.jpg",
+    "frame_hash": "fb10841cfbc8e9b999c9d1b9624df0fd"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 523,
+    "timestamp_ms": 827829,
+    "subtitle_text": "uh first address two cases one is the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0523_827829.jpg",
+    "frame_hash": "aa4f809c331a3ffb429c0592705c91d6"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 525,
+    "timestamp_ms": 831110,
+    "subtitle_text": "discrete case uh and uh in the discrete",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0525_831110.jpg",
+    "frame_hash": "ccabbf0095797e1135f34c0e6f1f3b38"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 526,
+    "timestamp_ms": 831120,
+    "subtitle_text": "discrete case uh and uh in the discrete case we will see a robot uh trying to",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0526_831120.jpg",
+    "frame_hash": "e100329f8b561cde46e326548d360fde"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 527,
+    "timestamp_ms": 833990,
+    "subtitle_text": "case we will see a robot uh trying to",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0527_833990.jpg",
+    "frame_hash": "bd05a09f9ff2fe29695403e2f3fbd904"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 529,
+    "timestamp_ms": 837189,
+    "subtitle_text": "perform that kind of base filter um and",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0529_837189.jpg",
+    "frame_hash": "e138b3af3787821c54695ce821617107"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 531,
+    "timestamp_ms": 839310,
+    "subtitle_text": "then we will address The Continuous case",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0531_839310.jpg",
+    "frame_hash": "520cc35aa7092fe8365d0fe510de362a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 532,
+    "timestamp_ms": 839320,
+    "subtitle_text": "then we will address The Continuous case uh and this in the continuous case we",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0532_839320.jpg",
+    "frame_hash": "4a3148d046a682d2dee4898cb4d1a0ee"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 533,
+    "timestamp_ms": 840949,
+    "subtitle_text": "uh and this in the continuous case we",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0533_840949.jpg",
+    "frame_hash": "16ab6a4652a1df568d4489181301414a"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 534,
+    "timestamp_ms": 840959,
+    "subtitle_text": "uh and this in the continuous case we will be uh looking at gausian",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0534_840959.jpg",
+    "frame_hash": "20527f513dfe77d4964a825ca06cff82"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 535,
+    "timestamp_ms": 843749,
+    "subtitle_text": "will be uh looking at gausian",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0535_843749.jpg",
+    "frame_hash": "48e246a27a1c52cd96f0d90ebc7f1dd7"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 536,
+    "timestamp_ms": 843759,
+    "subtitle_text": "will be uh looking at gausian distributions to uh help us quantify the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0536_843759.jpg",
+    "frame_hash": "9307fd2edd9adef3d070caa64cefb3c1"
+  },
+  {
+    "video_id": "eiGC3e78JVw",
+    "frame_index": 537,
+    "timestamp_ms": 847389,
+    "subtitle_text": "distributions to uh help us quantify the",
+    "frame_path": "data/processed/eiGC3e78JVw/frame_0537_847389.jpg",
+    "frame_hash": "78f54ea2efad8fe6e510839e5bca85b7"
+  }
+]

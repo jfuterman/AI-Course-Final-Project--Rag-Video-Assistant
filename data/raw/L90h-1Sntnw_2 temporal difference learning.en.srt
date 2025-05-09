@@ -1,0 +1,4965 @@
+1
+00:00:00,640 --> 00:00:03,830
+
+in this video we now go into the second
+
+2
+00:00:03,830 --> 00:00:03,840
+in this video we now go into the second
+ 
+
+3
+00:00:03,840 --> 00:00:07,510
+in this video we now go into the second
+um sort of method of prediction we will
+
+4
+00:00:07,510 --> 00:00:07,520
+um sort of method of prediction we will
+ 
+
+5
+00:00:07,520 --> 00:00:08,870
+um sort of method of prediction we will
+address first of all the prediction
+
+6
+00:00:08,870 --> 00:00:08,880
+address first of all the prediction
+ 
+
+7
+00:00:08,880 --> 00:00:11,350
+address first of all the prediction
+problem and then the control problem uh
+
+8
+00:00:11,350 --> 00:00:11,360
+problem and then the control problem uh
+ 
+
+9
+00:00:11,360 --> 00:00:13,549
+problem and then the control problem uh
+that kind of naturally flows after Monte
+
+10
+00:00:13,549 --> 00:00:13,559
+that kind of naturally flows after Monte
+ 
+
+11
+00:00:13,559 --> 00:00:15,669
+that kind of naturally flows after Monte
+Carlo that is called temporal difference
+
+12
+00:00:15,669 --> 00:00:15,679
+Carlo that is called temporal difference
+ 
+
+13
+00:00:15,679 --> 00:00:18,429
+Carlo that is called temporal difference
+and this is kind of an important
+
+14
+00:00:18,429 --> 00:00:18,439
+and this is kind of an important
+ 
+
+15
+00:00:18,439 --> 00:00:21,310
+and this is kind of an important
+category of of of methods that that I
+
+16
+00:00:21,310 --> 00:00:21,320
+category of of of methods that that I
+ 
+
+17
+00:00:21,320 --> 00:00:23,750
+category of of of methods that that I
+think they are going to at some point
+
+18
+00:00:23,750 --> 00:00:23,760
+think they are going to at some point
+ 
+
+19
+00:00:23,760 --> 00:00:26,950
+think they are going to at some point
+merge together uh with other approaches
+
+20
+00:00:26,950 --> 00:00:26,960
+merge together uh with other approaches
+ 
+
+21
+00:00:26,960 --> 00:00:29,509
+merge together uh with other approaches
+we have seen in in in solving if you
+
+22
+00:00:29,509 --> 00:00:29,519
+we have seen in in in solving if you
+ 
+
+23
+00:00:29,519 --> 00:00:32,109
+we have seen in in in solving if you
+like a more elegantly the prediction uh
+
+24
+00:00:32,109 --> 00:00:32,119
+like a more elegantly the prediction uh
+ 
+
+25
+00:00:32,119 --> 00:00:34,950
+like a more elegantly the prediction uh
+the value function prediction problem we
+
+26
+00:00:34,950 --> 00:00:34,960
+the value function prediction problem we
+ 
+
+27
+00:00:34,960 --> 00:00:37,950
+the value function prediction problem we
+have seen in the mon car prediction that
+
+28
+00:00:37,950 --> 00:00:37,960
+have seen in the mon car prediction that
+ 
+
+29
+00:00:37,960 --> 00:00:40,150
+have seen in the mon car prediction that
+the mod carand of a value function
+
+30
+00:00:40,150 --> 00:00:40,160
+the mod carand of a value function
+ 
+
+31
+00:00:40,160 --> 00:00:42,910
+the mod carand of a value function
+update is um as
+
+32
+00:00:42,910 --> 00:00:42,920
+update is um as
+ 
+
+33
+00:00:42,920 --> 00:00:47,150
+update is um as
+follows uh let's say V
+
+34
+00:00:47,150 --> 00:00:47,160
+follows uh let's say V
+ 
+
+35
+00:00:47,160 --> 00:00:53,430
+follows uh let's say V
+uh
+
+36
+00:00:53,430 --> 00:00:53,440
+
+ 
+
+37
+00:00:53,440 --> 00:00:56,189
+
+Pi first
+
+38
+00:00:56,189 --> 00:00:56,199
+Pi first
+ 
+
+39
+00:00:56,199 --> 00:01:00,029
+Pi first
+T is uh equal
+
+40
+00:01:00,029 --> 00:01:00,039
+T is uh equal
+ 
+
+41
+00:01:00,039 --> 00:01:01,709
+T is uh equal
+V Pi of
+
+42
+00:01:01,709 --> 00:01:01,719
+V Pi of
+ 
+
+43
+00:01:01,719 --> 00:01:06,230
+V Pi of
+S Plus
+
+44
+00:01:06,230 --> 00:01:06,240
+
+ 
+
+45
+00:01:06,240 --> 00:01:10,630
+
+Alpha the return after this uh
+
+46
+00:01:10,630 --> 00:01:10,640
+Alpha the return after this uh
+ 
+
+47
+00:01:10,640 --> 00:01:12,670
+Alpha the return after this uh
+State
+
+48
+00:01:12,670 --> 00:01:12,680
+State
+ 
+
+49
+00:01:12,680 --> 00:01:16,109
+State
+minus the previous
+
+50
+00:01:16,109 --> 00:01:16,119
+minus the previous
+ 
+
+51
+00:01:16,119 --> 00:01:21,590
+minus the previous
+estimate St okay so this is um what was
+
+52
+00:01:21,590 --> 00:01:21,600
+estimate St okay so this is um what was
+ 
+
+53
+00:01:21,600 --> 00:01:24,510
+estimate St okay so this is um what was
+happening in the Monte Carlo approach
+
+54
+00:01:24,510 --> 00:01:24,520
+happening in the Monte Carlo approach
+ 
+
+55
+00:01:24,520 --> 00:01:26,990
+happening in the Monte Carlo approach
+and what we actually uh is happening in
+
+56
+00:01:26,990 --> 00:01:27,000
+and what we actually uh is happening in
+ 
+
+57
+00:01:27,000 --> 00:01:29,910
+and what we actually uh is happening in
+the temporal difference is that again of
+
+58
+00:01:29,910 --> 00:01:29,920
+the temporal difference is that again of
+ 
+
+59
+00:01:29,920 --> 00:01:31,030
+the temporal difference is that again of
+of course this means that we have to
+
+60
+00:01:31,030 --> 00:01:31,040
+of course this means that we have to
+ 
+
+61
+00:01:31,040 --> 00:01:34,469
+of course this means that we have to
+wait until the actual realization of the
+
+62
+00:01:34,469 --> 00:01:34,479
+wait until the actual realization of the
+ 
+
+63
+00:01:34,479 --> 00:01:37,109
+wait until the actual realization of the
+episode kind of happens and all and all
+
+64
+00:01:37,109 --> 00:01:37,119
+episode kind of happens and all and all
+ 
+
+65
+00:01:37,119 --> 00:01:38,910
+episode kind of happens and all and all
+the experience kind of formulated within
+
+66
+00:01:38,910 --> 00:01:38,920
+the experience kind of formulated within
+ 
+
+67
+00:01:38,920 --> 00:01:41,469
+the experience kind of formulated within
+the episode until we are able to update
+
+68
+00:01:41,469 --> 00:01:41,479
+the episode until we are able to update
+ 
+
+69
+00:01:41,479 --> 00:01:43,350
+the episode until we are able to update
+this kind of value function in the
+
+70
+00:01:43,350 --> 00:01:43,360
+this kind of value function in the
+ 
+
+71
+00:01:43,360 --> 00:01:45,709
+this kind of value function in the
+temporal difference uh what we actually
+
+72
+00:01:45,709 --> 00:01:45,719
+temporal difference uh what we actually
+ 
+
+73
+00:01:45,719 --> 00:01:49,350
+temporal difference uh what we actually
+do is we have another um sort of an
+
+74
+00:01:49,350 --> 00:01:49,360
+do is we have another um sort of an
+ 
+
+75
+00:01:49,360 --> 00:01:51,630
+do is we have another um sort of an
+advant what what it turns out to be an
+
+76
+00:01:51,630 --> 00:01:51,640
+advant what what it turns out to be an
+ 
+
+77
+00:01:51,640 --> 00:01:53,990
+advant what what it turns out to be an
+advantage is that we don't have to wait
+
+78
+00:01:53,990 --> 00:01:54,000
+advantage is that we don't have to wait
+ 
+
+79
+00:01:54,000 --> 00:01:57,469
+advantage is that we don't have to wait
+until uh the the the episode completes
+
+80
+00:01:57,469 --> 00:01:57,479
+until uh the the the episode completes
+ 
+
+81
+00:01:57,479 --> 00:02:01,350
+until uh the the the episode completes
+and the equation becomes V I of
+
+82
+00:02:01,350 --> 00:02:01,360
+and the equation becomes V I of
+ 
+
+83
+00:02:01,360 --> 00:02:06,630
+and the equation becomes V I of
+St is equal to V Pi capital V that is of
+
+84
+00:02:06,630 --> 00:02:06,640
+St is equal to V Pi capital V that is of
+ 
+
+85
+00:02:06,640 --> 00:02:08,910
+St is equal to V Pi capital V that is of
+St
+
+86
+00:02:08,910 --> 00:02:08,920
+St
+ 
+
+87
+00:02:08,920 --> 00:02:12,790
+St
+minus I'm sorry plus
+
+88
+00:02:12,790 --> 00:02:12,800
+minus I'm sorry plus
+ 
+
+89
+00:02:12,800 --> 00:02:18,190
+minus I'm sorry plus
+Alpha of uh the
+
+90
+00:02:18,190 --> 00:02:18,200
+
+ 
+
+91
+00:02:18,200 --> 00:02:21,509
+
+following uh the this
+
+92
+00:02:21,509 --> 00:02:21,519
+following uh the this
+ 
+
+93
+00:02:21,519 --> 00:02:24,630
+following uh the this
+is RT +
+
+94
+00:02:24,630 --> 00:02:24,640
+is RT +
+ 
+
+95
+00:02:24,640 --> 00:02:31,309
+is RT +
+1 plus gamma V of St + 1
+
+96
+00:02:31,309 --> 00:02:31,319
+1 plus gamma V of St + 1
+ 
+
+97
+00:02:31,319 --> 00:02:35,670
+1 plus gamma V of St + 1
+minus V of
+
+98
+00:02:35,670 --> 00:02:35,680
+minus V of
+ 
+
+99
+00:02:35,680 --> 00:02:37,190
+minus V of
+s
+
+100
+00:02:37,190 --> 00:02:37,200
+s
+ 
+
+101
+00:02:37,200 --> 00:02:39,509
+s
+now you know so what is really the big
+
+102
+00:02:39,509 --> 00:02:39,519
+now you know so what is really the big
+ 
+
+103
+00:02:39,519 --> 00:02:42,790
+now you know so what is really the big
+deal about it uh the you can consider
+
+104
+00:02:42,790 --> 00:02:42,800
+deal about it uh the you can consider
+ 
+
+105
+00:02:42,800 --> 00:02:45,270
+deal about it uh the you can consider
+the temporal difference learning um
+
+106
+00:02:45,270 --> 00:02:45,280
+the temporal difference learning um
+ 
+
+107
+00:02:45,280 --> 00:02:47,309
+the temporal difference learning um
+approach as kind of some kind of a
+
+108
+00:02:47,309 --> 00:02:47,319
+approach as kind of some kind of a
+ 
+
+109
+00:02:47,319 --> 00:02:50,030
+approach as kind of some kind of a
+hybrid between what we have we're doing
+
+110
+00:02:50,030 --> 00:02:50,040
+hybrid between what we have we're doing
+ 
+
+111
+00:02:50,040 --> 00:02:53,070
+hybrid between what we have we're doing
+in Mont Carlo and what we are doing in U
+
+112
+00:02:53,070 --> 00:02:53,080
+in Mont Carlo and what we are doing in U
+ 
+
+113
+00:02:53,080 --> 00:02:55,550
+in Mont Carlo and what we are doing in U
+a dynamic programming and in the dynamic
+
+114
+00:02:55,550 --> 00:02:55,560
+a dynamic programming and in the dynamic
+ 
+
+115
+00:02:55,560 --> 00:02:58,430
+a dynamic programming and in the dynamic
+programming kind of video we have seen
+
+116
+00:02:58,430 --> 00:02:58,440
+programming kind of video we have seen
+ 
+
+117
+00:02:58,440 --> 00:03:00,869
+programming kind of video we have seen
+that uh there is boot strapping and here
+
+118
+00:03:00,869 --> 00:03:00,879
+that uh there is boot strapping and here
+ 
+
+119
+00:03:00,879 --> 00:03:03,309
+that uh there is boot strapping and here
+you see the bootstrapping in front of
+
+120
+00:03:03,309 --> 00:03:03,319
+you see the bootstrapping in front of
+ 
+
+121
+00:03:03,319 --> 00:03:06,830
+you see the bootstrapping in front of
+you so we are using the value function
+
+122
+00:03:06,830 --> 00:03:06,840
+you so we are using the value function
+ 
+
+123
+00:03:06,840 --> 00:03:09,990
+you so we are using the value function
+of the next state and it's estimate if
+
+124
+00:03:09,990 --> 00:03:10,000
+of the next state and it's estimate if
+ 
+
+125
+00:03:10,000 --> 00:03:13,869
+of the next state and it's estimate if
+you like in order to put strap uh the
+
+126
+00:03:13,869 --> 00:03:13,879
+you like in order to put strap uh the
+ 
+
+127
+00:03:13,879 --> 00:03:16,589
+you like in order to put strap uh the
+value function of uh the state that we
+
+128
+00:03:16,589 --> 00:03:16,599
+value function of uh the state that we
+ 
+
+129
+00:03:16,599 --> 00:03:20,670
+value function of uh the state that we
+are interested in and uh and at the same
+
+130
+00:03:20,670 --> 00:03:20,680
+are interested in and uh and at the same
+ 
+
+131
+00:03:20,680 --> 00:03:24,710
+are interested in and uh and at the same
+time um we are effectively uh
+
+132
+00:03:24,710 --> 00:03:24,720
+time um we are effectively uh
+ 
+
+133
+00:03:24,720 --> 00:03:27,430
+time um we are effectively uh
+maintaining the sort of the Monte Carlo
+
+134
+00:03:27,430 --> 00:03:27,440
+maintaining the sort of the Monte Carlo
+ 
+
+135
+00:03:27,440 --> 00:03:28,869
+maintaining the sort of the Monte Carlo
+kind of approach in the sense that we
+
+136
+00:03:28,869 --> 00:03:28,879
+kind of approach in the sense that we
+ 
+
+137
+00:03:28,879 --> 00:03:30,670
+kind of approach in the sense that we
+are still
+
+138
+00:03:30,670 --> 00:03:30,680
+are still
+ 
+
+139
+00:03:30,680 --> 00:03:33,589
+are still
+um generating if you like experiences uh
+
+140
+00:03:33,589 --> 00:03:33,599
+um generating if you like experiences uh
+ 
+
+141
+00:03:33,599 --> 00:03:36,350
+um generating if you like experiences uh
+that we would like to um sort of uh
+
+142
+00:03:36,350 --> 00:03:36,360
+that we would like to um sort of uh
+ 
+
+143
+00:03:36,360 --> 00:03:39,149
+that we would like to um sort of uh
+consider in that evaluation let me WR
+
+144
+00:03:39,149 --> 00:03:39,159
+consider in that evaluation let me WR
+ 
+
+145
+00:03:39,159 --> 00:03:45,390
+consider in that evaluation let me WR
+write this down the so-called One
+
+146
+00:03:45,390 --> 00:03:45,400
+
+ 
+
+147
+00:03:45,400 --> 00:03:48,030
+
+Step more specifically we'll refer to
+
+148
+00:03:48,030 --> 00:03:48,040
+Step more specifically we'll refer to
+ 
+
+149
+00:03:48,040 --> 00:03:49,229
+Step more specifically we'll refer to
+this as
+
+150
+00:03:49,229 --> 00:03:49,239
+this as
+ 
+
+151
+00:03:49,239 --> 00:03:55,789
+this as
+td0 temporal difference methods
+
+152
+00:03:55,789 --> 00:03:55,799
+
+ 
+
+153
+00:03:55,799 --> 00:04:02,429
+
+combines the bootstrapping
+
+154
+00:04:02,429 --> 00:04:02,439
+
+ 
+
+155
+00:04:02,439 --> 00:04:04,550
+
+of dynamic
+
+156
+00:04:04,550 --> 00:04:04,560
+of dynamic
+ 
+
+157
+00:04:04,560 --> 00:04:13,470
+of dynamic
+programming and the
+
+158
+00:04:13,470 --> 00:04:13,480
+
+ 
+
+159
+00:04:13,480 --> 00:04:16,030
+
+sampling of Monte
+
+160
+00:04:16,030 --> 00:04:16,040
+sampling of Monte
+ 
+
+161
+00:04:16,040 --> 00:04:20,110
+sampling of Monte
+Carlo to give you a kind of a an example
+
+162
+00:04:20,110 --> 00:04:20,120
+Carlo to give you a kind of a an example
+ 
+
+163
+00:04:20,120 --> 00:04:21,870
+Carlo to give you a kind of a an example
+from real life that you can always kind
+
+164
+00:04:21,870 --> 00:04:21,880
+from real life that you can always kind
+ 
+
+165
+00:04:21,880 --> 00:04:25,870
+from real life that you can always kind
+of refer to um and kind of map it to
+
+166
+00:04:25,870 --> 00:04:25,880
+of refer to um and kind of map it to
+ 
+
+167
+00:04:25,880 --> 00:04:28,350
+of refer to um and kind of map it to
+that kind of equation so let's assume
+
+168
+00:04:28,350 --> 00:04:28,360
+that kind of equation so let's assume
+ 
+
+169
+00:04:28,360 --> 00:04:32,749
+that kind of equation so let's assume
+that I'm coming from um
+
+170
+00:04:32,749 --> 00:04:32,759
+that I'm coming from um
+ 
+
+171
+00:04:32,759 --> 00:04:36,390
+that I'm coming from um
+Brooklyn so let's call
+
+172
+00:04:36,390 --> 00:04:36,400
+Brooklyn so let's call
+ 
+
+173
+00:04:36,400 --> 00:04:38,950
+Brooklyn so let's call
+this uh the
+
+174
+00:04:38,950 --> 00:04:38,960
+this uh the
+ 
+
+175
+00:04:38,960 --> 00:04:44,629
+this uh the
+um SB the state that I am um in Brooklyn
+
+176
+00:04:44,629 --> 00:04:44,639
+um SB the state that I am um in Brooklyn
+ 
+
+177
+00:04:44,639 --> 00:04:49,670
+um SB the state that I am um in Brooklyn
+right now and uh at some point I need to
+
+178
+00:04:49,670 --> 00:04:49,680
+right now and uh at some point I need to
+ 
+
+179
+00:04:49,680 --> 00:04:53,150
+right now and uh at some point I need to
+uh go back to uh New Jersey in uh and
+
+180
+00:04:53,150 --> 00:04:53,160
+uh go back to uh New Jersey in uh and
+ 
+
+181
+00:04:53,160 --> 00:04:55,710
+uh go back to uh New Jersey in uh and
+and therefore I have two options either
+
+182
+00:04:55,710 --> 00:04:55,720
+and therefore I have two options either
+ 
+
+183
+00:04:55,720 --> 00:04:57,629
+and therefore I have two options either
+to take an
+
+184
+00:04:57,629 --> 00:04:57,639
+to take an
+ 
+
+185
+00:04:57,639 --> 00:05:00,230
+to take an
+action uh to go through the Brooklyn
+
+186
+00:05:00,230 --> 00:05:00,240
+action uh to go through the Brooklyn
+ 
+
+187
+00:05:00,240 --> 00:05:03,070
+action uh to go through the Brooklyn
+Bridge or to take another action and go
+
+188
+00:05:03,070 --> 00:05:03,080
+Bridge or to take another action and go
+ 
+
+189
+00:05:03,080 --> 00:05:05,350
+Bridge or to take another action and go
+through the Manhattan Bridge so that's
+
+190
+00:05:05,350 --> 00:05:05,360
+through the Manhattan Bridge so that's
+ 
+
+191
+00:05:05,360 --> 00:05:06,710
+through the Manhattan Bridge so that's
+my
+
+192
+00:05:06,710 --> 00:05:06,720
+my
+ 
+
+193
+00:05:06,720 --> 00:05:15,230
+my
+A1 and
+
+194
+00:05:15,230 --> 00:05:15,240
+
+ 
+
+195
+00:05:15,240 --> 00:05:23,189
+
+A2 and A2 is
+
+196
+00:05:23,189 --> 00:05:23,199
+
+ 
+
+197
+00:05:23,199 --> 00:05:25,670
+
+Manhattan and let's also now Define two
+
+198
+00:05:25,670 --> 00:05:25,680
+Manhattan and let's also now Define two
+ 
+
+199
+00:05:25,680 --> 00:05:29,110
+Manhattan and let's also now Define two
+other states the past Brooklyn and the
+
+200
+00:05:29,110 --> 00:05:29,120
+other states the past Brooklyn and the
+ 
+
+201
+00:05:29,120 --> 00:05:31,629
+other states the past Brooklyn and the
+past man cut and Bridge states that I
+
+202
+00:05:31,629 --> 00:05:31,639
+past man cut and Bridge states that I
+ 
+
+203
+00:05:31,639 --> 00:05:35,270
+past man cut and Bridge states that I
+end up after I kind of crossed uh those
+
+204
+00:05:35,270 --> 00:05:35,280
+end up after I kind of crossed uh those
+ 
+
+205
+00:05:35,280 --> 00:05:38,749
+end up after I kind of crossed uh those
+two Bridges so just like what happens in
+
+206
+00:05:38,749 --> 00:05:38,759
+two Bridges so just like what happens in
+ 
+
+207
+00:05:38,759 --> 00:05:41,870
+two Bridges so just like what happens in
+in kind of real life the moment you go
+
+208
+00:05:41,870 --> 00:05:41,880
+in kind of real life the moment you go
+ 
+
+209
+00:05:41,880 --> 00:05:44,830
+in kind of real life the moment you go
+through um a kind of a significant kind
+
+210
+00:05:44,830 --> 00:05:44,840
+through um a kind of a significant kind
+ 
+
+211
+00:05:44,840 --> 00:05:47,670
+through um a kind of a significant kind
+of milestone in your commute let's say
+
+212
+00:05:47,670 --> 00:05:47,680
+of milestone in your commute let's say
+ 
+
+213
+00:05:47,680 --> 00:05:50,430
+of milestone in your commute let's say
+crossing a very uh too busy kind of
+
+214
+00:05:50,430 --> 00:05:50,440
+crossing a very uh too busy kind of
+ 
+
+215
+00:05:50,440 --> 00:05:52,870
+crossing a very uh too busy kind of
+landmarks over here uh then you can
+
+216
+00:05:52,870 --> 00:05:52,880
+landmarks over here uh then you can
+ 
+
+217
+00:05:52,880 --> 00:05:54,830
+landmarks over here uh then you can
+actually update your estimate okay now
+
+218
+00:05:54,830 --> 00:05:54,840
+actually update your estimate okay now
+ 
+
+219
+00:05:54,840 --> 00:05:56,270
+actually update your estimate okay now
+that I have passed the Brooklyn Bridge
+
+220
+00:05:56,270 --> 00:05:56,280
+that I have passed the Brooklyn Bridge
+ 
+
+221
+00:05:56,280 --> 00:05:58,950
+that I have passed the Brooklyn Bridge
+now I have another uh you know 40
+
+222
+00:05:58,950 --> 00:05:58,960
+now I have another uh you know 40
+ 
+
+223
+00:05:58,960 --> 00:06:01,950
+now I have another uh you know 40
+minutes to reach my kind of destination
+
+224
+00:06:01,950 --> 00:06:01,960
+minutes to reach my kind of destination
+ 
+
+225
+00:06:01,960 --> 00:06:06,629
+minutes to reach my kind of destination
+then uh that is this value over here uh
+
+226
+00:06:06,629 --> 00:06:06,639
+then uh that is this value over here uh
+ 
+
+227
+00:06:06,639 --> 00:06:09,510
+then uh that is this value over here uh
+the fact that you uh can now update the
+
+228
+00:06:09,510 --> 00:06:09,520
+the fact that you uh can now update the
+ 
+
+229
+00:06:09,520 --> 00:06:12,390
+the fact that you uh can now update the
+SB using another guess so we are
+
+230
+00:06:12,390 --> 00:06:12,400
+SB using another guess so we are
+ 
+
+231
+00:06:12,400 --> 00:06:15,350
+SB using another guess so we are
+effectively estimating using yet another
+
+232
+00:06:15,350 --> 00:06:15,360
+effectively estimating using yet another
+ 
+
+233
+00:06:15,360 --> 00:06:16,990
+effectively estimating using yet another
+estimate and this is basically what the
+
+234
+00:06:16,990 --> 00:06:17,000
+estimate and this is basically what the
+ 
+
+235
+00:06:17,000 --> 00:06:21,350
+estimate and this is basically what the
+bootstrapping is so the um we kind of
+
+236
+00:06:21,350 --> 00:06:21,360
+bootstrapping is so the um we kind of
+ 
+
+237
+00:06:21,360 --> 00:06:24,150
+bootstrapping is so the um we kind of
+receive our reward here uh which is this
+
+238
+00:06:24,150 --> 00:06:24,160
+receive our reward here uh which is this
+ 
+
+239
+00:06:24,160 --> 00:06:27,110
+receive our reward here uh which is this
+the moment we uh sort of pass we
+
+240
+00:06:27,110 --> 00:06:27,120
+the moment we uh sort of pass we
+ 
+
+241
+00:06:27,120 --> 00:06:29,150
+the moment we uh sort of pass we
+actually taking this action and we are
+
+242
+00:06:29,150 --> 00:06:29,160
+actually taking this action and we are
+ 
+
+243
+00:06:29,160 --> 00:06:31,790
+actually taking this action and we are
+uh sort of of uh Landing into these S
+
+244
+00:06:31,790 --> 00:06:31,800
+uh sort of of uh Landing into these S
+ 
+
+245
+00:06:31,800 --> 00:06:32,790
+uh sort of of uh Landing into these S
+Prime
+
+246
+00:06:32,790 --> 00:06:32,800
+Prime
+ 
+
+247
+00:06:32,800 --> 00:06:35,909
+Prime
+States and uh we are actually using the
+
+248
+00:06:35,909 --> 00:06:35,919
+States and uh we are actually using the
+ 
+
+249
+00:06:35,919 --> 00:06:37,950
+States and uh we are actually using the
+estimates of these uh States in order
+
+250
+00:06:37,950 --> 00:06:37,960
+estimates of these uh States in order
+ 
+
+251
+00:06:37,960 --> 00:06:42,270
+estimates of these uh States in order
+for for us to uh bootstrap and update in
+
+252
+00:06:42,270 --> 00:06:42,280
+for for us to uh bootstrap and update in
+ 
+
+253
+00:06:42,280 --> 00:06:45,670
+for for us to uh bootstrap and update in
+uh the estimate of the state again we're
+
+254
+00:06:45,670 --> 00:06:45,680
+uh the estimate of the state again we're
+ 
+
+255
+00:06:45,680 --> 00:06:49,150
+uh the estimate of the state again we're
+doing uh one step unrolling uh here and
+
+256
+00:06:49,150 --> 00:06:49,160
+doing uh one step unrolling uh here and
+ 
+
+257
+00:06:49,160 --> 00:06:52,309
+doing uh one step unrolling uh here and
+this is uh the what a diff temporal
+
+258
+00:06:52,309 --> 00:06:52,319
+this is uh the what a diff temporal
+ 
+
+259
+00:06:52,319 --> 00:06:56,309
+this is uh the what a diff temporal
+difference actually is um so that's um
+
+260
+00:06:56,309 --> 00:06:56,319
+difference actually is um so that's um
+ 
+
+261
+00:06:56,319 --> 00:06:58,230
+difference actually is um so that's um
+uh so now I think we should come to the
+
+262
+00:06:58,230 --> 00:06:58,240
+uh so now I think we should come to the
+ 
+
+263
+00:06:58,240 --> 00:07:00,710
+uh so now I think we should come to the
+discussion as to
+
+264
+00:07:00,710 --> 00:07:00,720
+discussion as to
+ 
+
+265
+00:07:00,720 --> 00:07:03,589
+discussion as to
+um is that temporal difference method um
+
+266
+00:07:03,589 --> 00:07:03,599
+um is that temporal difference method um
+ 
+
+267
+00:07:03,599 --> 00:07:05,869
+um is that temporal difference method um
+has any other Advantage compared to
+
+268
+00:07:05,869 --> 00:07:05,879
+has any other Advantage compared to
+ 
+
+269
+00:07:05,879 --> 00:07:08,629
+has any other Advantage compared to
+Monto Carlo obviously we don't have to
+
+270
+00:07:08,629 --> 00:07:08,639
+Monto Carlo obviously we don't have to
+ 
+
+271
+00:07:08,639 --> 00:07:11,710
+Monto Carlo obviously we don't have to
+wait until the episode ends until uh for
+
+272
+00:07:11,710 --> 00:07:11,720
+wait until the episode ends until uh for
+ 
+
+273
+00:07:11,720 --> 00:07:14,710
+wait until the episode ends until uh for
+us to update sometimes the episodes are
+
+274
+00:07:14,710 --> 00:07:14,720
+us to update sometimes the episodes are
+ 
+
+275
+00:07:14,720 --> 00:07:19,270
+us to update sometimes the episodes are
+so long uh that uh you know the that's
+
+276
+00:07:19,270 --> 00:07:19,280
+so long uh that uh you know the that's
+ 
+
+277
+00:07:19,280 --> 00:07:21,430
+so long uh that uh you know the that's
+kind of a significant Advantage
+
+278
+00:07:21,430 --> 00:07:21,440
+kind of a significant Advantage
+ 
+
+279
+00:07:21,440 --> 00:07:22,830
+kind of a significant Advantage
+effectively making the temporal
+
+280
+00:07:22,830 --> 00:07:22,840
+effectively making the temporal
+ 
+
+281
+00:07:22,840 --> 00:07:25,350
+effectively making the temporal
+difference method I will call it as part
+
+282
+00:07:25,350 --> 00:07:25,360
+difference method I will call it as part
+ 
+
+283
+00:07:25,360 --> 00:07:27,790
+difference method I will call it as part
+of what's called online
+
+284
+00:07:27,790 --> 00:07:27,800
+of what's called online
+ 
+
+285
+00:07:27,800 --> 00:07:30,710
+of what's called online
+learning uh the other uh kind of
+
+286
+00:07:30,710 --> 00:07:30,720
+learning uh the other uh kind of
+ 
+
+287
+00:07:30,720 --> 00:07:33,950
+learning uh the other uh kind of
+significant difference is that um it
+
+288
+00:07:33,950 --> 00:07:33,960
+significant difference is that um it
+ 
+
+289
+00:07:33,960 --> 00:07:39,589
+significant difference is that um it
+turns out that uh they do converge um
+
+290
+00:07:39,589 --> 00:07:39,599
+turns out that uh they do converge um
+ 
+
+291
+00:07:39,599 --> 00:07:43,070
+turns out that uh they do converge um
+into the uh so there's not really uh any
+
+292
+00:07:43,070 --> 00:07:43,080
+into the uh so there's not really uh any
+ 
+
+293
+00:07:43,080 --> 00:07:46,749
+into the uh so there's not really uh any
+issue of using a guess or an estimate to
+
+294
+00:07:46,749 --> 00:07:46,759
+issue of using a guess or an estimate to
+ 
+
+295
+00:07:46,759 --> 00:07:49,629
+issue of using a guess or an estimate to
+bootstrap and update another estimate
+
+296
+00:07:49,629 --> 00:07:49,639
+bootstrap and update another estimate
+ 
+
+297
+00:07:49,639 --> 00:07:51,070
+bootstrap and update another estimate
+they it has been shown although we're
+
+298
+00:07:51,070 --> 00:07:51,080
+they it has been shown although we're
+ 
+
+299
+00:07:51,080 --> 00:07:53,110
+they it has been shown although we're
+not going to do the uh you know any
+
+300
+00:07:53,110 --> 00:07:53,120
+not going to do the uh you know any
+ 
+
+301
+00:07:53,120 --> 00:07:55,390
+not going to do the uh you know any
+detailed discussion here the temporal
+
+302
+00:07:55,390 --> 00:07:55,400
+detailed discussion here the temporal
+ 
+
+303
+00:07:55,400 --> 00:07:58,909
+detailed discussion here the temporal
+difference methods are uh converging and
+
+304
+00:07:58,909 --> 00:07:58,919
+difference methods are uh converging and
+ 
+
+305
+00:07:58,919 --> 00:08:02,230
+difference methods are uh converging and
+uh in in fact depending on the setting
+
+306
+00:08:02,230 --> 00:08:02,240
+uh in in fact depending on the setting
+ 
+
+307
+00:08:02,240 --> 00:08:05,230
+uh in in fact depending on the setting
+uh of uh this Alpha over there if it is
+
+308
+00:08:05,230 --> 00:08:05,240
+uh of uh this Alpha over there if it is
+ 
+
+309
+00:08:05,240 --> 00:08:08,149
+uh of uh this Alpha over there if it is
+kind of a small value it converges and
+
+310
+00:08:08,149 --> 00:08:08,159
+kind of a small value it converges and
+ 
+
+311
+00:08:08,159 --> 00:08:10,909
+kind of a small value it converges and
+and everything is fine the one thing
+
+312
+00:08:10,909 --> 00:08:10,919
+and everything is fine the one thing
+ 
+
+313
+00:08:10,919 --> 00:08:12,749
+and everything is fine the one thing
+that um you can actually see the
+
+314
+00:08:12,749 --> 00:08:12,759
+that um you can actually see the
+ 
+
+315
+00:08:12,759 --> 00:08:15,790
+that um you can actually see the
+convergence is by running an example uh
+
+316
+00:08:15,790 --> 00:08:15,800
+convergence is by running an example uh
+ 
+
+317
+00:08:15,800 --> 00:08:18,950
+convergence is by running an example uh
+in the previous video we have seen uh an
+
+318
+00:08:18,950 --> 00:08:18,960
+in the previous video we have seen uh an
+ 
+
+319
+00:08:18,960 --> 00:08:23,149
+in the previous video we have seen uh an
+a mark of reward process and uh using if
+
+320
+00:08:23,149 --> 00:08:23,159
+a mark of reward process and uh using if
+ 
+
+321
+00:08:23,159 --> 00:08:25,830
+a mark of reward process and uh using if
+you like two terminal States and I think
+
+322
+00:08:25,830 --> 00:08:25,840
+you like two terminal States and I think
+ 
+
+323
+00:08:25,840 --> 00:08:28,390
+you like two terminal States and I think
+it's worthwhile going through uh that
+
+324
+00:08:28,390 --> 00:08:28,400
+it's worthwhile going through uh that
+ 
+
+325
+00:08:28,400 --> 00:08:30,749
+it's worthwhile going through uh that
+example with with a temporal difference
+
+326
+00:08:30,749 --> 00:08:30,759
+example with with a temporal difference
+ 
+
+327
+00:08:30,759 --> 00:08:33,949
+example with with a temporal difference
+now and we've seen how the Carlo kind of
+
+328
+00:08:33,949 --> 00:08:33,959
+now and we've seen how the Carlo kind of
+ 
+
+329
+00:08:33,959 --> 00:08:36,750
+now and we've seen how the Carlo kind of
+approximates the sort of True Value
+
+330
+00:08:36,750 --> 00:08:36,760
+approximates the sort of True Value
+ 
+
+331
+00:08:36,760 --> 00:08:39,589
+approximates the sort of True Value
+function and I just want to show
+
+332
+00:08:39,589 --> 00:08:39,599
+function and I just want to show
+ 
+
+333
+00:08:39,599 --> 00:08:43,750
+function and I just want to show
+you uh the uh sort of how the Monte
+
+334
+00:08:43,750 --> 00:08:43,760
+you uh the uh sort of how the Monte
+ 
+
+335
+00:08:43,760 --> 00:08:45,350
+you uh the uh sort of how the Monte
+Carlo and temporal difference methods
+
+336
+00:08:45,350 --> 00:08:45,360
+Carlo and temporal difference methods
+ 
+
+337
+00:08:45,360 --> 00:08:46,430
+Carlo and temporal difference methods
+now
+
+338
+00:08:46,430 --> 00:08:46,440
+now
+ 
+
+339
+00:08:46,440 --> 00:08:50,070
+now
+compare and so this is where the Monte
+
+340
+00:08:50,070 --> 00:08:50,080
+compare and so this is where the Monte
+ 
+
+341
+00:08:50,080 --> 00:08:52,990
+compare and so this is where the Monte
+Carlo is depends on the values values of
+
+342
+00:08:52,990 --> 00:08:53,000
+Carlo is depends on the values values of
+ 
+
+343
+00:08:53,000 --> 00:08:57,110
+Carlo is depends on the values values of
+alpha because we are effectively um
+
+344
+00:08:57,110 --> 00:08:57,120
+alpha because we are effectively um
+ 
+
+345
+00:08:57,120 --> 00:08:59,750
+alpha because we are effectively um
+waiting until the episode uh kind of
+
+346
+00:08:59,750 --> 00:08:59,760
+waiting until the episode uh kind of
+ 
+
+347
+00:08:59,760 --> 00:09:02,990
+waiting until the episode uh kind of
+finishes uh then we have um a
+
+348
+00:09:02,990 --> 00:09:03,000
+finishes uh then we have um a
+ 
+
+349
+00:09:03,000 --> 00:09:05,790
+finishes uh then we have um a
+significant kind of I will call it
+
+350
+00:09:05,790 --> 00:09:05,800
+significant kind of I will call it
+ 
+
+351
+00:09:05,800 --> 00:09:09,670
+significant kind of I will call it
+convergence slower convergence okay so
+
+352
+00:09:09,670 --> 00:09:09,680
+convergence slower convergence okay so
+ 
+
+353
+00:09:09,680 --> 00:09:12,509
+convergence slower convergence okay so
+um as compared to temporal difference
+
+354
+00:09:12,509 --> 00:09:12,519
+um as compared to temporal difference
+ 
+
+355
+00:09:12,519 --> 00:09:15,750
+um as compared to temporal difference
+where actually we have uh you know
+
+356
+00:09:15,750 --> 00:09:15,760
+where actually we have uh you know
+ 
+
+357
+00:09:15,760 --> 00:09:18,389
+where actually we have uh you know
+definitely faster convergence and you
+
+358
+00:09:18,389 --> 00:09:18,399
+definitely faster convergence and you
+ 
+
+359
+00:09:18,399 --> 00:09:20,949
+definitely faster convergence and you
+can actually see some Behavior which
+
+360
+00:09:20,949 --> 00:09:20,959
+can actually see some Behavior which
+ 
+
+361
+00:09:20,959 --> 00:09:21,790
+can actually see some Behavior which
+kind of
+
+362
+00:09:21,790 --> 00:09:21,800
+kind of
+ 
+
+363
+00:09:21,800 --> 00:09:25,430
+kind of
+matches uh the stochastic approximation
+
+364
+00:09:25,430 --> 00:09:25,440
+matches uh the stochastic approximation
+ 
+
+365
+00:09:25,440 --> 00:09:27,550
+matches uh the stochastic approximation
+uh type of type of algorith like the
+
+366
+00:09:27,550 --> 00:09:27,560
+uh type of type of algorith like the
+ 
+
+367
+00:09:27,560 --> 00:09:30,110
+uh type of type of algorith like the
+ones that are uh those
+
+368
+00:09:30,110 --> 00:09:30,120
+ones that are uh those
+ 
+
+369
+00:09:30,120 --> 00:09:34,430
+ones that are uh those
+uh where the lower the alpha is then we
+
+370
+00:09:34,430 --> 00:09:34,440
+uh where the lower the alpha is then we
+ 
+
+371
+00:09:34,440 --> 00:09:36,550
+uh where the lower the alpha is then we
+have slower kind of convergence but then
+
+372
+00:09:36,550 --> 00:09:36,560
+have slower kind of convergence but then
+ 
+
+373
+00:09:36,560 --> 00:09:39,310
+have slower kind of convergence but then
+the residual kind of error that we
+
+374
+00:09:39,310 --> 00:09:39,320
+the residual kind of error that we
+ 
+
+375
+00:09:39,320 --> 00:09:43,069
+the residual kind of error that we
+actually get in terms of U root Min
+
+376
+00:09:43,069 --> 00:09:43,079
+actually get in terms of U root Min
+ 
+
+377
+00:09:43,079 --> 00:09:44,630
+actually get in terms of U root Min
+square error that is between the true
+
+378
+00:09:44,630 --> 00:09:44,640
+square error that is between the true
+ 
+
+379
+00:09:44,640 --> 00:09:46,949
+square error that is between the true
+function and the estimated value
+
+380
+00:09:46,949 --> 00:09:46,959
+function and the estimated value
+ 
+
+381
+00:09:46,959 --> 00:09:49,230
+function and the estimated value
+function is lower than perhaps
+
+382
+00:09:49,230 --> 00:09:49,240
+function is lower than perhaps
+ 
+
+383
+00:09:49,240 --> 00:09:52,190
+function is lower than perhaps
+converging faster um and that's kind of
+
+384
+00:09:52,190 --> 00:09:52,200
+converging faster um and that's kind of
+ 
+
+385
+00:09:52,200 --> 00:09:54,350
+converging faster um and that's kind of
+a classic Behavior with a good radios
+
+386
+00:09:54,350 --> 00:09:54,360
+a classic Behavior with a good radios
+ 
+
+387
+00:09:54,360 --> 00:09:56,470
+a classic Behavior with a good radios
+but bottom line is a temporal difference
+
+388
+00:09:56,470 --> 00:09:56,480
+but bottom line is a temporal difference
+ 
+
+389
+00:09:56,480 --> 00:09:59,430
+but bottom line is a temporal difference
+seems to be performing uh better than
+
+390
+00:09:59,430 --> 00:09:59,440
+seems to be performing uh better than
+ 
+
+391
+00:09:59,440 --> 00:10:02,350
+seems to be performing uh better than
+Monte Carlo methods before proceeding
+
+392
+00:10:02,350 --> 00:10:02,360
+Monte Carlo methods before proceeding
+ 
+
+393
+00:10:02,360 --> 00:10:04,670
+Monte Carlo methods before proceeding
+into closing this soall prediction
+
+394
+00:10:04,670 --> 00:10:04,680
+into closing this soall prediction
+ 
+
+395
+00:10:04,680 --> 00:10:06,590
+into closing this soall prediction
+problem with temporal difference
+
+396
+00:10:06,590 --> 00:10:06,600
+problem with temporal difference
+ 
+
+397
+00:10:06,600 --> 00:10:09,670
+problem with temporal difference
+learning methods I think it's worthwhile
+
+398
+00:10:09,670 --> 00:10:09,680
+learning methods I think it's worthwhile
+ 
+
+399
+00:10:09,680 --> 00:10:12,269
+learning methods I think it's worthwhile
+addressing an enhancement which kind of
+
+400
+00:10:12,269 --> 00:10:12,279
+addressing an enhancement which kind of
+ 
+
+401
+00:10:12,279 --> 00:10:14,190
+addressing an enhancement which kind of
+brides the gap between what we've seen
+
+402
+00:10:14,190 --> 00:10:14,200
+brides the gap between what we've seen
+ 
+
+403
+00:10:14,200 --> 00:10:17,470
+brides the gap between what we've seen
+in Monte Carlo and the singl step
+
+404
+00:10:17,470 --> 00:10:17,480
+in Monte Carlo and the singl step
+ 
+
+405
+00:10:17,480 --> 00:10:19,069
+in Monte Carlo and the singl step
+temporal difference learning that we
+
+406
+00:10:19,069 --> 00:10:19,079
+temporal difference learning that we
+ 
+
+407
+00:10:19,079 --> 00:10:22,190
+temporal difference learning that we
+just saw and this actually called TD of
+
+408
+00:10:22,190 --> 00:10:22,200
+just saw and this actually called TD of
+ 
+
+409
+00:10:22,200 --> 00:10:24,590
+just saw and this actually called TD of
+Lambda it's uh kind of known for for
+
+410
+00:10:24,590 --> 00:10:24,600
+Lambda it's uh kind of known for for
+ 
+
+411
+00:10:24,600 --> 00:10:26,750
+Lambda it's uh kind of known for for
+with this notation uh and we'll see
+
+412
+00:10:26,750 --> 00:10:26,760
+with this notation uh and we'll see
+ 
+
+413
+00:10:26,760 --> 00:10:28,870
+with this notation uh and we'll see
+exactly what Lambda is in a moment but
+
+414
+00:10:28,870 --> 00:10:28,880
+exactly what Lambda is in a moment but
+ 
+
+415
+00:10:28,880 --> 00:10:30,910
+exactly what Lambda is in a moment but
+the main advantage of this enhancement
+
+416
+00:10:30,910 --> 00:10:30,920
+the main advantage of this enhancement
+ 
+
+417
+00:10:30,920 --> 00:10:31,910
+the main advantage of this enhancement
+is that it
+
+418
+00:10:31,910 --> 00:10:31,920
+is that it
+ 
+
+419
+00:10:31,920 --> 00:10:36,829
+is that it
+decouples uh the uh sort of action um
+
+420
+00:10:36,829 --> 00:10:36,839
+decouples uh the uh sort of action um
+ 
+
+421
+00:10:36,839 --> 00:10:40,350
+decouples uh the uh sort of action um
+actions from uh value updates so the you
+
+422
+00:10:40,350 --> 00:10:40,360
+actions from uh value updates so the you
+ 
+
+423
+00:10:40,360 --> 00:10:43,470
+actions from uh value updates so the you
+know in the single step process we are
+
+424
+00:10:43,470 --> 00:10:43,480
+know in the single step process we are
+ 
+
+425
+00:10:43,480 --> 00:10:47,470
+know in the single step process we are
+taking an action at every uh time step
+
+426
+00:10:47,470 --> 00:10:47,480
+taking an action at every uh time step
+ 
+
+427
+00:10:47,480 --> 00:10:51,110
+taking an action at every uh time step
+and also we are updating the value uh at
+
+428
+00:10:51,110 --> 00:10:51,120
+and also we are updating the value uh at
+ 
+
+429
+00:10:51,120 --> 00:10:53,509
+and also we are updating the value uh at
+every time step and this does not really
+
+430
+00:10:53,509 --> 00:10:53,519
+every time step and this does not really
+ 
+
+431
+00:10:53,519 --> 00:10:56,389
+every time step and this does not really
+make a necessarily the best it is not
+
+432
+00:10:56,389 --> 00:10:56,399
+make a necessarily the best it is not
+ 
+
+433
+00:10:56,399 --> 00:10:58,190
+make a necessarily the best it is not
+necessarily the best choice we actually
+
+434
+00:10:58,190 --> 00:10:58,200
+necessarily the best choice we actually
+ 
+
+435
+00:10:58,200 --> 00:11:00,870
+necessarily the best choice we actually
+you may well prefer to keep uh the
+
+436
+00:11:00,870 --> 00:11:00,880
+you may well prefer to keep uh the
+ 
+
+437
+00:11:00,880 --> 00:11:02,790
+you may well prefer to keep uh the
+actions coming in as frequently as
+
+438
+00:11:02,790 --> 00:11:02,800
+actions coming in as frequently as
+ 
+
+439
+00:11:02,800 --> 00:11:06,150
+actions coming in as frequently as
+possible but at the same time to uh only
+
+440
+00:11:06,150 --> 00:11:06,160
+possible but at the same time to uh only
+ 
+
+441
+00:11:06,160 --> 00:11:08,350
+possible but at the same time to uh only
+update States when there are significant
+
+442
+00:11:08,350 --> 00:11:08,360
+update States when there are significant
+ 
+
+443
+00:11:08,360 --> 00:11:10,750
+update States when there are significant
+updates that taking place and not every
+
+444
+00:11:10,750 --> 00:11:10,760
+updates that taking place and not every
+ 
+
+445
+00:11:10,760 --> 00:11:12,310
+updates that taking place and not every
+time
+
+446
+00:11:12,310 --> 00:11:12,320
+time
+ 
+
+447
+00:11:12,320 --> 00:11:15,190
+time
+step one small correction I wanted to
+
+448
+00:11:15,190 --> 00:11:15,200
+step one small correction I wanted to
+ 
+
+449
+00:11:15,200 --> 00:11:19,150
+step one small correction I wanted to
+post on the formula of the return the
+
+450
+00:11:19,150 --> 00:11:19,160
+post on the formula of the return the
+ 
+
+451
+00:11:19,160 --> 00:11:21,710
+post on the formula of the return the
+right formula is actually this one and
+
+452
+00:11:21,710 --> 00:11:21,720
+right formula is actually this one and
+ 
+
+453
+00:11:21,720 --> 00:11:24,110
+right formula is actually this one and
+uh this correction was needed because
+
+454
+00:11:24,110 --> 00:11:24,120
+uh this correction was needed because
+ 
+
+455
+00:11:24,120 --> 00:11:27,590
+uh this correction was needed because
+when we went to episodic experiences
+
+456
+00:11:27,590 --> 00:11:27,600
+when we went to episodic experiences
+ 
+
+457
+00:11:27,600 --> 00:11:30,190
+when we went to episodic experiences
+later on in reinforcement learning
+
+458
+00:11:30,190 --> 00:11:30,200
+later on in reinforcement learning
+ 
+
+459
+00:11:30,200 --> 00:11:32,190
+later on in reinforcement learning
+uh we uh kind of discovered that this
+
+460
+00:11:32,190 --> 00:11:32,200
+uh we uh kind of discovered that this
+ 
+
+461
+00:11:32,200 --> 00:11:34,389
+uh we uh kind of discovered that this
+was an incorrect formula so there was a
+
+462
+00:11:34,389 --> 00:11:34,399
+was an incorrect formula so there was a
+ 
+
+463
+00:11:34,399 --> 00:11:36,990
+was an incorrect formula so there was a
+couple of typos here uh so that's the
+
+464
+00:11:36,990 --> 00:11:37,000
+couple of typos here uh so that's the
+ 
+
+465
+00:11:37,000 --> 00:11:39,350
+couple of typos here uh so that's the
+right one so I'm going to post that uh
+
+466
+00:11:39,350 --> 00:11:39,360
+right one so I'm going to post that uh
+ 
+
+467
+00:11:39,360 --> 00:11:43,629
+right one so I'm going to post that uh
+on the MTP uh section uh and we have not
+
+468
+00:11:43,629 --> 00:11:43,639
+on the MTP uh section uh and we have not
+ 
+
+469
+00:11:43,639 --> 00:11:45,710
+on the MTP uh section uh and we have not
+really used explicitly this form of that
+
+470
+00:11:45,710 --> 00:11:45,720
+really used explicitly this form of that
+ 
+
+471
+00:11:45,720 --> 00:11:48,550
+really used explicitly this form of that
+formula anyway in a subsequent kind of
+
+472
+00:11:48,550 --> 00:11:48,560
+formula anyway in a subsequent kind of
+ 
+
+473
+00:11:48,560 --> 00:11:51,629
+formula anyway in a subsequent kind of
+discussion so I think we should be okay
+
+474
+00:11:51,629 --> 00:11:51,639
+discussion so I think we should be okay
+ 
+
+475
+00:11:51,639 --> 00:11:53,750
+discussion so I think we should be okay
+and this is another uh place where we
+
+476
+00:11:53,750 --> 00:11:53,760
+and this is another uh place where we
+ 
+
+477
+00:11:53,760 --> 00:11:56,030
+and this is another uh place where we
+have actually had a couple of typos on
+
+478
+00:11:56,030 --> 00:11:56,040
+have actually had a couple of typos on
+ 
+
+479
+00:11:56,040 --> 00:11:59,550
+have actually had a couple of typos on
+the return uh now when we have an
+
+480
+00:11:59,550 --> 00:11:59,560
+the return uh now when we have an
+ 
+
+481
+00:11:59,560 --> 00:12:02,670
+the return uh now when we have an
+episode capital T of duration capital T
+
+482
+00:12:02,670 --> 00:12:02,680
+episode capital T of duration capital T
+ 
+
+483
+00:12:02,680 --> 00:12:04,790
+episode capital T of duration capital T
+and uh we are effectively calculating
+
+484
+00:12:04,790 --> 00:12:04,800
+and uh we are effectively calculating
+ 
+
+485
+00:12:04,800 --> 00:12:07,990
+and uh we are effectively calculating
+the return starting from uh when we are
+
+486
+00:12:07,990 --> 00:12:08,000
+the return starting from uh when we are
+ 
+
+487
+00:12:08,000 --> 00:12:11,509
+the return starting from uh when we are
+at State at time step t Okay so that's
+
+488
+00:12:11,509 --> 00:12:11,519
+at State at time step t Okay so that's
+ 
+
+489
+00:12:11,519 --> 00:12:13,710
+at State at time step t Okay so that's
+uh that's the second uh type over there
+
+490
+00:12:13,710 --> 00:12:13,720
+uh that's the second uh type over there
+ 
+
+491
+00:12:13,720 --> 00:12:15,949
+uh that's the second uh type over there
+that we uh need to be aware of and this
+
+492
+00:12:15,949 --> 00:12:15,959
+that we uh need to be aware of and this
+ 
+
+493
+00:12:15,959 --> 00:12:18,670
+that we uh need to be aware of and this
+one will actually uh carry over uh when
+
+494
+00:12:18,670 --> 00:12:18,680
+one will actually uh carry over uh when
+ 
+
+495
+00:12:18,680 --> 00:12:22,790
+one will actually uh carry over uh when
+we're discussing uh now the uh returns
+
+496
+00:12:22,790 --> 00:12:22,800
+we're discussing uh now the uh returns
+ 
+
+497
+00:12:22,800 --> 00:12:25,430
+we're discussing uh now the uh returns
+uh for uh multiple steps multiple step
+
+498
+00:12:25,430 --> 00:12:25,440
+uh for uh multiple steps multiple step
+ 
+
+499
+00:12:25,440 --> 00:12:27,470
+uh for uh multiple steps multiple step
+time diff uh different temporal
+
+500
+00:12:27,470 --> 00:12:27,480
+time diff uh different temporal
+ 
+
+501
+00:12:27,480 --> 00:12:30,150
+time diff uh different temporal
+difference uh methods
+
+502
+00:12:30,150 --> 00:12:30,160
+difference uh methods
+ 
+
+503
+00:12:30,160 --> 00:12:35,110
+difference uh methods
+so after end
+
+504
+00:12:35,110 --> 00:12:35,120
+
+ 
+
+505
+00:12:35,120 --> 00:12:37,949
+
+steps our return actually will be uh
+
+506
+00:12:37,949 --> 00:12:37,959
+steps our return actually will be uh
+ 
+
+507
+00:12:37,959 --> 00:12:41,150
+steps our return actually will be uh
+written as GT let me write it as uh
+
+508
+00:12:41,150 --> 00:12:41,160
+written as GT let me write it as uh
+ 
+
+509
+00:12:41,160 --> 00:12:45,550
+written as GT let me write it as uh
+after end steps it will be RT + 1+ GMA
+
+510
+00:12:45,550 --> 00:12:45,560
+after end steps it will be RT + 1+ GMA
+ 
+
+511
+00:12:45,560 --> 00:12:51,670
+after end steps it will be RT + 1+ GMA
+RT + 2 plus dot dot dot plus gamma to
+
+512
+00:12:51,670 --> 00:12:51,680
+RT + 2 plus dot dot dot plus gamma to
+ 
+
+513
+00:12:51,680 --> 00:12:55,430
+RT + 2 plus dot dot dot plus gamma to
+the power of n minus1 r of t +
+
+514
+00:12:55,430 --> 00:12:55,440
+the power of n minus1 r of t +
+ 
+
+515
+00:12:55,440 --> 00:13:00,910
+the power of n minus1 r of t +
+n plus gamma n
+
+516
+00:13:00,910 --> 00:13:00,920
+n plus gamma n
+ 
+
+517
+00:13:00,920 --> 00:13:05,910
+n plus gamma n
+v s of t plus n so I actually wrote also
+
+518
+00:13:05,910 --> 00:13:05,920
+v s of t plus n so I actually wrote also
+ 
+
+519
+00:13:05,920 --> 00:13:09,910
+v s of t plus n so I actually wrote also
+uh and then I kind of recorded uh some
+
+520
+00:13:09,910 --> 00:13:09,920
+uh and then I kind of recorded uh some
+ 
+
+521
+00:13:09,920 --> 00:13:12,710
+uh and then I kind of recorded uh some
+other um equation this equation is
+
+522
+00:13:12,710 --> 00:13:12,720
+other um equation this equation is
+ 
+
+523
+00:13:12,720 --> 00:13:14,230
+other um equation this equation is
+effectively the one that kind of
+
+524
+00:13:14,230 --> 00:13:14,240
+effectively the one that kind of
+ 
+
+525
+00:13:14,240 --> 00:13:17,230
+effectively the one that kind of
+summarizes how we will actually be using
+
+526
+00:13:17,230 --> 00:13:17,240
+summarizes how we will actually be using
+ 
+
+527
+00:13:17,240 --> 00:13:21,350
+summarizes how we will actually be using
+the endstep return uh in the updated
+
+528
+00:13:21,350 --> 00:13:21,360
+the endstep return uh in the updated
+ 
+
+529
+00:13:21,360 --> 00:13:25,629
+the endstep return uh in the updated
+equation for um the the N step uh
+
+530
+00:13:25,629 --> 00:13:25,639
+equation for um the the N step uh
+ 
+
+531
+00:13:25,639 --> 00:13:27,870
+equation for um the the N step uh
+temporal difference method and as you
+
+532
+00:13:27,870 --> 00:13:27,880
+temporal difference method and as you
+ 
+
+533
+00:13:27,880 --> 00:13:29,269
+temporal difference method and as you
+can see the only thing that actually
+
+534
+00:13:29,269 --> 00:13:29,279
+can see the only thing that actually
+ 
+
+535
+00:13:29,279 --> 00:13:32,670
+can see the only thing that actually
+changes over here is that uh instead of
+
+536
+00:13:32,670 --> 00:13:32,680
+changes over here is that uh instead of
+ 
+
+537
+00:13:32,680 --> 00:13:35,870
+changes over here is that uh instead of
+having this uh term which is actually we
+
+538
+00:13:35,870 --> 00:13:35,880
+having this uh term which is actually we
+ 
+
+539
+00:13:35,880 --> 00:13:40,870
+having this uh term which is actually we
+call TD Target uh we have the end uh
+
+540
+00:13:40,870 --> 00:13:40,880
+call TD Target uh we have the end uh
+ 
+
+541
+00:13:40,880 --> 00:13:43,710
+call TD Target uh we have the end uh
+return the endep return in its place so
+
+542
+00:13:43,710 --> 00:13:43,720
+return the endep return in its place so
+ 
+
+543
+00:13:43,720 --> 00:13:45,710
+return the endep return in its place so
+the endstep return in its place for n is
+
+544
+00:13:45,710 --> 00:13:45,720
+the endstep return in its place for n is
+ 
+
+545
+00:13:45,720 --> 00:13:50,269
+the endstep return in its place for n is
+equal to 1 effectively it is the RT + 1
+
+546
+00:13:50,269 --> 00:13:50,279
+equal to 1 effectively it is the RT + 1
+ 
+
+547
+00:13:50,279 --> 00:13:54,710
+equal to 1 effectively it is the RT + 1
++ gamma V St + 1 so we are back into the
+
+548
+00:13:54,710 --> 00:13:54,720
++ gamma V St + 1 so we are back into the
+ 
+
+549
+00:13:54,720 --> 00:13:57,110
++ gamma V St + 1 so we are back into the
+TD uh zero as we'll call it we
+
+550
+00:13:57,110 --> 00:13:57,120
+TD uh zero as we'll call it we
+ 
+
+551
+00:13:57,120 --> 00:13:59,269
+TD uh zero as we'll call it we
+understand exactly why the zero the
+
+552
+00:13:59,269 --> 00:13:59,279
+understand exactly why the zero the
+ 
+
+553
+00:13:59,279 --> 00:14:01,150
+understand exactly why the zero the
+Lambda is equal Z corresponds to this
+
+554
+00:14:01,150 --> 00:14:01,160
+Lambda is equal Z corresponds to this
+ 
+
+555
+00:14:01,160 --> 00:14:05,350
+Lambda is equal Z corresponds to this
+case U and uh and that's basically the
+
+556
+00:14:05,350 --> 00:14:05,360
+case U and uh and that's basically the
+ 
+
+557
+00:14:05,360 --> 00:14:08,350
+case U and uh and that's basically the
+uh sort of the the the end result of the
+
+558
+00:14:08,350 --> 00:14:08,360
+uh sort of the the the end result of the
+ 
+
+559
+00:14:08,360 --> 00:14:11,790
+uh sort of the the the end result of the
+endep return so now we can actually uh
+
+560
+00:14:11,790 --> 00:14:11,800
+endep return so now we can actually uh
+ 
+
+561
+00:14:11,800 --> 00:14:15,310
+endep return so now we can actually uh
+decouple uh the um estimate of the value
+
+562
+00:14:15,310 --> 00:14:15,320
+decouple uh the um estimate of the value
+ 
+
+563
+00:14:15,320 --> 00:14:17,509
+decouple uh the um estimate of the value
+function and the bootstrapping actually
+
+564
+00:14:17,509 --> 00:14:17,519
+function and the bootstrapping actually
+ 
+
+565
+00:14:17,519 --> 00:14:21,829
+function and the bootstrapping actually
+we do over there uh for and and the um
+
+566
+00:14:21,829 --> 00:14:21,839
+we do over there uh for and and the um
+ 
+
+567
+00:14:21,839 --> 00:14:24,310
+we do over there uh for and and the um
+and and and the sort of action that we
+
+568
+00:14:24,310 --> 00:14:24,320
+and and and the sort of action that we
+ 
+
+569
+00:14:24,320 --> 00:14:26,150
+and and and the sort of action that we
+are taking so we can continue take the
+
+570
+00:14:26,150 --> 00:14:26,160
+are taking so we can continue take the
+ 
+
+571
+00:14:26,160 --> 00:14:29,509
+are taking so we can continue take the
+actions at every step and uh uh while we
+
+572
+00:14:29,509 --> 00:14:29,519
+actions at every step and uh uh while we
+ 
+
+573
+00:14:29,519 --> 00:14:32,550
+actions at every step and uh uh while we
+will be updating after end steps uh the
+
+574
+00:14:32,550 --> 00:14:32,560
+will be updating after end steps uh the
+ 
+
+575
+00:14:32,560 --> 00:14:34,550
+will be updating after end steps uh the
+value function okay so that's basically
+
+576
+00:14:34,550 --> 00:14:34,560
+value function okay so that's basically
+ 
+
+577
+00:14:34,560 --> 00:14:36,949
+value function okay so that's basically
+that equation allows us to do so now out
+
+578
+00:14:36,949 --> 00:14:36,959
+that equation allows us to do so now out
+ 
+
+579
+00:14:36,959 --> 00:14:40,230
+that equation allows us to do so now out
+of some uh studies which are not going
+
+580
+00:14:40,230 --> 00:14:40,240
+of some uh studies which are not going
+ 
+
+581
+00:14:40,240 --> 00:14:42,990
+of some uh studies which are not going
+to be presented here uh but they are
+
+582
+00:14:42,990 --> 00:14:43,000
+to be presented here uh but they are
+ 
+
+583
+00:14:43,000 --> 00:14:46,110
+to be presented here uh but they are
+definitely included in the uh Saturn's
+
+584
+00:14:46,110 --> 00:14:46,120
+definitely included in the uh Saturn's
+ 
+
+585
+00:14:46,120 --> 00:14:47,790
+definitely included in the uh Saturn's
+book for those who are interested to
+
+586
+00:14:47,790 --> 00:14:47,800
+book for those who are interested to
+ 
+
+587
+00:14:47,800 --> 00:14:50,749
+book for those who are interested to
+Deep dive a bit uh further they have
+
+588
+00:14:50,749 --> 00:14:50,759
+Deep dive a bit uh further they have
+ 
+
+589
+00:14:50,759 --> 00:14:54,269
+Deep dive a bit uh further they have
+shown that the way that the um end step
+
+590
+00:14:54,269 --> 00:14:54,279
+shown that the way that the um end step
+ 
+
+591
+00:14:54,279 --> 00:14:56,069
+shown that the way that the um end step
+what is really the best end to choose
+
+592
+00:14:56,069 --> 00:14:56,079
+what is really the best end to choose
+ 
+
+593
+00:14:56,079 --> 00:14:57,910
+what is really the best end to choose
+okay so it's basically uh is it the
+
+594
+00:14:57,910 --> 00:14:57,920
+okay so it's basically uh is it the
+ 
+
+595
+00:14:57,920 --> 00:14:59,550
+okay so it's basically uh is it the
+hyper parameter how we are actually go
+
+596
+00:14:59,550 --> 00:14:59,560
+hyper parameter how we are actually go
+ 
+
+597
+00:14:59,560 --> 00:15:02,949
+hyper parameter how we are actually go
+about defining this hyperparameter and
+
+598
+00:15:02,949 --> 00:15:02,959
+about defining this hyperparameter and
+ 
+
+599
+00:15:02,959 --> 00:15:05,550
+about defining this hyperparameter and
+what actually has been found is that uh
+
+600
+00:15:05,550 --> 00:15:05,560
+what actually has been found is that uh
+ 
+
+601
+00:15:05,560 --> 00:15:08,189
+what actually has been found is that uh
+there are certain kind of trade-offs uh
+
+602
+00:15:08,189 --> 00:15:08,199
+there are certain kind of trade-offs uh
+ 
+
+603
+00:15:08,199 --> 00:15:10,749
+there are certain kind of trade-offs uh
+uh between choosing the sort of n is
+
+604
+00:15:10,749 --> 00:15:10,759
+uh between choosing the sort of n is
+ 
+
+605
+00:15:10,759 --> 00:15:12,910
+uh between choosing the sort of n is
+equal to one the one step and having
+
+606
+00:15:12,910 --> 00:15:12,920
+equal to one the one step and having
+ 
+
+607
+00:15:12,920 --> 00:15:15,870
+equal to one the one step and having
+large n and as you can understand and
+
+608
+00:15:15,870 --> 00:15:15,880
+large n and as you can understand and
+ 
+
+609
+00:15:15,880 --> 00:15:18,550
+large n and as you can understand and
+the algorith that we are effectively
+
+610
+00:15:18,550 --> 00:15:18,560
+the algorith that we are effectively
+ 
+
+611
+00:15:18,560 --> 00:15:20,949
+the algorith that we are effectively
+concluded um out of this discussion is
+
+612
+00:15:20,949 --> 00:15:20,959
+concluded um out of this discussion is
+ 
+
+613
+00:15:20,959 --> 00:15:22,829
+concluded um out of this discussion is
+just called the TD Lambda algorith which
+
+614
+00:15:22,829 --> 00:15:22,839
+just called the TD Lambda algorith which
+ 
+
+615
+00:15:22,839 --> 00:15:25,230
+just called the TD Lambda algorith which
+is basically what it does is that
+
+616
+00:15:25,230 --> 00:15:25,240
+is basically what it does is that
+ 
+
+617
+00:15:25,240 --> 00:15:28,150
+is basically what it does is that
+instead of selecting one out of the N it
+
+618
+00:15:28,150 --> 00:15:28,160
+instead of selecting one out of the N it
+ 
+
+619
+00:15:28,160 --> 00:15:30,069
+instead of selecting one out of the N it
+tries to average
+
+620
+00:15:30,069 --> 00:15:30,079
+tries to average
+ 
+
+621
+00:15:30,079 --> 00:15:33,829
+tries to average
+many uh returns endep returns many ends
+
+622
+00:15:33,829 --> 00:15:33,839
+many uh returns endep returns many ends
+ 
+
+623
+00:15:33,839 --> 00:15:35,470
+many uh returns endep returns many ends
+in other words so the let's call it the
+
+624
+00:15:35,470 --> 00:15:35,480
+in other words so the let's call it the
+ 
+
+625
+00:15:35,480 --> 00:15:37,230
+in other words so the let's call it the
+many end kind of algorith or Lambda
+
+626
+00:15:37,230 --> 00:15:37,240
+many end kind of algorith or Lambda
+ 
+
+627
+00:15:37,240 --> 00:15:39,990
+many end kind of algorith or Lambda
+algorithm and the way that it is um uh
+
+628
+00:15:39,990 --> 00:15:40,000
+algorithm and the way that it is um uh
+ 
+
+629
+00:15:40,000 --> 00:15:40,990
+algorithm and the way that it is um uh
+being
+
+630
+00:15:40,990 --> 00:15:41,000
+being
+ 
+
+631
+00:15:41,000 --> 00:15:43,910
+being
+presented is that uh we are actually
+
+632
+00:15:43,910 --> 00:15:43,920
+presented is that uh we are actually
+ 
+
+633
+00:15:43,920 --> 00:15:48,590
+presented is that uh we are actually
+defining the average return with a a
+
+634
+00:15:48,590 --> 00:15:48,600
+defining the average return with a a
+ 
+
+635
+00:15:48,600 --> 00:15:51,430
+defining the average return with a a
+weight that it is uh negative
+
+636
+00:15:51,430 --> 00:15:51,440
+weight that it is uh negative
+ 
+
+637
+00:15:51,440 --> 00:15:53,470
+weight that it is uh negative
+exponential as it actually shown and of
+
+638
+00:15:53,470 --> 00:15:53,480
+exponential as it actually shown and of
+ 
+
+639
+00:15:53,480 --> 00:15:57,389
+exponential as it actually shown and of
+course applies up to uh it is such that
+
+640
+00:15:57,389 --> 00:15:57,399
+course applies up to uh it is such that
+ 
+
+641
+00:15:57,399 --> 00:15:59,189
+course applies up to uh it is such that
+the summation of all the weights in is
+
+642
+00:15:59,189 --> 00:15:59,199
+the summation of all the weights in is
+ 
+
+643
+00:15:59,199 --> 00:16:02,749
+the summation of all the weights in is
+averaging sometimes to one and uh the
+
+644
+00:16:02,749 --> 00:16:02,759
+averaging sometimes to one and uh the
+ 
+
+645
+00:16:02,759 --> 00:16:07,110
+averaging sometimes to one and uh the
+equation of the waiting of the returns
+
+646
+00:16:07,110 --> 00:16:07,120
+equation of the waiting of the returns
+ 
+
+647
+00:16:07,120 --> 00:16:09,590
+equation of the waiting of the returns
+to average them is this equation over
+
+648
+00:16:09,590 --> 00:16:09,600
+to average them is this equation over
+ 
+
+649
+00:16:09,600 --> 00:16:11,749
+to average them is this equation over
+here which is the way it is actually
+
+650
+00:16:11,749 --> 00:16:11,759
+here which is the way it is actually
+ 
+
+651
+00:16:11,759 --> 00:16:14,749
+here which is the way it is actually
+plotted over here uh on the as a as a
+
+652
+00:16:14,749 --> 00:16:14,759
+plotted over here uh on the as a as a
+ 
+
+653
+00:16:14,759 --> 00:16:17,509
+plotted over here uh on the as a as a
+time as a Time index a Time step index
+
+654
+00:16:17,509 --> 00:16:17,519
+time as a Time index a Time step index
+ 
+
+655
+00:16:17,519 --> 00:16:21,150
+time as a Time index a Time step index
+up to the of course the um uh episode
+
+656
+00:16:21,150 --> 00:16:21,160
+up to the of course the um uh episode
+ 
+
+657
+00:16:21,160 --> 00:16:23,550
+up to the of course the um uh episode
+kind of length and now let's write down
+
+658
+00:16:23,550 --> 00:16:23,560
+kind of length and now let's write down
+ 
+
+659
+00:16:23,560 --> 00:16:26,749
+kind of length and now let's write down
+the final uh kind of TD Lambda uh update
+
+660
+00:16:26,749 --> 00:16:26,759
+the final uh kind of TD Lambda uh update
+ 
+
+661
+00:16:26,759 --> 00:16:29,590
+the final uh kind of TD Lambda uh update
+equation and also show that with Lambda
+
+662
+00:16:29,590 --> 00:16:29,600
+equation and also show that with Lambda
+ 
+
+663
+00:16:29,600 --> 00:16:31,629
+equation and also show that with Lambda
+is equal to Z this corresponds to the
+
+664
+00:16:31,629 --> 00:16:31,639
+is equal to Z this corresponds to the
+ 
+
+665
+00:16:31,639 --> 00:16:34,189
+is equal to Z this corresponds to the
+one step temporal difference also known
+
+666
+00:16:34,189 --> 00:16:34,199
+one step temporal difference also known
+ 
+
+667
+00:16:34,199 --> 00:16:37,150
+one step temporal difference also known
+as TD of Zer and with Lambda is equal to
+
+668
+00:16:37,150 --> 00:16:37,160
+as TD of Zer and with Lambda is equal to
+ 
+
+669
+00:16:37,160 --> 00:16:41,030
+as TD of Zer and with Lambda is equal to
+one is roughly equivalent to the Monte
+
+670
+00:16:41,030 --> 00:16:41,040
+one is roughly equivalent to the Monte
+ 
+
+671
+00:16:41,040 --> 00:16:44,069
+one is roughly equivalent to the Monte
+Carlo so the equation is
+
+672
+00:16:44,069 --> 00:16:44,079
+Carlo so the equation is
+ 
+
+673
+00:16:44,079 --> 00:16:48,110
+Carlo so the equation is
+V let say t+
+
+674
+00:16:48,110 --> 00:16:48,120
+V let say t+
+ 
+
+675
+00:16:48,120 --> 00:16:51,150
+V let say t+
+n since we were also adding policy Pi
+
+676
+00:16:51,150 --> 00:16:51,160
+n since we were also adding policy Pi
+ 
+
+677
+00:16:51,160 --> 00:16:55,389
+n since we were also adding policy Pi
+let's add it s is equal to
+
+678
+00:16:55,389 --> 00:16:55,399
+let's add it s is equal to
+ 
+
+679
+00:16:55,399 --> 00:17:01,629
+let's add it s is equal to
+v t + nus1
+
+680
+00:17:01,629 --> 00:17:01,639
+
+ 
+
+681
+00:17:01,639 --> 00:17:04,590
+
+of S Plus
+
+682
+00:17:04,590 --> 00:17:04,600
+of S Plus
+ 
+
+683
+00:17:04,600 --> 00:17:06,909
+of S Plus
+Alpha
+
+684
+00:17:06,909 --> 00:17:06,919
+Alpha
+ 
+
+685
+00:17:06,919 --> 00:17:08,470
+Alpha
+g
+
+686
+00:17:08,470 --> 00:17:08,480
+g
+ 
+
+687
+00:17:08,480 --> 00:17:12,230
+g
+t of
+
+688
+00:17:12,230 --> 00:17:12,240
+
+ 
+
+689
+00:17:12,240 --> 00:17:16,029
+
+Lambda
+
+690
+00:17:16,029 --> 00:17:16,039
+
+ 
+
+691
+00:17:16,039 --> 00:17:20,150
+
+minus uh uh
+
+692
+00:17:20,150 --> 00:17:20,160
+minus uh uh
+ 
+
+693
+00:17:20,160 --> 00:17:24,750
+minus uh uh
+V uh of t + N - one
+
+694
+00:17:24,750 --> 00:17:24,760
+V uh of t + N - one
+ 
+
+695
+00:17:24,760 --> 00:17:26,909
+V uh of t + N - one
+Pi of
+
+696
+00:17:26,909 --> 00:17:26,919
+Pi of
+ 
+
+697
+00:17:26,919 --> 00:17:30,310
+Pi of
+s okay so that this is the equation and
+
+698
+00:17:30,310 --> 00:17:30,320
+s okay so that this is the equation and
+ 
+
+699
+00:17:30,320 --> 00:17:34,190
+s okay so that this is the equation and
+now um we said that we're going to uh
+
+700
+00:17:34,190 --> 00:17:34,200
+now um we said that we're going to uh
+ 
+
+701
+00:17:34,200 --> 00:17:36,190
+now um we said that we're going to uh
+Define also the GT of
+
+702
+00:17:36,190 --> 00:17:36,200
+Define also the GT of
+ 
+
+703
+00:17:36,200 --> 00:17:38,510
+Define also the GT of
+Lambda which we have seen already we
+
+704
+00:17:38,510 --> 00:17:38,520
+Lambda which we have seen already we
+ 
+
+705
+00:17:38,520 --> 00:17:39,990
+Lambda which we have seen already we
+have seen already the equation now we
+
+706
+00:17:39,990 --> 00:17:40,000
+have seen already the equation now we
+ 
+
+707
+00:17:40,000 --> 00:17:43,710
+have seen already the equation now we
+need to show that for Lambda is equal to
+
+708
+00:17:43,710 --> 00:17:43,720
+need to show that for Lambda is equal to
+ 
+
+709
+00:17:43,720 --> 00:17:46,350
+need to show that for Lambda is equal to
+Z this corresponds
+
+710
+00:17:46,350 --> 00:17:46,360
+Z this corresponds
+ 
+
+711
+00:17:46,360 --> 00:17:50,070
+Z this corresponds
+to notation Y is DD of zero the zero
+
+712
+00:17:50,070 --> 00:17:50,080
+to notation Y is DD of zero the zero
+ 
+
+713
+00:17:50,080 --> 00:17:54,310
+to notation Y is DD of zero the zero
+here corresponds to Lambda or to the on
+
+714
+00:17:54,310 --> 00:17:54,320
+here corresponds to Lambda or to the on
+ 
+
+715
+00:17:54,320 --> 00:17:56,230
+here corresponds to Lambda or to the on
+step uh
+
+716
+00:17:56,230 --> 00:17:56,240
+step uh
+ 
+
+717
+00:17:56,240 --> 00:18:00,230
+step uh
+TD and uh so we'll take the the equation
+
+718
+00:18:00,230 --> 00:18:00,240
+TD and uh so we'll take the the equation
+ 
+
+719
+00:18:00,240 --> 00:18:04,710
+TD and uh so we'll take the the equation
+that we have already quoted so this is
+
+720
+00:18:04,710 --> 00:18:04,720
+that we have already quoted so this is
+ 
+
+721
+00:18:04,720 --> 00:18:07,430
+that we have already quoted so this is
+uh GT of
+
+722
+00:18:07,430 --> 00:18:07,440
+uh GT of
+ 
+
+723
+00:18:07,440 --> 00:18:12,510
+uh GT of
+Lambda was- 1 - Lambda summation from n
+
+724
+00:18:12,510 --> 00:18:12,520
+Lambda was- 1 - Lambda summation from n
+ 
+
+725
+00:18:12,520 --> 00:18:13,789
+Lambda was- 1 - Lambda summation from n
+is = to
+
+726
+00:18:13,789 --> 00:18:13,799
+is = to
+ 
+
+727
+00:18:13,799 --> 00:18:16,789
+is = to
+1 uh to
+
+728
+00:18:16,789 --> 00:18:16,799
+1 uh to
+ 
+
+729
+00:18:16,799 --> 00:18:19,190
+1 uh to
+Infinity this is n is equal to 1 in
+
+730
+00:18:19,190 --> 00:18:19,200
+Infinity this is n is equal to 1 in
+ 
+
+731
+00:18:19,200 --> 00:18:25,029
+Infinity this is n is equal to 1 in
+other words Lambda n -1 GT of
+
+732
+00:18:25,029 --> 00:18:25,039
+other words Lambda n -1 GT of
+ 
+
+733
+00:18:25,039 --> 00:18:28,990
+other words Lambda n -1 GT of
+N and we'll write it as as this equation
+
+734
+00:18:28,990 --> 00:18:29,000
+N and we'll write it as as this equation
+ 
+
+735
+00:18:29,000 --> 00:18:31,070
+N and we'll write it as as this equation
+here which is exactly identical to this
+
+736
+00:18:31,070 --> 00:18:31,080
+here which is exactly identical to this
+ 
+
+737
+00:18:31,080 --> 00:18:34,630
+here which is exactly identical to this
+but we just changed the notation to be a
+
+738
+00:18:34,630 --> 00:18:34,640
+but we just changed the notation to be a
+ 
+
+739
+00:18:34,640 --> 00:18:36,830
+but we just changed the notation to be a
+bit more compatible to the Saturn kind
+
+740
+00:18:36,830 --> 00:18:36,840
+bit more compatible to the Saturn kind
+ 
+
+741
+00:18:36,840 --> 00:18:39,789
+bit more compatible to the Saturn kind
+of book notation where um he is actually
+
+742
+00:18:39,789 --> 00:18:39,799
+of book notation where um he is actually
+ 
+
+743
+00:18:39,799 --> 00:18:43,230
+of book notation where um he is actually
+using this kind of uh uh notation to
+
+744
+00:18:43,230 --> 00:18:43,240
+using this kind of uh uh notation to
+ 
+
+745
+00:18:43,240 --> 00:18:45,789
+using this kind of uh uh notation to
+indicate a return from the returns from
+
+746
+00:18:45,789 --> 00:18:45,799
+indicate a return from the returns from
+ 
+
+747
+00:18:45,799 --> 00:18:49,310
+indicate a return from the returns from
+T to t plus n okay so um this between
+
+748
+00:18:49,310 --> 00:18:49,320
+T to t plus n okay so um this between
+ 
+
+749
+00:18:49,320 --> 00:18:52,190
+T to t plus n okay so um this between
+the T and T plus n kind of a time step
+
+750
+00:18:52,190 --> 00:18:52,200
+the T and T plus n kind of a time step
+ 
+
+751
+00:18:52,200 --> 00:18:55,390
+the T and T plus n kind of a time step
+that is okay so effectively the the
+
+752
+00:18:55,390 --> 00:18:55,400
+that is okay so effectively the the
+ 
+
+753
+00:18:55,400 --> 00:19:00,909
+that is okay so effectively the the
+returns in TD in EP TD are trated trated
+
+754
+00:19:00,909 --> 00:19:00,919
+returns in TD in EP TD are trated trated
+ 
+
+755
+00:19:00,919 --> 00:19:03,830
+returns in TD in EP TD are trated trated
+into two portions one is really the true
+
+756
+00:19:03,830 --> 00:19:03,840
+into two portions one is really the true
+ 
+
+757
+00:19:03,840 --> 00:19:05,710
+into two portions one is really the true
+uh returns with all the discounted kind
+
+758
+00:19:05,710 --> 00:19:05,720
+uh returns with all the discounted kind
+ 
+
+759
+00:19:05,720 --> 00:19:08,510
+uh returns with all the discounted kind
+of rewards and the other is this
+
+760
+00:19:08,510 --> 00:19:08,520
+of rewards and the other is this
+ 
+
+761
+00:19:08,520 --> 00:19:10,510
+of rewards and the other is this
+remaining term or the missing term which
+
+762
+00:19:10,510 --> 00:19:10,520
+remaining term or the missing term which
+ 
+
+763
+00:19:10,520 --> 00:19:12,390
+remaining term or the missing term which
+is approximated by the discounted kind
+
+764
+00:19:12,390 --> 00:19:12,400
+is approximated by the discounted kind
+ 
+
+765
+00:19:12,400 --> 00:19:14,789
+is approximated by the discounted kind
+of value function and as you can see
+
+766
+00:19:14,789 --> 00:19:14,799
+of value function and as you can see
+ 
+
+767
+00:19:14,799 --> 00:19:16,390
+of value function and as you can see
+from the core side the notation kind of
+
+768
+00:19:16,390 --> 00:19:16,400
+from the core side the notation kind of
+ 
+
+769
+00:19:16,400 --> 00:19:20,590
+from the core side the notation kind of
+makes sense because the GT from T to t +
+
+770
+00:19:20,590 --> 00:19:20,600
+makes sense because the GT from T to t +
+ 
+
+771
+00:19:20,600 --> 00:19:23,710
+makes sense because the GT from T to t +
+one is effectively what we had for the
+
+772
+00:19:23,710 --> 00:19:23,720
+one is effectively what we had for the
+ 
+
+773
+00:19:23,720 --> 00:19:27,230
+one is effectively what we had for the
+one step the t+ two for the two step the
+
+774
+00:19:27,230 --> 00:19:27,240
+one step the t+ two for the two step the
+ 
+
+775
+00:19:27,240 --> 00:19:29,590
+one step the t+ two for the two step the
+three step t plus three for the uh
+
+776
+00:19:29,590 --> 00:19:29,600
+three step t plus three for the uh
+ 
+
+777
+00:19:29,600 --> 00:19:33,710
+three step t plus three for the uh
+three-step TD and so on all the way to
+
+778
+00:19:33,710 --> 00:19:33,720
+three-step TD and so on all the way to
+ 
+
+779
+00:19:33,720 --> 00:19:37,710
+three-step TD and so on all the way to
+uh the U TD Infinity in fact and we'll
+
+780
+00:19:37,710 --> 00:19:37,720
+uh the U TD Infinity in fact and we'll
+ 
+
+781
+00:19:37,720 --> 00:19:40,950
+uh the U TD Infinity in fact and we'll
+see exactly how we will account for that
+
+782
+00:19:40,950 --> 00:19:40,960
+see exactly how we will account for that
+ 
+
+783
+00:19:40,960 --> 00:19:43,029
+see exactly how we will account for that
+remaining what for the for the for the
+
+784
+00:19:43,029 --> 00:19:43,039
+remaining what for the for the for the
+ 
+
+785
+00:19:43,039 --> 00:19:46,190
+remaining what for the for the for the
+terms after uh the uh terminating kind
+
+786
+00:19:46,190 --> 00:19:46,200
+terms after uh the uh terminating kind
+ 
+
+787
+00:19:46,200 --> 00:19:49,750
+terms after uh the uh terminating kind
+of state we can actually now break this
+
+788
+00:19:49,750 --> 00:19:49,760
+of state we can actually now break this
+ 
+
+789
+00:19:49,760 --> 00:19:52,190
+of state we can actually now break this
+uh summation over this Infinity terms
+
+790
+00:19:52,190 --> 00:19:52,200
+uh summation over this Infinity terms
+ 
+
+791
+00:19:52,200 --> 00:19:53,789
+uh summation over this Infinity terms
+into two parts and actually this is
+
+792
+00:19:53,789 --> 00:19:53,799
+into two parts and actually this is
+ 
+
+793
+00:19:53,799 --> 00:19:55,990
+into two parts and actually this is
+actually shown over here when we have
+
+794
+00:19:55,990 --> 00:19:56,000
+actually shown over here when we have
+ 
+
+795
+00:19:56,000 --> 00:19:58,190
+actually shown over here when we have
+actually have plotted this weights that
+
+796
+00:19:58,190 --> 00:19:58,200
+actually have plotted this weights that
+ 
+
+797
+00:19:58,200 --> 00:20:01,149
+actually have plotted this weights that
+we are line uh into two parts the first
+
+798
+00:20:01,149 --> 00:20:01,159
+we are line uh into two parts the first
+ 
+
+799
+00:20:01,159 --> 00:20:02,909
+we are line uh into two parts the first
+part is what is actually shown here as
+
+800
+00:20:02,909 --> 00:20:02,919
+part is what is actually shown here as
+ 
+
+801
+00:20:02,919 --> 00:20:05,909
+part is what is actually shown here as
+the white portion and the second part is
+
+802
+00:20:05,909 --> 00:20:05,919
+the white portion and the second part is
+ 
+
+803
+00:20:05,919 --> 00:20:08,350
+the white portion and the second part is
+what everything is after that the kind
+
+804
+00:20:08,350 --> 00:20:08,360
+what everything is after that the kind
+ 
+
+805
+00:20:08,360 --> 00:20:10,710
+what everything is after that the kind
+of a shaded region over here and of
+
+806
+00:20:10,710 --> 00:20:10,720
+of a shaded region over here and of
+ 
+
+807
+00:20:10,720 --> 00:20:13,470
+of a shaded region over here and of
+course the key term over there is the
+
+808
+00:20:13,470 --> 00:20:13,480
+course the key term over there is the
+ 
+
+809
+00:20:13,480 --> 00:20:16,470
+course the key term over there is the
+capital T which is the episode length
+
+810
+00:20:16,470 --> 00:20:16,480
+capital T which is the episode length
+ 
+
+811
+00:20:16,480 --> 00:20:18,549
+capital T which is the episode length
+and so what we need to do now is we go
+
+812
+00:20:18,549 --> 00:20:18,559
+and so what we need to do now is we go
+ 
+
+813
+00:20:18,559 --> 00:20:21,830
+and so what we need to do now is we go
+back to the Whiteboard and start you
+
+814
+00:20:21,830 --> 00:20:21,840
+back to the Whiteboard and start you
+ 
+
+815
+00:20:21,840 --> 00:20:24,029
+back to the Whiteboard and start you
+know writing a couple of considerations
+
+816
+00:20:24,029 --> 00:20:24,039
+know writing a couple of considerations
+ 
+
+817
+00:20:24,039 --> 00:20:26,350
+know writing a couple of considerations
+down so for all
+
+818
+00:20:26,350 --> 00:20:26,360
+down so for all
+ 
+
+819
+00:20:26,360 --> 00:20:31,549
+down so for all
+indices from n is equal
+
+820
+00:20:31,549 --> 00:20:31,559
+
+ 
+
+821
+00:20:31,559 --> 00:20:36,110
+
+1 for n is equal to 1
+
+822
+00:20:36,110 --> 00:20:36,120
+1 for n is equal to 1
+ 
+
+823
+00:20:36,120 --> 00:20:39,669
+1 for n is equal to 1
+2 uh
+
+824
+00:20:39,669 --> 00:20:39,679
+
+ 
+
+825
+00:20:39,679 --> 00:20:42,870
+
+t uh minus t minus
+
+826
+00:20:42,870 --> 00:20:42,880
+t uh minus t minus
+ 
+
+827
+00:20:42,880 --> 00:20:49,430
+t uh minus t minus
+one uh the
+
+828
+00:20:49,430 --> 00:20:49,440
+
+ 
+
+829
+00:20:49,440 --> 00:20:52,950
+
+returns
+
+830
+00:20:52,950 --> 00:20:52,960
+
+ 
+
+831
+00:20:52,960 --> 00:21:00,750
+
+are are weighted
+
+832
+00:21:00,750 --> 00:21:00,760
+
+ 
+
+833
+00:21:00,760 --> 00:21:03,070
+
+with this kind of decaying Lambda
+
+834
+00:21:03,070 --> 00:21:03,080
+with this kind of decaying Lambda
+ 
+
+835
+00:21:03,080 --> 00:21:05,350
+with this kind of decaying Lambda
+factors we I say decaying because as you
+
+836
+00:21:05,350 --> 00:21:05,360
+factors we I say decaying because as you
+ 
+
+837
+00:21:05,360 --> 00:21:07,549
+factors we I say decaying because as you
+can see it was a decaying kind of
+
+838
+00:21:07,549 --> 00:21:07,559
+can see it was a decaying kind of
+ 
+
+839
+00:21:07,559 --> 00:21:11,310
+can see it was a decaying kind of
+geometric progression of that uh because
+
+840
+00:21:11,310 --> 00:21:11,320
+geometric progression of that uh because
+ 
+
+841
+00:21:11,320 --> 00:21:13,830
+geometric progression of that uh because
+Lambda is less than or equal to one they
+
+842
+00:21:13,830 --> 00:21:13,840
+Lambda is less than or equal to one they
+ 
+
+843
+00:21:13,840 --> 00:21:17,190
+Lambda is less than or equal to one they
+get weighted with uh the they're
+
+844
+00:21:17,190 --> 00:21:17,200
+get weighted with uh the they're
+ 
+
+845
+00:21:17,200 --> 00:21:22,909
+get weighted with uh the they're
+weighted
+
+846
+00:21:22,909 --> 00:21:22,919
+
+ 
+
+847
+00:21:22,919 --> 00:21:29,430
+
+by the factors uh the the the following
+
+848
+00:21:29,430 --> 00:21:29,440
+
+ 
+
+849
+00:21:29,440 --> 00:21:32,269
+
+so I'm going to take this I'm going to
+
+850
+00:21:32,269 --> 00:21:32,279
+so I'm going to take this I'm going to
+ 
+
+851
+00:21:32,279 --> 00:21:35,350
+so I'm going to take this I'm going to
+take this and break it down into two
+
+852
+00:21:35,350 --> 00:21:35,360
+take this and break it down into two
+ 
+
+853
+00:21:35,360 --> 00:21:38,750
+take this and break it down into two
+parts the first part is
+
+854
+00:21:38,750 --> 00:21:38,760
+parts the first part is
+ 
+
+855
+00:21:38,760 --> 00:21:41,549
+parts the first part is
+1 1us
+
+856
+00:21:41,549 --> 00:21:41,559
+1 1us
+ 
+
+857
+00:21:41,559 --> 00:21:43,789
+1 1us
+Lambda
+
+858
+00:21:43,789 --> 00:21:43,799
+Lambda
+ 
+
+859
+00:21:43,799 --> 00:21:50,830
+Lambda
+summation uh from u n is equal to
+
+860
+00:21:50,830 --> 00:21:50,840
+
+ 
+
+861
+00:21:50,840 --> 00:21:52,909
+
+1
+
+862
+00:21:52,909 --> 00:21:52,919
+1
+ 
+
+863
+00:21:52,919 --> 00:21:56,350
+1
+to uh n to capital
+
+864
+00:21:56,350 --> 00:21:56,360
+to uh n to capital
+ 
+
+865
+00:21:56,360 --> 00:22:01,029
+to uh n to capital
+T minus t
+
+866
+00:22:01,029 --> 00:22:01,039
+
+ 
+
+867
+00:22:01,039 --> 00:22:08,430
+
+-1 Lambda to n + n minus one and
+
+868
+00:22:08,430 --> 00:22:08,440
+-1 Lambda to n + n minus one and
+ 
+
+869
+00:22:08,440 --> 00:22:14,230
+-1 Lambda to n + n minus one and
+uh times G of T of t +
+
+870
+00:22:14,230 --> 00:22:14,240
+
+ 
+
+871
+00:22:14,240 --> 00:22:16,710
+
+n that's the first term and then we'll
+
+872
+00:22:16,710 --> 00:22:16,720
+n that's the first term and then we'll
+ 
+
+873
+00:22:16,720 --> 00:22:20,190
+n that's the first term and then we'll
+see uh that the second term is uh 1
+
+874
+00:22:20,190 --> 00:22:20,200
+see uh that the second term is uh 1
+ 
+
+875
+00:22:20,200 --> 00:22:22,870
+see uh that the second term is uh 1
+minus
+
+876
+00:22:22,870 --> 00:22:22,880
+
+ 
+
+877
+00:22:22,880 --> 00:22:27,029
+
+Lambda Lambda to t -
+
+878
+00:22:27,029 --> 00:22:27,039
+Lambda Lambda to t -
+ 
+
+879
+00:22:27,039 --> 00:22:29,710
+Lambda Lambda to t -
+tus1 GT
+
+880
+00:22:29,710 --> 00:22:29,720
+tus1 GT
+ 
+
+881
+00:22:29,720 --> 00:22:31,990
+tus1 GT
+okay so this is basically the the
+
+882
+00:22:31,990 --> 00:22:32,000
+okay so this is basically the the
+ 
+
+883
+00:22:32,000 --> 00:22:34,630
+okay so this is basically the the
+expression and let me just uh
+
+884
+00:22:34,630 --> 00:22:34,640
+expression and let me just uh
+ 
+
+885
+00:22:34,640 --> 00:22:36,789
+expression and let me just uh
+effectively highlight the following as
+
+886
+00:22:36,789 --> 00:22:36,799
+effectively highlight the following as
+ 
+
+887
+00:22:36,799 --> 00:22:41,789
+effectively highlight the following as
+we can see uh anything that it is um you
+
+888
+00:22:41,789 --> 00:22:41,799
+we can see uh anything that it is um you
+ 
+
+889
+00:22:41,799 --> 00:22:43,470
+we can see uh anything that it is um you
+know why we actually came to this kind
+
+890
+00:22:43,470 --> 00:22:43,480
+know why we actually came to this kind
+ 
+
+891
+00:22:43,480 --> 00:22:46,269
+know why we actually came to this kind
+of uh you know consideration especially
+
+892
+00:22:46,269 --> 00:22:46,279
+of uh you know consideration especially
+ 
+
+893
+00:22:46,279 --> 00:22:49,110
+of uh you know consideration especially
+with respect to the last term over there
+
+894
+00:22:49,110 --> 00:22:49,120
+with respect to the last term over there
+ 
+
+895
+00:22:49,120 --> 00:22:50,950
+with respect to the last term over there
+uh so the first thing is
+
+896
+00:22:50,950 --> 00:22:50,960
+uh so the first thing is
+ 
+
+897
+00:22:50,960 --> 00:22:53,789
+uh so the first thing is
+that uh
+
+898
+00:22:53,789 --> 00:22:53,799
+that uh
+ 
+
+899
+00:22:53,799 --> 00:22:59,269
+that uh
+anything any instant T where uh we are
+
+900
+00:22:59,269 --> 00:22:59,279
+anything any instant T where uh we are
+ 
+
+901
+00:22:59,279 --> 00:23:02,590
+anything any instant T where uh we are
+going Beyond if you like the terminating
+
+902
+00:23:02,590 --> 00:23:02,600
+going Beyond if you like the terminating
+ 
+
+903
+00:23:02,600 --> 00:23:05,590
+going Beyond if you like the terminating
+kind of state so any anything that
+
+904
+00:23:05,590 --> 00:23:05,600
+kind of state so any anything that
+ 
+
+905
+00:23:05,600 --> 00:23:08,510
+kind of state so any anything that
+anything that it is with IND this is t +
+
+906
+00:23:08,510 --> 00:23:08,520
+anything that it is with IND this is t +
+ 
+
+907
+00:23:08,520 --> 00:23:11,310
+anything that it is with IND this is t +
+n greater than or equal to
+
+908
+00:23:11,310 --> 00:23:11,320
+n greater than or equal to
+ 
+
+909
+00:23:11,320 --> 00:23:14,430
+n greater than or equal to
+T or effectively
+
+910
+00:23:14,430 --> 00:23:14,440
+T or effectively
+ 
+
+911
+00:23:14,440 --> 00:23:19,350
+T or effectively
+n greater than equal to T minus t then
+
+912
+00:23:19,350 --> 00:23:19,360
+n greater than equal to T minus t then
+ 
+
+913
+00:23:19,360 --> 00:23:22,470
+n greater than equal to T minus t then
+all the
+
+914
+00:23:22,470 --> 00:23:22,480
+
+ 
+
+915
+00:23:22,480 --> 00:23:26,430
+
+returns all
+
+916
+00:23:26,430 --> 00:23:26,440
+
+ 
+
+917
+00:23:26,440 --> 00:23:36,230
+
+returns are in fact
+
+918
+00:23:36,230 --> 00:23:36,240
+
+ 
+
+919
+00:23:36,240 --> 00:23:44,950
+
+um the full
+
+920
+00:23:44,950 --> 00:23:44,960
+
+ 
+
+921
+00:23:44,960 --> 00:23:46,630
+
+return
+
+922
+00:23:46,630 --> 00:23:46,640
+return
+ 
+
+923
+00:23:46,640 --> 00:23:48,909
+return
+CT course all the rewards after the
+
+924
+00:23:48,909 --> 00:23:48,919
+CT course all the rewards after the
+ 
+
+925
+00:23:48,919 --> 00:23:51,430
+CT course all the rewards after the
+terminating state are actually zero and
+
+926
+00:23:51,430 --> 00:23:51,440
+terminating state are actually zero and
+ 
+
+927
+00:23:51,440 --> 00:23:53,950
+terminating state are actually zero and
+of course this means that the full
+
+928
+00:23:53,950 --> 00:23:53,960
+of course this means that the full
+ 
+
+929
+00:23:53,960 --> 00:23:57,669
+of course this means that the full
+return uh is uh is basically what is uh
+
+930
+00:23:57,669 --> 00:23:57,679
+return uh is uh is basically what is uh
+ 
+
+931
+00:23:57,679 --> 00:24:00,110
+return uh is uh is basically what is uh
+what it corresponds to to to those cases
+
+932
+00:24:00,110 --> 00:24:00,120
+what it corresponds to to to those cases
+ 
+
+933
+00:24:00,120 --> 00:24:01,789
+what it corresponds to to to those cases
+so that is the reason why I actually
+
+934
+00:24:01,789 --> 00:24:01,799
+so that is the reason why I actually
+ 
+
+935
+00:24:01,799 --> 00:24:05,190
+so that is the reason why I actually
+wrote from n is equal to 1 to capital T
+
+936
+00:24:05,190 --> 00:24:05,200
+wrote from n is equal to 1 to capital T
+ 
+
+937
+00:24:05,200 --> 00:24:08,230
+wrote from n is equal to 1 to capital T
+minus t minus1 because this is just
+
+938
+00:24:08,230 --> 00:24:08,240
+minus t minus1 because this is just
+ 
+
+939
+00:24:08,240 --> 00:24:10,029
+minus t minus1 because this is just
+before this condition gets to be
+
+940
+00:24:10,029 --> 00:24:10,039
+before this condition gets to be
+ 
+
+941
+00:24:10,039 --> 00:24:13,710
+before this condition gets to be
+satisfied right so it's everything uh
+
+942
+00:24:13,710 --> 00:24:13,720
+satisfied right so it's everything uh
+ 
+
+943
+00:24:13,720 --> 00:24:16,269
+satisfied right so it's everything uh
+before this uh State over here as we
+
+944
+00:24:16,269 --> 00:24:16,279
+before this uh State over here as we
+ 
+
+945
+00:24:16,279 --> 00:24:18,830
+before this uh State over here as we
+actually can see on the site the first
+
+946
+00:24:18,830 --> 00:24:18,840
+actually can see on the site the first
+ 
+
+947
+00:24:18,840 --> 00:24:21,310
+actually can see on the site the first
+Factor the first uh term if you like in
+
+948
+00:24:21,310 --> 00:24:21,320
+Factor the first uh term if you like in
+ 
+
+949
+00:24:21,320 --> 00:24:23,390
+Factor the first uh term if you like in
+this summation we just broke up
+
+950
+00:24:23,390 --> 00:24:23,400
+this summation we just broke up
+ 
+
+951
+00:24:23,400 --> 00:24:25,430
+this summation we just broke up
+corresponds to the weights that we have
+
+952
+00:24:25,430 --> 00:24:25,440
+corresponds to the weights that we have
+ 
+
+953
+00:24:25,440 --> 00:24:27,990
+corresponds to the weights that we have
+applied they're actually shown here in
+
+954
+00:24:27,990 --> 00:24:28,000
+applied they're actually shown here in
+ 
+
+955
+00:24:28,000 --> 00:24:29,430
+applied they're actually shown here in
+this white
+
+956
+00:24:29,430 --> 00:24:29,440
+this white
+ 
+
+957
+00:24:29,440 --> 00:24:32,950
+this white
+region of this like you know
+
+958
+00:24:32,950 --> 00:24:32,960
+region of this like you know
+ 
+
+959
+00:24:32,960 --> 00:24:35,630
+region of this like you know
+geometrically decaying uh if you like
+
+960
+00:24:35,630 --> 00:24:35,640
+geometrically decaying uh if you like
+ 
+
+961
+00:24:35,640 --> 00:24:38,510
+geometrically decaying uh if you like
+weight curve and then the last term the
+
+962
+00:24:38,510 --> 00:24:38,520
+weight curve and then the last term the
+ 
+
+963
+00:24:38,520 --> 00:24:41,950
+weight curve and then the last term the
+last term corresponds to uh this weight
+
+964
+00:24:41,950 --> 00:24:41,960
+last term corresponds to uh this weight
+ 
+
+965
+00:24:41,960 --> 00:24:44,430
+last term corresponds to uh this weight
+over here that anything
+
+966
+00:24:44,430 --> 00:24:44,440
+over here that anything
+ 
+
+967
+00:24:44,440 --> 00:24:48,310
+over here that anything
+is beyond uh capital T which is the
+
+968
+00:24:48,310 --> 00:24:48,320
+is beyond uh capital T which is the
+ 
+
+969
+00:24:48,320 --> 00:24:51,789
+is beyond uh capital T which is the
+episode will actually be weighted by uh
+
+970
+00:24:51,789 --> 00:24:51,799
+episode will actually be weighted by uh
+ 
+
+971
+00:24:51,799 --> 00:24:54,750
+episode will actually be weighted by uh
+1 minus Lambda Lambda to T capital T
+
+972
+00:24:54,750 --> 00:24:54,760
+1 minus Lambda Lambda to T capital T
+ 
+
+973
+00:24:54,760 --> 00:24:57,630
+1 minus Lambda Lambda to T capital T
+minus t minus one and that's basically
+
+974
+00:24:57,630 --> 00:24:57,640
+minus t minus one and that's basically
+ 
+
+975
+00:24:57,640 --> 00:25:00,990
+minus t minus one and that's basically
+what we also have um uh kind of
+
+976
+00:25:00,990 --> 00:25:01,000
+what we also have um uh kind of
+ 
+
+977
+00:25:01,000 --> 00:25:03,149
+what we also have um uh kind of
+mentioned here on the site in terms of
+
+978
+00:25:03,149 --> 00:25:03,159
+mentioned here on the site in terms of
+ 
+
+979
+00:25:03,159 --> 00:25:06,630
+mentioned here on the site in terms of
+equation all right so this is basically
+
+980
+00:25:06,630 --> 00:25:06,640
+equation all right so this is basically
+ 
+
+981
+00:25:06,640 --> 00:25:09,269
+equation all right so this is basically
+um uh everything that we actually can
+
+982
+00:25:09,269 --> 00:25:09,279
+um uh everything that we actually can
+ 
+
+983
+00:25:09,279 --> 00:25:13,230
+um uh everything that we actually can
+mention regarding uh TD of n this is the
+
+984
+00:25:13,230 --> 00:25:13,240
+mention regarding uh TD of n this is the
+ 
+
+985
+00:25:13,240 --> 00:25:16,149
+mention regarding uh TD of n this is the
+um sort of endep TD and what actually we
+
+986
+00:25:16,149 --> 00:25:16,159
+um sort of endep TD and what actually we
+ 
+
+987
+00:25:16,159 --> 00:25:18,750
+um sort of endep TD and what actually we
+need to do next is we need to start uh
+
+988
+00:25:18,750 --> 00:25:18,760
+need to do next is we need to start uh
+ 
+
+989
+00:25:18,760 --> 00:25:21,750
+need to do next is we need to start uh
+considering the control problem and uh
+
+990
+00:25:21,750 --> 00:25:21,760
+considering the control problem and uh
+ 
+
+991
+00:25:21,760 --> 00:25:23,669
+considering the control problem and uh
+this will be done in a in a different
+
+992
+00:25:23,669 --> 00:25:23,679
+this will be done in a in a different
+ 
+
+993
+00:25:23,679 --> 00:25:26,159
+this will be done in a in a different
+video
+
